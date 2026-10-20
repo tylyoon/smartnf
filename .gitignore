@@ -1,0 +1,27 @@
+# 환경변수·비밀키
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java·Gradle·Maven 빌드 결과
+.gradle/
+build/
+target/
+out/
+
+# React 패키지·빌드 결과
+node_modules/
+dist/
+
+# Python 가상환경·캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE·로그
+.idea/
+*.iml
+*.log
