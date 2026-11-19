@@ -1,0 +1,24 @@
+/* Shared fixed footer: its measured height reserves content space, including safe area. */
+:root{--smartnf-footer-height:160px}
+html{scroll-padding-bottom:calc(var(--smartnf-footer-height) + 24px)}
+body{padding-bottom:calc(var(--smartnf-footer-height) + 16px);min-height:100dvh}
+.site-footer.compact-footer{position:fixed;inset:auto 0 0;z-index:70;width:100%;padding-bottom:env(safe-area-inset-bottom,0px);border-top:1px solid #dce7de;background:#f3f6ef;box-shadow:0 -3px 15px #173b3608}
+.ui-chat-launch{bottom:calc(var(--smartnf-footer-height) + 16px)!important}
+.ui-chat{bottom:calc(var(--smartnf-footer-height) + 12px)!important;height:min(650px,calc(100dvh - var(--smartnf-footer-height) - 28px))!important}
+@media(min-width:1101px){:root{--smartnf-footer-height:44px}}
+@media(max-width:600px){.site-footer.compact-footer .compact-footer-row{gap:0 12px;padding-block:4px}.site-footer.compact-footer .compact-footer-row nav{flex-wrap:nowrap;overflow-x:auto;gap:0 18px;width:100%;overscroll-behavior-x:contain}.site-footer.compact-footer .compact-footer-row nav a{flex-shrink:0}.site-footer.compact-footer .compact-footer-row small{font-size:9px}.ui-chat{border-radius:14px 14px 0 0!important}}
+
+/* Narrow layouts: contain footer navigation and retain all header actions. */
+.site-footer.compact-footer .compact-footer-row{min-width:0}
+.site-footer.compact-footer .compact-footer-row nav{min-width:0;max-width:100%}
+@media(max-width:360px){
+ .site-header .header-row{gap:8px}
+ .site-header .header-actions{gap:8px;min-width:0}
+ .site-header .brand{gap:6px}
+ .site-header .brand img{width:42px;height:32px}
+ .site-header .brand>span{font-size:20px}
+ .site-header .brand small{font-size:6px;letter-spacing:.6px}
+ .site-header .session{max-width:88px;gap:6px}
+ .site-header .session>span{max-width:44px}
+ .site-header .button-small{padding-inline:10px}
+}

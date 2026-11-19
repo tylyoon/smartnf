@@ -1,0 +1,20 @@
+CREATE TABLE ai_nutrition_estimates (
+ id VARCHAR(36) NOT NULL PRIMARY KEY,
+ member_id BIGINT NOT NULL,
+ request_key VARCHAR(36) NOT NULL,
+ food_name VARCHAR(100) NOT NULL,
+ reference_food_id VARCHAR(120) NULL,
+ basis_grams INT NOT NULL DEFAULT 100,
+ nutrients_data TEXT NULL,
+ assumption_note VARCHAR(300) NOT NULL DEFAULT '',
+ model_name VARCHAR(100) NOT NULL,
+ source_kind VARCHAR(32) NOT NULL DEFAULT 'AI_UNVERIFIED',
+ source_url VARCHAR(500) NULL,
+ review_status VARCHAR(24) NOT NULL,
+ revision BIGINT NOT NULL DEFAULT 1,
+ created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ reviewed_at TIMESTAMP NULL,
+ CONSTRAINT uq_ai_nutrition_request UNIQUE(member_id,request_key),
+ CONSTRAINT fk_ai_nutrition_member FOREIGN KEY(member_id) REFERENCES members(id) ON DELETE CASCADE,
+ INDEX ix_ai_nutrition_member(member_id,created_at)
+);

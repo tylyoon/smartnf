@@ -1,0 +1,33 @@
+import {api,element} from './food-studio-core.js';
+import {chooseReference,budgetTotal,choiceTotal,won,referenceReason,koreaTime,confirmedChoiceReference} from './price-budget.js?actions267';
+const epochs=new WeakMap(),cache=new Map(),queue=[];let active=0;
+function drain(){while(active<4&&queue.length){active++;const job=queue.shift();job().finally(()=>{active--;drain();});}}
+function queued(fn){return new Promise((resolve,reject)=>{queue.push(async()=>{try{resolve(await fn());}catch(e){reject(e);}});drain();});}
+function loadReferenceFor(item){const name=String(item.name||''),grams=Number(item.amount??item.grams),unit=item.quantityUnit||'g';if(!name.trim()||!Number.isFinite(grams)||grams<=0)return Promise.resolve(null);const key=JSON.stringify([name,grams,unit]),entry=cache.get(key);if(entry&&Date.now()-entry.time<60000)return entry.promise;const promise=queued(()=>api('/api/me/price-reference?query='+encodeURIComponent(name)+'&grams='+encodeURIComponent(grams)+'&unit='+encodeURIComponent(unit))).then(result=>({reference:chooseReference({...result,query:name,requiredAmount:grams,unit}),reason:referenceReason(result)})).catch(()=>{cache.delete(key);return {reference:null,reason:referenceReason({lookupFailed:true})};});cache.set(key,{time:Date.now(),promise});if(cache.size>1000)cache.delete(cache.keys().next().value);return promise;}
+export async function loadReference(item){
+ const choices=item.quantityUnit?[{amount:item.grams,unit:item.quantityUnit}] : [...(item.grams>0?[{amount:item.grams,unit:'g'}]:[]),...(item.quantities||[])];
+ const seen=new Set();let last=null,sale=null;for(const q of choices){if(seen.has(q.unit)||!(Number(q.amount)>0))continue;seen.add(q.unit);last=await loadReferenceFor({name:item.name,amount:q.amount,quantityUnit:q.unit});if(last?.reference){if(last.reference.saleBasis){sale??=last;continue;}return {...last,reference:{...last.reference,quantityNote:q.amount+({ml:'mL',ea:'개',pack:'팩',bag:'봉',bottle:'병'}[q.unit]||q.unit)+' 필요량'}};}}
+ return sale||last;
+}
+export function invalidateBudget(root){epochs.set(root,(epochs.get(root)||0)+1);root.replaceChildren(element('p','재료 편집 중 · 예상 비용을 다시 계산합니다. 저장 후 선택 상품을 확인하세요.'));}
+export async function showShoppingBudget(root,list,slots=[],includeChoices=true){const token=(epochs.get(root)||0)+1;epochs.set(root,token);root.replaceChildren(element('p','필요량 기준 예상 비용을 확인하고 있습니다…'));slots.forEach(s=>s.textContent='예상 비용 확인 중…');const snapshot=structuredClone(list);
+ const outcomes=await Promise.all(snapshot.items.map(loadReference));if(epochs.get(root)!==token)return;
+ const refs=outcomes.map(r=>r?.reference||null);
+ let choices=[],choiceError=false;
+ if(includeChoices){try{choices=await queued(()=>api('/api/me/shopping-products?listId='+encodeURIComponent(snapshot.id)));}catch{choiceError=true;}}
+ if(epochs.get(root)!==token)return;
+ for(const [i,item] of snapshot.items.entries()){const choice=choices.find(c=>c.entryNo===i&&!c.stale);if(choice?.quantityUnit&&choice.quantityUnit!=='g'&&Number(choice.requiredAmount)>0){const outcome=await loadReference({name:item.name,grams:choice.requiredAmount,quantityUnit:choice.quantityUnit});if(outcome?.reference&&(!refs[i]||refs[i].saleBasis||!outcome.reference.saleBasis)){refs[i]={...outcome.reference,quantityNote:(outcome.reference.saleBasis?outcome.reference.quantityNote+' · ':'')+choice.requiredAmount+({ml:'mL',ea:'개',pack:'팩',bag:'봉',bottle:'병'}[choice.quantityUnit]||choice.quantityUnit)+' 구매필요량(사용자 확인)'};outcomes[i]=outcome;}}}if(epochs.get(root)!==token)return;
+ for(const [i,item]of snapshot.items.entries()){if(!refs[i]){const selected=choices.find(c=>c.entryNo===i);const supplemental=typeof confirmedChoiceReference==='function'?confirmedChoiceReference(selected,item):null;if(supplemental)refs[i]=supplemental;}}
+ refs.forEach((r,i)=>{if(slots[i])slots[i].textContent=r?(r.saleBasis?'판매가 기반 참고금액 약 ':'필요량 예상 비용 약 ')+won(r.estimated)+(r.quantityNote?' · '+r.quantityNote:'')+' · '+r.provider+(r.saleBasis?' · 가격 확인 '+koreaTime(r.checkedAt):' · 조사일 '+r.surveyDate)+' · 기준 '+r.name:'예상 비용 미확인 · '+(outcomes[i]?.reason||'자료 확인 불가');});
+ if(includeChoices)for(const [i,item]of snapshot.items.entries()){const slot=slots[i];if(!slot)continue;const c=choices.find(c=>c.entryNo===i),valid=c&&!c.stale&&choiceTotal([c],snapshot).count>0;const unit=({ml:'mL',ea:'개',pack:'팩',bag:'봉',bottle:'병'}[c?.quantityUnit]||c?.quantityUnit||'g');slot.append(element('span',choiceError?'선택 상품 조회 실패 · 다시 확인하세요.':valid?'선택 상품 구매금액 '+won(Number(c.price)*Number(c.packs))+' · '+(c.packageAmount??c.packGrams)+unit+' × '+c.packs+'개 · '+c.merchant+' · '+c.productName+' · 배송비 별도 · 실제 결제금액 아님'+(c.sourceDetails?' · '+c.sourceDetails:''):c?.stale?'선택 상품은 목록 변경 전 자료입니다. 다시 선택하세요.':'선택 상품 구매금액 미확정 · 가격 비교에서 상품을 선택·저장하세요.','shopping-purchase-price'));}
+ const sum=budgetTotal(refs),saleCount=refs.filter(r=>r?.saleBasis).length,packCount=refs.filter(r=>r?.referenceBasis==='PACKAGE').length;
+ root.replaceChildren(element('h3',sum.missing?'확인된 재료 예상 합계 약 '+won(sum.total):saleCount?'조사·판매가 참고 총예상금액 약 '+won(sum.total):'필요량 기준 총예상 비용 약 '+won(sum.total)),element('p','가격 확인 '+sum.count+'/'+refs.length+'개 · 조사가격 '+(sum.count-saleCount)+'개 / 판매가 참고 '+saleCount+'개'+(packCount?' · '+packCount+'개는 필요량 환산이 아닌 포장 기준':'')+(sum.missing?' · 미확인 '+sum.missing+'개는 합계에서 제외했습니다.':'')+(includeChoices?'':' · 편집 중인 필요량 기준입니다. 변경 저장이 필요합니다.')),element('p','KAMIS·참가격을 우선 적용하고, 없으면 출처가 확인된 판매 표시가격을 참고금액으로 합산합니다. 후추 등은 포장 기준이며 필요량 환산값과 다릅니다. 배송비·쿠폰·최종 결제조건은 포함하지 않습니다.'));
+ if(!sum.count)root.replaceChildren(element('h3','총예상 비용 미확인'),element('p','가격 확인 0/'+refs.length+'개 · 미확인 재료를 0원으로 계산하지 않습니다.'));
+ if(sum.missing)root.append(element('p','미확인 재료는 조사자료와 검증된 판매상품이 모두 부족합니다. 실제 수집 또는 상품 확인·선택 후 다시 조회하세요. 근거 없는 금액은 합산하지 않습니다.'));
+ if(!includeChoices)return;
+ if(choiceError){root.append(element('p','선택 상품 구매금액 조회 실패 · 저장한 구매상품을 다시 확인해 주세요.'));return;}
+ const selected=choiceTotal(choices,snapshot);root.append(element('p',selected.count?'선택 상품 구매금액 합계 '+won(selected.total)+' · '+selected.count+'/'+refs.length+'개 재료 선택 · 배송비 미포함 · 선택 당시 표시가격'+(selected.shortage?' · 필요량 부족 '+selected.shortage+'개 재료':''):'선택 상품 구매금액 미확정 · 가격 비교에서 상품을 선택하세요.'));
+ if(choices.some(c=>c.stale))root.append(element('p','목록 변경 전 선택 상품은 합계에서 제외했습니다. 다시 선택하세요.'));
+}
+
+export function scheduleShoppingBudget(root,list,slots=[]){if(typeof IntersectionObserver==='undefined')return showShoppingBudget(root,list,slots);root.replaceChildren(element('p','목록을 확인하면 예상 비용을 계산합니다.'));const observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){observer.disconnect();showShoppingBudget(root,list,slots);}},{rootMargin:'200px'});observer.observe(root);}

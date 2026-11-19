@@ -1,0 +1,25 @@
+package com.onrender.smartnf.health;
+import java.math.*;import java.time.*;import java.util.*;import java.nio.file.*;import org.springframework.jdbc.core.*;import org.springframework.jdbc.datasource.*;import org.springframework.transaction.support.*;
+public class CollectedFlowTests {
+ static int n;static void ok(boolean b,String m){if(!b)throw new AssertionError(m);n++;}static void fails(Runnable r){try{r.run();throw new AssertionError("expected failure");}catch(HealthException e){n++;}}
+ static String today=LocalDate.now(ZoneId.of("Asia/Seoul")).toString();
+ static CollectedProductService.Offer offer(String id,String until,boolean confirmed,String url){return new CollectedProductService.Offer("OCR","HOMEPLUS",id,"양파 3kg","홈플러스",new BigDecimal("3000"),new BigDecimal("4990"),url,Instant.now().minusSeconds(10).toString(),today,until,"FLYER","회원가 · 배송비 별도","금천점","양파 삼킬로그램 망 4990원",confirmed);}
+ public static void main(String[] args)throws Exception{
+  var ds=new DriverManagerDataSource("jdbc:h2:mem:collected;MODE=MySQL;DB_CLOSE_DELAY=-1","sa","");var jdbc=new JdbcTemplate(ds);var tx=new TransactionTemplate(new DataSourceTransactionManager(ds));jdbc.execute("CREATE TABLE members(id BIGINT PRIMARY KEY)");jdbc.update("INSERT INTO members VALUES(1),(2)");for(String file:args)for(String sql:Files.readString(Path.of(file)).split(";"))if(!sql.isBlank())jdbc.execute(sql);
+  var service=new CollectedProductService(jdbc);var good=offer("onion",today,true,"https://m.my.homeplus.co.kr/leaflet");
+  ok(tx.execute(s->service.save(1,List.of(good)))==1,"save reviewed");ok(service.search(1,"양파").size()==1,"search own");ok(service.search(2,"양파").isEmpty(),"member isolation");
+  tx.execute(s->service.save(1,List.of(good)));ok(service.search(1,"양파").size()==1,"idempotent import");ok(service.search(1,"%").isEmpty(),"LIKE wildcard literal");
+  fails(()->service.save(1,List.of(offer("bad",today,false,good.url()))));fails(()->service.save(1,List.of(offer("bad",today,true,"http://127.0.0.1/"))));fails(()->service.save(1,List.of(offer("bad",today,true,"https://m.my.homeplus.co.kr@evil.example/"))));fails(()->service.save(1,List.of(offer("old",LocalDate.now().minusDays(1).toString(),true,good.url()))));
+  try{tx.execute(s->{service.save(1,List.of(offer("rollback",today,true,good.url())));throw new IllegalStateException();});}catch(IllegalStateException e){}ok(service.search(1,"양파").size()==1,"transaction rollback");
+  var lists=new ShoppingListService(jdbc);var choices=new ShoppingProductService(jdbc,lists);UUID listId=UUID.randomUUID();tx.execute(s->lists.save(1,new ShoppingListModels.Save(listId,UUID.randomUUID(),0L,LocalDate.now(),LocalDate.now(),LocalDate.now(),"WEEK",List.of(new ShoppingListModels.Item("onion","양파",new BigDecimal("480"))))));
+  var item=service.search(1,"양파").getFirst();var save=new ShoppingProductService.Save(listId,0,1,0,UUID.randomUUID(),item.id(),item.name(),item.merchant(),item.grams(),item.price(),1,item.url(),item.checkedAt(),true);var saved=tx.execute(s->choices.save(1,save));
+  ok(saved.requiredGrams().intValue()==480&&saved.packGrams().intValue()==3000,"required quantity preserved");ok(saved.sourceDetails().contains("회원가")&&saved.sourceDetails().contains("금천점"),"condition snapshot");
+  var forged=new ShoppingProductService.Save(listId,0,1,1,UUID.randomUUID(),item.id(),item.name(),item.merchant(),item.grams(),BigDecimal.ONE,1,item.url(),item.checkedAt(),true);fails(()->tx.execute(s->choices.save(1,forged)));
+  jdbc.update("UPDATE collected_product_offers SET valid_to=?",LocalDate.now().minusDays(1).toString());ok(service.search(1,"양파").isEmpty(),"expired excluded");fails(()->tx.execute(s->choices.save(1,new ShoppingProductService.Save(listId,0,1,1,UUID.randomUUID(),item.id(),item.name(),item.merchant(),item.grams(),item.price(),1,item.url(),item.checkedAt(),true))));
+  var current=new CurrentHealthMember();var live=new IngredientProductService(){@Override public Result search(String q){throw new HealthException(503,"upstream unavailable");}};
+  var controller=new IngredientProductController(current,live,service);fails(()->controller.search(null,"양파"));var auth=new org.springframework.security.authentication.UsernamePasswordAuthenticationToken(new com.onrender.smartnf.member.MemberPrincipal(new com.onrender.smartnf.member.MemberRepository.LoginMember(1,"test@example.com","hash","test","ACTIVE"),List.of(new org.springframework.security.core.authority.SimpleGrantedAuthority("ROLE_USER"))),"",List.of(new org.springframework.security.core.authority.SimpleGrantedAuthority("ROLE_USER")));
+  jdbc.update("UPDATE collected_product_offers SET valid_to=?",today);ok(controller.search(auth,"양파").getBody().products().size()==1,"API failure preserves member imports");fails(()->new CollectedProductController(current,service).save(null,List.of(good)));
+  jdbc.update("DELETE FROM members WHERE id=1");ok(jdbc.queryForObject("SELECT COUNT(*) FROM collected_product_offers",Integer.class)==0,"delete cascade");
+  System.out.println("PASS "+n+" collected product storage, validation, selection and transaction checks");
+ }
+}

@@ -1,0 +1,11 @@
+.fs-ai-estimate{grid-column:1/-1;border:1px dashed #b6a270;background:#fffaf0;border-radius:10px;padding:12px;margin:10px 0;font-size:12px;line-height:1.7}
+.fs-ai-estimate summary{font-weight:700;color:#72561d;cursor:pointer}.fs-ai-estimate p{font-size:12px;overflow-wrap:anywhere}.fs-ai-estimate>label{display:flex;gap:8px;align-items:start}.fs-ai-estimate input[type=checkbox]{width:auto;min-height:auto;margin-top:5px}.fs-ai-estimate button{margin:6px 8px 4px 0}.fs-ai-estimate ul{padding-left:20px}.fs-bar.fs-bar-ai{outline:1px dashed #95752e;outline-offset:1px}
+#recipe-compare-toolbar{flex-wrap:wrap}#recipe-compose-selected{white-space:normal}
+
+.fs-cart-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 0;border-bottom:1px solid #dce5dc}.fs-auto-controls>label{display:flex;gap:8px;align-items:center;font-weight:700}.fs-auto-controls input[type=checkbox]{width:auto;min-height:auto}.fs-ai-label{font-size:11px;color:#806023;margin:4px 0}.fs-bar-row strong{white-space:normal}
+
+.fs-bar-row strong .fs-ai-label{display:block;font-weight:400}
+
+.recipe-registration{display:block;padding:18px 0;margin-top:16px;border-top:1px solid #dbe5dd}.recipe-registration-buttons{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}.recipe-registration-help,.recipe-registration-status{display:block;margin:10px 0 0;line-height:1.7;overflow-wrap:anywhere}.recipe-registration-status:empty{display:none}.meal-cart-panel{margin-top:24px}.fs-compare-heading{cursor:pointer;font-size:17px;font-weight:700;padding:8px 0}.fs-compare-heading span{font-size:12px;font-weight:400;margin-left:12px}.fs-panel[open]>.fs-compare-heading{margin-bottom:16px}
+
+.recipe-registration-help,.recipe-registration-status{font-size:13px}.recipe-registration-buttons .ui-link{font-size:13px}.recipe-consent span{line-height:1.7}

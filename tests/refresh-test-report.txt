@@ -1,0 +1,14 @@
+✔ returning to clean MyPage fetches the currently selected saved date (9.682049ms)
+✔ unsaved edits survive focus (3.422973ms)
+✔ uncertain save survives focus (2.259288ms)
+✔ late focus response cannot overwrite another load (2.74163ms)
+✔ edits made while consent check is pending survive (2.859019ms)
+✔ same-date lookup reloads only clean draft (4.898308ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 235.937111

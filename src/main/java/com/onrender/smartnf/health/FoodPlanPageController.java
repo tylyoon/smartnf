@@ -1,0 +1,7 @@
+package com.onrender.smartnf.health;
+import org.springframework.stereotype.Controller;import org.springframework.security.core.Authentication;import org.springframework.ui.Model;import org.springframework.web.bind.annotation.GetMapping;
+@Controller public class FoodPlanPageController {
+ private final CurrentHealthMember current;public FoodPlanPageController(CurrentHealthMember current){this.current=current;}
+ @GetMapping("/mypage/plans") String page(Authentication a){current.id(a);return "health/personal-mypage";}
+ @GetMapping("/mypage/plans/document") String document(Authentication a,Model model){current.id(a);model.addAttribute("title","장보기·외식 계획 저장 안내 · "+FoodPlanModels.DOCUMENT);model.addAttribute("description","회원가입·건강정보 저장 동의와 별도인 개발용 계획 저장 안내입니다. 선택한 날의 오늘의 선택(계획 미정) 또는 계획 날짜와 장보기/외식 구분, 선택한 음식·개별 식재료의 원자료 ID/이름/출처/기준량/버전, 음식별 참고 레시피 ID/출처/버전과 직접 선택한 재료 원문, 선택 입력한 식당명·방문 시간·메모를 본인 MyPage 계획 저장·조회·수정·삭제에 사용합니다. 건강별 가이드에서 저장하면 건강관리 구분과 직접 확인한 관리 목적 코드(혈압·혈당·혈중 지질·체중)를 함께 저장합니다. 이는 진단 기록이 아니지만 건강 관련 정보가 될 수 있습니다. 대상자의 이름·가족관계·건강 수치·복약·알레르기 조건·검색어는 저장하지 않습니다. 관리 목적은 달력 건수에 표시하지 않고 본인 계정의 상세 목록에서만 표시합니다. 실제 식사·섭취 기록으로 자동 등록하거나 영양 합계를 계산하지 않습니다. 참고 재료는 실제 음식의 재료 확정이나 알레르기 안전성 검증이 아닙니다. 오늘의 선택에서 일정 확정 시 선택한 항목만 계획으로 이동합니다. 날짜별 최신 내용만 저장하며 삭제 후 충돌 방지용 날짜·수정 버전·요청 참조만 남습니다. 계획 저장 동의를 철회하면 본인의 모든 계획과 요청 참조를 삭제하며 동의/철회 이력과 계정·별도 식사 기록은 유지합니다. 재동의해도 삭제한 계획은 복원되지 않습니다. 탈퇴 시 계획도 삭제합니다. 동의하지 않아도 계정과 공개 검색을 이용할 수 있습니다. 개발 DB에서는 삭제·철회·탈퇴 전까지 보관합니다. 운영용 보유기간·백업 삭제 정책은 별도 확정이 필요하므로 실제 민감정보 대신 가상 자료로 검증해 주세요. 외부 AI로 전송하지 않습니다.");return "information";}
+}

@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="ko" xmlns:th="http://www.thymeleaf.org"><body>
+<th:block th:fragment="data">
+<section id="health-db-bootstrap" hidden
+ th:attr="data-agreed=${healthBootstrap.consent.agreed},data-consent-event=${healthBootstrap.consent.eventId},data-profile-id=${healthBootstrap.profile?.id},data-care-id=${healthBootstrap.care?.id},data-care-review=${healthBootstrap.care?.needsReview}">
+ <th:block th:if="${healthBootstrap.profile != null}">
+  <th:block th:each="field : ${healthBootstrap.profile.fields}"><input th:each="value : ${field.value}" type="hidden" data-db-field th:name="${field.key}" th:value="${value}" th:attr="data-kind=${healthFieldKinds[field.key]}"></th:block>
+ </th:block>
+ <th:block th:if="${healthBootstrap.care != null}"><div th:each="item : ${healthBootstrap.care.items}" th:attr="data-db-action=${item.id}"><input th:each="scope : ${item.scopes}" type="hidden" th:value="${scope}"></div></th:block>
+</section>
+<script src="/js/health-account-bootstrap.js?v=20261104-confirm1"></script>
+</th:block></body></html>

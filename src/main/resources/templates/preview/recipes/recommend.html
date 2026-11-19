@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="_csrf" th:content="${_csrf.token}">
+  <meta name="_csrf_header" th:content="${_csrf.headerName}">
+  <title>AI 레시피 추천 | SmartNF</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/recipe-finder.css?v=cardlayout2">
+  <link rel="stylesheet" href="/css/recipe-card-layout-v3.css?v=candidates1">
+  <link rel="stylesheet" th:href="@{/css/recipe-form-alignment.css}">
+  <script defer src="/js/site.js"></script>
+  <link rel="stylesheet" href="/css/food-studio.css?v=studio1">
+  <link rel="stylesheet" href="/css/recipe-preference.css?v=draft206">
+  <script defer src="/js/recipe-preference.js?v=draft206"></script>
+  <script defer src="/js/recipe-finder.js?v=draft206"></script>
+  <script type="module" src="/js/recipe-lab.js?v=draft206"></script>
+  <link rel="stylesheet" href="/css/recipe-flow.css?v=draft206">
+  <link rel="stylesheet" href="/css/ai-nutrition.css?v=draft206">
+</head>
+<body>
+<header th:replace="~{fragments/layout :: header}"></header>
+<main id="main" class="ui-workspace recipe-workspace">
+  <div class="ui-area-hero">
+    <div class="container">
+      <p class="eyebrow">SMARTNF / RECIPES</p>
+      <h1>있는 재료로, 나에게 맞는 한 끼.</h1>
+      <p>재료로 찾고, 영양을 비교하고, 나만의 한 끼로 이어가세요.</p>
+      <div class="fs-steps"><span>01 요리 찾기</span><span>02 영양 비교</span><span>03 한 끼 구성</span></div>
+    </div>
+  </div>
+  <div class="container">
+    <p class="ui-notice">조건에 맞는 후보를 최대 5개 비교하고 원하는 레시피를 MyRecipe에 저장하세요.</p>
+    <nav class="ui-breadcrumb" aria-label="현재 위치">
+      <a href="/">홈</a><span>/</span><a href="/preview/recipes">AI 레시피·식단</a><span>/</span><span aria-current="page">AI 레시피 추천</span>
+    </nav>
+    <div class="ui-shell">
+      <aside th:replace="~{preview/recipes/sidebar :: navigation('recommend')}"></aside>
+      <div class="ui-content">
+        <div class="ui-content-title"><h2>AI 레시피 추천</h2><span class="ui-tag">개발 미리보기</span></div>
+        <section class="ui-card recipe-search">
+          <h3>레시피 검색 조건</h3>
+          <form id="recipe-finder">
+            <fieldset class="recipe-modes">
+              <legend>검색 기준</legend>
+              <div class="recipe-mode-grid">
+                <label><input type="radio" name="recipe-mode" value="ingredients" checked><span>재료로 찾기</span></label>
+                <label><input type="radio" name="recipe-mode" value="food-name"><span>음식명으로 찾기</span></label>
+                <label><input type="radio" name="recipe-mode" value="goal"><span>다이어트 목표로 찾기</span></label>
+                <label><input type="radio" name="recipe-mode" value="conditions"><span>질환별 식사 조건으로 찾기</span></label>
+              </div>
+            </fieldset>
+          <details class="fs-name-helper">
+            <summary>입력이 애매할 때 · 자체 입력 도우미</summary>
+            <label><span id="recipe-normalize-label">정리할 재료·분량</span><input id="recipe-normalize-input" maxlength="500" placeholder="김치찌게 돼지고기 조금 두부 반 모"></label>
+            <button id="recipe-normalize" type="button" class="fs-button fs-secondary">입력 정리하기</button>
+            <button id="recipe-normalize-apply" type="button" class="fs-button" hidden>확인한 입력 적용</button>
+            <p id="recipe-normalize-status" role="status">로컬 모델을 준비한 뒤 사용할 수 있어요. 직접 입력도 가능합니다.</p>
+          </details>
+            <div class="ui-fields" data-recipe-mode="ingredients">
+              <label>쓸 재료 <input id="recipe-ingredients" type="text" maxlength="200" placeholder="예: 두부 반 모 브로콜리 현미밥" aria-describedby="recipe-ingredient-help" required></label>
+              <small id="recipe-ingredient-help">쉼표 없이 적어도 됩니다. 분량을 함께 적어도 됩니다. 필요한 양은 조리법에서 확인하세요.</small>
+            </div>
+            <div class="ui-fields" data-recipe-mode="food-name" hidden>
+              <label>음식명
+                <input id="recipe-food-name" type="text" maxlength="60" placeholder="예: 김치찌개" required disabled>
+              </label>
+            </div>
+            <div data-recipe-mode="goal" hidden>
+              <div class="ui-fields">
+                <label>원하는 1인분 열량 상한 (kcal)
+                  <input id="recipe-calories" type="number" min="1" max="5000" placeholder="예: 600" required disabled>
+                </label>
+              </div>
+              <p>AI가 한 끼 후보를 제안합니다. 추천 결과에서 1인분 열량을 확인할 수 있습니다.</p>
+            </div>
+            <div class="recipe-dietary" data-recipe-mode="conditions" hidden>
+              <div class="ui-fields recipe-condition-fields">
+                <label>질환·관리 항목
+                  <select id="recipe-condition" required disabled>
+                    <option value="">질환·관리 항목 선택</option>
+                    <option value="pressure">고혈압·혈압 관리</option>
+                    <option value="glucose">당뇨병·혈당 관리</option>
+                    <option value="dyslipidemia">이상지질혈증</option>
+                    <option value="kidney">신장질환</option>
+                    <option value="other">기타 만성질환</option>
+                  </select>
+                </label>
+                <label id="recipe-other-condition-field" hidden>질환명
+                  <input id="recipe-other-condition" type="text" maxlength="60" autocomplete="off" disabled
+                         aria-describedby="recipe-other-condition-help">
+                  <small id="recipe-other-condition-help">동의 후 질환명을 Gemini로 보내 추천에 반영합니다. 질환명만 입력하세요.</small>
+                </label>
+                <label class="ui-full">확인한 식사 조건 메모 (선택)
+                  <input id="recipe-dietary-rules" type="text" maxlength="300" autocomplete="off" disabled>
+                </label>
+                <small class="ui-full">선택한 질환에 해당하는 식사 기준을 적용합니다. 메모는 이 화면에서만 사용합니다. 신장질환은 일반 조리 후보를 표시합니다.</small>
+              </div>
+              <fieldset>
+                <legend>제외할 재료 (선택)</legend>
+                <label><input type="checkbox" name="recipe-exclusion" value="salt" disabled> 소금 빼기</label>
+                <label><input type="checkbox" name="recipe-exclusion" value="soy-sauce" disabled> 간장 빼기</label>
+                <label><input type="checkbox" name="recipe-exclusion" value="oil" disabled> 식용유 빼기</label>
+                <label><input type="checkbox" name="recipe-exclusion" value="egg" disabled> 달걀 빼기</label>
+              </fieldset>
+              <p>레시피는 일반적인 식사 기준을 참고한 후보입니다. 개인별 영양 제한과 알레르기 적합성은 별도로 확인하세요.</p>
+            </div>
+            <section id="recipe-preference" class="recipe-preference" aria-label="내 맛 취향">
+              <label class="recipe-preference-title"><input id="recipe-use-preferences" type="checkbox"> 내 취향 반영</label>
+              <small>선택하면 맛 강도 요약만 Google Gemini에 전달합니다. 저장한 레시피 이름·평가 이력은 전달하지 않습니다. 기존 식사 기준과 제외 재료 조건을 우선합니다.</small>
+              <div id="recipe-preference-panel" hidden>
+                <label>맛 취향 기준<select id="recipe-preference-mode"><option value="saved">저장된 취향 사용</option><option value="manual">이번 추천의 취향 직접 선택</option></select></label>
+                <p id="recipe-preference-status" role="status" aria-live="polite"></p>
+                <div id="recipe-preference-manual" class="recipe-preference-grid" hidden>
+                  <label>매운맛<select data-taste-axis="spicy" disabled><option value="">상관없음</option><option value="0">거의 없게 (0)</option><option value="1">약하게 (1)</option><option value="3">보통 (3)</option><option value="5">강하게 (5)</option></select></label>
+                  <label>짠맛<select data-taste-axis="salty" disabled><option value="">상관없음</option><option value="0">거의 없게 (0)</option><option value="1">약하게 (1)</option><option value="3">보통 (3)</option><option value="5">강하게 (5)</option></select></label>
+                  <label>기름진 정도<select data-taste-axis="rich" disabled><option value="">상관없음</option><option value="0">거의 없게 (0)</option><option value="1">약하게 (1)</option><option value="3">보통 (3)</option><option value="5">강하게 (5)</option></select></label>
+                </div>
+                <small>직접 선택은 이번 추천에만 사용합니다. 맛 일치를 보장하지 않으며 건강·영양 적합성은 별도로 확인하세요.</small>
+              </div>
+            </section>
+            <div id="recipe-consent-panel" class="ui-fields">
+              <label class="recipe-consent">
+                <input id="recipe-ai-consent" type="checkbox" required>
+                <span id="recipe-consent-text">추천 조건을 Google Gemini로 보내는 데 동의합니다.</span>
+              </label>
+              <small>내 취향 반영을 선택하면 선택된 맛 선호 요약도 Gemini 전송 동의에 포함됩니다.</small>
+              <small>참고 사진 확보를 위해 추천된 음식명으로 공공데이터와 공개 라이선스 사진 출처를 검색합니다.</small>
+              <small>로그인이 필요합니다. 개인정보나 건강정보는 입력하지 마세요.</small>
+            </div>
+            <button id="recipe-submit" class="ui-button" type="submit">레시피 추천받기</button>
+          </form>
+          <p id="recipe-feedback" role="status"></p>
+        </section>
+          
+
+
+        <section id="recipe-results" aria-label="추천 레시피" hidden>
+<div class="recipe-registration-buttons"><h3>추천 레시피 · 담을 요리를 선택하세요</h3><button id="recipe-reroll" class="ui-button ui-secondary" type="button" disabled>전체 다시 추천</button></div><p class="fs-muted">현재 나온 음식은 제외하고 같은 조건으로 다시 추천합니다. 등록한 요리는 유지됩니다.</p><p id="recipe-reroll-status" class="fs-muted" role="status"></p><div id="recipe-cards"></div>
+          <details id="recipe-lab" class="fs-panel" hidden aria-labelledby="recipe-lab-title">
+            <summary id="recipe-lab-title" class="fs-compare-heading">추천 음식 영양 비교 <span>펼치기 / 접기</span></summary><p id="nutrition-auto-status" class="fs-muted" role="status"></p>
+            <p>1인분 추정값 · 영양소별 같은 척도로 비교합니다. 실제 조리법과 제품에 따라 달라져요.</p>
+            <p id="recipe-lab-status" role="status"></p>
+            <p>열량·탄수화물·단백질·지방·포화지방·당류·나트륨·식이섬유를 1인분 기준으로 비교합니다.</p>
+            <div id="recipe-lab-charts" class="fs-charts"></div>
+            <div id="recipe-lab-editors"></div>
+            <div class="fs-actions"><button id="recipe-lab-recalculate" type="button" class="fs-button fs-secondary">확인한 분량으로 다시 계산</button>
+</div>
+          </details>
+          <div class="recipe-registration">
+            <div class="recipe-registration-buttons"><button id="recipe-save" class="ui-button" type="button" disabled>선택한 요리 등록 · 0개</button><a class="ui-link" href="/mypage/recipes">MyRecipe 보기</a></div>
+            <p class="recipe-registration-help">선택한 요리를 아래 목록과 MyRecipe에 저장합니다.</p>
+            <p id="recipe-action-feedback" class="recipe-registration-status" role="status"></p>
+          </div>
+        </section>
+<section class="fs-panel meal-cart-panel" aria-labelledby="meal-cart-count"><h3 id="meal-cart-count">한 끼에 담은 요리 · 0/20개</h3><p class="fs-muted">최대 20개 요리를 보관합니다. 한 끼 구성 화면에서 실제로 먹을 요리와 양을 골라 주세요.</p><div id="meal-cart-items"></div><button id="meal-cart-open" type="button" class="fs-button">한 끼 구성하기 →</button><button id="meal-cart-clear" type="button" class="fs-button fs-secondary">모두 비우기</button><p id="meal-cart-status" role="status"></p></section>
+        <template id="recipe-card-template">
+        <article class="ui-card recipe-result recipe-candidate">
+          <div class="recipe-generated-heading">
+            <span class="recipe-result-label">AI 생성 레시피</span>
+            <div class="recipe-title-line">
+              <h3 data-part="recipe-generated-name"></h3>
+              <figure data-part="recipe-generated-photo" class="recipe-generated-photo" hidden>
+                <img alt="" width="88" height="88" referrerpolicy="no-referrer">
+              </figure>
+            </div>
+            <p data-part="recipe-generated-meta" class="recipe-meta"></p>
+            <p data-part="recipe-candidate-summary" class="recipe-meta"></p>
+            <small data-part="recipe-photo-credit" hidden>
+              참고 사진 · <a data-part="recipe-photo-source" rel="noreferrer"></a> ·
+              <a data-part="recipe-photo-license" rel="noreferrer"></a>
+            </small>
+          </div>
+          <details class="recipe-generated-details">
+            <summary>조리법 보기</summary>
+            <div class="recipe-detail-columns">
+              <div>
+                <dl data-part="recipe-ingredient-summary" class="recipe-ingredient-summary" hidden>
+                  <div><dt>있는 재료</dt><dd><ul data-part="recipe-available"></ul></dd></div>
+                  <div><dt>추가로 필요한 재료</dt><dd><ul data-part="recipe-missing"></ul></dd></div>
+                </dl>
+                <div data-part="recipe-all-ingredients">
+                  <h4>재료와 분량</h4>
+                  <ul data-part="recipe-generated-ingredients"></ul>
+                </div>
+              </div>
+              <div>
+                <h4>조리 순서</h4>
+                <ol data-part="recipe-generated-steps"></ol>
+              </div>
+            </div>
+          </details>
+          <details data-part="recipe-goal-editor" hidden>
+          <summary>영양 계산에 사용한 분량 확인·수정</summary>
+          <fieldset data-part="recipe-goal-nutrition">
+            <legend>1인분 영양값 확인</legend>
+            <p>AI가 제안한 레시피 전체 분량입니다. g을 수정하면 1인분 영양값과 저장할 재료 분량이 갱신됩니다.</p>
+            <div data-part="recipe-goal-ingredients"></div>
+            <small>출처 · 농촌진흥청 국가표준식품성분표 10.4 (가식부 100g 기준)</small>
+          </fieldset>
+          </details>
+          <div class="recipe-result-actions recipe-generated-actions">
+            <input type="checkbox" data-part="recipe-select" hidden aria-hidden="true" tabindex="-1">
+            <button data-part="recipe-compare" class="ui-button ui-secondary" type="button" aria-pressed="false">한 끼에 담기</button>
+            <p data-part="recipe-card-feedback" role="status"></p>
+          </div>
+        </article>
+        </template>
+      </div>
+    </div>
+  </div>
+</main>
+<footer th:replace="~{fragments/layout :: footer}"></footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.recipe-preference{border:1px solid #d8e5d9;border-radius:12px;padding:16px;margin:18px 0;background:#f4f8ef;color:#173d37}
+.recipe-preference [hidden]{display:none!important}.recipe-preference-title{display:flex;align-items:center;gap:8px;font-weight:700}
+.recipe-preference small,.recipe-preference p{display:block;font-size:12px;line-height:1.7;margin:8px 0}
+.recipe-preference-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:12px}
+.recipe-preference label:not(.recipe-preference-title){display:flex;flex-direction:column;gap:6px;font-size:12px}
+.recipe-preference select{min-height:40px;background:#fff;color:#173d37;border:1px solid #bfd3c4;border-radius:8px;padding:7px;max-width:100%;width:100%}
+@media(max-width:600px){.recipe-preference-grid{grid-template-columns:1fr}}

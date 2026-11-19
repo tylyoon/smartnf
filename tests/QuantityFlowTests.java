@@ -1,0 +1,16 @@
+package com.onrender.smartnf.health;
+import java.math.*;import java.time.*;import java.util.*;import java.nio.file.*;import org.springframework.jdbc.core.*;import org.springframework.jdbc.datasource.*;import org.springframework.transaction.support.*;
+public class QuantityFlowTests{
+ static int n;static void ok(boolean x){if(!x)throw new AssertionError("check "+n);n++;}static void fail(Runnable r){try{r.run();throw new AssertionError();}catch(HealthException e){n++;}}
+ public static void main(String[] args)throws Exception{
+  ok(ProductQuantity.parse("우유 900ml x 2팩").amount().intValue()==1800);ok(ProductQuantity.parse("우유 1L").amount().intValue()==1000);ok(ProductQuantity.parse("버터 100g").unit().equals("g"));ok(ProductQuantity.parse("우유 900ml/1L")==null);
+  var ds=new DriverManagerDataSource("jdbc:h2:mem:unit255;MODE=MySQL;DB_CLOSE_DELAY=-1","sa","");var jdbc=new JdbcTemplate(ds);var tx=new TransactionTemplate(new DataSourceTransactionManager(ds));jdbc.execute("CREATE TABLE members(id BIGINT PRIMARY KEY)");jdbc.update("INSERT INTO members VALUES(1),(2)");for(String f:args)for(String sql:Files.readString(Path.of(f)).split(";"))if(!sql.isBlank())jdbc.execute(sql);
+  var lists=new ShoppingListService(jdbc);var store=new ShoppingProductService(jdbc,lists);UUID id=UUID.randomUUID();var day=LocalDate.now();tx.execute(s->lists.save(1,new ShoppingListModels.Save(id,UUID.randomUUID(),0L,day,day,day,"WEEK",List.of(new ShoppingListModels.Item("milk","우유",new BigDecimal("100"))))));
+  var raw=new IngredientProductService.Product("raw","우유 900ml","판매처",new BigDecimal("2700"),null,"https://shoppinghow.kakao.com/go.daum?x=1","배송 미확인",Instant.now().toString(),"API","KAKAO","DISPLAY","표시가","","","");var p=KakaoProductSnapshots.issue(1,List.of(raw)).getFirst();ok(p.quantityUnit().equals("ml")&&p.packageAmount().intValue()==900);
+  var input=new ShoppingProductService.Save(id,0,1,0,UUID.randomUUID(),p.id(),p.name(),p.merchant(),null,p.price(),1,p.url(),p.checkedAt(),true,"ml",new BigDecimal("100"),new BigDecimal("900"));
+  var saved=tx.execute(s->store.save(1,input));ok(saved.packGrams()==null);ok(saved.quantityUnit().equals("ml")&&saved.requiredAmount().intValue()==100&&saved.packageAmount().intValue()==900);ok(lists.get(1,id).items().getFirst().grams().intValue()==100);ok(new ShoppingProductService(jdbc,lists).get(1,id).getFirst().quantityUnit().equals("ml"));fail(()->store.get(2,id));
+  var wrong=new ShoppingProductService.Save(id,0,1,1,UUID.randomUUID(),p.id(),p.name(),p.merchant(),new BigDecimal("900"),p.price(),1,p.url(),p.checkedAt(),true,"g",new BigDecimal("100"),new BigDecimal("900"));fail(()->tx.execute(s->store.save(1,wrong)));
+  var refs=new PriceReferenceService(Files.createTempDirectory("mayo-unit"));ok(refs.search("마요네즈",new BigDecimal("100")).references().size()==2);ok(refs.search("밀가루",new BigDecimal("100")).references().size()>0);ok(refs.search("우유",new BigDecimal("100"),"ml").references().stream().anyMatch(r->r.estimated()!=null));ok(refs.search("우유",new BigDecimal("100"),"g").references().stream().allMatch(r->r.estimated()==null));
+  System.out.println("QuantityFlowTests: "+n+" PASS; ml receipt/save/reload, nutrition grams unchanged, wrong-unit denied, mayonnaise/flour/milk reference flow");
+ }
+}

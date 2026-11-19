@@ -1,0 +1,12 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const root=new URL('../src/main/resources/',import.meta.url),source=fs.readFileSync(new URL('static/js/meal-studio.js',root),'utf8');
+const nodes=new Map(),$=id=>{if(!nodes.has(id))nodes.set(id,{textContent:'',replaceChildren(){},setAttribute(){}});return nodes.get(id);};
+const week={dataset:{view:'week'},id:'week',setAttribute(){}},month={dataset:{view:'month'},id:'month',setAttribute(){}};
+const c={pendingSave:null,saving:false,building:false,view:'month',period:[{month:true}],periods:{week:[{week:true}],month:[]},periodMessages:{week:'주간 추천 완료',month:'1/5구간 월간 오류'},criteriaFor:{},baseline:new Map(),tabs:[week,month],$,renderCalendar(){},renderCriteriaReport(){},persistStudio(){}};
+vm.createContext(c);vm.runInContext(source.slice(source.indexOf('function switchView('),source.indexOf('tabs.forEach((tab, index)'))+';this.switchView=switchView;',c);
+c.switchView(week);assert.equal($('fs-period-status').textContent,'주간 추천 완료');assert.equal($('fs-build').textContent,'주간 식단 추천받기');c.switchView(month);assert.equal($('fs-period-status').textContent,'1/5구간 월간 오류');
+c.periodMessages.week='';c.switchView(week);assert.equal($('fs-period-status').textContent,'','monthly error never leaks into an untouched weekly tab');
+const mod=await import('data:text/javascript;base64,'+Buffer.from(fs.readFileSync(new URL('static/js/gemini-period.js',root),'utf8')).toString('base64'));
+const addDays=(s,n)=>new Date(Date.parse(s+'T12:00:00Z')+n*86400000).toISOString().slice(0,10);
+await assert.rejects(mod.generateGeminiPeriod({first:'2027-03-01',days:31,meals:['breakfast'],criteria:{},addDays,uuid:()=> 'test',api:async()=>{const e=Error('식별자 오류. 기존 식단은 유지됩니다.');e.terminal=true;throw e;}}),e=>e.message.includes('1/5구간')&&(e.message.match(/기존 식단은 유지됩니다\./g)||[]).length===1);
+console.log('PASS weekly/monthly status isolation, tab return, no duplicated failure suffix');

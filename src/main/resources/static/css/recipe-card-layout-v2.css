@@ -1,0 +1,82 @@
+#recipe-generated:not([hidden]) {
+    display: block;
+}
+
+.recipe-saved-heading img {
+    margin-inline-start: 0;
+}
+
+.recipe-title-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .65rem;
+}
+
+.recipe-generated-photo {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    margin: 0;
+}
+
+.recipe-generated-photo img,
+.recipe-saved-heading img {
+    width: 56px;
+    height: 56px;
+    flex: none;
+    object-fit: cover;
+    border-radius: .65rem;
+}
+
+.recipe-generated-photo figcaption {
+    color: #536e63;
+    font-size: .75rem;
+}
+
+#recipe-generated,
+.recipe-saved {
+    container-type: inline-size;
+}
+
+.recipe-detail-columns {
+    display: grid;
+    gap: 1rem;
+    margin-top: .65rem;
+}
+
+.recipe-detail-columns > div {
+    min-width: 0;
+}
+
+.recipe-detail-columns :is(h2, h4) {
+    margin: 0 0 .45rem;
+    font-size: 1rem;
+}
+
+.recipe-detail-columns :is(ul, ol) {
+    padding-inline-start: 1.35rem;
+}
+
+#recipe-generated .recipe-ingredient-summary:not([hidden]) {
+    grid-template-columns: 1fr;
+}
+
+.recipe-generated-actions {
+    margin-top: .85rem;
+}
+
+@container (min-width: 32rem) {
+    .recipe-detail-columns {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+        gap: 1.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .recipe-generated-photo img,
+    .recipe-saved-heading img {
+        width: 44px;
+        height: 44px;
+    }
+}

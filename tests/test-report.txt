@@ -1,0 +1,14 @@
+✔ save shows busy immediately and success after re-read (5.409208ms)
+✔ verification failure never displays success and allows result check (2.403802ms)
+✔ known refusal permits retry (2.190763ms)
+✔ date change resets saved label (1.925795ms)
+✔ food/portion change resets saved label (2.334362ms)
+✔ unconfirmed prior request does not claim current composition was saved (2.92947ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 219.607582

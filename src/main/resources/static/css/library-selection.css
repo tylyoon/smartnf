@@ -1,0 +1,14 @@
+/* Scoped to the simulator's saved recipe picker. */
+.food-studio .fs-library-filters,.food-studio .fs-library-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0;align-items:stretch}
+.food-studio .fs-library-filters select{width:100%;min-width:0;margin:0;box-sizing:border-box}
+.food-studio .fs-library-results{grid-auto-rows:1fr}
+.food-studio .fs-library-choice{display:flex;flex-direction:column;gap:10px;min-width:0;min-height:150px;padding:14px;border:1px solid #d4e3da;border-radius:12px;background:#fff;box-sizing:border-box;overflow-wrap:anywhere}
+.food-studio .fs-library-choice strong{font-size:14px;line-height:1.6}
+.food-studio .fs-library-choice .fs-muted{font-size:12px;line-height:1.6}
+.food-studio .fs-library-choice button{margin-top:auto;width:100%;white-space:normal}
+.food-studio .fs-library-choice button:disabled{opacity:.6;cursor:default}
+.food-studio .fs-library-help,.food-studio .fs-excluded-candidates{grid-column:1/-1}
+.food-studio .fs-excluded-candidates{padding:12px;border:1px solid #d4e3da;border-radius:10px}
+.food-studio .fs-excluded-candidates button{margin:8px 8px 0 0}
+@media(max-width:800px){.food-studio .fs-library-results{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.food-studio .fs-library-results,.food-studio .fs-library-filters{grid-template-columns:1fr}}

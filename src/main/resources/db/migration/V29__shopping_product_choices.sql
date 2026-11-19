@@ -1,0 +1,21 @@
+CREATE TABLE shopping_product_choices (
+ list_id CHAR(36) NOT NULL,
+ entry_no INT NOT NULL,
+ revision BIGINT NOT NULL,
+ list_revision BIGINT NOT NULL,
+ ingredient_name VARCHAR(200) NOT NULL,
+ required_grams DECIMAL(14,3) NOT NULL,
+ product_id VARCHAR(50) NOT NULL,
+ product_name VARCHAR(300) NOT NULL,
+ merchant VARCHAR(300) NOT NULL,
+ pack_grams DECIMAL(14,3) NOT NULL,
+ unit_price DECIMAL(14,2) NOT NULL,
+ pack_count INT NOT NULL,
+ product_url VARCHAR(500) NOT NULL,
+ checked_at VARCHAR(40) NOT NULL,
+ last_request_id VARCHAR(36) NOT NULL,
+ last_request_hash VARCHAR(64) NOT NULL,
+ updated_at TIMESTAMP NOT NULL,
+ PRIMARY KEY(list_id,entry_no),
+ CONSTRAINT fk_product_choice_list FOREIGN KEY(list_id) REFERENCES shopping_lists(id) ON DELETE CASCADE
+);

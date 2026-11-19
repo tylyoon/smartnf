@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="_csrf" th:content="${_csrf.token}"><meta name="_csrf_header" th:content="${_csrf.headerName}">
+  <title>AI 식단 시뮬레이터 | SmartNF</title>
+  <link rel="stylesheet" href="/css/site.css"><link rel="stylesheet" href="/css/food-studio.css?v=period192">
+  <script defer src="/js/site.js"></script><script type="module" src="/js/meal-studio.js?actions267"></script>
+  <link rel="stylesheet" href="/css/meal-period.css?v=period192">
+  <link rel="stylesheet" href="/css/recipe-taste.css?v=taste193">
+  <link rel="stylesheet" href="/css/recipe-flow.css?v=storage220">
+  <link rel="stylesheet" href="/css/ai-nutrition.css?v=storage220">
+<link rel="stylesheet" href="/css/period-layout.css?v=storage220"><link rel="stylesheet" href="/css/shopping-lists.css?v=storage220"><link rel="stylesheet" href="/css/library-selection.css?v=library223"><style>#fs-retry-catalog[hidden]{display:none!important}</style></head>
+<body>
+<header th:replace="~{fragments/layout :: header}"></header>
+<main id="main" class="ui-workspace food-studio">
+  <div class="fs-hero"><div class="container"><p class="fs-eyebrow">SMARTNF · MEAL STUDIO</p>
+    <h1>바꿔보면 보여요.<br>내 식단의 다음 모습.</h1><p>한 끼부터 한 달까지. 음식과 분량을 바꾸며 영양의 차이를 확인하세요.</p>
+    <div class="fs-steps"><span>음식 고르기</span><span>분량 확인하기</span><span>내 계획에 담기</span></div>
+  </div></div>
+  <div class="container"><nav class="ui-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>/</span><a href="/preview/recipes">AI 레시피·식단</a><span>/</span><span>AI 식단 시뮬레이터</span></nav>
+    <div class="ui-shell"><aside th:replace="~{preview/recipes/sidebar :: navigation('simulator')}"></aside>
+      <div class="ui-content">
+        <div class="fs-tabs" role="tablist" aria-label="식단 구성 범위">
+          <button id="fs-tab-meal" type="button" role="tab" aria-selected="true" aria-controls="fs-meal" tabindex="0" data-view="meal">한 끼 구성</button>
+          <button id="fs-tab-week" type="button" role="tab" aria-selected="false" aria-controls="fs-period" tabindex="-1" data-view="week">주간 추천</button>
+          <button id="fs-tab-month" type="button" role="tab" aria-selected="false" aria-controls="fs-period" tabindex="-1" data-view="month">월간 추천</button>
+        </div>
+        <p id="nutrition-auto-status" class="fs-muted" role="status"></p>
+<p id="fs-draft-status" class="fs-status" role="status"></p><button id="fs-clear-draft" type="button" class="fs-button fs-secondary">새 초안 시작 · 현재 구성 비우기</button>
+        <p id="fs-status" class="fs-status" role="status" aria-live="polite">내가 고른 음식을 준비하고 있어요.</p>
+        <section class="fs-panel fs-library"><div class="fs-section-heading"><div><p class="fs-eyebrow">MY INGREDIENTS FOR A PLAN</p><h2>식단에 쓸 요리</h2></div><div class="fs-actions"><button id="fs-load-library" class="fs-button fs-secondary" type="button">MyRecipe 불러오기</button><a href="/preview/recipes/recommend" class="fs-button">요리 더 고르기</a></div></div>
+          <p>추천에서 고른 요리 또는 저장한 MyRecipe를 사용합니다. 인분과 재료별 분량을 확인해 주세요.</p>
+          <div id="fs-library" class="fs-recipe-grid"></div>
+          <div id="fs-library-options" hidden></div>
+        </section>
+<section class="fs-panel fs-reference-panel" aria-labelledby="fs-reference-title">
+<h2 id="fs-reference-title">영양 그래프 기준</h2>
+<p>녹색 기준: 성별·연령별 일반 참고량 · 파란 기준: 내가 입력한 개인 목표. 개인 목표 없이도 일반 참고 기준으로 그래프를 표시합니다.</p>
+<div class="fs-actions"><label>일반 참고 · 성별<select id="fs-reference-sex"><option value="male">남성</option><option value="female">여성</option></select></label><label>일반 참고 · 나이대<select id="fs-reference-age"><option value="19-29">19~29세</option><option value="30-49">30~49세</option><option value="50-64">50~64세</option><option value="65-74">65~74세</option><option value="75+">75세 이상</option></select></label></div>
+<p class="fs-muted">초기 참고값은 남성 19~29세입니다. 회원 건강정보에서 자동으로 가져온 값이 아니므로 본인에 맞게 선택하세요. 19세 이상 일반 성인 참고용이며 열량은 집단의 필요추정량입니다. 실제 필요량은 체격·활동량 등에 따라 다릅니다. 소아·임신/수유·별도 식사 제한에는 개인 처방으로 적용하지 않습니다.</p>
+<details><summary>개인 하루 목표 입력 · 선택</summary><div class="fs-goal-fields">
+<label>열량 (kcal)<input id="fs-goal-energy" type="number" min="500" max="6000" step="any" placeholder="선택"></label>
+<label>나트륨 상한 (mg)<input id="fs-goal-sodium" type="number" min="100" max="10000" step="any" placeholder="선택"></label>
+<label>탄수화물 (g)<input id="fs-personal-carbohydrate" type="number" min="0.1" max="1500" step="any" placeholder="선택"></label>
+<label>단백질 (g)<input id="fs-personal-protein" type="number" min="0.1" max="500" step="any" placeholder="선택"></label>
+<label>지방 (g)<input id="fs-personal-fat" type="number" min="0.1" max="500" step="any" placeholder="선택"></label>
+<label>포화지방 상한 (g)<input id="fs-personal-saturated_fat" type="number" min="0.1" max="200" step="any" placeholder="선택"></label>
+<label>총당류 상한 (g)<input id="fs-personal-sugars" type="number" min="0.1" max="500" step="any" placeholder="선택"></label>
+<label>식이섬유 (g)<input id="fs-personal-fiber" type="number" min="0.1" max="150" step="any" placeholder="선택"></label>
+<label>목표 출처<select id="fs-goal-source"><option value="personal" selected>내가 정한 참고값</option><option value="clinician">의료진이 알려준 값</option></select></label></div>
+<p class="fs-muted">입력 범위는 오입력 방지용이며 권장량이 아닙니다. 빈칸은 목표를 만들지 않습니다. 일반 성인 비율 참고를 선택하면 입력 열량에서 탄수화물·단백질·지방 범위를 계산하며 직접 입력한 g 목표가 우선합니다. 이 브라우저의 계정별 초안에 보관합니다. 주간·월간 추천 시 직접 입력한 목표량은 Gemini에 전송하며, 성별·연령대와 저장된 건강정보는 전송하지 않습니다.</p></details>
+<a href="https://www.kns.or.kr/fileroom/fileroom_view.asp?BoardID=Kdr&amp;idx=167" target="_blank" rel="noopener noreferrer">근거: 보건복지부·한국영양학회 2025 한국인 영양소 섭취기준 · 요약표 xi~xiii, xix</a>
+</section>
+        <section id="fs-meal" style="scroll-margin-top:100px" role="tabpanel" aria-labelledby="fs-tab-meal" class="fs-panel">
+          <div class="fs-section-heading"><div><p class="fs-eyebrow">BUILD YOUR PLATE</p><h2>함께 먹을 한 끼를 만들어요</h2></div><span class="fs-pill">1인분 기준</span></div>
+          <p>AI 레시피 추천에서 고른 요리의 먹을 인분과 분량을 조절하세요. 변경한 분량의 영양값은 자동으로 갱신됩니다.</p>
+          <div class="fs-meal-controls" aria-label="한 끼 날짜 선택과 저장" style="margin:16px 0 20px">
+            <div class="fs-actions"><label>계획 날짜<input id="fs-meal-date" type="date" min="1900-01-01" max="2100-12-31"></label><label>끼니<select id="fs-meal-time"><option value="breakfast">아침</option><option value="lunch">점심</option><option value="dinner" selected>저녁</option><option value="snack">간식</option></select></label><button id="fs-save-meal" class="fs-button" type="button">식단 저장</button></div>
+            <p id="fs-meal-save-feedback" role="status" aria-live="polite" aria-atomic="true" style="margin:8px 0;font-weight:600"></p>
+            <div class="fs-actions"><button id="fs-load-saved-plan" type="button" class="fs-button fs-secondary">저장 식단 불러오기</button><a href="/mypage/plans" class="fs-button fs-secondary">MyPage 저장 식단 보기</a></div>
+            <p class="fs-muted">선택한 날짜·끼니의 식단을 불러오거나 저장합니다. 저장하면 같은 날짜·끼니의 기존 시뮬레이터 계획이 교체됩니다.</p>
+          </div>
+          <div id="fs-replace-target" class="fs-replace-target" hidden>
+            <strong id="fs-replace-label"></strong><p>현재 한 끼의 음식과 먹을 분량을 확인한 뒤 적용하세요. 적용은 선택한 끼니의 초안만 변경합니다. MyPage에 반영하려면 적용 후 해당 주에서 ‘이번 주 저장’을 눌러주세요.</p>
+            <div class="fs-actions"><button id="fs-apply-slot" class="fs-button" type="button">선택한 끼니에 적용</button><button id="fs-cancel-slot" class="fs-button fs-secondary" type="button">변경 취소</button></div>
+          </div>
+          <p id="fs-single-meal-status" class="fs-muted" role="status" aria-live="polite"></p>
+          <div id="fs-plate" class="fs-plate"></div>
+          <section aria-labelledby="fs-add-food-title" style="margin:16px 0">
+            <h3 id="fs-add-food-title">함께 먹을 음식 추가</h3>
+            <p class="fs-muted">이미 한 끼를 구성했어도 더 추가할 수 있습니다. 입력한 음식명·현재 음식과 재료·선택한 추천 조건을 Gemini에 보내 후보를 받습니다. 후보 확인 후 직접 추가하세요.</p>
+            <div class="fs-actions"><label>추가할 음식명<input id="fs-add-food-name" type="text" maxlength="100" placeholder="예: 계란찜"></label><button id="fs-add-food-named" class="fs-button" type="button">입력한 음식 후보 받기</button><button id="fs-add-food-compatible" class="fs-button fs-secondary" type="button">어울리는 음식 추천받기</button></div>
+            <p id="fs-addition-status" role="status" aria-live="polite"></p>
+            <div id="fs-addition-candidates" class="fs-recipe-grid"></div>
+          </section>
+          <div class="fs-actions"><button id="fs-confirm-meal" class="fs-button" type="button">영양 계산</button><p class="fs-muted">영양 계산을 누르면 음식·재료명을 Gemini에 보내 부족한 영양값을 추정·저장합니다. AI 추정값은 별도로 표시합니다.</p></div>
+          <p id="fs-meal-status" role="status"></p><div id="fs-meal-charts" class="fs-charts"></div>
+
+        </section>
+        <section id="fs-period" role="tabpanel" aria-labelledby="fs-tab-week" class="fs-panel" hidden>
+<p class="fs-muted">주간·월간 추천은 후보를 미리 담지 않아도 Gemini가 메인·밥·반찬을 제안합니다. 추천받기를 누르면 현재 선택한 식사 방향·제외 재료·직접 입력한 목표와 공용 레시피를 Gemini에 전송합니다. 저장된 건강정보·개인 레시피 수정 내용은 전송하지 않습니다. 식단 제안은 MyPage에 자동 저장되지 않습니다.</p><label class="fs-criteria-check"><input id="fs-period-taste" type="checkbox"><span>저장된 맛 취향도 반영 (선택)</span></label>
+
+          <div class="fs-section-heading"><div><p class="fs-eyebrow">MAKE ROOM FOR YOUR WEEK</p><h2 id="fs-period-heading">나의 주간 식단</h2></div><span class="fs-pill" id="fs-period-count"></span></div>
+          <p>Gemini가 공용 레시피를 참고하고 부족한 요리를 새로 제안해 기간 식단을 구성합니다. MyRecipe 불러오기는 필수가 아닙니다. 날짜의 끼니를 수정할 수 있으며 월간은 선택한 달 전체를 구성하고 주차별로 표시합니다.</p>
+          <details class="fs-editor" open><summary>추천 기준 설정</summary>
+<p>Gemini가 아래 조건을 참고해 메인·주식·반찬을 제안합니다. 일반 기준·식사 방향·개인 목표를 구분하며 의료진의 치료 식단을 대신하지 않습니다.</p>
+<label class="fs-criteria-check"><input id="fs-criteria-general" type="checkbox"><span>일반 성인(19세 이상), 임신·수유 및 별도 식사 제한 없음: 2025 KDRI 에너지 비율 참고</span></label>
+<p class="fs-muted">탄수화물 50~65% · 단백질 10~20% · 지방 15~30%. 열량 목표를 자동 확정하지 않습니다.</p>
+<label class="fs-criteria-check"><input id="fs-criteria-bp" type="checkbox"><span>나트륨을 줄이는 조리 방향 참고</span></label>
+<label class="fs-criteria-check"><input id="fs-criteria-fiber" type="checkbox"><span>채소·통곡물 활용 방향 참고 (탄수화물 제한량 자동 설정 없음)</span></label>
+<label class="fs-criteria-check"><input id="fs-criteria-special" type="checkbox"><span>소아·임신/수유·신장질환 또는 의료진의 별도 식사 제한 있음</span></label>
+<p class="fs-muted">별도 제한이 있으면 자동 영양 기준은 적용하지 않고 메뉴 배치만 사용합니다. 질환명으로 안전성을 판정하지 않습니다.</p>
+<label>제외 재료 · 쉼표로 구분<input id="fs-criteria-excluded" type="text" maxlength="300" placeholder="예: 땅콩, 새우"></label><p class="fs-muted">표기된 재료명만 확인합니다. 소스·제품의 숨은 알레르기 성분은 별도 확인하세요. 추천받기를 누르면 제외 재료를 Gemini에 보내고, SmartNF가 반환된 레시피의 기재 재료·조리 순서를 다시 확인합니다. 제외 조건은 새로고침 후 다시 확인하세요.</p></details>
+<div id="fs-criteria-report" role="status" class="fs-muted"></div>
+          <div class="fs-actions"><label>시작 날짜<input id="fs-start" type="date" min="1900-01-01" max="2100-12-01"></label><input id="fs-scope" type="hidden" value="all"><fieldset id="fs-meals" class="fs-meal-options"><legend>구성할 끼니</legend><label class="fs-criteria-check"><input id="fs-scope-breakfast" type="checkbox" checked><span>아침</span></label><label class="fs-criteria-check"><input id="fs-scope-lunch" type="checkbox" checked><span>점심</span></label><label class="fs-criteria-check"><input id="fs-scope-dinner" type="checkbox" checked><span>저녁</span></label></fieldset>
+            <button id="fs-build" class="fs-button" type="button">주간 식단 추천받기</button></div>
+<p id="fs-period-status" class="fs-status" role="status" aria-live="polite" style="padding:12px;border-left:3px solid #1d725b;background:#f0f6f1;overflow-wrap:anywhere">추천받기를 누르면 이곳에 Gemini 진행 상태와 결과가 표시됩니다.</p>
+<p id="fs-period-nutrition-status" class="fs-muted" role="status" aria-live="polite">영양 자료를 준비하고 있습니다. 주간·월간 추천은 바로 시작할 수 있습니다.</p><button id="fs-retry-catalog" class="fs-button fs-secondary" type="button" hidden>영양 자료 다시 불러오기</button>
+          <p class="fs-muted">직접 바꾼 끼니는 현재 초안에 적용됩니다. 새 추천이 모두 완료되면 Gemini 식단으로 교체합니다. 실패한 경우 기존 식단은 유지합니다. 질환별 맞춤 처방이 아닌 식단 계획 후보입니다.</p>
+          <nav id="fs-month-nav" class="fs-month-nav" aria-label="월간 식단 주차 이동" hidden><strong id="fs-month-title" aria-live="polite"></strong><div class="fs-actions"><button id="fs-month-prev" type="button" class="fs-button fs-secondary">이전 주</button><label>주차 선택<select id="fs-month-week"></select></label><button id="fs-month-next" type="button" class="fs-button fs-secondary">다음 주</button></div><p class="fs-muted">한 달 전체 초안 중 현재 주만 표시합니다. 주차를 옮겨도 다른 주의 음식과 변경 내용은 유지됩니다.</p></nav>
+          <div id="fs-calendar" class="fs-calendar"></div>
+          <div class="fs-actions"><button id="fs-save-period" class="fs-button" type="button">이번 주 저장</button><button id="fs-save-month" class="fs-button fs-secondary" type="button" hidden>한 달 전체 저장</button><button id="fs-shopping-toggle" class="fs-button fs-secondary" type="button">이번 주 장보기 보기</button></div>
+          <p class="fs-muted">이번 주 저장은 표시된 주만, 한 달 전체 저장은 월간 초안 전체를 저장합니다. 선택한 날짜·끼니의 시뮬레이터 계획은 교체하고 제외한 끼니는 기존 시뮬레이터 계획에서도 뺍니다. 헬스케어·외식 등 다른 계획은 유지합니다. 저장 시 부족한 영양값은 음식·재료명을 Gemini로 보내 보완할 수 있습니다.</p><p id="fs-save-status" role="status" aria-live="polite" aria-atomic="true"></p><h3>하루 평균 영양 · 목표 대비</h3><label id="fs-analysis-control" hidden>영양 그래프 범위<select id="fs-analysis-scope"><option value="visible" selected>현재 주</option><option value="month">한 달 전체</option></select></label><p id="fs-period-note"></p>          <section id="fs-week-review" class="fs-review"><p class="fs-eyebrow">LAST WEEK → NEXT WEEK</p><h3>전주 기록</h3><p>아래 영양 카드에 전주 항목을 함께 표시합니다. 차이는 같은 요일·끼니 중 분량과 성분을 확인한 항목만 비교합니다. 저장 계획과 실제 기록을 구분합니다.</p>
+            <button id="fs-load-previous" class="fs-button fs-secondary" type="button">전주 식사 기록 불러오기</button>
+            <p id="fs-baseline-status" role="status"></p><details><summary>전주 자료·먹은 분량 확인</summary><div id="fs-baselines"></div></details>
+            
+            <div id="fs-week-charts" hidden></div><p id="fs-week-summary" role="status"></p>
+          </section><section id="fs-month-review" class="fs-review" hidden><h3>전달 영양 비교</h3><button id="fs-load-month-previous" type="button" class="fs-button fs-secondary">전달 비교 보기 · 한 달 전체</button><p id="fs-month-status" role="status">전달 비교는 한 달 전체 그래프에서 확인합니다. 기록 없는 날짜는 0으로 계산하지 않습니다.</p><details><summary>전달 실제 기록의 분량 확인</summary><div id="fs-month-baselines"></div></details></section><div id="fs-period-charts" class="fs-charts"></div><label id="fs-shopping-control" hidden>장보기 범위<select id="fs-shopping-scope"><option value="visible" selected>현재 주</option><option value="month">한 달 전체</option></select></label><div id="fs-shopping" hidden></div>
+
+        </section>
+        <p class="fs-footnote">영양값은 공공 영양성분 자료와 확인한 분량으로 계산한 추정치입니다. 자료가 없는 영양소는 합계·차이를 표시하지 않습니다.</p>
+        <div class="fs-actions"><a href="/mypage/plans">MyPage 식단 계획 보기 →</a><a href="/mypage/recipes">MyRecipe →</a></div>
+      </div>
+    </div>
+  </div>
+</main><footer th:replace="~{fragments/layout :: footer}"></footer>
+</body></html>

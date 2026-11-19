@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "entities": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_text": {
+            "type": "string"
+          },
+          "normalized_name": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "dish",
+              "ingredient",
+              "unknown"
+            ]
+          },
+          "state": {
+            "type": "string",
+            "enum": [
+              "raw",
+              "cooked",
+              "unknown"
+            ]
+          },
+          "amount_text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "candidate_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "source_text",
+          "normalized_name",
+          "kind",
+          "state",
+          "amount_text",
+          "candidate_id"
+        ]
+      }
+    }
+  },
+  "required": [
+    "entities"
+  ]
+}

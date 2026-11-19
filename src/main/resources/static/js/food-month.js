@@ -1,0 +1,43 @@
+'use strict';
+(()=>{
+ const F=window.SmartNFFoodFlow,A=window.SmartNFAllergy,root=document.querySelector('#fm-root');if(!F||!A||!root)return;
+ const el=F.el,now=new Date(),KEY='smartnf.month-recommendations.v1';let month=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}`,days=[],active=now.getDate()-1,round=0,version=0,catalogPromise;
+ const slots=['아침','점심','저녁'];
+ root.append(el('h2','월간 추천 식단'),el('p','선택한 식품을 우선 참고하고 부족한 구성을 추천으로 보완합니다. 날짜를 누르면 하루 3끼와 추천 근거를 확인할 수 있습니다.'));
+ const controls=el('div',undefined,'fm-controls'),label=el('label','추천받을 월'),input=el('input');input.type='month';input.value=month;label.append(input);const regenerate=el('button','다른 월간 식단 추천'),confirm=el('button','이 월간 식단 확정');regenerate.type=confirm.type='button';controls.append(label,regenerate,confirm);root.append(controls);
+ const context=el('p',undefined,'fm-context'),status=el('p',undefined,'fm-status');status.setAttribute('role','status');status.setAttribute('aria-live','polite');root.append(context,status);
+ const table=el('div',undefined,'fm-month-table');root.append(table);const detail=el('section',undefined,'fm-day-detail');root.append(detail);
+ const scope=el('p','식단은 규칙 기반 추천 초안입니다. 개인 필요 열량·섭취 분량·영양 충족·질환별 적합성을 검증한 처방이 아닙니다. 예상 영양 수치는 분량·인분 기준 검증 후 연결합니다. 계획 변경·실제 섭취 기록·피드백은 MyPage에서 관리할 후속 항목입니다.','fn-muted');root.append(scope);
+ const normalized=s=>String(s||'').normalize('NFKC').replace(/\s/g,'').toLowerCase();
+ function count(){const [y,m]=month.split('-').map(Number);return new Date(y,m,0).getDate();}
+ function profileSignature(){const p=A.profile();return JSON.stringify([p.mode,p.allergens,p.other,F.selection().conditions,F.selection().items.map(x=>x.id)]);}
+ async function recipes(){if(!catalogPromise)catalogPromise=fetch('/js/data/meal-recipes/catalog.json',{credentials:'same-origin'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(c=>{if(c.version!==1||!Array.isArray(c.recipes)||c.count!==c.recipes.length||!c.recipes.length)throw Error();return c.recipes;}).catch(()=>{catalogPromise=null;throw Error('레시피 자료를 읽을 수 없습니다. 파일 반영 상태를 확인하고 다시 추천해 주세요.');});return catalogPromise;}
+ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;}
+ function ordered(rows,selected){return [...rows].map(row=>{const body=normalized(row.ingredients_raw);const matches=selected.filter(f=>{const primary=normalized(f.name.split(',')[0]);return primary.length>=2&&(body.includes(primary)||normalized(row.name).includes(primary));});return {...row,matches};}).sort((a,b)=>b.matches.length-a.matches.length||hash(month+round+a.recipe_id)-hash(month+round+b.recipe_id));}
+ function recipeMeal(main,side){return {kind:'recipe',foods:[main,side].map(r=>({id:'recipe:'+r.recipe_id,name:r.name,ingredients:r.ingredients_raw,steps:r.steps,matched:r.matches.map(x=>x.name),source:'식품안전나라 수집 레시피'}))};}
+ function ingredientMeal(pools,index){return {kind:'ingredients',foods:pools.map((pool,j)=>{const p=pool[index%pool.length],primary=p.name.split(',')[0].trim();return {id:p.id,name:primary+(j===0?'밥':j===1?' 찜·구이':' 찜·데침'),ingredients:p.name,steps:[],matched:p.selected?[p.name]:[],source:'RDA 원재료 기반 SmartNF 조리 구성'};})};}
+ async function generate(){const token=++version,signature=profileSignature();days=[];table.replaceChildren();detail.replaceChildren();confirm.disabled=true;regenerate.disabled=true;regenerate.textContent='식단 추천 중…';status.textContent='선택 식품·관리항목·알레르기 조건을 확인하고 있습니다.';context.textContent='관리항목: '+(F.care()?.items.map(x=>F.actionNames[x.id]).join(' · ')||'선택 없음')+' / '+A.summary();
+ try{
+  if(F.selection().conditions.some(x=>x!=='allergy')||A.profile().mode==='review')throw Error('별도 식이 지침 또는 알레르기 확인이 필요해 자동 추천을 보류합니다. 건강정보에서 조건을 먼저 확인해 주세요.');
+  const selected=await Promise.all(F.selection().items.map(x=>F.record(x.id)));let data=[],notice='';
+  if(A.profile().mode==='has'){
+   if(A.profile().other||!A.profile().allergens.length||A.profile().allergens.includes('sulfite'))throw Error('현재 자료로 알레르기 조건을 확인할 수 없어 자동 추천을 보류합니다.');
+   const rows=await F.index('rda_10_4');const allowed=rows.filter(r=>A.inspect(r).allowed).map(r=>({...r,selected:selected.some(s=>s.id===r.id)}));
+   const pools=[allowed.filter(r=>['멥쌀','찹쌀'].includes(r.name.split(',')[0].trim())),allowed.filter(r=>/두류|육류|난류|어패|어류|수산/.test(r.group||'')&&['닭고기','소고기','돼지고기','고등어','새우','달걀'].includes(r.name.split(',')[0].trim())),allowed.filter(r=>/채소|버섯/.test(r.group||''))].map(pool=>pool.sort((a,b)=>Number(b.selected)-Number(a.selected)||hash(month+round+a.id)-hash(month+round+b.id)).slice(0,30));
+   if(pools.some(pool=>!pool.length))throw Error('알레르기 제외 후 주식·단백질·채소를 구성할 원재료가 부족합니다. 확인되지 않은 식품으로 채우지 않습니다.');
+   for(let d=0;d<count();d++)data.push(slots.map((_,s)=>ingredientMeal(pools,d*3+s+round)));
+   notice='알레르기 원재료 구성이 확인되지 않은 복합 레시피는 사용하지 않고, 식별 가능한 원재료로 조리 구성을 추천했습니다. 양념·제품 표시·교차접촉은 별도 확인해야 합니다.';
+  }else{
+   const rows=await recipes(),mains=ordered(rows.filter(r=>r.category==='밥'),selected),sides=ordered(rows.filter(r=>r.category==='반찬'),selected);if(!mains.length||!sides.length)throw Error('식단 구성에 필요한 레시피가 부족합니다.');
+   for(let d=0;d<count();d++)data.push(slots.map((_,s)=>recipeMeal(mains[(d*3+s+round)%mains.length],sides[(d*3+s+round)%sides.length])));
+   notice='공식 수집 레시피의 밥 요리와 반찬을 조합했습니다. 선택 식품과 재료명의 일치는 추천 우선순위에만 사용하며 식품코드 연결이나 알레르기 안전성 확정이 아닙니다.';
+  }
+  if(token!==version)return;if(signature!==profileSignature()){generate();return;}days=data;active=Math.min(active,days.length-1);render();status.textContent=`${month} · ${days.length}일 × 하루 3끼 추천 완료. `+notice;confirm.disabled=false;
+ }catch(error){if(token!==version)return;status.textContent=error.message||'식단을 추천하지 못했습니다. 다시 시도해 주세요.';}finally{if(token===version){regenerate.disabled=false;regenerate.textContent='다른 월간 식단 추천';}}
+ }
+ function render(){table.replaceChildren();const headings=el('div',undefined,'fm-month-row fm-month-heading');['날짜',...slots].forEach(t=>headings.append(el('strong',t)));table.append(headings);days.forEach((meals,d)=>{const row=el('div',undefined,'fm-month-row'),date=el('button',(d+1)+'일');date.type='button';date.setAttribute('aria-pressed',String(d===active));date.addEventListener('click',()=>{active=d;render();});row.append(date);meals.forEach((meal,s)=>{const cell=el('button',meal.foods.map(f=>f.name).join(' + '));cell.type='button';cell.dataset.slot=slots[s];cell.setAttribute('aria-label',`${d+1}일 ${slots[s]}: ${cell.textContent}`);cell.addEventListener('click',()=>{active=d;render();detail.scrollIntoView({block:'nearest'});});row.append(cell);});table.append(row);});renderDetail();}
+ function renderDetail(){detail.replaceChildren();if(!days[active])return;detail.append(el('h3',`${month}-${String(active+1).padStart(2,'0')} · 하루 추천 식단`));const grid=el('div',undefined,'fm-meals');days[active].forEach((meal,s)=>{const card=el('article',undefined,'fc-card');card.append(el('h4',slots[s]));meal.foods.forEach(food=>{card.append(el('strong',food.name),el('small',food.matched.length?'선택 식품 참고: '+food.matched.join(' · '):'추천 보완'));const more=el('details');more.append(el('summary','재료·조리 정보'));more.append(el('p',food.ingredients),el('small',food.source));if(food.steps?.length){const list=el('ol');food.steps.forEach(step=>list.append(el('li',step.text)));more.append(list);}if(!food.id.startsWith('recipe:')){const link=el('a','원재료 영양정보 확인');link.href='/preview/health/foods?food='+encodeURIComponent(food.id);more.append(link);}card.append(more);});const swap=el('button','이 끼니 다른 추천');swap.type='button';swap.addEventListener('click',()=>{if(days.length<2)return;const source=(active+1)%days.length;days[active][s]=JSON.parse(JSON.stringify(days[source][s]));confirm.textContent='변경한 월간 식단 확정';status.textContent=`${active+1}일 ${slots[s]} 추천을 다른 구성으로 변경했습니다. 확정 전 미리보기입니다.`;render();});card.append(swap);grid.append(card);});detail.append(grid);}
+ input.addEventListener('change',()=>{if(!/^\d{4}-\d{2}$/.test(input.value))return;month=input.value;round=0;active=0;confirm.textContent='이 월간 식단 확정';generate();});regenerate.addEventListener('click',()=>{round++;confirm.textContent='이 월간 식단 확정';generate();});
+ confirm.addEventListener('click',()=>{if(!days.length)return;try{sessionStorage.setItem(KEY,JSON.stringify({version:1,month,savedAt:Date.now(),days,context:profileSignature()}));confirm.textContent='✓ 월간 추천 임시 확정';status.textContent='월간 추천을 같은 탭에 임시 확정했습니다. MyPage 계정 저장은 후속 연결이며 실제 섭취 기록으로 처리하지 않습니다.';}catch{status.textContent='월간 추천을 저장하지 못했습니다. 현재 미리보기는 유지됩니다.';}});
+ window.addEventListener('smartnf-allergy-change',generate);window.addEventListener('smartnf-food-selection',generate);generate();
+})();

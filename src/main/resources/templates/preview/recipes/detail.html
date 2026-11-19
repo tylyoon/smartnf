@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>레시피 상세 | SmartNF</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <script defer src="/js/site.js"></script>
+  
+</head>
+<body>
+<header th:replace="~{fragments/layout :: header}"></header>
+<main id="main" class="ui-workspace">
+  <div class="ui-area-hero">
+    <div class="container">
+      <p class="eyebrow">SMARTNF / RECIPES</p>
+      <h1>있는 재료로, 나에게 맞는 한 끼.</h1>
+      <p>쓰고 싶은 재료로 요리를 찾고, 평소 식사와 비교해 보세요.</p>
+    </div>
+  </div>
+  <div class="container">
+    <p class="ui-notice">개발 중인 화면입니다. 예시 레시피와 가상 비교값을 사용하며 입력값은 이 화면에서만 처리합니다.</p>
+    <nav class="ui-breadcrumb" aria-label="현재 위치">
+      <a href="/">홈</a><span>/</span><a href="/preview/recipes">AI 레시피·식단</a><span>/</span><span aria-current="page">레시피 상세</span>
+    </nav>
+    <div class="ui-shell">
+      <aside th:replace="~{preview/recipes/sidebar :: navigation('recommend')}"></aside>
+      <div class="ui-content">
+        <div class="ui-content-title"><h2>레시피 상세</h2><span class="ui-tag">개발 미리보기</span></div>
+        <section class="ui-feature"><span>SAMPLE RECIPE</span><h2>두부 채소 현미볼</h2><p>20분 · 1인분 · 가상 레시피</p></section><div class="ui-grid"><article class="ui-card"><h3>재료</h3><p>두부 150g · 브로콜리 100g · 현미밥 100g · 참기름 소량</p></article>
+        <article class="ui-card"><h3>영양정보 예시</h3><p>620 kcal · 나트륨 950 mg · 단백질 32 g. 실제 식품 DB 계산 전의 가상 수치입니다.</p></article></div><section class="ui-card"><h2>조리 순서</h2><ol><li>채소를 씻어 먹기 좋은 크기로 손질합니다.</li><li>두부를 익히고 브로콜리를 데칩니다.</li><li>현미밥과 재료를 그릇에 담습니다.</li></ol><a class="ui-button" href="/preview/recipes/simulator">내 식사와 비교하기</a></section>
+      </div>
+    </div>
+  </div>
+</main>
+<footer th:replace="~{fragments/layout :: footer}"></footer>
+</body>
+</html>

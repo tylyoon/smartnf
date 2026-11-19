@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="ko" xmlns:th="http://www.thymeleaf.org"><body>
+<!-- Include inside the current MyPage main area. Load allergy-profile.js, food-flow.js, then food-registration.js once with defer. -->
+<section th:fragment="registeredFoods" class="fn-search-panel fc-section" aria-label="확정 등록 식품">
+ <div class="fn-section-top"><h2>확정 등록 식품 <small>임시 연동</small></h2><span data-registration-count></span></div>
+ <p>각 페이지에서 추가 확정한 식품입니다. 등록 삭제는 임시 선택 해제와 별개이며 과거 섭취 기록은 삭제하지 않습니다.</p>
+ <div data-registration-list></div><p data-registration-status role="status" aria-live="polite"></p>
+ <p class="fn-muted">같은 탭에서 최대24시간 임시 보관합니다. 로그인 계정 DB 저장은 연결 전입니다.</p>
+</section></body></html>

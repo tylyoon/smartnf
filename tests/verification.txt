@@ -1,0 +1,22 @@
+Java21 compilation of new/changed + existing sources: PASS
+Price reference, unit safety, fallback, authentication and error checks: 11 PASS
+Existing collection parser/policy/job/isolation checks: 29 PASS
+Existing H2 shopping product selection/revision/transaction checks: 26 PASS
+Existing H2 collected-product storage/validation/selection checks: 19 PASS
+Node calculation + UI race/link/KAMIS status tests: 7 PASS
+Python CSV/KAMIS parser/retail/date/rollback tests: 4 PASS
+JavaScript module syntax: PASS
+HTML duplicate IDs: PASS
+Live official ChamPrice metadata/download/CSV normalization: PASS
+Live second refresh (unchanged dataset skipped): PASS
+KAMIS real credential/data response: NOT VERIFIED (no issued credentials present)
+Kakao live authenticated controller -> 20 public JSON results -> member receipt -> disposable H2 selected product save -> fresh-service DB read-back: PASS
+Kakao selected-product security/long-URL/retry/quantity checks: 12 PASS
+MyPage DOM/API choice-display, edit-race and stale-choice checks: 3 PASS
+V31 URL widening applied in H2 MODE MySQL: PASS
+Full user project Gradle/Spring Boot/browser: NOT VERIFIED in this patch workspace
+
+249 portal: official API workbook + code workbook downloaded. Python 15 tests PASS (11 new). No issued key in this environment: live portal authentication/data acquisition NOT verified. Full user project boot NOT verified.
+249 follow-up: Java21 compile PASS, PriceReferenceTests11 PASS, Node10 PASS, patched launcher bash -n PASS.
+
+250: Node21 PASS; all changed JS syntax PASS. User reported real portal acquisition175 and showed onion reference UI. New list budget screens require user-PC browser verification. No new Java/DB changes for250.

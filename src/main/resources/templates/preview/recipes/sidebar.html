@@ -1,0 +1,11 @@
+<aside xmlns:th="http://www.thymeleaf.org" th:fragment="navigation(active)" class="ui-sidebar">
+  <h2>AI 레시피·식단</h2>
+  <nav aria-label="AI 레시피·식단 세부 메뉴">
+    <a href="/preview/recipes" th:attr="aria-current=${active == 'home' ? 'page' : null}">추천 홈</a>
+    <a href="/preview/recipes/recommend" th:attr="aria-current=${active == 'recommend' ? 'page' : null}">AI 레시피 추천</a>
+    <a href="/preview/recipes/simulator" th:attr="aria-current=${active == 'simulator' ? 'page' : null}">AI 식단 시뮬레이터</a>
+    <a href="/preview/recipes/offers" th:attr="aria-current=${active == 'offers' ? 'page' : null}">식재료 구매</a>
+    <div th:if="${active == 'offers'}" class="purchase-subnav" style="padding-left:12px"><a href="/preview/recipes/offers?view=shopping">내 장보기</a><a href="/preview/recipes/offers?view=compare">식재료·가격 비교</a></div>
+    <a th:if="${#authorization.expression('hasRole(''ADMIN'')')}" href="/admin/recipe-photos">음식·재료 사진 검토</a>
+  </nav>
+</aside>

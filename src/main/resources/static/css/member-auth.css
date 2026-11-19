@@ -1,0 +1,16 @@
+.auth-signup-card{overflow-wrap:anywhere}
+.auth-signup-card label.ui-check{display:flex;align-items:flex-start;gap:10px;margin-top:18px;font-size:14px;line-height:1.5}
+.auth-signup-card label.ui-check input{flex:0 0 20px;width:20px;height:20px;min-height:20px;margin:1px 0 0;padding:0}
+.auth-signup-card p{font-size:14px;line-height:1.65}
+.auth-signup-card a{display:inline-block;max-width:100%;text-underline-offset:3px}
+.auth-signup-card input:focus-visible,.auth-signup-card a:focus-visible,.auth-signup-card button:focus-visible{outline:3px solid #237a48;outline-offset:3px}
+.auth-signup-card .alert p{margin:4px 0}
+.auth-signup-card .login-submit{margin-top:18px;min-height:48px}
+
+.kakao-login{background:#fee500!important;color:#191919!important;border:1px solid #e5ce00!important;min-height:48px;display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;max-width:100%}
+
+.sns-provider-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+.sns-provider-buttons>a{flex:1 1 150px}
+.naver-login{background:#03c75a!important;color:#fff!important;border:1px solid #009e48!important;min-height:48px;display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;max-width:100%}
+
+.google-login{background:#fff!important;color:#1f1f1f!important;border:1px solid #747775!important;font-family:Arial,sans-serif}.google-login:hover{background:#f2f2f2!important}.google-login:focus-visible{outline:3px solid #1a73e8;outline-offset:3px}

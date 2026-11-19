@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org"><head><script defer src="/js/action-confirm.js?v=20261105-popup1"></script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>나의 MyPage | SmartNF</title><meta name="_csrf" th:content="${_csrf.token}"><meta name="_csrf_header" th:content="${_csrf.headerName}">
+<link rel="stylesheet" href="/css/site.css"><link rel="stylesheet" href="/css/personal-mypage.css?v=20261104-healthplan1"><link rel="stylesheet" href="/css/mypage-review.css?v=20261104-healthplan1">
+<link rel="stylesheet" href="/css/food-plans.css?v=20261104-healthplan1"><script defer src="/js/food-identity.js?v=20261104-healthplan1"></script><script defer src="/js/health-api.js?v=20261104-healthplan1"></script><script defer src="/js/personal-mypage.js?v=20261105-feedback1"></script>
+<link rel="stylesheet" href="/css/mypage-health.css?v=20261104-goal-care1"><link rel="stylesheet" href="/css/health-tracking.css?v=20261105-feedback1"></head><body><header th:replace="~{fragments/layout :: header}"></header>
+<main id="main" class="mypage-shell-root"><nav class="container" aria-label="나의 레시피"><a class="ui-link" href="/mypage/recipes">MyRecipe · 저장한 레시피</a></nav><div id="personal-mypage-root"><p role="status">나의 화면 구성을 불러오고 있습니다.</p></div><noscript>개인 MyPage에는 JavaScript가 필요합니다. <a href="/mypage/consent">저장 동의 안내</a></noscript></main>
+<footer th:replace="~{fragments/layout :: footer}"></footer></body></html>

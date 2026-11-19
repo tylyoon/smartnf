@@ -1,0 +1,6 @@
+ALTER TABLE health_daily_records
+ ADD COLUMN height_cm DECIMAL(4,1) NULL,
+ ADD COLUMN total_cholesterol DECIMAL(5,1) NULL,
+ ADD COLUMN ldl DECIMAL(5,1) NULL,
+ ADD COLUMN hdl DECIMAL(5,1) NULL,
+ ADD COLUMN triglycerides DECIMAL(5,1) NULL;

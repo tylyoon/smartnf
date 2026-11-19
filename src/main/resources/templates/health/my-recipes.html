@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="_csrf" th:content="${_csrf.token}">
+  <meta name="_csrf_header" th:content="${_csrf.headerName}">
+  <title>MyRecipe | SmartNF</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/recipe-finder.css?v=cardlayout2">
+  <link rel="stylesheet" href="/css/recipe-card-layout-v3.css">
+  <script defer src="/js/site.js"></script>
+  <script defer src="/js/my-recipe-photo.js?v=panels196"></script>
+  <link rel="stylesheet" href="/css/recipe-taste.css?v=panels196">
+  <script type="module" src="/js/recipe-taste.js?v=panels196"></script>
+</head>
+<body>
+<header th:replace="~{fragments/layout :: header}"></header>
+<main id="main" class="ui-workspace">
+  <div class="container recipe-my-page">
+    <a class="ui-link" href="/mypage">← MyPage</a>
+    <h1>MyRecipe</h1>
+    <p>나라별 메인·사이드를 찾고, 먹어본 요리의 맛을 평가해 보세요.</p><section id="rt-toolbar" aria-label="레시피 검색과 분류"></section><section id="rt-profile" aria-label="나의 맛 취향"></section><p id="rt-status" role="status" aria-live="polite"></p><div id="rt-list">
+    <p role="status" th:if="${recipeDeleteMessage != null}" th:text="${recipeDeleteMessage}"></p>
+    <p th:if="${#lists.isEmpty(recipes)}">아직 저장한 레시피가 없습니다.</p>
+    <details class="ui-card recipe-saved" th:each="saved : ${recipes}" th:attr="data-recipe-number=${saved.number()}" th:with="approvedPhoto=${approvedPhotos[saved.recipe().name()]}">
+      <summary class="recipe-saved-heading">
+        <strong th:text="${saved.recipe().name()}"></strong>
+        <img th:if="${approvedPhoto == null and saved.recipe().name().replaceAll('\s+', '').matches('(?:돼지고기)?김치찌개')}"
+             src="/images/recipes/kimchi-jjigae.png" alt="김치찌개 완성 예시" width="88" height="88">
+        <img th:if="${approvedPhoto == null and saved.recipe().name().replaceAll('\s+', '').matches('삼겹살(?:팬)?구이')}"
+             src="/images/recipes/samgyeopsal-gui.png" alt="삼겹살구이 완성 예시" width="88" height="88">
+        <img th:if="${approvedPhoto != null}" th:src="${approvedPhoto.image()}"
+             th:alt="|${saved.recipe().name()} 참고 사진|" width="88" height="88" loading="lazy" referrerpolicy="no-referrer">
+        <img data-recipe-commons-photo hidden
+             th:unless="${approvedPhoto != null or saved.recipe().name().replaceAll('\s+', '').matches('(?:돼지고기)?김치찌개|삼겹살(?:팬)?구이')}"
+             th:attr="data-dish-name=${saved.recipe().name()}"
+             th:alt="|${saved.recipe().name()} 참고 사진|" width="88" height="88" referrerpolicy="no-referrer">
+      </summary>
+      <small th:if="${approvedPhoto != null}">
+        참고 사진 · <a th:href="${approvedPhoto.source()}" th:text="|${approvedPhoto.title()} · ${approvedPhoto.author()} · ${approvedPhoto.provider()}|" rel="noreferrer"></a>
+        · <a th:href="${approvedPhoto.licenseUrl()}" th:text="${approvedPhoto.license()}" rel="noreferrer"></a>
+      </small>
+      <small th:if="${approvedPhoto == null}" data-recipe-photo-credit hidden>
+        참고 사진 · <a data-recipe-photo-source></a> · <a data-recipe-photo-license></a>
+      </small>
+      <p th:text="|${saved.recipe().servings()}인분 · 약 ${saved.recipe().minutes()}분|"></p>
+      <div class="recipe-detail-columns rt-recipe-columns rt-two-column">
+        <div class="rt-recipe-left">
+          <section class="rt-recipe-panel" aria-label="재료와 분량">
+            <h2>재료와 분량</h2>
+            <ul><li th:each="item : ${saved.recipe().ingredients()}" th:text="${item}"></li></ul>
+          </section>
+          <section class="rt-recipe-panel" aria-label="조리 순서">
+            <h2>조리 순서</h2>
+            <ol><li th:each="step : ${saved.recipe().steps()}" th:text="${step}"></li></ol>
+          </section>
+        </div>
+        <div class="rt-tools" aria-label="AI 분류와 맛 평가"></div>
+      </div>
+      <details>
+        <summary>삭제하기</summary>
+        <p th:text="|MyRecipe에서 ‘${saved.recipe().name()}’을(를) 삭제할까요?|"></p>
+        <form method="post" th:action="@{/mypage/recipes/{number}/delete(number=${saved.number()})}">
+          <button type="submit">레시피 삭제</button>
+        </form>
+      </details>
+    </details>
+    </div>
+  </div>
+</main>
+<footer th:replace="~{fragments/layout :: footer}"></footer>
+</body>
+</html>

@@ -1,0 +1,99 @@
+#personal-mypage-root .nr-content { min-width: 0; }
+.member-daily-view, .member-daily-view .pm-card { min-width: 0; }
+.member-daily-view .pm-chart-scroll { max-width: 100%; overflow-x: auto; }
+.member-daily-view .tracking-options { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+.member-daily-view .tracking-options label { display: inline-flex; align-items: center; gap: .35rem; margin: 0; }
+.member-daily-view .tracking-options input { width: auto; margin: 0; }
+.tracking-month { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem; }
+.tracking-calendar { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: .25rem; text-align: center; }
+.member-daily-view .tracking-calendar button { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 2.6rem; padding: .15rem; font-size: .85rem; }
+.tracking-calendar button[aria-pressed="true"] { outline: 2px solid #176b55; outline-offset: -2px; background: #e6f3eb; }
+.tracking-calendar button span:nth-child(2) { color: #176b55; font-size: .65rem; }
+.tracking-practice { display: flex; flex-wrap: wrap; gap: .3rem; }
+.member-daily-view .tracking-practice button { padding: .3rem; font-size: .8rem; }
+.tracking-practice button[data-status="DONE"] { background: #dceee3; }
+.tracking-practice button[data-status="NOT_DONE"] { background: #f5e9df; }
+.member-daily-view .tracking-options label { flex-direction: row; }
+.member-daily-view .pm-table-scroll { max-width: 100%; }
+@media (max-width: 520px) {
+ .member-daily-view.personal-mypage { padding-inline: 0; }
+ .member-daily-view .pm-card { padding: .75rem; }
+ .member-daily-view .pm-daily-fields { grid-template-columns: minmax(0, 1fr); }
+}
+.member-daily-view .tracking-edit-row {
+ display: grid;
+ grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+ align-items: center;
+ gap: .35rem .75rem;
+ margin: 0;
+ padding: .55rem 0;
+ border-bottom: 1px solid #dce7e1;
+}
+.tracking-edit-title small { display: block; color: #4d655c; }
+.tracking-edit-controls { display: flex; flex-wrap: wrap; gap: .35rem; }
+.member-daily-view .tracking-status { padding: .35rem .65rem; }
+.member-daily-view .tracking-status[aria-pressed="true"] { background: #176b55; border-color: #176b55; color: #fff; }
+.member-daily-view .tracking-edit-row input[type="number"] { width: 7rem; max-width: 100%; min-width: 0; }
+.member-daily-view .tracking-inline-field {
+ grid-column: 1 / -1;
+ display: grid;
+ grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+ align-items: center;
+ gap: .75rem;
+ margin: 0;
+}
+.tracking-edit-note { grid-column: 1 / -1; font-size: .875rem; }
+.tracking-edit-note summary { cursor: pointer; padding: .2rem 0; color: #176b55; }
+.member-daily-view .tracking-edit-note textarea { min-height: 3.2rem; }
+@media (max-width: 460px) {
+ .member-daily-view .tracking-edit-row,
+ .member-daily-view .tracking-inline-field { grid-template-columns: minmax(0, 1fr); }
+}
+@media (min-width: 600px) {
+ .member-daily-view .tracking-habit-row { grid-template-columns: minmax(0, 1fr) max-content minmax(5rem, auto); }
+ .tracking-habit-row .tracking-edit-note:not([open]) { grid-column: auto; }
+}
+.member-daily-view .tracking-trend-toggle {
+ justify-self: start;
+ white-space: nowrap;
+ padding: .3rem .65rem;
+}
+.member-daily-view .tracking-trend-panel {
+ grid-column: 1 / -1;
+ min-width: 0;
+ padding: .65rem;
+ background: #f3f8f5;
+ border-radius: .45rem;
+}
+.member-daily-view .tracking-trend-panel[hidden] { display: none; }
+.member-daily-view .tracking-practice button[aria-pressed="true"] {
+ outline: 2px solid #176b55;
+ outline-offset: -2px;
+}
+@media (min-width: 720px) {
+ .member-daily-view .tracking-habit-row {
+  grid-template-columns: minmax(0, 1fr) max-content minmax(5rem, auto) max-content;
+ }
+ .member-daily-view .tracking-edit-row:not(.tracking-habit-row) {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) max-content;
+ }
+ .member-daily-view .tracking-inline-field { grid-column: 1 / 3; }
+ .member-daily-view .tracking-trend-toggle { grid-column: -2; grid-row: 1; }
+}
+.tracking-feedback > section { margin-block: 1rem; }
+.tracking-feedback-list {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+ gap: .75rem;
+ padding: 0;
+ list-style: none;
+}
+.tracking-feedback-list > li {
+ min-width: 0;
+ padding: .75rem;
+ border: 1px solid #dce7e1;
+ border-radius: .45rem;
+}
+.tracking-feedback-list p { margin-block: .4rem; }
+.tracking-feedback-list summary { cursor: pointer; color: #176b55; }
+.tracking-feedback-list > li:has(details[open]) { grid-column: 1 / -1; }

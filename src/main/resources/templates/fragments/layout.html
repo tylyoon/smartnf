@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security"><body>
+<header class="site-header" th:fragment="header" th:attr="data-account-key=${smartnfAccountKey}">
+<script src="/js/account-state.js?v=20261028-health1"></script>
+<link rel="stylesheet" th:href="@{/css/workspace.css}">
+<a class="skip-link" href="#main">본문으로 바로가기</a><div class="container header-row">
+<a class="brand" th:href="@{/}" aria-label="SmartNF 홈"><img th:src="@{/images/smartnf-logo.png}" alt="SNF" width="66" height="40"><span>SmartNF<small>Nutrition &amp; Food</small></span></a>
+<nav class="desktop-nav" aria-label="주 메뉴"><a href="/preview/health">헬스케어</a><a href="/preview/recipes">AI 레시피·식단</a><a href="/preview/business">스마트 푸드 비즈니스</a><a href="/preview/community">커뮤니티</a><a href="/mypage">MyPage</a><a href="/preview/mypage">MyPage 체험</a></nav>
+<div class="header-actions"><a class="button button-small" href="/login" sec:authorize="isAnonymous()">로그인</a><div class="session" sec:authorize="isAuthenticated()"><span><strong th:text="${smartnfDisplayName}">회원</strong>님</span><form th:action="@{/logout}" method="post"><button class="text-button" type="submit">로그아웃</button></form></div>
+<details class="mobile-menu"><summary aria-label="전체 메뉴"><span class="menu-lines" aria-hidden="true"></span><span class="sr-only">메뉴</span></summary><nav aria-label="모바일 메뉴"><a href="/preview/health">헬스케어</a><a href="/preview/recipes">AI 레시피·식단</a><a href="/preview/business">스마트 푸드 비즈니스</a><a href="/preview/community">커뮤니티</a><a href="/mypage">MyPage</a><a href="/preview/mypage">MyPage 체험</a><a href="/signup">회원가입</a><a href="/demo/admin">관리자 체험 · 읽기 전용</a></nav></details></div></div></header>
+<footer class="site-footer compact-footer" th:fragment="footer"><div class="container compact-footer-row"><a class="compact-footer-brand" href="/">SmartNF</a><nav aria-label="하단 메뉴"><a href="/preview/about">회사소개</a><a href="/preview/about/location">찾아오시는 길</a><a href="/preview/about/contact">문의하기</a><a href="/policies/terms">이용약관</a><a href="/policies/privacy"><strong>개인정보처리방침</strong></a></nav><a class="compact-footer-phone" href="tel:01058803613">010-5880-3613</a><small>© 2026 SmartNF · 개인 포트폴리오</small><a class="compact-footer-admin" href="/demo/admin">관리자 체험</a></div>
+<link rel="stylesheet" href="/css/fixed-footer.css?v=20261103-layout1"><script defer src="/js/fixed-footer.js?v=20261102-fixed1"></script>
+<div id="smartnf-chat-root"></div>
+<script defer th:src="@{/js/workspace.js}"></script><script defer th:src="@{/js/chat-widget.js}"></script></footer></body></html>

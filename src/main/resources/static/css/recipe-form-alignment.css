@@ -1,0 +1,39 @@
+.recipe-dietary .recipe-condition-fields {
+    align-items: start;
+}
+
+.recipe-condition-fields #recipe-condition,
+.recipe-condition-fields #recipe-other-condition {
+    box-sizing: border-box;
+    height: 48px;
+}
+
+.recipe-search #recipe-consent-panel {
+    grid-template-columns: minmax(0, 1fr);
+    gap: .5rem;
+}
+
+.recipe-photo-history {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.recipe-photo-history > li {
+    display: grid;
+    grid-template-columns: 7rem minmax(0, 1fr);
+    align-items: center;
+    gap: .75rem;
+    padding-block: .5rem;
+}
+
+.recipe-photo-history > li + li {
+    border-block-start: 1px solid #e0e9e2;
+}
+
+.recipe-photo-history button {
+    width: 100%;
+}
+
+.recipe-photo-history-detail {
+    overflow-wrap: anywhere;
+}

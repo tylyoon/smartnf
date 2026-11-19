@@ -1,0 +1,16 @@
+package com.onrender.smartnf.health;
+import java.time.Instant;import java.util.*;import org.junit.jupiter.api.*;import org.springframework.beans.factory.annotation.Autowired;import org.springframework.boot.test.context.SpringBootTest;import org.springframework.web.context.WebApplicationContext;import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;import com.onrender.smartnf.member.MemberRepository;import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.*;import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;import static org.hamcrest.Matchers.*;
+@SpringBootTest(properties={"spring.datasource.url=jdbc:h2:mem:current-health-page;MODE=MySQL;DB_CLOSE_DELAY=-1","spring.datasource.username=sa","spring.datasource.password=","spring.datasource.driver-class-name=org.h2.Driver","spring.flyway.enabled=false","spring.sql.init.mode=always","spring.sql.init.schema-locations=classpath:auth-test-schema.sql,classpath:health-test-schema.sql","spring.jpa.hibernate.ddl-auto=none","GOOGLE_LOGIN_ENABLED=false","KAKAO_LOGIN_ENABLED=false","NAVER_LOGIN_ENABLED=false"})
+class CurrentMyPageHealthTests {
+ @Autowired WebApplicationContext web;@Autowired MemberRepository members;
+ @Test void dashboardHealthHistoryAndConsentAllUseTheCurrentShell()throws Exception{
+  long id=members.insertMember("route regression",Instant.now());members.grantUser(id,Instant.now());var p=new com.onrender.smartnf.member.naver.NaverPrincipal("route-"+id,id,"test",List.of("USER"));var auth=new OAuth2AuthenticationToken(p,p.getAuthorities(),"naver");var mvc=org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup(web).apply(springSecurity()).build();
+  for(String url:List.of("/mypage","/mypage/health","/mypage/health/history","/mypage/consent"))mvc.perform(get(url).with(authentication(auth))).andExpect(status().isOk()).andExpect(view().name("health/personal-mypage")).andExpect(header().string("Cache-Control",containsString("no-store"))).andExpect(content().string(containsString("id=\"personal-mypage-root\""))).andExpect(content().string(not(containsString("id=\"health-consent-form\""))));
+ }
+ @Test void loggedInHealthMenuUsesAccountEditorAndAnonymousRemainsPreview()throws Exception{
+  long id=members.insertMember("confirm route",Instant.now());members.grantUser(id,Instant.now());var p=new com.onrender.smartnf.member.naver.NaverPrincipal("confirm-"+id,id,"test",List.of("USER"));var auth=new OAuth2AuthenticationToken(p,p.getAuthorities(),"naver");var mvc=org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup(web).apply(springSecurity()).build();
+  mvc.perform(get("/preview/health/info").with(authentication(auth))).andExpect(status().isOk()).andExpect(view().name("preview/health/info")).andExpect(header().string("Cache-Control",containsString("no-store"))).andExpect(content().string(containsString("id=\"health-db-bootstrap\"")));
+  mvc.perform(get("/preview/health/info")).andExpect(status().isOk()).andExpect(content().string(not(containsString("id=\"health-db-bootstrap\""))));
+ }
+
+}

@@ -1,0 +1,10 @@
+import fs from 'node:fs';import vm from 'node:vm';import test from 'node:test';import assert from 'node:assert/strict';
+const helpers=fs.readFileSync(new URL('../src/main/resources/static/js/price-budget.js',import.meta.url),'utf8').replace(/export /g,'');
+const code=helpers+'\n'+fs.readFileSync(new URL('../src/main/resources/static/js/shopping-choices.js',import.meta.url),'utf8').replace(/^import .*\n/gm,'').replace(/export /g,'');
+class Node{constructor(text=''){this.textContent=text;this.children=[];}append(...items){this.children.push(...items);}replaceChildren(...items){this.children=items;}}
+const text=n=>n.textContent+' '+n.children.map(text).join(' ');
+function boot(){const pending=[];const ctx={URL,element:(t,s)=>new Node(s),api:url=>new Promise((resolve,reject)=>pending.push({url,resolve,reject}))};vm.createContext(ctx);vm.runInContext(code,ctx);return {ctx,pending,root:new Node()};}
+const choice={ingredientName:'양파',productName:'양파 1kg',merchant:'판매처',packGrams:1000,packs:2,requiredGrams:480,price:4500,sourceDetails:'KAKAO · 쿠폰 가능',checkedAt:'2026-11-16T00:00:00Z',url:'https://shoppinghow.kakao.com/go.daum?url=a'};
+test('MyPage displays persisted Kakao choice, quantity, price and source',async()=>{const h=boot(),p=h.ctx.showShoppingChoices(h.root,{id:'list-1'});h.pending[0].resolve([choice]);await p;const rendered=text(h.root);assert.match(rendered,/KAKAO/);assert.match(rendered,/2개/);assert.match(rendered,/1,520/);assert.match(rendered,/9,000/);});
+test('late server response cannot restore choices after ingredient editing',async()=>{const h=boot(),p=h.ctx.showShoppingChoices(h.root,{id:'list-1'});h.ctx.invalidateChoices(h.root);h.pending[0].resolve([choice]);await p;assert.match(text(h.root),/편집 중/);assert.doesNotMatch(text(h.root),/KAKAO/);});
+test('stale saved product is marked rather than silently used for new plan',async()=>{const h=boot(),p=h.ctx.showShoppingChoices(h.root,{id:'list-1'});h.pending[0].resolve([{...choice,stale:true,url:'javascript:alert(1)'}]);await p;assert.match(text(h.root),/다시 선택 필요/);assert.ok(h.root.children.every(x=>x.children.every(y=>!y.href)));});

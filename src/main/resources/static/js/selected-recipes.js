@@ -1,0 +1,17 @@
+'use strict';
+(()=>{
+ const F=window.SmartNFFoodFlow;if(!F)return;const E=F.el;let promise,revision=0;
+ const read=()=>promise||(promise=Promise.all([fetch('/js/data/meal-recipes/lifestyle.json').then(r=>{if(!r.ok)throw Error();return r.json();}),window.SmartNFFoodDataQuality.read()]).then(([x,q])=>x.recipes.filter(r=>window.SmartNFFoodDataQuality.allowed(q,r.recipe_id))).catch(e=>{promise=null;throw e;}));
+ const matchIngredient=(text,name)=>{const escaped=String(name).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');return new RegExp('(^|[^가-힣A-Za-z])'+escaped+'(?=$|[^가-힣A-Za-z])','i').test(String(text));};
+ function blocked(){const p=window.SmartNFAllergy?.profile();return p&&['has','review'].includes(p.mode);}
+ function detail(recipe,target){target.replaceChildren();if(blocked()){target.append(E('p','알레르기 성분 확인이 되지 않은 복합 레시피입니다. 재료·조리 안내를 보류합니다.'));return;}target.append(E('h3',recipe.name),E('small','식품안전나라 · ID '+recipe.recipe_id+' · '+recipe.cooking_method),E('h4','재료·양념 원문'),E('p',recipe.ingredients_raw,'lf-raw'));const ol=E('ol');for(const s of recipe.steps||[])ol.append(E('li',window.SmartNFSelectedLivingData.stepText(s.text)));target.append(E('h4','조리 순서'),ol,E('small','인분 중량 원문: '+(recipe.portion_weight_raw||'미제공')+' · 추가 재료와 원문의 전체 배합을 확인하세요. 개인별 영양 최적화·건강 적합성 판정은 하지 않았습니다.'));}
+ async function render(){const token=++revision;for(const host of document.querySelectorAll('[data-selected-recipes]')){host.replaceChildren();host.append(E('h2','나의 선택 식품으로 찾아보는 기존 레시피'));if(blocked()){host.append(E('p','알레르기 확인이 되지 않은 복합 레시피는 소개를 보류합니다.'));continue;}const s=F.selection();if(!s.items.length){host.append(E('p','식재료·음식을 선택하면 관련 레시피를 보여드립니다.'));continue;}
+ try{const foods=(await Promise.all(s.items.map(x=>F.record(x.id).catch(()=>null)))).filter(x=>x&&(!window.SmartNFAllergy||window.SmartNFAllergy.inspect(x).allowed));const names=[...new Set(foods.map(x=>window.SmartNFFoodIdentity?.primary(x.name)||x.name.split(',')[0]).filter(x=>x.length>1))];const recipes=await read();if(token!==revision)return;
+ const ranked=recipes.map(r=>({r,matches:names.filter(n=>matchIngredient(r.ingredients_raw,n))})).filter(x=>x.matches.length).sort((a,b)=>b.matches.length-a.matches.length||String(a.r.recipe_id).localeCompare(String(b.r.recipe_id)));
+ host.append(E('p','재료 원문의 명칭 일치순으로 소개합니다. 정확한 식품코드·질환별 적합성 검증은 아니며, 선택 음식의 실제 조리법과 다를 수 있습니다.','fn-muted'));
+ if(!ranked.length)host.append(E('p','선택한 식품명과 연결되는 레시피가 없습니다. 임의로 연결하지 않습니다.'));
+ const grid=E('div',undefined,'fc-grid');for(const {r,matches}of ranked.slice(0,6)){const card=E('article',undefined,'fc-card');card.append(E('h3',r.name),E('p','연결된 선택 재료: '+matches.join(' · ')),E('small',r.category+' · '+r.cooking_method));const d=E('details'),sum=E('summary','전체 재료·추가 재료 확인'),body=E('div');d.append(sum,body);d.addEventListener('toggle',()=>{if(d.open)detail(r,body);});const a=E('a','이 레시피 조리 방법 보기 →');a.href='/preview/health/diet#cook-recipe';a.addEventListener('click',()=>{try{sessionStorage.setItem('smartnf.recipe-reference.v1',JSON.stringify({recipeId:r.recipe_id,savedAt:Date.now()}));}catch{}});card.append(d,a);grid.append(card);}host.append(grid);if(ranked.length>6)host.append(E('small','일치 후보 '+ranked.length+'건 중 상위6건.'));
+ }catch{host.append(E('p','레시피를 불러오지 못했습니다.'));const b=E('button','다시 불러오기');b.type='button';b.onclick=render;host.append(b);}}
+ }
+ window.SmartNFSelectedRecipes={read,detail,blocked};for(const event of ['smartnf-food-selection','smartnf-allergy-change'])window.addEventListener(event,render);render();
+})();

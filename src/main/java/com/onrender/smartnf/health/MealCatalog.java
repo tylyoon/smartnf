@@ -1,0 +1,48 @@
+package com.onrender.smartnf.health;
+import java.util.*;import java.math.BigDecimal;
+/** Reference catalog generated from the same verified public nutrition manifest. */
+public final class MealCatalog {
+ private MealCatalog(){}
+ public static final List<String> KEYS=List.of("energy","protein","carbohydrate","fat","sodium","sugars","fiber","saturated_fat");
+ public record Food(String id,String name,String version,String source,Map<String,BigDecimal> nutrients,String basis,String group){
+  public Food(String id,String name,String version,String source,Map<String,BigDecimal> nutrients){this(id,name,version,source,nutrients,"100g edible portion","");}
+ }
+ private static final Map<String,Food> ALL=load();
+ private static Map<String,Food> load(){
+  var foods=new LinkedHashMap<String,Food>();
+  try(var stream=MealCatalog.class.getResourceAsStream("/static/js/data/food-nutrition/meal-references.tsv")){
+   if(stream==null)throw new IllegalStateException("Missing meal reference catalog");
+   try(var reader=new java.io.BufferedReader(new java.io.InputStreamReader(stream,java.nio.charset.StandardCharsets.UTF_8))){
+    for(String line;(line=reader.readLine())!=null;){
+     var v=line.split("\\t",-1);if(v.length!=14)throw new IllegalStateException("Invalid reference row");
+     var nutrients=new LinkedHashMap<String,BigDecimal>();
+     for(int i=0;i<KEYS.size();i++)if(!v[i+6].isEmpty())nutrients.put(KEYS.get(i),new BigDecimal(v[i+6]));
+     var food=new Food(v[0],v[1],v[2],v[3],Collections.unmodifiableMap(nutrients),v[4],v[5]);
+     if(foods.put(food.id(),food)!=null)throw new IllegalStateException("Duplicate reference ID");
+    }
+   }
+  }catch(java.io.IOException e){throw new java.io.UncheckedIOException(e);}
+  return Collections.unmodifiableMap(foods);
+ }
+ public static List<Food> all(){return List.copyOf(ALL.values());}
+ public static final List<Food> FOODS=List.of(
+ new Food("rda_10_4:A013000A039a","멥쌀, 백미, 밥","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("152.0")),Map.entry("protein",new BigDecimal("2.61")),Map.entry("fat",new BigDecimal("0.38")),Map.entry("carbohydrate",new BigDecimal("32.86")),Map.entry("sugars",new BigDecimal("0.01")),Map.entry("fiber",new BigDecimal("0.2")),Map.entry("sodium",new BigDecimal("1.0")),Map.entry("saturated_fat",new BigDecimal("0.13")))),
+ new Food("rda_10_4:J0030000009b","달걀, 삶은것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("145.0")),Map.entry("protein",new BigDecimal("13.49")),Map.entry("fat",new BigDecimal("8.69")),Map.entry("carbohydrate",new BigDecimal("1.37")),Map.entry("sugars",new BigDecimal("0.13")),Map.entry("fiber",new BigDecimal("0.0")),Map.entry("sodium",new BigDecimal("128.0")),Map.entry("saturated_fat",new BigDecimal("2.78")))),
+ new Food("rda_10_4:M0090000009a","우유","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("67.0")),Map.entry("protein",new BigDecimal("3.09")),Map.entry("fat",new BigDecimal("3.85")),Map.entry("carbohydrate",new BigDecimal("4.86")),Map.entry("sugars",new BigDecimal("4.81")),Map.entry("fiber",new BigDecimal("0.0")),Map.entry("sodium",new BigDecimal("40.0")),Map.entry("saturated_fat",new BigDecimal("2.17")))),
+ new Food("rda_10_4:H0500020000a","사과, 부사, 생것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("53.0")),Map.entry("protein",new BigDecimal("0.2")),Map.entry("fat",new BigDecimal("0.07")),Map.entry("carbohydrate",new BigDecimal("14.28")),Map.entry("sugars",new BigDecimal("11.13")),Map.entry("fiber",new BigDecimal("1.7")),Map.entry("sodium",new BigDecimal("0.0")),Map.entry("saturated_fat",new BigDecimal("0.01")))),
+ new Food("rda_10_4:D0150000009a","두부","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("97.0")),Map.entry("protein",new BigDecimal("9.62")),Map.entry("fat",new BigDecimal("4.63")),Map.entry("carbohydrate",new BigDecimal("3.75")),Map.entry("sugars",new BigDecimal("0.0")),Map.entry("fiber",new BigDecimal("2.9")),Map.entry("sodium",new BigDecimal("1.0")),Map.entry("saturated_fat",new BigDecimal("0.7")))),
+ new Food("rda_10_4:F1150000009c","시금치, 데친것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("34.0")),Map.entry("protein",new BigDecimal("4.02")),Map.entry("fat",new BigDecimal("0.61")),Map.entry("carbohydrate",new BigDecimal("5.26")),Map.entry("sugars",new BigDecimal("0.16")),Map.entry("fiber",new BigDecimal("3.5")),Map.entry("sodium",new BigDecimal("29.0")),Map.entry("saturated_fat",new BigDecimal("0.1")))),
+ new Food("rda_10_4:F041000B099c","당근, 뿌리, 데친것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("30.0")),Map.entry("protein",new BigDecimal("0.77")),Map.entry("fat",new BigDecimal("0.18")),Map.entry("carbohydrate",new BigDecimal("6.98")),Map.entry("sugars",new BigDecimal("3.87")),Map.entry("fiber",new BigDecimal("2.6")),Map.entry("sodium",new BigDecimal("19.0")),Map.entry("saturated_fat",new BigDecimal("0.03")))),
+ new Food("rda_10_4:F1480010000a","오이, 다다기, 생것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("13.0")),Map.entry("protein",new BigDecimal("1.06")),Map.entry("fat",new BigDecimal("0.05")),Map.entry("carbohydrate",new BigDecimal("2.79")),Map.entry("sugars",new BigDecimal("1.51")),Map.entry("fiber",new BigDecimal("0.6")),Map.entry("sodium",new BigDecimal("3.0")),Map.entry("saturated_fat",new BigDecimal("0.01")))),
+ new Food("rda_10_4:F1290000000a","양배추, 생것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("29.0")),Map.entry("protein",new BigDecimal("1.36")),Map.entry("fat",new BigDecimal("0.12")),Map.entry("carbohydrate",new BigDecimal("6.98")),Map.entry("sugars",new BigDecimal("4.4")),Map.entry("fiber",new BigDecimal("2.5")),Map.entry("sodium",new BigDecimal("9.0")),Map.entry("saturated_fat",new BigDecimal("0.03")))),
+ new Food("rda_10_4:F1860000000a","토마토, 생것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("19.0")),Map.entry("protein",new BigDecimal("0.77")),Map.entry("fat",new BigDecimal("0.19")),Map.entry("carbohydrate",new BigDecimal("4.27")),Map.entry("sugars",new BigDecimal("2.68")),Map.entry("fiber",new BigDecimal("1.0")),Map.entry("sodium",new BigDecimal("2.0")),Map.entry("saturated_fat",new BigDecimal("0.03")))),
+ new Food("rda_10_4:I008000D029b","닭고기, 가슴, 삶은것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("127.0")),Map.entry("protein",new BigDecimal("28.09")),Map.entry("fat",new BigDecimal("0.93")),Map.entry("carbohydrate",new BigDecimal("0.0")),Map.entry("sugars",new BigDecimal("0.0")),Map.entry("fiber",new BigDecimal("0.0")),Map.entry("sodium",new BigDecimal("40.0")),Map.entry("saturated_fat",new BigDecimal("0.37")))),
+ new Food("rda_10_4:K0150000009f","고등어, 구운것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("264.0")),Map.entry("protein",new BigDecimal("25.2")),Map.entry("fat",new BigDecimal("22.4")),Map.entry("carbohydrate",new BigDecimal("0.4")),Map.entry("sodium",new BigDecimal("120.0")),Map.entry("saturated_fat",new BigDecimal("5.87")))),
+ new Food("rda_10_4:F2050070009a","김치, 배추 김치","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("38.0")),Map.entry("protein",new BigDecimal("1.98")),Map.entry("fat",new BigDecimal("0.43")),Map.entry("carbohydrate",new BigDecimal("6.49")),Map.entry("sugars",new BigDecimal("2.4")),Map.entry("fiber",new BigDecimal("2.5")),Map.entry("sodium",new BigDecimal("551.0")),Map.entry("saturated_fat",new BigDecimal("0.07")))),
+ new Food("rda_10_4:A0210120009a","빵, 식빵, 버터 첨가","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("279.0")),Map.entry("protein",new BigDecimal("9.01")),Map.entry("fat",new BigDecimal("4.91")),Map.entry("carbohydrate",new BigDecimal("49.68")),Map.entry("sugars",new BigDecimal("4.12")),Map.entry("fiber",new BigDecimal("3.7")),Map.entry("sodium",new BigDecimal("516.0")),Map.entry("saturated_fat",new BigDecimal("2.87")))),
+ new Food("rda_10_4:F1820000009b","콩나물, 삶은것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("42.0")),Map.entry("protein",new BigDecimal("4.32")),Map.entry("fat",new BigDecimal("1.36")),Map.entry("carbohydrate",new BigDecimal("3.18")),Map.entry("sugars",new BigDecimal("0.38")),Map.entry("fiber",new BigDecimal("2.1")),Map.entry("sodium",new BigDecimal("3.0")),Map.entry("saturated_fat",new BigDecimal("0.23")))),
+ new Food("rda_10_4:B0010060009b","감자, 대지, 삶은것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("77.0")),Map.entry("protein",new BigDecimal("2.07")),Map.entry("fat",new BigDecimal("0.08")),Map.entry("carbohydrate",new BigDecimal("17.39")),Map.entry("sugars",new BigDecimal("0.0")),Map.entry("fiber",new BigDecimal("1.6")),Map.entry("sodium",new BigDecimal("1.0")),Map.entry("saturated_fat",new BigDecimal("0.03")))),
+ new Food("rda_10_4:L0030090009f","김, 참김, 구운것","v-d82f6ce4b51512872246","농촌진흥청 국가표준식품성분표 10.4",Map.ofEntries(Map.entry("energy",new BigDecimal("174.0")),Map.entry("protein",new BigDecimal("43.3")),Map.entry("fat",new BigDecimal("0.9")),Map.entry("carbohydrate",new BigDecimal("41.7")),Map.entry("sodium",new BigDecimal("491.0"))))
+ );
+ public static Food find(String id){var food=ALL.get(id);if(food==null)throw HealthException.invalid();return food;}
+}

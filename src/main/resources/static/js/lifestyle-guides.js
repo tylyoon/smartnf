@@ -1,0 +1,184 @@
+'use strict';
+// Source-checked general lifestyle guidance; not clinical assessment.
+window.SmartNFLifestyleGuides=[
+  {
+    "id": "balanced-shopping",
+    "action_id": "balanced",
+    "stage": "shopping",
+    "instruction": "구매 목록을 주식·단백질 식품·채소 등으로 나눠 한 종류에만 몰리지 않는지 확인하세요.",
+    "why": "다양한 식품군을 포함하는 식사의 준비 단계입니다.",
+    "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6693",
+    "source_title": "질병관리청 · 식이영양",
+    "source_section": "219",
+    "source_sha256": "e3bba00b3da7222d2ea60ff053bbf294eafae6e9dd26bed652ee0eae59a32b6e",
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "balanced-cooking",
+    "action_id": "balanced",
+    "stage": "cooking",
+    "instruction": "주식만 준비하기보다 서로 다른 식품군의 반찬을 함께 구성해 보세요.",
+    "why": "조리 단계에서도 식품군의 다양성을 확인하기 위해서입니다.",
+    "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6693",
+    "source_title": "질병관리청 · 식이영양",
+    "source_section": "219",
+    "source_sha256": "e3bba00b3da7222d2ea60ff053bbf294eafae6e9dd26bed652ee0eae59a32b6e",
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "balanced-eating_out",
+    "action_id": "balanced",
+    "stage": "eating_out",
+    "instruction": "메뉴를 볼 때 한 가지 음식의 이름보다 함께 제공되는 식품군과 조리법을 살펴보세요.",
+    "why": "외식 메뉴도 전체 구성을 확인할 필요가 있습니다.",
+    "source_url": "https://www.foodstandards.gov.scot/consumer-advice/healthy-eating/eating-out-of-home/making-healthy-choices/lunch-and-dinner",
+    "source_title": "스코틀랜드 식품기준청 · 외식",
+    "source_section": "19",
+    "source_sha256": null,
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "sugar-shopping",
+    "action_id": "sugar",
+    "stage": "shopping",
+    "instruction": "음료·간식의 당류 표시를 비교하고, 가당음료 대신 마실 물을 함께 준비하세요.",
+    "why": "음료와 간식도 첨가당 섭취 경로가 될 수 있습니다.",
+    "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6693",
+    "source_title": "질병관리청 · 식이영양",
+    "source_section": "219",
+    "source_sha256": "e3bba00b3da7222d2ea60ff053bbf294eafae6e9dd26bed652ee0eae59a32b6e",
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "sugar-cooking",
+    "action_id": "sugar",
+    "stage": "cooking",
+    "instruction": "음료나 음식에 직접 넣는 설탕·시럽도 재료 목록에 포함해 확인하세요.",
+    "why": "조리 중 추가하는 당은 완성 음식 이름만으로 알기 어렵습니다.",
+    "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6547",
+    "source_title": "질병관리청 · 건강한 체중조절을 위한 식사",
+    "source_section": "212",
+    "source_sha256": "f3a5c061ff6b78b2b27ee5548a8eb5b5fa38cf02aa8332bce1e77f5b5e7abe2f",
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "sugar-eating_out",
+    "action_id": "sugar",
+    "stage": "eating_out",
+    "instruction": "음료를 주문할 때 물이나 무가당 선택지가 있는지 확인하고, 추가 시럽 여부를 물어보세요.",
+    "why": "식사와 별도로 주문하는 음료도 당 섭취에 포함됩니다.",
+    "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6693",
+    "source_title": "질병관리청 · 식이영양",
+    "source_section": "219",
+    "source_sha256": "e3bba00b3da7222d2ea60ff053bbf294eafae6e9dd26bed652ee0eae59a32b6e",
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "salt-shopping",
+    "action_id": "salt",
+    "stage": "shopping",
+    "instruction": "양념·소스와 가공식품은 같은 기준량의 나트륨 표시를 비교하세요.",
+    "why": "식품 자체뿐 아니라 함께 사용하는 양념도 확인 대상입니다.",
+    "source_url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/how-to-read-food-labels/",
+    "source_title": "NHS · 영양표시",
+    "source_section": "Food labels",
+    "source_sha256": null,
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "salt-cooking",
+    "action_id": "salt",
+    "stage": "cooking",
+    "instruction": "간장·된장 등 양념을 여러 겹 더하지 않는지 확인하고, 국물까지 먹는 양을 살펴보세요.",
+    "why": "양념과 국물은 나트륨 섭취를 늘릴 수 있습니다.",
+    "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6693",
+    "source_title": "질병관리청 · 식이영양",
+    "source_section": "219",
+    "source_sha256": "e3bba00b3da7222d2ea60ff053bbf294eafae6e9dd26bed652ee0eae59a32b6e",
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  },
+  {
+    "id": "salt-eating_out",
+    "action_id": "salt",
+    "stage": "eating_out",
+    "instruction": "주문할 때 간을 줄이거나 소스를 별도로 제공할 수 있는지 물어보세요.",
+    "why": "주문 단계에서 간과 소스의 사용을 조절하기 위한 방법입니다.",
+    "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+    "source_title": "질병관리청 · 고혈압 환자의 식이요법",
+    "source_section": "218",
+    "source_sha256": "92f09e3d38eaef01c60a1a859ce3cce71c5a13ecfeae61d180db179d8703c8f7",
+    "reviewed_at": "2026-10-26",
+    "review_status": "editorial_source_checked",
+    "clinical_approval": false,
+    "scope": "general_lifestyle_only",
+    "exceptions": [
+      "개인 식사 제한 우선",
+      "응급·저혈당 대처에 적용하지 않음",
+      "알레르기 안전성 보증 아님"
+    ]
+  }
+];

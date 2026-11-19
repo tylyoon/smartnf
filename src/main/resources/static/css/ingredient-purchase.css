@@ -1,0 +1,31 @@
+.purchase-page{color:#153f3a}.purchase-tabs,.purchase-actions,.purchase-fields{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0;align-items:end}.purchase-tabs a{padding:12px 20px;border:1px solid #bdd4c6;border-radius:8px}.purchase-tabs a[aria-current=page]{background:#176b54;color:white}.purchase-card{border:1px solid #caddd0;border-radius:14px;padding:20px;margin:16px 0;background:#fafcf8}.purchase-fields label{display:flex;flex-direction:column;gap:7px;flex:1 1 170px}.purchase-fields input,.purchase-fields select{padding:10px;border:1px solid #bdd4c6;border-radius:7px;min-width:0;max-width:100%;background:white}.purchase-fields input[type=checkbox]{align-self:start}.purchase-page button{padding:10px 16px;background:#176b54;color:white;border:0;border-radius:7px;cursor:pointer}.purchase-page button:disabled{opacity:.55}.purchase-note{font-size:.9rem;color:#526c61;line-height:1.7}.purchase-card ul{padding-left:20px}.purchase-card li{margin:12px 0}.purchase-card a{display:inline-block;margin:8px 12px 8px 0}.purchase-page [hidden]{display:none!important}@media(max-width:600px){.purchase-fields label{flex-basis:100%}.purchase-card{padding:14px}.purchase-actions{flex-direction:column;align-items:start}}
+/* Product actions and consent stay distinct from amount fields. */
+.purchase-card .product-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:18px 0 10px;padding-top:14px;border-top:1px solid #dce7df}
+.purchase-card .product-actions button,.purchase-card .product-actions .product-seller-link{box-sizing:border-box;min-height:44px;padding:11px 18px;margin:0;border-radius:9px;font-size:14px;line-height:1.4;text-align:center;text-decoration:none}
+.purchase-card .product-actions button:first-child{background:#e8f3ed;color:#14543f;border:1px solid #a7cbbc}
+.purchase-card .product-actions .product-seller-link{border:1px solid #bdd4c6;color:#245b4a;background:#fff}
+.purchase-card .purchase-confirm{display:flex;flex-direction:row;align-items:center;gap:10px;margin:14px 0;font-size:14px;line-height:1.5}
+.purchase-card .purchase-confirm input[type=checkbox]{width:19px;height:19px;flex:none;margin:0;accent-color:#176b54}
+.purchase-page button:disabled{opacity:1;background:#e4e9e6!important;color:#66756d!important;border:1px solid #cbd5ce!important;cursor:not-allowed}
+.purchase-page button:focus-visible,.purchase-page a:focus-visible{outline:3px solid #79b5a1;outline-offset:3px}
+@media(max-width:600px){.purchase-card .product-actions{display:grid;grid-template-columns:1fr}.purchase-card .product-actions>*{width:100%}}
+
+.purchase-card .seller-shortcuts{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:9px;align-items:stretch}
+.purchase-card .seller-shortcuts a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:9px 12px;box-sizing:border-box;margin:0;border:1px solid #bdd4c6;border-radius:8px;background:#fff;color:#17543f;text-align:center;text-decoration:none}
+.purchase-card .seller-shortcuts a:hover{background:#e8f3ed;border-color:#669c87}
+
+/* Grid contains only anchors: no anonymous whitespace cells. */
+.purchase-card .seller-shortcuts{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));align-items:stretch;gap:12px}
+.purchase-card .seller-shortcuts a{min-height:104px;flex-direction:column;gap:9px;padding:16px 10px;font-weight:600}
+.purchase-card .seller-shortcuts img{display:block;width:40px;height:40px;object-fit:contain;flex:none}
+.purchase-card .seller-shortcuts img[hidden]{display:none}
+.purchase-card .seller-shortcuts span{line-height:1.4}
+@media(max-width:480px){.purchase-card .seller-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.shopping-purchase-price{display:block;margin-top:.5rem;font-weight:600;}
+
+.purchase-card .purchase-save-feedback{margin:8px 0;line-height:1.6;overflow-wrap:anywhere}
+.purchase-card .product-actions .product-remove{background:#fff;color:#455951;border:1px solid #bdd4c6}
+.purchase-card .purchase-confirm{min-height:44px;cursor:pointer;position:relative;flex-wrap:nowrap}
+.purchase-card .purchase-confirm span{min-width:0;overflow-wrap:anywhere}
+.purchase-card .purchase-fields{align-items:flex-start}

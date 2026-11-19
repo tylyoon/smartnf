@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const amounts='data:text/javascript;base64,'+Buffer.from(fs.readFileSync(new URL('../src/main/resources/static/js/product-purchase.js',import.meta.url))).toString('base64');
+const code=fs.readFileSync(new URL('../src/main/resources/static/js/purchase-budget.js',import.meta.url),'utf8').replace("'./product-purchase.js?units260'",JSON.stringify(amounts));
+const {purchaseCost,totalOrder}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+test('required quantity is unchanged while whole packs cover it',()=>{const a=purchaseCost({grams:1000,price:4500,shipping:3000},1480);assert.equal(a.needed,1480);assert.equal(a.packs,2);assert.equal(a.bought,2000);assert.equal(a.left,520);assert.equal(a.totalWithShipping,12000);});
+test('unknown delivery is not free and sorts after known totals',()=>{const a=purchaseCost({grams:1000,price:2000},480),b=purchaseCost({grams:1000,price:4000,shipping:0},480);assert.equal(a.totalWithShipping,null);assert.ok(totalOrder(a,b)>0);});
+test('free delivery depends on this purchase amount, not required grams',()=>{assert.equal(purchaseCost({grams:1000,price:15000,shipping:5000,freeFrom:30000},1000).shippingFee,5000);assert.equal(purchaseCost({grams:1000,price:15000,shipping:5000,freeFrom:30000},1001).shippingFee,0);});
+test('conditional price never silently replaces base total',()=>{const a=purchaseCost({grams:1000,price:11180,conditional:10060,conditions:'쿠폰 수령',shipping:0},480);assert.equal(a.totalWithShipping,11180);assert.equal(a.conditionalTotal,10060);assert.throws(()=>purchaseCost({grams:1000,price:11180,conditional:10060},480));});
+test('invalid quantities and shipping never produce NaN quotes',()=>{for(const q of [{grams:0,price:1},{grams:1,price:-1},{grams:1,price:1,shipping:-1},{grams:1,price:1,freeFrom:'bad'}])assert.throws(()=>purchaseCost(q,480));});
