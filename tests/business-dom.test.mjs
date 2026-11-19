@@ -139,6 +139,43 @@ test('renamed consumption date and Korean quantity and state formatting are used
     assert.equal(h.run("value('shipping',0)"),'0원');
 });
 
+test('mock-paid and received orders do not offer a new PG checkout',async()=>{
+    const h=await boot();
+    h.state.dashboard.거래=['PAID','PARTIAL','RECEIVED'].map((state,i)=>({id:'MOCK'+i,name:'모의 결제 상품',buyer:'SELLER',seller:'BUYER',buyerName:'농장',sellerName:'공급자',qty:2000,received:state==='PAID'?0:1000,pack:1000,unit:'g',price:9000,shipping:0,state,pg_state:null}));
+    await h.poll();
+    assert.equal(h.nodes.tasks.querySelectorAll('a').length,0);
+    assert.match(h.nodes.tasks.textContent,/결제 방식 · 모의 결제/);
+    assert.match(h.nodes.tasks.textContent,/승인 명세서 대조/);
+});
+
+test('approved unpaid checkout and existing PG management remain available',async()=>{
+    const h=await boot();
+    const base={name:'테스트 주문',buyer:'SELLER',seller:'BUYER',buyerName:'농장',sellerName:'공급자',qty:1000,received:0,pack:1000,unit:'g',price:9000,shipping:0};
+    h.state.dashboard.거래=[{...base,id:'UNPAID',state:'APPROVED',pg_state:null},{...base,id:'PENDING',state:'PAYMENT_PENDING',pg_state:'PREPARED'},{...base,id:'PGPAID',state:'PAID',pg_state:'PAID'},{...base,id:'TRANSIT',state:'SHIPPED',pg_state:'PAID'}];
+    await h.poll();
+    const links=h.nodes.tasks.querySelectorAll('a');
+    assert.equal(links.filter(a=>a.textContent==='PG 테스트 결제').length,1);
+    assert.equal(links.filter(a=>a.textContent==='PG 결제·환불 관리').length,3);
+    assert.ok(links.find(a=>a.href.includes('order=UNPAID')));
+    h.state.organizations[0].role='FINANCE';await h.poll();
+    assert.equal(h.nodes.tasks.querySelectorAll('a').length,4);
+    h.state.organizations[0].role='STORE';await h.poll();
+    assert.equal(h.nodes.tasks.querySelectorAll('a').length,0);
+});
+
+test('released PG attempts allow retry or mock payment without a PG label',async()=>{
+    const h=await boot();
+    const base={name:'준비 해제 상품',buyer:'SELLER',seller:'BUYER',buyerName:'농장',sellerName:'공급자',qty:1000,received:0,pack:1000,unit:'g',price:9000,shipping:0};
+    h.state.dashboard.거래=[{...base,id:'RETRY',state:'APPROVED',pg_state:'RELEASED'},{...base,id:'MOCK',state:'PAID',pg_state:'FAILED'}];
+    await h.poll();
+    assert.equal(h.nodes.tasks.querySelectorAll('a').length,1);
+    assert.equal(h.nodes.tasks.querySelector('a').textContent,'PG 테스트 결제');
+    assert.match(h.nodes.tasks.textContent,/발주 취소·예약 해제/);
+    assert.ok(!h.nodes.tasks.textContent.includes('PG 테스트 · 결제 완료'));
+    h.state.dashboard.변경요청=[{id:'C1',ord:'RETRY',state:'OPEN'}];await h.poll();
+    assert.equal(h.nodes.tasks.querySelectorAll('a').length,0);
+});
+
 test('quote price and total are prominent and replaced quotes cannot be selected',async()=>{
     const h=await boot();
     h.state.dashboard.상품.push({id:'PEPPER',name:'후추 100g 병',seller:'BUYER',active:1,pack:100,unit:'g',price:3000,shipping:0,min_packs:1});

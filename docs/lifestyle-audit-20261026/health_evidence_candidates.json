@@ -1,0 +1,6005 @@
+[
+  {
+    "content_id": "1041",
+    "title": "병리조직검사",
+    "sha256": "1f621d9d05f06061c94284a9455898ad6c2eb28c6803e5b986b8f34c38ad00c9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1061",
+    "title": "복부초음파검사",
+    "sha256": "910647ae3f7bec34b952a9db14d4505180e38aedfe1e203e5fc59274793c1bb9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1081",
+    "title": "복통",
+    "sha256": "3e23dc1d64d34b0ac595cad5676abc65b44cbf63497532bda046a26ca16985b1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1101",
+    "title": "비부비동염",
+    "sha256": "5e694cefa08c7cbe30be1dcad1da2e4b98eb8e1778077726580094bdc82b9b92",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1102",
+    "title": "부정맥",
+    "sha256": "d1940b18abd8bcad9a0e44183e8ef1312d2abf2e576b9341e932fdacdf7b119f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1103",
+    "title": "비뇨기계 외상",
+    "sha256": "d11e5b0ea2bbc2f4bcf4fdbd918596958c9d8c08863800b1f8e3b9458ff1ba69",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1104",
+    "title": "빈혈",
+    "sha256": "c324e902b67b42a589506c94d742d8a25b82d0c34ea1889bf3f007aa91e45bd1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1141",
+    "title": "액취증",
+    "sha256": "a91b0b49062eb337f4d12f156639d07e00c6dcae0f0a771e14b9ed7a7ed93868",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1201",
+    "title": "얼굴마비",
+    "sha256": "f608cf75362107310f699e291698a4b3c3a33683544742a962ff5e606b456d96",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1241",
+    "title": "간농양",
+    "sha256": "614ce4567edc2f044a81574bc414f087ce3be836fda5dac1232a185f3b6c86c3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1281",
+    "title": "간접흡연",
+    "sha256": "bef0664d034052d312ba10fc2ac36c2544271fdb81f0d71f477db6e7dffde4de",
+    "matches": [
+      {
+        "section_id": "226",
+        "title": "발생원/원인",
+        "topics": [
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1322",
+    "title": "갑상선염",
+    "sha256": "a11d35606cd61597027b7e7d50201ad6434b051e0c53ba591ca167d65aa6f6aa",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1342",
+    "title": "건강하게 탄수화물 먹는 방법! 알려드리겠습니다!",
+    "sha256": "056355e517aa95deb780cb91ce3333194291ed92a195157e551113354b7a3fe8",
+    "matches": [
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1344",
+    "title": "건선",
+    "sha256": "1d047ad7395d53518d88c9b2089dc368903396cd33b61eda3502b1e996a41905",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1361",
+    "title": "안외상(전방출혈)",
+    "sha256": "813c9243d4af45624a66e6ab3d5822810938ffbf923206b07485ebff2fa5e0be",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1362",
+    "title": "안외상(각막찰과상)",
+    "sha256": "5fbf1343c52654c0a3c477f75a9dcbf8f57f7fecd9226f193f6ee8d60be6f180",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1381",
+    "title": "안외상(각막화상)",
+    "sha256": "41fbb37157c27c8f2d451cae775eb97ab28bba3fdba33a85acc496e4b80fa890",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1382",
+    "title": "안외상(안와골절)",
+    "sha256": "a0d2b872c42eda779aaa6b434537316a0df47d4528ba40ea8288e423666960b9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1401",
+    "title": "안외상(천공 외상)",
+    "sha256": "05a81ae021d9c38602035873a01d7eb42365a1fdb2bf77873a9e956e2ca54a13",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1402",
+    "title": "안외상(외상성 망막박리)",
+    "sha256": "f0c1979629836b42f594eb677f3e25638a4a75de07772e75841a3dfb9fc48fa0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1403",
+    "title": "안외상(외상성 백내장 및 수정체 이탈)",
+    "sha256": "0d04b4691d02108c7bc8f2414d279707baee580b725a6af2492917009c28bb46",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1404",
+    "title": "안외상(각막이물)",
+    "sha256": "e41dfb4450132f26c8f80b4afb997aa54701eb8c89c21cea050fe65948b122bb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1469",
+    "title": "색각이상(색맹)",
+    "sha256": "0516b1f6229daa8b28d5c152fccd9efedd7591f1572f63a1adccdf6e8e80176c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1567",
+    "title": "오십견(동결견, 유착관절낭염)",
+    "sha256": "c5518e25e6b23f4c4c831c80c4eb78ea97146f599cdd86cdf409402069332d39",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1667",
+    "title": "설사",
+    "sha256": "70c2c35913e0e4010d9081648960713f688c8e4ee6ba8608e4144114e311d23c",
+    "matches": [
+      {
+        "section_id": "161",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1729",
+    "title": "성대결절",
+    "sha256": "d79902948d661ceadc325d85040e31797c4153ac52e95ec11ed55e3d5f72f727",
+    "matches": [
+      {
+        "section_id": "116",
+        "title": "위험요인 및 예방",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1738",
+    "title": "골감소증",
+    "sha256": "9d16f08623b0d9b2075f73028afed54ca620b2f911bb820c87d8d66f0c7e0a6c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1741",
+    "title": "급성고환염",
+    "sha256": "2f4ae573e2ab3919bc71731170ae65c48e59541a569423a793ae3819986f9826",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1743",
+    "title": "낙상",
+    "sha256": "a680280ce5e40dc11b8a2cfa013cc6d2c07ba6a462771d8a34e36e9e4e115037",
+    "matches": [
+      {
+        "section_id": "232",
+        "title": "예방 및 대처",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1746",
+    "title": "대동맥류",
+    "sha256": "a3b0d74934c947f2ab078e2f82921df8b8b164788d247d715e40060220b35bd7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1747",
+    "title": "물에 빠짐",
+    "sha256": "4a2b89a934656ea131a9d08dc66497a2b1d50bf661f2705c7bd4b6220d5bfaeb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1750",
+    "title": "발진티푸스",
+    "sha256": "8572ab4643e0df9a1a8a31340b85287ea67e460c948fb367122a2b82f612b7bb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1751",
+    "title": "방광요관역류(소아)",
+    "sha256": "6f54e050c2ea134f55786ce97a0f672c5ad1ed4158c8decbf9f4f0841d0daf34",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1807",
+    "title": "성조숙증",
+    "sha256": "c5823349aec8cb9898ca0d9dba39ea40fc1c22f0e54f127c9c254ee5b052cd80",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1831",
+    "title": "갑상선기능항진증",
+    "sha256": "4e35cf38df5a50ed1d82da09616455130eb2b716c68a1e513379c6d6e2b860be",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "1988",
+    "title": "골관절염",
+    "sha256": "b2307e1841e1bdd1ade6fc653714d1edc0fe7188ca2d969d9906f4cc4c11fab0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2028",
+    "title": "디젤엔진 배출물질",
+    "sha256": "444460ec00483630f800a16239323089d2d49bbcf5db7c6e0c91051b92c00c5f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2047",
+    "title": "겨울철 대설대비 건강수칙",
+    "sha256": "72bd2d13b71d61a2879e0b5a57f7e659978cecd01eb4dde1d4be6ea000545a67",
+    "matches": [
+      {
+        "section_id": "232",
+        "title": "예방 및 대처",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2048",
+    "title": "겨울철 한파대비 건강수칙",
+    "sha256": "3303baa910ae8d237754ba818b1b162f1df0388ccb61ba1d259aeb7a73be240c",
+    "matches": [
+      {
+        "section_id": "232",
+        "title": "예방 및 대처",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2049",
+    "title": "겨울철 저체온증 예방요령",
+    "sha256": "0ea1daf20bf5fb538eced479f23fde0ef7864d28284c53f499d4e0c5ba17a186",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2050",
+    "title": "겨울철 동상 및 동창 예방요령",
+    "sha256": "67945edc01ffe806e90c503222e51bbc0587c69ec597fbbe14a9ad0fc373b36e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2052",
+    "title": "겨울철 대표 질환별 응급조치 요령",
+    "sha256": "a47727c1c56d05e79ed3ca9420fcb06ba1b6a7a562e8b18849e391e8638e576f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2055",
+    "title": "급성부고환염",
+    "sha256": "df76a01db1dfb660b9b8ee61f94a65b5dbdbe9a523eeebe7ef75de12d6c74da0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2057",
+    "title": "위식도역류질환",
+    "sha256": "cbd5d4487c70b751981bbbb6821c24623bf0a133753390d7d46330132c7dd6ee",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2087",
+    "title": "농가진",
+    "sha256": "f9799b5a0132bef3d27f046b9cde3f5aec98d31496c77d75fbdb41ef9c06ec5d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2107",
+    "title": "소아의 대소변 가리기",
+    "sha256": "6de7de9e913d50d656b801c5d03d0e3bacb19ef476cf8ac865c5d703c0539a88",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2367",
+    "title": "건막염",
+    "sha256": "615423d1671573f4106bc93b167e6d4f807168fbf9c508c06307c624e44a81c7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2447",
+    "title": "노인 변비",
+    "sha256": "e8f435b2b29413c245ea4d1453ed83e535b4c2c30d8952a5527f7a07cfbacfd1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2552",
+    "title": "식도정맥류",
+    "sha256": "1b8fa64637074dbe1825074d05a5ca32bfe3aa2ca154385cce21e0f5468c8504",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2587",
+    "title": "비정상 자궁출혈",
+    "sha256": "f2fc6a2148fba8740425782684003f381cd1c121863b69a594a5c5bd6ed3a6c9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2607",
+    "title": "일과성 허혈 발작",
+    "sha256": "c390032b089f30d455a39701bf884d0bd7b3bef352e1704e3d7879c6b9c1dd57",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2727",
+    "title": "자궁외 임신",
+    "sha256": "ec93978ef95a5a2bda3b46366a6725b88fa726dfae713a01bb6020d94082325f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2847",
+    "title": "사무용품에 의한 오존,휘발성유기화합물(VOCs), 중금속",
+    "sha256": "d47a06292c460c4e9ddd5eee7cae4029938897553a7b0a0f00d3843aaa26a08b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2967",
+    "title": "심낭염",
+    "sha256": "4efc5b720bc98ce8c71a0a3576473cfc0b7c14387d4b2bca6a8ef22b21ed53e8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2968",
+    "title": "심낭염(급성 심낭염)",
+    "sha256": "a556906d81fd18b4349f6cbc58ffca1a548c60d21404bb6b9f4c6e5575a1a9ce",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2969",
+    "title": "심낭염(만성 심낭삼출)",
+    "sha256": "e0ed6e432da196cfae130b0c5c21f1bf6107728063cf648bfb6c701067375f1e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2970",
+    "title": "심낭염(심장눌림증)",
+    "sha256": "73da68b464d4586ccfd142e3992bf33b1ab21fb1291eedf869d193792d39c982",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "2971",
+    "title": "심낭염(교착 심낭염)",
+    "sha256": "712eeffb3910959c4d0a4875b454b6d2da7dc5ed04db067bb11e28e09a3bc114",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3012",
+    "title": "여성형유방",
+    "sha256": "8f79722cd542e5f0177955f12fb6ffdeaae1aa7b5137a89089d8c282db394b4f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3134",
+    "title": "항문직장농양과 치루",
+    "sha256": "0c98ccb456f097b58804c21b2513b9a1a9f1c022d9b55a0bad59c6de1dd5be95",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3135",
+    "title": "항문직장농양과 치루(항문직장농양)",
+    "sha256": "adb4c86060e63b8035fab088799406c7533f514d7872e875941be06d0b98f8f7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3136",
+    "title": "항문직장농양과 치루(치루)",
+    "sha256": "fb6de04fd31fc6dfdf96c8656417a79a3a6f80f00a3175af3ea2efbe77ef031e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3167",
+    "title": "폐부종",
+    "sha256": "aa0797fc744c4adb835578625604b2708a96a2ec0e3f929c0804cfc42ad80002",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3193",
+    "title": "전립선비대증",
+    "sha256": "cb60d68b724c16962f73db063c9f2019edc6d67c583ba3b2f26e398dca5e249e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3329",
+    "title": "임신고혈압과 전자간증(임신중독증)",
+    "sha256": "d4e959e56862b68f13527a7aefda34f55c3dde25edb022cbaf9940896665f728",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3338",
+    "title": "턱관절 장애",
+    "sha256": "d6c6fdf74faaac901ec868c306bac10bfb4ab0176855827e80c2f054af3c2164",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3348",
+    "title": "추간판탈출증(디스크)",
+    "sha256": "debf390e8c1017998d5388cb5c74d21757ce6df53e40907be1dc635bded69c8d",
+    "matches": [
+      {
+        "section_id": "108",
+        "title": "증상",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "109",
+        "title": "진단 및 검사",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "109",
+        "title": "진단 및 검사",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3388",
+    "title": "당뇨환자의 식이요법",
+    "sha256": "a1ea87622f6259fc106010eb693e4a54e353b0360bd496cee6275365eaf1917e",
+    "matches": [
+      {
+        "section_id": "218",
+        "title": "실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3390",
+    "title": "당뇨환자의 운동요법",
+    "sha256": "41802971d9b92b4fbb1f28a8213ceb0a4f86dcfa73a56d7ce61749ec4c91cec7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3430",
+    "title": "심실중격결손증",
+    "sha256": "ee8eeba087ffbbfcc7d215aa4dee8876cdb74a248fad92ab97a567ce4f44d363",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3432",
+    "title": "심초음파검사",
+    "sha256": "a59655c0dd8cfc62717aca197e5ba6c0e2e8cf98492a886659183c9da3b4eb72",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3433",
+    "title": "대변 및 잠혈검사",
+    "sha256": "be4dac28fead2dba837186689355edf5d5fcc055ad9c8de3d494c5d403bd0dd9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3434",
+    "title": "대변 및 잠혈검사(기생충 검사)",
+    "sha256": "3f33024aa4d814b7c78f4b1b53cca2abcd3e2b585df9125ce42bf191c209f72e",
+    "matches": [
+      {
+        "section_id": "244",
+        "title": "검사 결과 해석",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3435",
+    "title": "대변 및 잠혈검사(분변 잠혈검사)",
+    "sha256": "f6ab38fb7927f16c1ffea273a7e843e03aeaae2aaa4ce0f061b7e8ff0203f315",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3436",
+    "title": "대변 및 잠혈검사(백혈구 검사)",
+    "sha256": "84494d16a348576b97fd530d61631d061a8d3e62e1635c6b2c206584ef4f7374",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3447",
+    "title": "대장게실증",
+    "sha256": "7baeaaf5c41d0d3d305713f8c1d01ae89dba9c8b0731f93e0ef9c1136058eeb2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3467",
+    "title": "대퇴골두 무혈성 괴사",
+    "sha256": "6a5725d0099960f08ac3e3383c59590ee8013f5060181a19f8971727d1786408",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3512",
+    "title": "좌골신경통",
+    "sha256": "15301ddcf10d3d0ea0cf079d601bac36ce438504e9a09a5108255724dfc4141d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3547",
+    "title": "만성기관지염",
+    "sha256": "4bf11581c90d90740aa2f7e4cf31ef496e68f38ff53c0b9e3eee4e8b6afa0cc2",
+    "matches": [
+      {
+        "section_id": "104",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3568",
+    "title": "중이염",
+    "sha256": "b999f51ecfe096568aed433fb7d55568746c444c3555380986962b60b0a37051",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3607",
+    "title": "처방전과 약설명서 읽는 방법! 알려드리겠습니다!",
+    "sha256": "a62f88e9648533246270b5b8d7024a4bc01f6ca7d7e94f676eae1428423cb5e0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3627",
+    "title": "척추의 형태 이상",
+    "sha256": "c1d2b860e67b859f3d7c70ebb02528d79cdca64857159c7197909a74fcc1d731",
+    "matches": [
+      {
+        "section_id": "103",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3628",
+    "title": "척추의 형태 이상(척추측만증)",
+    "sha256": "a1a3ac9a1a7a64dad8cba9d12f7301ae5f34cddc767cce7d429f576a89f784b1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3629",
+    "title": "척추의 형태 이상(척추후만증)",
+    "sha256": "6228a37b1476863acaf4d6134d38b5aa2cdea9245a69a34b3e61afbcfc6f946f",
+    "matches": [
+      {
+        "section_id": "103",
+        "title": "종류",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3690",
+    "title": "저체온증",
+    "sha256": "2c817de75ccc69919b83fc3b1cb6e1931d9b532e9c70660a691075d4adbabb30",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3727",
+    "title": "전해질 검사",
+    "sha256": "811930aff180c47f826cea259febd3cd1c389498bf33eaf65400a9b270eb02df",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3728",
+    "title": "전해질 검사(산염기 균형)",
+    "sha256": "ca5f3c0892f7473b6367d798ba1a1f1b60cf6c2da88bbc389c2439b71c610d4a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3749",
+    "title": "켈로이드",
+    "sha256": "c5c8c14d99f3886bb3a45798c9225f363c7e545341af8609a4ad427ad5ecc9b9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3768",
+    "title": "코피(비출혈)",
+    "sha256": "89bf718aee053ec437a2bff95e440fd1eec8fea47e2e66f799175d7bda22e280",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3789",
+    "title": "얼굴마비(중추성 마비)",
+    "sha256": "0e5462a9edfd1d0f69d2a1bf3aebbf3b99cff37a901e246018fcac397be2d58f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3790",
+    "title": "얼굴마비(말초성 마비)",
+    "sha256": "8fcbb56b1ef1db717a215707adff66bdb9f361dc053ca6a49693c80214c0344d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3796",
+    "title": "요통",
+    "sha256": "1a27415a26166ef1040891aee752451d843300f33e4998bc35bf1c5a24bde79b",
+    "matches": [
+      {
+        "section_id": "158",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3827",
+    "title": "심전도검사",
+    "sha256": "669743193eee31e129308f5742051fc2917ff4e2841e37fa027d11d640c2ce99",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3828",
+    "title": "심부전",
+    "sha256": "2e42c83d13ca400bf7051032f38f74c76c12736ecb6f5e0783905d12ed81dcc3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3848",
+    "title": "기후변화에 의한 폭염",
+    "sha256": "a09145a3f03d7e6c93a1be09db380d609ab9dff052b7cc8507112842f5d114ce",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3947",
+    "title": "여드름",
+    "sha256": "f8514e6539dd8d301505f7b855e14ebe78596c0fef734c907085570246023c93",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "3987",
+    "title": "자궁경부암 백신",
+    "sha256": "674d599b90fcc7e657712f2d140cd8daa2c454642b610da792bbaa476d46a41e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "4047",
+    "title": "척추관 협착증",
+    "sha256": "0ffc0d80d187142b0085a10607172d81bbc04824a537662916d433e8ba552720",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5212",
+    "title": "식이영양(영유아)",
+    "sha256": "fc35581d67cef2d98e2e344ad9d9ce2a3d1ef137fd3c7beed1eefa6b4638d503",
+    "matches": [
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "shopping"
+        ]
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문",
+        "topics": [
+          "shopping",
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5213",
+    "title": "식이영양(소아/청소년)",
+    "sha256": "4d2fafc9dcbffc106c8790655546dc8a3e410f06fd1febc0c8af01212a6d4d56",
+    "matches": [
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "221",
+        "title": "도움 및 지지",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5214",
+    "title": "식이영양(임산부)",
+    "sha256": "4335c3c874738290c3c1914fd4ddf8d90e4e915ea2c631bc11d48257a2e71eb2",
+    "matches": [
+      {
+        "section_id": "213",
+        "title": "종류",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5217",
+    "title": "굴절이상(근시, 원시, 난시)",
+    "sha256": "aa9e7f5a426df3f1c343076d4fb9027194f389cd8da03505e6d1cb5d746c2327",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5220",
+    "title": "덧눈꺼풀",
+    "sha256": "7335433c34bf2251a9fad72d45ca4ce08415e1e5d1bd44596c253b17ccf643a6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5221",
+    "title": "당뇨망막병증",
+    "sha256": "9f23bc630e453c38486aeeb524c0babab91163add076c159e65714d76a0e7adc",
+    "matches": [
+      {
+        "section_id": "103",
+        "title": "종류",
+        "topics": [
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "110",
+        "title": "치료",
+        "topics": [
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "110",
+        "title": "치료",
+        "topics": [
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "110",
+        "title": "치료",
+        "topics": [
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "120",
+        "title": "자주하는 질문",
+        "topics": [
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5222",
+    "title": "미숙아망막병증",
+    "sha256": "a7b9e325f3fecf2125df648d4fa424fafc8404ef5c92cc6d5259546625ccf395",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5223",
+    "title": "비문증(날파리증)",
+    "sha256": "93c85c31ea295782b96877fbb9d27dfc96f74861c0365a6a77c6f4d8b1b6f778",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5224",
+    "title": "저시력",
+    "sha256": "a63c61f69bbcb9d418cce2cf0f38dcf2a68ec244c26e3609f192c5a27d8de696",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5226",
+    "title": "노안",
+    "sha256": "a9907c73a7542a288a0d1e8954108d68e4fd85c9bf6b1c4f0cab1ab3b37d287c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5230",
+    "title": "뎅기열, 치쿤구니야열",
+    "sha256": "2686a94ae673e1f473111bebb024e773658fe44dec3ed4c887744840d8aa523b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5232",
+    "title": "인플루엔자",
+    "sha256": "daf0ec3dfcdc1a87ec1ac0a891fe875afd93d20117b3bda36cb7bf1b37f6925d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5233",
+    "title": "중증열성혈소판감소증후군(SFTS)",
+    "sha256": "48f053654d76b89364c2a4811cfb1df57ab8b0435fc5b5a9a89a524a45c3be76",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5236",
+    "title": "감염단핵구증",
+    "sha256": "3d350c8492843689f93a2a31bfebd8da26145a02631b6ceb21870a911ba37998",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5237",
+    "title": "감염심내막염",
+    "sha256": "d11c200e63dc6cf3e2471f6ac0a996c1ee5610d57f8bffdfbf02e27324b9e23c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5238",
+    "title": "연조직염(봉와직염)",
+    "sha256": "a64c760b29548d506e49873a9ec7a1a52e032bfc5c253f7ac06bb16b63e57782",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5239",
+    "title": "식중독",
+    "sha256": "a64a42e765fe5c57c2c172a830b601891ddf31e11099d3d5e03134dc5f9eb26e",
+    "matches": [
+      {
+        "section_id": "104",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "117",
+        "title": "생활습관 관리",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "118",
+        "title": "대상별 맞춤 정보",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5242",
+    "title": "고칼슘혈증",
+    "sha256": "ad6b36627ffb07971db9f84e8b16a5179a1e55a8d0f854c73183d96b3ca8b97f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5245",
+    "title": "말라리아",
+    "sha256": "723be7e025c432e4f4a0e2eeef179248385efc37e3f4234e6f9b1800ab7111e4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5248",
+    "title": "췌장염",
+    "sha256": "a5c6161117f6cf5cad0cadd86a862317bbf41199b9deeff8950f7176ba224aee",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5249",
+    "title": "폐렴(성인)",
+    "sha256": "91048116338e43ba8784e414f8c1df34525c2d97454091b2b6f7cb7877b8d359",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5250",
+    "title": "과민성장증후군",
+    "sha256": "ca57119a785eab962a87dcf29eee30256c4a43ec907be918cad09d231ca0a58b",
+    "matches": [
+      {
+        "section_id": "112",
+        "title": "비약물 치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5251",
+    "title": "내시경적 역행성 담췌관조영술",
+    "sha256": "73de3a2e41d02fc1e4431f33e60dd2271368145921f288dfb20ad8f658d27281",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5253",
+    "title": "노인 호흡곤란",
+    "sha256": "f59a80d25dd1a59a655eb7537cea903a34d55b4335754361b5167bd5cd3ae72b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5254",
+    "title": "대장내시경검사",
+    "sha256": "803d701eb16892e1d49205744e3c77e80f322651735027f64fc0c15a2bf56494",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5257",
+    "title": "부신부전증",
+    "sha256": "5bd5e6fd8568cc0c5197c94b9debfec9ee99554feb71b56bb62d57c9c3ebaf57",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5258",
+    "title": "위내시경",
+    "sha256": "b10f00dc6b9ad3bf336f166986fc725218d0d1ac6320d607f10dc25bc7f0f9b8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5259",
+    "title": "저혈압",
+    "sha256": "271f8011de14351c93379438b4b30280085ea9628d9697419f071fb62eb407e3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5261",
+    "title": "쯔쯔가무시증",
+    "sha256": "9d4ba98b7dfaaa0ff439935fbc31781147110442d3521ca074bd1c46b8c6f57d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5264",
+    "title": "눈꺼풀속말림과 겉말림",
+    "sha256": "add0ad75491dc5d64bba3a616ce518b9a93194e5c83dd9c6c85e1214a9196b6e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5265",
+    "title": "다래끼와 콩다래끼",
+    "sha256": "8ea1da5fca935b807f710938594ce7d0ca250fffea5a8fa2c5ce4390e6210eee",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5266",
+    "title": "알레르기결막염",
+    "sha256": "2431298d695cb7e60fa94ab17833c1c4fbe9e27d059a5d25c866e0ecbb3b2b2a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5269",
+    "title": "황반변성",
+    "sha256": "d4b52e319c74dd4457b8c747c3200d2e0eb50f355929334873f041b75035b45b",
+    "matches": [
+      {
+        "section_id": "108",
+        "title": "증상",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5270",
+    "title": "유행각결막염",
+    "sha256": "59a2227bf13465030ec5525536b34e455a76851b4eb7e94d7783abc4af625747",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5279",
+    "title": "신증후군출혈열(한타바이러스감염증)",
+    "sha256": "9e09ac23d1dfee9393fd99a32d607650c1947137f3a76891c7aabad82d21a5c4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5280",
+    "title": "급성 세균성 장염",
+    "sha256": "d987fc1930002c1768b34c32ae83826be958bdf9073ad646baa86dd96de23bef",
+    "matches": [
+      {
+        "section_id": "143",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "145",
+        "title": "원인 및 감염경로",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5281",
+    "title": "레지오넬라증",
+    "sha256": "3c8153e0855da907b0e48fc99e2c57259a14885fef67aa32b77cc031a6793a85",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5283",
+    "title": "홍역, 볼거리, 풍진",
+    "sha256": "6938785f56c0df33f57992a45881f98d51865973aaec375a66bde0918976d360",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5284",
+    "title": "뇌수막염",
+    "sha256": "88d70b2891ff7043f9e079f607edce82982a03d908cadabe26e05e5f49ae1b67",
+    "matches": [
+      {
+        "section_id": "147",
+        "title": "증상",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5285",
+    "title": "불명열",
+    "sha256": "3ac410d711b4ae23a7c420f0478c2ecc4c4c576d7526a4856cc847a545e06177",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5286",
+    "title": "헤르페스감염증(단순포진)",
+    "sha256": "2b45c51c7911e19699b80441b8c588577660fbb88ce35e6bae189a111ee365ee",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5290",
+    "title": "골수염",
+    "sha256": "bf1132c687041ea0cdfc4cd0130fd9199894048fba4cf0918066aaceae25f6ec",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5291",
+    "title": "디프테리아",
+    "sha256": "54d5291bf2f39c3f3b20383138dcfe98eabb55ed44d0b1c92af367a6d5369470",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5293",
+    "title": "운동",
+    "sha256": "dd7ba0de3ac7d4d521f3f838261de230c5aa80f12c303cc214c42f257bbc3ca9",
+    "matches": [
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5296",
+    "title": "건강검진(암 검진)",
+    "sha256": "e46135e6474d2b9a0063d7ae90f4188e0c60c7b669c26fac2ba32c61e97bc574",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5297",
+    "title": "음주",
+    "sha256": "08e65c624f7e7789855a22d57d085c64c4957c9b1feb1cac71873ce8bd8c9b23",
+    "matches": [
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5302",
+    "title": "고혈압심장질환",
+    "sha256": "3b0437942189e35a73a480ea02ccc1c770aa14155980292dbe7b183eadb02a7c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5303",
+    "title": "고혈압 환자의 운동요법",
+    "sha256": "f4c74d13762d426690e72838afab2715bc594568b8873e6129b51b0237558a03",
+    "matches": [
+      {
+        "section_id": "222",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5304",
+    "title": "고혈당",
+    "sha256": "43302caa47c1dfa3999748028ab9f5d04e260c27f59c32d42b036d9712ae82ff",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5305",
+    "title": "당뇨병",
+    "sha256": "2e25a17f000977283f93f13fd89c3f310166d0164f3041cd8bdb8c397284587a",
+    "matches": [
+      {
+        "section_id": "119",
+        "title": "지원체계",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5306",
+    "title": "노인 당뇨병",
+    "sha256": "d9d4e9276138e55619a544a1117b1b1553b60e61a3cc3960ed5107e7d3328e6d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5307",
+    "title": "A형간염",
+    "sha256": "3abe3be79f398324b047415bddc85f477e5ddec9290900a83ed76ff59bfb812f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5309",
+    "title": "C형간염",
+    "sha256": "7e95fca738907bd03586f9dd12ae42009d6289afdcc6c948885830221414845b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5310",
+    "title": "알코올 간질환",
+    "sha256": "069b18244e58ccf86b2ae56caab3467d7c8215da1e658b305c722c5440a5db81",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5311",
+    "title": "연성하감",
+    "sha256": "61fea2b206f801b1ead3328d7ccd86d61284e905d38a8ae60009917ad6f90475",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5314",
+    "title": "노인 삼킴장애",
+    "sha256": "2fe08199f56276ffabdcfcfc279763fc0b332f37037189c4229638ddef979d8d",
+    "matches": [
+      {
+        "section_id": "120",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5317",
+    "title": "성홍열",
+    "sha256": "1301e0c5ada90b5cc624b0c6a44e26f538e563c341d3b582d8fcff73966144a4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5318",
+    "title": "급성 충수염",
+    "sha256": "3c9bee0a008344ced18bb312fc0ac1b861319026caff6aed7dc11617e238260f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5334",
+    "title": "사람 브루셀라증",
+    "sha256": "80a9cfc666ad35327d24eed5cf9c7ae27710d9c74badc268af419d1cd2ae6a58",
+    "matches": [
+      {
+        "section_id": "149",
+        "title": "예방 및 예방접종",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5335",
+    "title": "건강하게 염분 섭취하는 방법! 알려드리겠습니다!",
+    "sha256": "44c30ace174a1b6b3ca574db6e58c7da0365de19b12f590aee890ba6d3bc0dfb",
+    "matches": [
+      {
+        "section_id": "3672",
+        "title": "요약문",
+        "topics": [
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5337",
+    "title": "흉통",
+    "sha256": "8dbf869e28852edb0d73523f36cd5743f2e86821aed77ef41ffcaefd26150a1a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5338",
+    "title": "회충증",
+    "sha256": "a19ad6ad04402966992cd03723d62ce5e15a7de79af8673feadf3f28a2124352",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5339",
+    "title": "폐흡충증",
+    "sha256": "501d0a98415b37123e6f398d400ac37c625cb27af291ef1c76cc6513a298d0ec",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5341",
+    "title": "장결핵",
+    "sha256": "5d3e721d2435e2537457032d8d4a2c0d4455acb85882c50ee0e7d57b785a18a2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5343",
+    "title": "장흡충증",
+    "sha256": "0c69aabe50234f1fa356c76f06cb95bf106c9dd48c51269e3afd4bf7e1b0daa3",
+    "matches": [
+      {
+        "section_id": "3668",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "145",
+        "title": "원인 및 감염경로",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5347",
+    "title": "요충증",
+    "sha256": "dc4f7d012e180d069aacf48a24ad6d13c3f1b7d666399a3d0b52924d565b2611",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5350",
+    "title": "편충증",
+    "sha256": "4c90af8616594ebc2524bf86c18edce7b2d36b4eb68632322e5a570c5f540316",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5351",
+    "title": "담배 끊는 방법! 알려드리겠습니다!",
+    "sha256": "31ac68b8e61c310fda5cb67a96ecab56494a7f4eb1c9014fc8d18e6736bbdb4b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5355",
+    "title": "위험음주! 알려드리겠습니다!",
+    "sha256": "dcb7bcd574b5cc8a09a772060704c94c5c1fae0a468e87222d5690acee0e190e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5357",
+    "title": "모소낭",
+    "sha256": "5b812f11a0642eb2190fff144b17acade522261e820eb6830b681fac5f069265",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5362",
+    "title": "코골이",
+    "sha256": "136d116a893f499697af97f127687675d76d84540e5d09e652d73fe80050d32b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5364",
+    "title": "잠복고환",
+    "sha256": "f0c107a83bbd8384a2ac42dbefb7278554163befcefc4e2a07e79cb76ce5dd28",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5372",
+    "title": "비브리오 패혈증",
+    "sha256": "b7e5129836117ad796a3a099db9d6fdfa8689241e1b7d1c65f69d151259fc2df",
+    "matches": [
+      {
+        "section_id": "3668",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "149",
+        "title": "예방 및 예방접종",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5407",
+    "title": "왜소음경(소아)",
+    "sha256": "0530ea2f256db9f278e3a3c8bf0d2571cb941f5e341e45716b037aa0d3753021",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5408",
+    "title": "요도하열(소아)",
+    "sha256": "853f7a1dbd6bcf3500999ef136860ff4d798dc2718d9ec8827463de7c21a46d4",
+    "matches": [
+      {
+        "section_id": "3666",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "102",
+        "title": "정의",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "108",
+        "title": "증상",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "109",
+        "title": "진단 및 검사",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "114",
+        "title": "정기 진찰",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "115",
+        "title": "합병증",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5410",
+    "title": "산전 기형아 검사",
+    "sha256": "6c331422468032a930be6d67471e44398738eb71350ae17e302483aaea19f6eb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5413",
+    "title": "조기난소부전",
+    "sha256": "d5df42c7323025dd9fe6b57230eaae4212d7da934d8218a17ecece905d16cfac",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5415",
+    "title": "저신장",
+    "sha256": "3a8eaf91a0f23550663823c9950e16f2f1fb52e6e7ad9cc67951c1333ff6f432",
+    "matches": [
+      {
+        "section_id": "161",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5416",
+    "title": "정상청소년의 성장과 발달",
+    "sha256": "718d482f8a86aab58de07b9f282684df9fc2867b850a3539096dcac36d56a47b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5420",
+    "title": "해외유입기생충감염증",
+    "sha256": "37f0de811e51323be720b7d3b7ee8c7dbe2a66a97d903dc9f9a1fc7e3bd2f0dc",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5423",
+    "title": "감기",
+    "sha256": "653df312c5885ec92005ab1af24f687935877cfc5adaaff869363f9a130d5d22",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5428",
+    "title": "노인 약물복용",
+    "sha256": "66ee8b771b465f65e45e68da653fb3f887313fa972c3e3e332ec6621e796d788",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5429",
+    "title": "불임증",
+    "sha256": "ccac668ee2dd934cb2651a83e51d63aef686286ee76f399a0429a303b928f071",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5430",
+    "title": "입덧",
+    "sha256": "dd9129da6e7ac948ff14ed3a6f2219f4bc6ec6002126f6d8c903432f6b0b1e44",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5432",
+    "title": "특수병리검사",
+    "sha256": "9f2294698608127c0cbc75cf97a41166c921bc58b363346ed4f8224e59841071",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5434",
+    "title": "혈변 및 흑변(성인)",
+    "sha256": "557a2a5d2a28f74aa9aa1c37f9a56f82e366e7768be5d9ddd5f1656ef338eb20",
+    "matches": [
+      {
+        "section_id": "103",
+        "title": "종류",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5439",
+    "title": "이 사면발이 감염증",
+    "sha256": "5c280b5b060d2c88f381b181caace24cfdb53c78afd2789846d757535f12e8df",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5441",
+    "title": "염좌",
+    "sha256": "4ea60f26c079616a38ee93992aa0781e2189babb1ecc36282253f36b291028c3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5444",
+    "title": "간기능검사",
+    "sha256": "6e17a67be41c44710f1d405bb84e4002972dc7ff5a149402492b64ff1519eb3b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5445",
+    "title": "복수검사",
+    "sha256": "179e5055cf589f9f3dd18eee653461dee95d3546f136cfbb11d8d8964aadc0e0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5446",
+    "title": "총혈구검사",
+    "sha256": "2ad5a20350c5164aab7a70089a2013ee2616886c5c5e608dce54bca6cb0a9bc9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5447",
+    "title": "혈청검사",
+    "sha256": "fe649c20079b1ab3b9a7095d19c8eec555f7253fd956ec9e84a7b9de6b2f33e9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5457",
+    "title": "만성콩팥병",
+    "sha256": "54ed5b42f90cc5b199d62f0e0f250c4a0fb998c53b0001da9a2fecb929cc585b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5460",
+    "title": "양전자방출단층촬영술",
+    "sha256": "b60682e32d77c268f2a1f7d55f524b36b19186bb2f3b86e400e00c34901c1131",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5462",
+    "title": "황달",
+    "sha256": "89e73607341b4239f5c96aba69ff10d84417aff3ad79afcc53da47329ec86b48",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5463",
+    "title": "골절",
+    "sha256": "5e1413b77617722e544656a73905cda63dfa6d709f4d42a08b8743263e71896a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5467",
+    "title": "영아돌연사증후군",
+    "sha256": "c874c5d5fefda6db52515b11fcabc99956934b0d55abcdb5c95b27fee2d50b19",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5468",
+    "title": "탈장(소아)",
+    "sha256": "c3b3ae11abe8396fa361104d1fe5b2be1fd881c35b462eccebe13f29c0524dd6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5470",
+    "title": "이유기보충식(이유식)",
+    "sha256": "6288e4483f1b4fa7c14940ef84a8fd7bae61a85c81874e2c11409334fbbb655e",
+    "matches": [
+      {
+        "section_id": "218",
+        "title": "실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5471",
+    "title": "상부위장관 촬영",
+    "sha256": "d86037b167163d53f30ee86cf0aab913f5deb977f7c82a39e1c67eefc30d5449",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5472",
+    "title": "소장 촬영",
+    "sha256": "bf0b86aac2722bff5b3c369c2416f0676d9a6a2575396cb0960654e9acc8c08f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5473",
+    "title": "하부위장관 촬영",
+    "sha256": "32a924cd05bfc450cca3c0548f649d87e05d9c5fdbd93ab8d9f1ed12a8317e62",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5474",
+    "title": "폐렴(소아)",
+    "sha256": "46ebee2de683b0c5a471247aff6cb4d5d8bb0b84f4ec88be7da8910b13145791",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5479",
+    "title": "정계정맥류",
+    "sha256": "968b3a1ffcc3af9b348ede430a455c92c3333161942bb6eedb76a109e06e2875",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5480",
+    "title": "조루증",
+    "sha256": "b6a6c181a7ed6e980263797f0cca918e35bd3df7060fcd8ea8352f61a2754ad8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5481",
+    "title": "가정 내 아동안전",
+    "sha256": "faf1f1a220d496db8c2b8ec20d11665373d5f41445ef7a6fda1c1e2ab8308988",
+    "matches": [
+      {
+        "section_id": "228",
+        "title": "통계",
+        "topics": [
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "232",
+        "title": "예방 및 대처",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5482",
+    "title": "황사와 미세먼지",
+    "sha256": "7a15ae2f6f06a86e12dd65d3c1b633ea95564c00280d4695792abff6b3752e07",
+    "matches": [
+      {
+        "section_id": "3673",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "232",
+        "title": "예방 및 대처",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5483",
+    "title": "동물 및 곤충에 의한 응급상황",
+    "sha256": "33ae2f66f26264a2887384335cac609bf7aeb87cafe9d32e649669e73b9688a7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5485",
+    "title": "구내염",
+    "sha256": "e4eda57895672d9096a6330ca0e13160a6fdb7a08fb6f3243572e7c61ed4401d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5486",
+    "title": "유소아 난청",
+    "sha256": "32e2942194d3c4b1ed5eac06e68849b7b13f39551632a6c74b2d50df184c3a18",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5487",
+    "title": "외상성 고막 천공",
+    "sha256": "5b6013e2fa4b012f9c1a15b3f6b18353c9522c862d1ef3d28bf18c8daf79ac34",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5488",
+    "title": "코뼈 골절",
+    "sha256": "113b4fb7f4440b2e55492e006e5ec79b0c9be2a38b1a508d0b5c7f9ad9597d95",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5489",
+    "title": "노인성 난청",
+    "sha256": "1fcd97e75457b0ff9b2210b2d685d78bad8cea8249030caaa7c423992f34d0a9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5490",
+    "title": "거부반응과 면역억제제",
+    "sha256": "6c9360d1540dacc30f75b9e142e600a8e66e6834fb25d043c52b76eb4b054088",
+    "matches": [
+      {
+        "section_id": "169",
+        "title": "약물 치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5492",
+    "title": "흉수검사",
+    "sha256": "fd92878e335ef788e86ccaea980615f925b5a1928bef5e4d903e23f428a0d380",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5493",
+    "title": "기흉",
+    "sha256": "89c5d957883221b9cb5aecd237a69f9f0e578249c7b5b8140e5aa3ab86ef49d9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5494",
+    "title": "흉곽기형(오목가슴, 함몰흉, 누두흉)",
+    "sha256": "f4b6b9074507f9671cb4be843cf9cfbe8804681cca8d14010084f74b2991fc0c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5495",
+    "title": "뇌졸중",
+    "sha256": "e3136eed0b19e0798184ad7dd2ec581b29092e2fa81f4e29fe84534b2f4eacb0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5498",
+    "title": "뇌하수체기능저하증(소아)",
+    "sha256": "4eadf415154fd5ac20360b8e630b4d9857dfca8a5842621c1ccddfec5196b299",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5499",
+    "title": "모호한 외부생식기 및 성 발달 이상",
+    "sha256": "c9b6889d82658b14ef424b682df0108cdb0863d362e9b65ef3a0c53f3d057397",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5500",
+    "title": "일광화상",
+    "sha256": "5d2e0053bbfcf965cd284d39b15843c719a5505850db9359e420114a130109a6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5503",
+    "title": "장루 및 장루 관리",
+    "sha256": "9d9e55d6dbd6df67ee5587ce12b4e90eb3682dad8d5f4cd240180f927e678f2b",
+    "matches": [
+      {
+        "section_id": "200",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5504",
+    "title": "복부 수술 후 장유착",
+    "sha256": "87af89e2bd7ad68980d826d5128f1c7670ad5bcae96c4dc1152c490af22e6bf9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5513",
+    "title": "면역병리검사",
+    "sha256": "56be1271a740ec8a5131dc7eed674c389462e8aec1c0f3c516155145305e3d7d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5514",
+    "title": "분자병리검사",
+    "sha256": "87951a61a1111f3c5a5517b025472f3ea433438d99178abe21f2e49728cfa8d8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5515",
+    "title": "삼중 또는 사중 표지자 검사(Triple 또는 Quad test)와 통합선별검사 (Integrated test)",
+    "sha256": "8d608d93984e2242b610507d2d035b3730554e351c1c564b53dd5d415e628da6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5516",
+    "title": "초음파 태아 목덜미 투명대 측정",
+    "sha256": "880888a2786989427249855b44ab5e80ba1691f5efdbd1d5e30b5c45f37ac702",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5517",
+    "title": "양수 검사",
+    "sha256": "8396ae49dcd5eaa8982f1097d02c350c9cfa0d7d7b5676cc235abb9c9677f85a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5518",
+    "title": "융모막 융모 검사",
+    "sha256": "3c27d1077f9fff07df1ddffa9955970b5be64bf223ca7b9fe0490aea825ca91d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5521",
+    "title": "리슈만편모충증",
+    "sha256": "87c3b50f5a9b2f551a7bd9ca11c03d9077afd93a371f634da6c394ba6b1bec97",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5522",
+    "title": "바베스열원충증",
+    "sha256": "6c2ba3ed035f22c4d4963cf545523004397bb7e80e23cd2e55f9307715452d21",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5523",
+    "title": "아프리카수면병",
+    "sha256": "b3d111d1e9147c53bb23cd5fa880dce4adcc456f7a54c529e0e0d558d93cb692",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5524",
+    "title": "주혈흡충증",
+    "sha256": "013d97ef8be03e74445c31d094ea7cd32a2e47af8f674778dbbed37f9a2ff2da",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5525",
+    "title": "샤가스병",
+    "sha256": "ee4c6d302ab0eef04427921f408a387c98b890b4518a1e2f8efc984e1c92aa2d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5526",
+    "title": "광동주혈선충증",
+    "sha256": "cfefa037426011efe91a5faa17083474312b6a761a5fa33ee97eaf94fdc2115a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5527",
+    "title": "악구충증",
+    "sha256": "840b2cac161179049e9e33a7948a1dd27088d8c7882efc093f6fd26b6555cb1d",
+    "matches": [
+      {
+        "section_id": "149",
+        "title": "예방 및 예방접종",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5528",
+    "title": "사상충증",
+    "sha256": "d9ded18217563b3b00ae99c8c19bdfd1029090a6b7886494dde1b9013f4059b2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5529",
+    "title": "포충증",
+    "sha256": "5c9747b1f3744cb925058a158fc47d5dd8d0a4007e8275d61437f12074ad7327",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5530",
+    "title": "태아 DNA 선별검사 (NIPT 검사)",
+    "sha256": "0568a696592293c41634fa5dfd40a0e9f9bdc7df21b98300335b488cc0f906df",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5531",
+    "title": "임상 화학 검사",
+    "sha256": "0b44b19373f310b771857c96cc00c085b25272e70e4ae931b1b55a94bc5cdc89",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5532",
+    "title": "종양표지자 검사",
+    "sha256": "a2b01421273d1451e09ea3e99c7fbe4e166c5c58f17d49102a848b3a8352734b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5533",
+    "title": "감염질환의 혈청검사",
+    "sha256": "1bdfc7118183cb6d8d5f879612f71eb0b24c2140a73b6f55ffec937c7921219b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5535",
+    "title": "심방중격결손증",
+    "sha256": "b504a913ce9399442594951be4bb2ba509276a016b9a7901ea0b7078db8dbc23",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5540",
+    "title": "퇴행슬관절염",
+    "sha256": "99c3a82f2bd7d19d0bee5ea681e974d676d25951aeac43666e6a1a7a18f865aa",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5543",
+    "title": "부위마취",
+    "sha256": "ba4de234a82e999ec59a3aedcc3faa5c054bcdacbf814e9daa31b29af2560255",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5545",
+    "title": "항암화학요법(항암제치료)",
+    "sha256": "6327340fff05db12efd3cef889c28b255ae3b7621a1b07ab87fd6fa2cfbf1017",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5679",
+    "title": "열상",
+    "sha256": "ff2271147994b7a253c5ed0cb4b346f8431e161bdb91968c2034f56eba509c4f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5680",
+    "title": "유선염",
+    "sha256": "2f1899216daf4610ceecd4fa263cc38af35f0fa160c5c0e39d782ad80d580e15",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5681",
+    "title": "경부 종괴",
+    "sha256": "64060b45ca5ff1f147b68d2f459acccca9b0ba5e0fbdfae22c60f031c6c4ad33",
+    "matches": [
+      {
+        "section_id": "158",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5682",
+    "title": "메켈 게실",
+    "sha256": "e2bd6a74f8fe64290ef53714d6d81a22fd5470fdbbdb348b351ee39700fca654",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5683",
+    "title": "유방통",
+    "sha256": "6f083a0ced81111cffb1a6de3f92a8396a402a1bf889e0af4a1402cef77e3ac7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5684",
+    "title": "직장탈출증",
+    "sha256": "93e0decd72768d7ec4f271cd0bbd93e453d61213a4bbcfe78a2032ae943d5148",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5685",
+    "title": "유두분비",
+    "sha256": "38cce3731c85dcb996875fb21fdbf894c1f76784e1cae1b68ea41786c3c24b8a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5686",
+    "title": "유방종괴",
+    "sha256": "a00d8f02349859171d01d041ef991034037a9e7a7ae3bd050b09477e945dc810",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5687",
+    "title": "하지정맥류",
+    "sha256": "1f5b0cb6ebd4e633b1019a2c84b0b87907c5c8fbebd677bceb9c5536b08ab23a",
+    "matches": [
+      {
+        "section_id": "116",
+        "title": "위험요인 및 예방",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5688",
+    "title": "백선증",
+    "sha256": "8eed9423c4f66c8099fa17a803b519614427ce147e7bfb3bc2c20791ef82d1bf",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5689",
+    "title": "자극접촉피부염",
+    "sha256": "037c446b683eccde1f1bcd7f75ac29494438fc163f4c4118ddef6d2b975a1646",
+    "matches": [
+      {
+        "section_id": "104",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5691",
+    "title": "굳은살과 티눈",
+    "sha256": "513b6aef4ea5b2174e796f74d18d2059e884fab068bce1dd015207d4cc230136",
+    "matches": [
+      {
+        "section_id": "120",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5692",
+    "title": "모반(점)",
+    "sha256": "1f276308584fc0dd049a4b14e53c71e3ce8a7f80650911039b218c9608a8b17b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5693",
+    "title": "발 백선(무좀)",
+    "sha256": "5eda460c89e5ca36a6f6e295e7f20ee36b0feeb0cf9981c20362cb2c998af788",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5694",
+    "title": "습진",
+    "sha256": "354929427e82e9441af6e279306e6381501318d7fbef4bd9cc641cdf0c38efeb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5695",
+    "title": "가려움증",
+    "sha256": "8850b2cf52cf3680097654747ed25b54f36cd35189afa11effbbf20bba2f46ec",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5696",
+    "title": "상처관리와 흉터예방",
+    "sha256": "0a22c05b25c82a19e8f71ad6c3d5858cd2395acdb72a02cc10a4a369377de475",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5697",
+    "title": "난소 양성 종양",
+    "sha256": "261aaf615c43e7421eb65c0b0f5edc597982e670e318d80927a43cce80ed9de5",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5698",
+    "title": "생리통",
+    "sha256": "a44421b3e5b88c8d6f6610c6c4952c101232c453bcfbe3d9697dd1e6b24783c6",
+    "matches": [
+      {
+        "section_id": "110",
+        "title": "치료",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5701",
+    "title": "질분비물",
+    "sha256": "174ef765aaa1692c7d1ae1f99adb15e27842ca493d883c527c1c29b0598eecf9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5703",
+    "title": "만성비염",
+    "sha256": "40954e8b907c3d384a9e9c5299389ce662f881d2fd368d738faf9999502bfc6d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5704",
+    "title": "구강건조증",
+    "sha256": "0d2e34a0dc822e8e5612e09378f68e12e6a3bb73f496db988e344153d72891c9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5705",
+    "title": "목쉼",
+    "sha256": "488fcce17480bafa0c6adcba6d36dc7ae15a99fc78eb084a130035a8e3df312e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5706",
+    "title": "이명",
+    "sha256": "89adc6494b11aa4b04f8c72beca24a662b694da8a8b602361a7dd0b2089ffe86",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5707",
+    "title": "편도염",
+    "sha256": "dd84080029f50c4adf4a98f8a102e91cecbbb5cd7f5f3eaa2e4a7e25677925e6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5708",
+    "title": "귀의 통증 및 분비물",
+    "sha256": "f57ed55fdcd26af0a9582669aee1fced4a9d68ce16f0189cc83130edfb5c918e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5709",
+    "title": "시린이(치아지각과민)",
+    "sha256": "c11492c7699c3db7d515ef1cc43149527753d84800bc4cf1277f9c0c3ce2c2e0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5710",
+    "title": "레진치료(치아 레진치료)",
+    "sha256": "c367dc1d1602372caa8f4b5e5d832ef50ed629961c0edebd15b40ccd0df1e51a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5711",
+    "title": "자가치아이식",
+    "sha256": "9d951932592faa301026a47fef4e98805267fabcbd10fb51e12843c1ee09ce9c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5714",
+    "title": "사랑니",
+    "sha256": "78f18d781c4b2a580d962a0cd6c46bb9c5d1cc5abdf34218e1243ddd7b469884",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5715",
+    "title": "치과국소마취(치과 부분마취)",
+    "sha256": "6d9990f1b70fcfd960103af1c7448a18fb77f4a579074d5940912eda9172ff24",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5716",
+    "title": "잇몸병(치주질환)",
+    "sha256": "ced456c72e6a845e422e820ffcf664716e0148f1b6060a525bb22d9ea1bf3752",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5718",
+    "title": "전신질환과 치주치료",
+    "sha256": "289eab073e6fd56df08c775b0c16608484e121c194e19aa0a7909b04e7e10b42",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5719",
+    "title": "야뇨증(소아)",
+    "sha256": "ec501c79c5f9715cc910117d5ac5502b4d93bf08ca6779d6c2b2d7a8961293fd",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5720",
+    "title": "창자겹침증",
+    "sha256": "d7a5d848a982f8f824b11937936a9ab65c8cf6c155ffbb545d68903b4871ed8d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5721",
+    "title": "소아 청소년의 혈변 및 흑혈변",
+    "sha256": "0a77989921f0f140f3498d44cb6372f979fc1b99b4c81ea7f8d9f26e218aa2be",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5722",
+    "title": "대변 이상",
+    "sha256": "959bb19ea5e812582eb4f5ea11664877aeb7d95de9b9bd3ec74288c46f1d5e9c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5723",
+    "title": "신생아 황달",
+    "sha256": "f1f8674e1c6421549a4ef846318202eb2ef065851b118fc5525195ccc49c2c7f",
+    "matches": [
+      {
+        "section_id": "109",
+        "title": "진단 및 검사",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5726",
+    "title": "인두편도염",
+    "sha256": "35f32fb06464c688ab65a266b92fb5bc482d34c31e2d1be41fdd241c7f211617",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5727",
+    "title": "크루프(후두염)",
+    "sha256": "fa65af8ec63467cfb58e6e710738a40b62462be875b366f5dc45650b684326bf",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5729",
+    "title": "소아발진",
+    "sha256": "93c379be8e122095583a3c6c29d2a9347c85dcc750cfda6df9cb6499d2326a76",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5779",
+    "title": "연조직염과 종기",
+    "sha256": "4acb382a313e7c47349295032d496b45939692c5f883cdd017878df5911f51c4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5782",
+    "title": "급성 간부전",
+    "sha256": "e4ce869e79f0cdba35396f65c4f2425aec32fec037d54eb86d4b8cd26a734a92",
+    "matches": [
+      {
+        "section_id": "161",
+        "title": "원인",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5783",
+    "title": "노인 요실금",
+    "sha256": "0caf18bfa59aac0da4603da03018d996af3427d769f123e94f8f102fbb31dc56",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5800",
+    "title": "궤양대장염(궤양결장염)",
+    "sha256": "1ba8d651d9c8336e459259f0aeda25fa1fa57212e3d1b44c1e48b957a93b8ed3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5803",
+    "title": "급성호흡곤란증후군",
+    "sha256": "72c1c29d9947911e0edc92a374115641a7afb0478158fd31439639d6f53afaca",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5804",
+    "title": "구역질과 구토",
+    "sha256": "ea1e3ec6a07f714aad853492c8960a56324896be233cb0e6fa508ca489cade28",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5806",
+    "title": "알레르기",
+    "sha256": "1786f64a2ed3271d4da56ff398cab739c858d2d9249f8b6bc6b089cb25b6f61d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5807",
+    "title": "소변검사",
+    "sha256": "d3044c7802722d71313573ebf95cb308fa40ca5d8ddc46c12f15ef26e6792730",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5809",
+    "title": "파킨슨병",
+    "sha256": "f0cde22e9531bb9d235117c9630c9d2f29047b82bd3aeefc571a9e999f35a244",
+    "matches": [
+      {
+        "section_id": "108",
+        "title": "증상",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5810",
+    "title": "갑상선기능저하증",
+    "sha256": "35e153f65181e45aab1c241c12254673dcf9e453cf4399d259b8cdc755fa8514",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5811",
+    "title": "유루증",
+    "sha256": "bd0e625fc89b302cd0a5794dd3eb9eff8539fb0b55a0f6508d077bc808f36d39",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5817",
+    "title": "초음파를 이용한 세포조직검사",
+    "sha256": "c427576f8589d88888217214daed78d191f890298d39382cc7ad28f7ec2fcc90",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5818",
+    "title": "치핵",
+    "sha256": "7062253bf765cab5ee91bee2c65001ea480f2e54b7cdbee71f221c6fe7310a36",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5820",
+    "title": "담낭염",
+    "sha256": "691ec1311011c81a47de7e84624e7ee9b89d0fdd2f8206e34c44aaa3783bd53f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5821",
+    "title": "담관염",
+    "sha256": "ced43e615b3d22e5ce77a3ce01a0a5b2d3bf9f96ad20fa0898714004123e9338",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5822",
+    "title": "요실금",
+    "sha256": "d20eb05f2a6c5ba88f0a1f45def79a7d9f0007be27ced88f0a97a88707c3a575",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5824",
+    "title": "발기부전",
+    "sha256": "aed0f7295cfc7d93627c8e1ccb1f53d3369df076c73b60604e60f62644e8572e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5826",
+    "title": "섬유근육통",
+    "sha256": "0f7ffa46adad01ed14f525bfd5cc180fdd3e517775b93b822d76f05bffd72733",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5827",
+    "title": "변비",
+    "sha256": "83d58a403d3e1a2fbec5d99681a582cf30b0086ce5713ca74fe254d76838dbdb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5830",
+    "title": "두통",
+    "sha256": "9fd3f1e3682e49d951f5781117bbf6222afea6f06ecda90523597b77a51ac5e7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5833",
+    "title": "골다공증",
+    "sha256": "b210cc8b8b5604b2d52b8406aa71352ee1f97f1c10c521a0cbd58d486b5b0e7f",
+    "matches": [
+      {
+        "section_id": "167",
+        "title": "연관 증상",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5834",
+    "title": "생활 속의 중금속: 납(Pb)",
+    "sha256": "c3e83a4263d3c4a41f6cb84dfff7ceb88b1787f01c901ae2d63fccc523751b7b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5837",
+    "title": "생활 속의 수은(Hg)",
+    "sha256": "ccc46e81e33c19e34bda1e076b5c3aadb6b4d31eecac75ca15f045b9bdf97342",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5838",
+    "title": "수질오염",
+    "sha256": "53da569c63455cc853e75376ce511d2fb06f92ff08b17963c4dd1ab6591cc3ce",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5840",
+    "title": "평발(편평족)",
+    "sha256": "7a852185dbd600e15315dccfd0c19150e69f0cb48321aa7df8e46727eefb9862",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5841",
+    "title": "구취",
+    "sha256": "40902d7eb5dc8529158281e87952172f0fc3e0ccfe9deef14ec315ad00f237a3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5842",
+    "title": "보툴리눔독소증",
+    "sha256": "c3ada737ec559eda2be09bb8162a563113c33603916bb01f53f597667c3c4e0a",
+    "matches": [
+      {
+        "section_id": "149",
+        "title": "예방 및 예방접종",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5843",
+    "title": "엔테로바이러스 감염증",
+    "sha256": "3d7ee08986bc46132fa8b2340c53cbc5d8db9db4ea8f48afc3ebf0fbc5b6ffd0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5844",
+    "title": "파라티푸스",
+    "sha256": "d394e450dea116dffe4c28031e0dde38ff8302a8e577989cf18cd2dd673aa51e",
+    "matches": [
+      {
+        "section_id": "145",
+        "title": "원인 및 감염경로",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "149",
+        "title": "예방 및 예방접종",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5845",
+    "title": "눈꺼풀처짐(안검하수)",
+    "sha256": "3e2bd80a32b7ab9d3a451f6bde451dee4984e79dd09e25d89101181b7375cc03",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5846",
+    "title": "눈 충혈",
+    "sha256": "99e1c1a977e8a00f2123ecf0250c2885432fc8f4f459e22ca499b227323e4e25",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5848",
+    "title": "바렛 식도",
+    "sha256": "6555c4dfe700a860334a6e693145a347f62b7d4154f3c67dd11c849c7b8215e7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5849",
+    "title": "외상성 척추손상",
+    "sha256": "a76f044b857a9b56878ce6c2cc1968595ec4f689c329f3d51fd4f12a257fbe52",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5850",
+    "title": "외상성 척수손상",
+    "sha256": "64ecb50bc55c94227711baedd32e15c1ba8fce937aaf0456b9d3a71971bac5a8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5853",
+    "title": "실신",
+    "sha256": "4d110a801f530c7f0552d55062eb14998dafac48ad8f882adb342b30887ed611",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5854",
+    "title": "심부 정맥 혈전증",
+    "sha256": "a86893c30b04ee3440ed7f7dcf8d9b047642d7a8d77a6e65c4c73b20fc21f783",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5856",
+    "title": "대동맥 박리",
+    "sha256": "3d7cd54adf42e841fc3f78607589d25a6726a5f2fe41b8c7e60835cc8565224a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5857",
+    "title": "안면홍조",
+    "sha256": "c3fd44d2f3eae510a33f5e9bec0c2ac418f9b71a0206cf7488f8772e9d000c76",
+    "matches": [
+      {
+        "section_id": "161",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5858",
+    "title": "복부 팽만",
+    "sha256": "bc9dbd26cd46c792e4dafd66edfb0f39960c14e06a49be840fdf2b595fea66e9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5859",
+    "title": "실어증",
+    "sha256": "0c5200b9c7fda8d9b0add8940abc8effd5e98748f6980df0285665c524e4e55f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5860",
+    "title": "다한증",
+    "sha256": "fe629dd859f5d3848cf52b8b7b89bce6e78f7258051bd17f896a15e8b78b396d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5862",
+    "title": "감마나이프 방사선 수술",
+    "sha256": "c3f382d2c9c54fe8ca1e72d9dfcbac63587ec0e9ac5776f9bb5c96c789c4f0e4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5864",
+    "title": "외상성 뇌손상",
+    "sha256": "6dfcff76248876fa3232cc27bceaa140ba77854d043db1b60c6e25cdff15000e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5865",
+    "title": "림프절 종대",
+    "sha256": "02871a3e5839ad9026af8561e47ab44452b7c1e7c9f43b4705e0fcaa0fc8212f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5960",
+    "title": "질염",
+    "sha256": "69297967922da040321055a54f1a68eba6f796606804246363e962af017c8672",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5961",
+    "title": "뇌전증",
+    "sha256": "5f5cb9b7a33f4fa6dc00d7aaa3946aef43ccb64576f88b4efa9dc31701871a9d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5963",
+    "title": "뇌동맥류",
+    "sha256": "f3586ff95fcf0fa15dab342ef5b23020c34e1f2365f8e9504143a45fe7d4742b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5964",
+    "title": "메니에르병",
+    "sha256": "1a2a995d16228b3d1d45b136eea294176893e779a5df531a0525294dc7f2cbe1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5968",
+    "title": "방광염",
+    "sha256": "a45b74b2b14a965872abacc4f82b3b9707e7fabe3c4429947107490dc62dcbca",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5969",
+    "title": "무릎관절염, 올바로 운동하기",
+    "sha256": "b477e2a37ed6bd33c163640b27b838698afb12b2cb74c6c252483b44f68131fe",
+    "matches": [
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5971",
+    "title": "다낭성 난소 증후군",
+    "sha256": "9949c35db1fba3ade87d65780c42c0635a00b4285c81a8f23ccf4a1295469485",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5972",
+    "title": "일자목(거북목)증후군",
+    "sha256": "d3d52e405e10056c815dd78003ea4e7cea47b77f09cba33b85e59fd0f80b6fcc",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "5975",
+    "title": "족저근막염",
+    "sha256": "188aee83a591ecae5b17611f968f1ab2ba7d1d008e935acfe3eac2898ca88b1d",
+    "matches": [
+      {
+        "section_id": "110",
+        "title": "치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6",
+    "title": "두근거림",
+    "sha256": "7eb6e0997800d528185b839b40de5ead1e103bb1073d8412777c29b6d4edcff2",
+    "matches": [
+      {
+        "section_id": "171",
+        "title": "예방",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6154",
+    "title": "입냄새",
+    "sha256": "be23e8ff62b4eb1f92b99b63859e50a9a55538505cb4837d42df37385a42e7d0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6190",
+    "title": "자궁근종",
+    "sha256": "1bfcc8d6abb549e254f93cdb1af1c95d47a0b5ff137bf31f354b81ba2e7d5437",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6226",
+    "title": "심폐소생술",
+    "sha256": "5818ac3b74918bed56c33247dd79148a3fc7c11b3a198c5b879ca2fb1c7f9b67",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6227",
+    "title": "심폐소생술(이물질에 의한 기도폐쇄의 처치)",
+    "sha256": "9091f1dbc0c0798983fd75ddcfb689e8118d09e9d01a2c128a40e206fa3baf3e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6228",
+    "title": "요로전환술",
+    "sha256": "822a0cbd2a3497d595984fa8615ded4d7085deb073f543c99c21e7c7d5175f87",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6240",
+    "title": "요로전환술(방광창냄술)",
+    "sha256": "e9b0d926db936a93ef225d247bbca8ea792fedd61ccd8a61c3f60aa08467cd74",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6241",
+    "title": "요로전환술(회장도관술)",
+    "sha256": "f29380736493dcbc2f8ef2ddd3304a13cfaeacd051dcb539e2e8ed124be77f97",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6242",
+    "title": "요로전환술(정위성 인공방광 대치술)",
+    "sha256": "b2027fc062679d1dbf70756a7e730ee6e5f297e2b1fc679b59bb65ea0677ddc6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6243",
+    "title": "요로전환술(콩팥창냄술)",
+    "sha256": "b0ddb0866b36849eaae4386a67bc189caa9274f780d3e35797ffe6aef6df72fa",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6244",
+    "title": "제왕절개술",
+    "sha256": "a48e10042c417a62dcf13c35e030a43a326b8de8b9cfe3d5dfbd9b9f8a768f3d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6246",
+    "title": "폴리오",
+    "sha256": "e4a32db863f7c135caac8470037bf25b1ece182f6322d60dee4ec5d8e85204f0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6247",
+    "title": "일본뇌염",
+    "sha256": "76e9e35fbf284417932df31aa23ba7c4763d73e6f3636dbda66538392c8c3fe3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6248",
+    "title": "바이러스성출혈열",
+    "sha256": "e6ab7e3e5a6abcf60710943a7828a301cc78b7d2e5275f492713dd9fcb1e3551",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6249",
+    "title": "신생아 대사 이상 검사",
+    "sha256": "d739c72d0f6d8fc32e6b2ef1ecd3c674124ff6c85b4eaeaa44688f750847a402",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6250",
+    "title": "태변흡입증후군",
+    "sha256": "1cebda9015da8f3d0d0ed5c3f6265ff6fff636503a16bcd11d4727b6bd0ab7de",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6251",
+    "title": "신체활동! 알려드리겠습니다!",
+    "sha256": "b7e358c1861e6501b8bbf1e67f92d915368d2fa810b40a7e8862d370fd387a6e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6252",
+    "title": "딸꾹질",
+    "sha256": "8403d7631079432c7cd7f11797a5c707280eb4e20fe847a9002448b8ed92ad99",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6253",
+    "title": "기침(성인)",
+    "sha256": "2296f72752bc75c2c4a02db1226c35c105bc97b16d67266cd9932be326fc8577",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6254",
+    "title": "고혈압과 눈(고혈압망막병증)",
+    "sha256": "8d432f133b4daeac482697af5f2935c48ba837be1420308875f6a6cb2cccb322",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6255",
+    "title": "방광경 검사",
+    "sha256": "1a79b694a4b61a1e6b96be249fac15b2014da6d6e75698a8745ef78d03843d6f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6256",
+    "title": "토혈(성인)",
+    "sha256": "d24fb95ee1c7274414821875911a681c98f4478adfffef7b68242a96f0613526",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6257",
+    "title": "해외여행 시 주의해야 할 감염병! 알려드리겠습니다!",
+    "sha256": "de6dd3b342cd87266364a988c677d1bfd56155b8c8b77df7ff320b22c46bd47c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6258",
+    "title": "폐기능검사",
+    "sha256": "20a0eb721f366d4b48520870d6b36cca933e48e1304b863e3dcf24c8f45f4b72",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6259",
+    "title": "성폭력",
+    "sha256": "0697001b0f4b8d5120b69886c38f945f4785a3c198d957ac251888b1b854a859",
+    "matches": [
+      {
+        "section_id": "233",
+        "title": "평가 및 검사",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6260",
+    "title": "흉막염과 농흉",
+    "sha256": "dc6e288c4d4db30fde7e01775db21f800e461b86fd94741b6b77449bf799f721",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6262",
+    "title": "노인 부종",
+    "sha256": "e6e8a17f2ac8b38320aa7fcb5f742e017a4ada52cb8667e7c06d7aca3442e973",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6264",
+    "title": "생활 속의 소음",
+    "sha256": "ee4d3f45e8289262a1428419cf796788c78ba40660c7ad5b895bd01ec2056217",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6266",
+    "title": "웨스트나일열",
+    "sha256": "a1117c2a17fa2dfabf65effa9a01b6007d02f58820d87fa6190ae5df4f3082a0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6267",
+    "title": "응고검사",
+    "sha256": "7e53299b8b39bc8e04955d36597ed2194af16a338189028b935ba4b26c572a2f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6268",
+    "title": "응고검사(혈전질환의 검사)",
+    "sha256": "56a7381746769557ca74bea6054b2149f2a574631758910f067e77c9bbb38dbc",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6269",
+    "title": "응고검사(출혈질환의 검사)",
+    "sha256": "cab049ac20b916318af0bc26ffd504c654a39bcde708839f01011205ae60e14f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6270",
+    "title": "귀의 형태 이상",
+    "sha256": "755080549f77afcda5351181a61e07cce095bb10eab96395ad6dbcb83228f209",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6271",
+    "title": "귀의 형태 이상(소이증)",
+    "sha256": "db99bb40703dfb95e387f13cf622faacd366a28f2348b322fde4bf63c9d3e507",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6272",
+    "title": "배뇨 관련 증상 또는 이상",
+    "sha256": "9e4b1a73a2f15cfda79f25dd6cd39e95da8cd81f9bceb9b09811092e41d739b1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6275",
+    "title": "얼굴떨림(얼굴연축_눈꺼풀연축)",
+    "sha256": "724565b91ba1daff346bf6c33485d198f28e5fffc60ccc528db57674f55b2086",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6276",
+    "title": "얼굴떨림(얼굴연축_반얼굴연축)",
+    "sha256": "9ebfa3ca7cf1ac3f677012f8ae01a9ad39a4f4850cd9316c2a5defa750377d74",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6277",
+    "title": "갑상선스캔",
+    "sha256": "08ec0c6f5d226614b26109ee5be8332129520fb56d2b56c2c13dde4d30fe041f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6279",
+    "title": "약시(소아)",
+    "sha256": "634a1ec7f4c0e4305b5c5ea33d409b10fa8f4ee78fa3912ee0cd39500f652636",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6280",
+    "title": "생활 속의 연소가스",
+    "sha256": "aeaf7a43eca79a8ca7ad733bf2fd9fe9fec9d667a6ceb2f8099e720f65b49cff",
+    "matches": [
+      {
+        "section_id": "3673",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "224",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "226",
+        "title": "발생원/원인",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "227",
+        "title": "종류",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "229",
+        "title": "건강에 미치는 영향",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "229",
+        "title": "건강에 미치는 영향",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "232",
+        "title": "예방 및 대처",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "234",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "326",
+        "title": "참고문헌",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6282",
+    "title": "기관지내시경 검사",
+    "sha256": "34c6860d9b8d35d589f7ccf52b11d723f13bf8b99ccf56b7ae66e3a6992ca82c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6283",
+    "title": "자궁내막증",
+    "sha256": "298cbd3ee6960d75f9aac198a1345049a4aaf050439f6eb4078a5c32d185d250",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6290",
+    "title": "폐기물 소각과 다이옥신",
+    "sha256": "1a82ef1ba38e5bb369c989d39f3ba5d01aabc6b9e809661b36d8b3caf36b925b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6292",
+    "title": "수근굴(수근관) 증후군",
+    "sha256": "67ef0527ea8edc7e2deacdc6b0e92cc1b7a8d94b2924184b14e5e19481a945ec",
+    "matches": [
+      {
+        "section_id": "109",
+        "title": "진단 및 검사",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "110",
+        "title": "치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6293",
+    "title": "세포검사",
+    "sha256": "0477c40587bad349e582a0bb989e3d55d5be826b96b4769ac7263fd08d1cf43d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6294",
+    "title": "간흡충증",
+    "sha256": "0dcdb6ff710b68c6e6e67c6a576bf374a04ae39b1a3e41e80a49b32abeedb3d2",
+    "matches": [
+      {
+        "section_id": "145",
+        "title": "원인 및 감염경로",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6295",
+    "title": "각막혼탁 및 반흔",
+    "sha256": "1fcaa68227d0c91878b60b10cfbe57714aa3f8e0d6008d6f3858b88c3b6fc1cd",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6298",
+    "title": "담낭 용종",
+    "sha256": "f7a2c641237b3ceda2e8d7949cf41965848a17b0eadbb55abaa24aa8810b5063",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6300",
+    "title": "골수검사",
+    "sha256": "ec9f58368bb54658f39144829645c074f79c02c409c882166ea3f46fe513501a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6301",
+    "title": "정상임신관리(임신의 진단과 관리)",
+    "sha256": "1ba05510e45c97f662e1c5f804a19eec4dc56e843691bbd1268d618310287f9d",
+    "matches": [
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6302",
+    "title": "유비저",
+    "sha256": "b732c643db6d9caa478aee08485177301193e84415c05295965afaf01327c92c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6303",
+    "title": "라임병",
+    "sha256": "5a1f547ad4837463bd2447f0d0e01a0c82b0e9c7de4266e0053a5207b0528067",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6304",
+    "title": "미숙아",
+    "sha256": "2b9f8132c86fe22826780f8b0cf3acee6bd5ecf76737f29773a69ba980956c6c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6305",
+    "title": "수두증(소아)",
+    "sha256": "bd7c8ad930b51b2c7b94e61f627fdd100053d652364d886f789c9087662300ca",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6306",
+    "title": "안구건조증",
+    "sha256": "38cd3dc695c9d8f4c192b1fd7e19efb19f0ab9b31c6b0a266e2c9d28b91b045f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6307",
+    "title": "심잡음",
+    "sha256": "4ae316cd017de60086b958869dc3390ffdcdbf01d012f87bf16519d6b5cca16a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6308",
+    "title": "수면무호흡증",
+    "sha256": "1711797668971eb3ae85d30cb9c2c70c00cdea22967e00949d2aed087b4b329c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6309",
+    "title": "스포츠 손상과 안전",
+    "sha256": "7d4f4589112defe083fcd643411d4edda778ec21d557b288a4ce56802b0702e6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6310",
+    "title": "스포츠 손상과 안전(슬관절(무릎 관절) 손상)",
+    "sha256": "29a73cbf889752b2ac27f15e5746301012760f5bd9589f5279eee70f6cd98b25",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6311",
+    "title": "스포츠 손상과 안전(견관절(어깨 관절) 손상)",
+    "sha256": "62ae7408a5bfa79d0b437d78e8b445522cb2c99f55bbc9b5f8b596725f805bf3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6312",
+    "title": "스포츠 손상과 안전(족관절(발목 관절) 손상)",
+    "sha256": "39689b13d948ed5858656fa1679a136c6dd2dc3d0ca68d0e34785b8a7240e322",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6313",
+    "title": "야토병",
+    "sha256": "9d22b8738a766cd9363f3a2d7fc655d04ee7210a9577a70ab93641c5db0817a9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6314",
+    "title": "페스트",
+    "sha256": "c96376c9396c5d72ebef2eda29fd09d519a94eaa4924ac1fc4d5e78561e25eb6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6315",
+    "title": "이갈이",
+    "sha256": "ccd43a9d3720c6793f5c05299d0ed4de0cffe3dbb30bdfc341647ccf23df192d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6316",
+    "title": "독극물 섭취",
+    "sha256": "b45384f69e87fe6af6f109003f14ffc269cfb26b5a173c0d931de57de0869481",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6317",
+    "title": "혈관종",
+    "sha256": "b1774b7a029a66ebc8e0f847ee65e8ce80b7238ceef678114f889a1d77d930b5",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6318",
+    "title": "석면과 건강장해",
+    "sha256": "1d9286647f773e8725985145c00730b472a196dca158baef57abee91d94aa02d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6319",
+    "title": "망막박리",
+    "sha256": "54baf575361dc47f913b1a249c23acfcb2a8f41153edfbe12b7f273c63fd4dfc",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6320",
+    "title": "치통 및 만성 통증(치통)",
+    "sha256": "9c4a400efbd11ae27f75cfa86cac092f60b4f5ab04186cc1f5a5cb66f3cffc20",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6321",
+    "title": "치통 및 만성 통증(구강안면부의 만성 통증)",
+    "sha256": "fdd4c2c913ea5181a88a3318eecba08737d89874f5bcd8f16f699fef09e98bee",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6322",
+    "title": "치통 및 만성 통증",
+    "sha256": "93ebfb6b0b559cb661963e23d9f57ff6578a5d56105fc42210c8efbe514df5b5",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6386",
+    "title": "자궁샘근증",
+    "sha256": "d52853c2604bf79f734e6c1da05a2dc7b8f7fa3c3ce5077c6a77aa5c9250403a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6388",
+    "title": "정상임신관리(임신 전 관리)",
+    "sha256": "6bd2df63b4c9bdc1149a865b5112f5b172c836f273c282d4de1093d2fe3f350d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6389",
+    "title": "아말감 및 인레이(아말감)",
+    "sha256": "269bae50f23445b7ae93e9740ff1351da2bbf5f1564b93a4ec06eeeea7c83e41",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6391",
+    "title": "아말감 및 인레이(치아색 인레이)",
+    "sha256": "4e3fc1f1ed72bc611406a817ef6fa6fb2b5144987c81821632e895cb8e4ef3b4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6437",
+    "title": "간이식수술",
+    "sha256": "ba5ca61fb707f632876c42d73ec2861a370370f2f506f112a4dd717b4d39bb77",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6442",
+    "title": "조혈모세포이식",
+    "sha256": "72b33c9f46411c5c836403d84ec323a24562f5044c6bd7d13e6134e84c00d265",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6443",
+    "title": "경정맥신우조영술",
+    "sha256": "01de5335dcf1ad60b47ff21203f54579eeaef41d2b239e687e2dac6d46ed8bdd",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6445",
+    "title": "슬관절 전치환술",
+    "sha256": "3c43db9b93607e6a6dc514845c95f2cc7af8d582991717124316253754aecbeb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6449",
+    "title": "신장 이식",
+    "sha256": "b972f26c91767f91912366e9fd2e48ed447168ffa26142358d175f80906d3137",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6451",
+    "title": "턱교정 수술과 교정 치료",
+    "sha256": "f49b3e7636f6526c773f3cd83d9e0aa75194205bb1de26b62151fe853e6d1668",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6454",
+    "title": "정관수술",
+    "sha256": "9065dc76542f215c82dcc1d99eb1607a0f2eb749f680c215d57ba886cb0cbc75",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6455",
+    "title": "치과진정법",
+    "sha256": "7881aa8246d7c37e0f65fb6729c93c9e008f9051807e0dd54cb2e69d9c788b31",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6456",
+    "title": "각막이식",
+    "sha256": "dec3226de0b36325ebe2b3624cde84122f3a1f44b603463acbbc538c3dd67e5f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6457",
+    "title": "근시교정수술",
+    "sha256": "35e33683d11cccb043d8a14069043cf41d20f936a008f19939f6d623db86f2ef",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6458",
+    "title": "콘택트렌즈",
+    "sha256": "d9e314dad5093ce1256100734d9906c5bec42a7d5711a3539f12d63cebc487fe",
+    "matches": [
+      {
+        "section_id": "344",
+        "title": "자주하는 질문",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6465",
+    "title": "혈액투석",
+    "sha256": "e7b371b6c3e618c8ab8e27dc84de01a05e1f7786ce0f47a2ff139c32807931fb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6468",
+    "title": "포경수술",
+    "sha256": "9afe6dd80bdc8fbf2d5a7170a331f6d35f475bcce2ed29cb1eb8684f6e628e24",
+    "matches": [
+      {
+        "section_id": "3676",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "338",
+        "title": "치료의 적응증",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6470",
+    "title": "아말감 및 인레이(금 인레이)",
+    "sha256": "aa80c09773bd8492e8a8d27263425aa0f13532357c01b97d70e71112777e8428",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6471",
+    "title": "당뇨환자의 약물요법",
+    "sha256": "98237eb714ff3b4fd37e7b16edefcf1d345975e6d86d5b7e4723c8d02d4f6c0b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6472",
+    "title": "기관절개술",
+    "sha256": "a08e3143e2384e8e9c96e9612eb3fcd7db0d124a77c18a6fdfb20295d57f9767",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6474",
+    "title": "뇌졸중 환자의 재활",
+    "sha256": "f2acf4be1162bba1d072049ccd6af6f5f9c7c95bf0a8891eb847e7bbfd8d6d40",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6478",
+    "title": "귀의 형태 이상(돌출귀)",
+    "sha256": "98e815a2c2922f5c24cf7820596138e436925e8dc6ab423610ddde9b1cc2a868",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6479",
+    "title": "귀의 형태 이상(기타)",
+    "sha256": "25eb48b1051cda64a472036e634e3a0f38a085b968358c112b5172a22376ff6d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6480",
+    "title": "기저귀피부염",
+    "sha256": "eeb3da9e3f132f137a09ff5ce57a7423193ed9662b152affe398fca0987f11c6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6481",
+    "title": "얼굴떨림(얼굴연축)",
+    "sha256": "2a9324ee845692ea224b1f3e55acd8bb2164b0408fcf7677a109c4135e4321a8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6482",
+    "title": "급성신손상(소아)",
+    "sha256": "966e1ed69305e12e73a78ca0e2a84b1f7480bc124d684f1b5441dd887c2fa9e0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6483",
+    "title": "정상소아의 성장",
+    "sha256": "e035c77c9c3da94d7c2eac71303cf5f87a06c9a3b04cf503b109207d3c274416",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6484",
+    "title": "정상소아의 성장(성장)",
+    "sha256": "855278b340ea222719c9de22031d59f0d21fc4c88eabd9e1689a060c5777b614",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6485",
+    "title": "정상소아의 성장(발달)",
+    "sha256": "164917fd505a3f8a472b958149762b0e0017b97eb5760f3b33c4a4963e7cd510",
+    "matches": [
+      {
+        "section_id": "213",
+        "title": "종류",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6486",
+    "title": "소아청소년기고혈압",
+    "sha256": "70e5b167f94a8cace8c5a20953bd12e92085c0f17565df8b3370edd8853e62d0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6487",
+    "title": "손떨림(수전증)",
+    "sha256": "5613b3737930bd9356bc1c5737888176f8e11f75371fdcfcdc4884b421f47196",
+    "matches": [
+      {
+        "section_id": "103",
+        "title": "종류",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6488",
+    "title": "탈장(성인)",
+    "sha256": "d00cb314d3794356a0865b98322d8f8b311e9def4a4c97f3a7aca241089e3d2f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6489",
+    "title": "건막염(통풍성 건막염)",
+    "sha256": "5c24f85a746bd905e1e8c3f79e8b66689abd532cfa3e3f21d3d817f6b7b88cd5",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6490",
+    "title": "건막염(류마치스 건막염)",
+    "sha256": "ccac06cbf6c7df921dd3a3b93a6efb2895abbb63eaaa4201a39c921c1103fab6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6491",
+    "title": "건막염(감염성 건막염)",
+    "sha256": "3271f554106bcef5799d0ac2f1cee295ac2498721f5410bcb7aa151461906400",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6492",
+    "title": "건막염(특발성 건막염)",
+    "sha256": "9829dd99c5241607450a11bfaa6a134822ed1d23cdd04b18c8464eed705cadc1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6493",
+    "title": "연조직염과 종기(종기)",
+    "sha256": "63a8d0b44387a05b59c4daed26dd433777f4c26886d42ee06fd4c52ee6beb1f5",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6494",
+    "title": "연조직염과 종기(연조직염)",
+    "sha256": "80dd283ebd612e36a297667f354504e1f56c0b5dd9bcd2ce14de5b784b394149",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6510",
+    "title": "가철성 보철",
+    "sha256": "fa25eecd29727632e5c829bef257c299ccc443811ffddf62f2639cae61fcc955",
+    "matches": [
+      {
+        "section_id": "343",
+        "title": "치료 후 관리",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6524",
+    "title": "직업성 호흡기질환(직업성 폐암, 악성중피종)",
+    "sha256": "ffc5e00a61f744b2d190436e8d4d795f06346ab9bf0c2631004d0af156344dfe",
+    "matches": [
+      {
+        "section_id": "104",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6525",
+    "title": "직업성 호흡기질환(직업성 감염성폐질환)",
+    "sha256": "1b061e2dce918ebb82d6c5c313967a8fcd16283cd44cffdc81a333603d52a9d5",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6526",
+    "title": "직업성 호흡기질환(직업성 만성폐쇄성폐질환)",
+    "sha256": "219e2480c72ae8796a3762d984af592144f9e8dd02683282324b5af19fc8ded8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6527",
+    "title": "직업성 호흡기질환(직업성 천식)",
+    "sha256": "239191bc7f9ee28d8243dafb0344ae230e593b4c1edce3d89ed882804cfb6925",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6528",
+    "title": "직업성 호흡기질환(진폐증)",
+    "sha256": "bcada193b9b8ada72df2d524d1982c42e07f1431bd1dba7167557e73c17289e6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6529",
+    "title": "직업성 호흡기질환",
+    "sha256": "d45e5ee2e03ff4301fb33c39d5cd2f73dab54254a8ce0ae65e3c8256f6c2ffb2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6530",
+    "title": "생활 속의 라돈",
+    "sha256": "5469dfd1268fc9ecf8353010126177ed887a7121e55deb9b4f4db0f8628e0df0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6531",
+    "title": "대장용종",
+    "sha256": "b6e1302bfbd7e232875ecaa0958e3dd442a7a3bbea17f2369c194f8ef037c337",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6532",
+    "title": "전자제품과 전자파",
+    "sha256": "701683a7a823a0ed27177c61750a9d45feaffc1dc8c1bfab4de6ce61d45992e3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6533",
+    "title": "아동학대",
+    "sha256": "633996ab8c29fdcab8ec17b0907f2f650b302a2fd46c1d410ca03427f4bdef9d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6534",
+    "title": "자연분만과정",
+    "sha256": "ca4ef92874f442f3202b6e79f613ffeb8aae09bbe52d8b146e8372069964dc8a",
+    "matches": [
+      {
+        "section_id": "172",
+        "title": "자가 관리",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6535",
+    "title": "다운증후군",
+    "sha256": "96e2ac8f54b86b2fbba8933c5952592d55ed9ad8f9a61e7123e52359c7686061",
+    "matches": [
+      {
+        "section_id": "114",
+        "title": "정기 진찰",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6536",
+    "title": "만성폐쇄성폐질환",
+    "sha256": "d2d8e5abb41f5b66242a7c0f8cf794eecc724371c33ab92cfb97deea63faa027",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6537",
+    "title": "사마귀",
+    "sha256": "8c2adf8a1449f811eb6b283195015cfcd5e17d76a8f0cc3fdff6c5ec959ea75e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6538",
+    "title": "피임",
+    "sha256": "bb14e0055e735feee4db82cda164609820e7b2fb71e6e4e512e02a793dab5ed1",
+    "matches": [
+      {
+        "section_id": "175",
+        "title": "자주하는 질문",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6539",
+    "title": "근전도 신경전도검사",
+    "sha256": "5a51a0ee1cec4a97786363a79f2e62e7175d8c66493b69b4834a83458bf47bb7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6540",
+    "title": "폐 색전증",
+    "sha256": "0955779084e4e3ab3416cb65bf4e5c4a627c05de9f2af52a902a778f57bda54f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6541",
+    "title": "사구체질환",
+    "sha256": "dbb0e35223d0456eb03750ea1cd3614ef6df105e451ad2e90f12c8f5f6afb3b4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6542",
+    "title": "근관치료",
+    "sha256": "cc6b37be9779198dfa7e6d260733e2d117380f5cb6b92436904d31c3a5c5f18e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6543",
+    "title": "객혈",
+    "sha256": "ad41da770470c14f5a2be8bf47aff21935d4b91daf57e727b271b87166e2e986",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6544",
+    "title": "부종",
+    "sha256": "79df40284aba2434008db28679cd4a2fed5958b8debd110436342709a60838e4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6545",
+    "title": "손씻기",
+    "sha256": "3934ab7b37e1c1adcefabef1c46fdcb6b4f780d32043a9a169ce0f71bd7060b1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6546",
+    "title": "체중 감소",
+    "sha256": "ba86476bea8476cc3cdbc66d1879ef248e886b2c7e9885e3cc8f79c0d10dc7dc",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6547",
+    "title": "건강한 체중조절을 위한 식사",
+    "sha256": "f3a5c061ff6b78b2b27ee5548a8eb5b5fa38cf02aa8332bce1e77f5b5e7abe2f",
+    "matches": [
+      {
+        "section_id": "212",
+        "title": "정의",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "212",
+        "title": "정의",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6548",
+    "title": "건강기능식품",
+    "sha256": "71ac287364153012d3a3b1bdb1662675dce9e5a1d29b7790d8a144fcd43a64ad",
+    "matches": [
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "shopping"
+        ]
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법",
+        "topics": [
+          "shopping"
+        ]
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6549",
+    "title": "만성피로증후군",
+    "sha256": "e62cbe57d6adffc0bf5eaad67c83aef48f56ad5cea86de0bd901b47d45430149",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6550",
+    "title": "어지럼",
+    "sha256": "5828ad48e1957df8535bd965cd7688c0d580739da2cfb0c4fb4252e9fde215db",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6551",
+    "title": "탈수",
+    "sha256": "029575b06fe20fb96e3c5942e3c4d3775f20a88ef1f09d667ff7703e16db209a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6552",
+    "title": "항문 가려움증",
+    "sha256": "2ab9a09318a1730f7c809a884881a125d2a1f5ca74f5582c6ba3615f8762e781",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6553",
+    "title": "바이러스성 간염",
+    "sha256": "f9fed06259f086340311c0d6aa2b25f6a360858bddc691ff6b5d2e78fca22535",
+    "matches": [
+      {
+        "section_id": "104",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6554",
+    "title": "기관지확장증",
+    "sha256": "229ba7c1073936c8f0295000c2c0538fbb2fa21dad3d9c77a820108be6993ee5",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6555",
+    "title": "강직척추염",
+    "sha256": "5e29935be53ac95987d1d6d04ebec28236e11bfb46dd2c0db3b8796547b04f5d",
+    "matches": [
+      {
+        "section_id": "101",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "105",
+        "title": "경과 및 예후",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6556",
+    "title": "류마티스관절염",
+    "sha256": "5313a2a966d47c045ef8d7bd6543e8056c10f88f4a270d8df6f69f99c326bd78",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6557",
+    "title": "편두통",
+    "sha256": "7df123a63cbcecd2dfd1ab0bae2fd036165abf2801e1033f30c93d7d4a6b51e1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6558",
+    "title": "항응고요법",
+    "sha256": "a1da14f2e2d0b5c249564f44860db0f1b277ba8e117a891e8bbb3ccdffc8791a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6559",
+    "title": "혈관조영술",
+    "sha256": "59458302eb1c9362dddf6373a1ea9c4a803f5831afbac116ee71da42b69cbb70",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6560",
+    "title": "간경변증",
+    "sha256": "a7c138b5fc5381ba03f15718e9fbd77ce086310f887a0b4b630437b3b2586103",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6561",
+    "title": "결핵",
+    "sha256": "47c614cdfdd983aab2584e8b5f32bea4c0b9a9a93190eb1fcab987380ea347af",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6562",
+    "title": "고관절 전치환술",
+    "sha256": "0d0b9f60067368ca465712a3052a59f9d1dc142a95de74232b9cf801528c5251",
+    "matches": [
+      {
+        "section_id": "338",
+        "title": "치료의 적응증",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "344",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6563",
+    "title": "발달성 고관절 이형성증 및 탈구",
+    "sha256": "c198c1492954d80513a6c9ffc337cf27e8caa6e50ec1eaf683b92035f2d1632c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6564",
+    "title": "방사선치료",
+    "sha256": "8ca5507e9a74949a40203598bbf18595130bc66ed6171d4ab706b92950724de9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6565",
+    "title": "전신마취",
+    "sha256": "7e73bfe1caaf6eec8a50a445b35dca2483a3cc633dea49e5aad4c14b3a12405a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6566",
+    "title": "협심증",
+    "sha256": "4af53bd600cb92da13d53c82c4528d53fe3558dbc6a8aa77ed569b11eb364e67",
+    "matches": [
+      {
+        "section_id": "120",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6567",
+    "title": "호스피스 완화의료",
+    "sha256": "959baddcd87f0189f03d47a5d19a0157c5233deb8b4080710231d87750498f92",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6568",
+    "title": "뇌사자 장기기증",
+    "sha256": "8d2b138e80be2ed08c022ebde5af4d15597dce9c5253c377743959f956ef056b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6569",
+    "title": "뇌성마비",
+    "sha256": "ecb761f250097a77f84432746d467ed0b9973ef75244ba6ac26d7f14f5888efe",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6570",
+    "title": "다중이용시설에서의 건강문제(실내공기오염)",
+    "sha256": "1984d3bebdaa4a1bf9f93cbef6c07b64c694da8c1cf5efdc0e910b03a21fc6c2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6571",
+    "title": "라미네이트 치료",
+    "sha256": "f4b9dc37fb14ab4392014c844a6d5c8b948dc1266009d278a24c43ed25235132",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6572",
+    "title": "불소도포",
+    "sha256": "6409e775abb9ea364d5f88ae84cf6343df0cb277402ef4e603c8a32ecb900323",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6573",
+    "title": "생활 속의 다중화학물질과민증",
+    "sha256": "415cb290fcea4f5dedb0be463e842f22178b16cdf2329f481541653a284935b7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6575",
+    "title": "완전도재관",
+    "sha256": "90754c4271b21402e4091f093291ae1122e55a5f2deef83119bf72556924c7e5",
+    "matches": [
+      {
+        "section_id": "359",
+        "title": "참고문헌",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6576",
+    "title": "치과 임플란트",
+    "sha256": "952e65deef2d4e996d450e8e6811e68494ae1f20696d93c36404e9617d51ceed",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6577",
+    "title": "치아맹출장애",
+    "sha256": "04617a1c8043f271e7808c74a317bb9c1a1224be28c069fab448c6c9fa12cc78",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6578",
+    "title": "늘어지는 영아증후군",
+    "sha256": "d274cc63a2a02ca77a1ada28ad37413c05bed50f0c9d5c86002b0d4e40d1e15b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6579",
+    "title": "다태임신",
+    "sha256": "b1f6597a48afc69e39ccc4f0c1fa54a538e37913a516cec255249bc548acb296",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6580",
+    "title": "동맥관 개존증",
+    "sha256": "20df7748c1b5efb6fa981d3955d14afbeed6a5cbb69a34c6af4a79585a0047c2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6581",
+    "title": "두드러기",
+    "sha256": "28563c0a0ccef3906ef0e79a5c09c59ebbcd60bb5701d418289ca4fcb7d84cd8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6582",
+    "title": "아토피피부염",
+    "sha256": "c826c2efb2403997d3442b5866254c3e79a5afc51f4bc992ad318f56c1027461",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6583",
+    "title": "조산",
+    "sha256": "5237d8b6ac32a790ed168562f117348cd2dc905b02acba4bd76e6f0156f3f050",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6584",
+    "title": "화상",
+    "sha256": "7f0c6ac264ef93e9c66b284b81df52c3885903ca801808c5e4b7fc357f44779d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6585",
+    "title": "독성 간 손상",
+    "sha256": "f73565f83b4741528db645e1c0a6e8afa652c3886dba2922a35735d9b65c2e28",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6586",
+    "title": "성공적인 모유 수유",
+    "sha256": "854c7d9f52d88d93f2f312db910168b3d2a2d67b715ce7efa38f0a403026725d",
+    "matches": [
+      {
+        "section_id": "162",
+        "title": "경과 및 예후",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "172",
+        "title": "자가 관리",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6613",
+    "title": "불규칙한 월경주기와 월경전증후군",
+    "sha256": "e96bb36494c631a22789bc2607a7b1fe671e62c2e2c118de616bbd3cb5ff4120",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6615",
+    "title": "청소년의 카페인 음료 섭취",
+    "sha256": "656cb58144bc4c94bdeb9df9590d179800c07df20cac6eb6d6dde669166e9ee9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6616",
+    "title": "특발성 저신장에서 성장호르몬 효과와 주의사항",
+    "sha256": "afeb8e911db438e73278d29180f1383483a5d78727e6b0c4300b79555be23813",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6618",
+    "title": "정상 월경의 이해",
+    "sha256": "57b2a16572d56ff55cdcf912cda71c4710d53090225f40231adc8a43b0ed5601",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6619",
+    "title": "액상형 전자담배",
+    "sha256": "01a5a6387ff0209b42c45c699b38b6dcd67dbd9c217e9aef04f350c31c997794",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6620",
+    "title": "청소년과 다이어트 보조제",
+    "sha256": "b3efcd8d9c84741dccb3b84de99cd411405b93f17a33914490fe85913c34103d",
+    "matches": [
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6621",
+    "title": "드림렌즈의 효과와 부작용",
+    "sha256": "143fd66c4275e434efbaef35c3a3843d3cf4007703eca3198531ca94b41b60f0",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6622",
+    "title": "청소년의 안전한 화장품 사용",
+    "sha256": "c99c0a30ca5288070a9c0c5dd62a6ece68d94f48bf2c8c2e677bc88b01a5abf4",
+    "matches": [
+      {
+        "section_id": "222",
+        "title": "자주하는 질문",
+        "topics": [
+          "shopping"
+        ]
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6623",
+    "title": "청소년의 제로 음료 섭취",
+    "sha256": "a9f133953a27ca167fc864d3bfd9d39bb7412bbc6343191cd6c2b789f454f093",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6624",
+    "title": "청소년의 디지털 과의존",
+    "sha256": "99f0840ad7aa934324509cdbec4ec68939ca7e5c3f74edeb17065f41c7a3c6ee",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6670",
+    "title": "동상",
+    "sha256": "3b1c28e49d188f5195920f42d7334f7840657b29cc0fe6658cc3c2e34766afe2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6671",
+    "title": "건강검진(국가건강검진)",
+    "sha256": "3b9a0956d168c131d87e5ec0fde295d0ceb05e38a7904ab3666c8230857eba9e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6672",
+    "title": "B형간염",
+    "sha256": "6d43067f52e6a3a886f7d98327c9e91c56e686740fe6ae254b559f39ec61f0d8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6673",
+    "title": "대사이상지방간질환",
+    "sha256": "b4312a12c8cf332a309d28321cbb57edcdb97b63d64ef3e1c7a3c86221fe2f04",
+    "matches": [
+      {
+        "section_id": "112",
+        "title": "비약물 치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6674",
+    "title": "요로감염",
+    "sha256": "ad36330cf1a5d7aadc96cd7218bd5b179c0d049f4324aa428b020bc8aeeb8af7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6675",
+    "title": "렙토스피라증",
+    "sha256": "8d22708a0fa477100b2ce77ac5549d76af907b696d4bdfa0ae2014c569f6bd73",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6676",
+    "title": "백일해",
+    "sha256": "67a32106f526058a62378a70c7466f1f55ff8219f6e3898d03c1155cb5a32763",
+    "matches": [
+      {
+        "section_id": "146",
+        "title": "역학 및 통계",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6677",
+    "title": "코로나바이러스감염증-19",
+    "sha256": "b47e60499c7e1d3471d5136bb271c05c402d06ab2e8697dd3880fa27cc0e6090",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6678",
+    "title": "성매개감염병",
+    "sha256": "d05c4fd2a3e9f8429d3cc28ee007ee08846caee16ea8b2c449ed1105b29fbb48",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6679",
+    "title": "수두와 대상포진",
+    "sha256": "dd536920b0e50b36d551c7b6581d9ef30b275706315fff557d75d1e645c308f8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6680",
+    "title": "급성호흡기바이러스감염증",
+    "sha256": "849f901d8cef7d7138aaa4e02ae46924f99b97888206528fae9bfa9ace9a5043",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6681",
+    "title": "다제내성균감염증",
+    "sha256": "acd3db66a737b2d270ec81f13060fea095058e95f0429a9bf57241967daaa58a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6683",
+    "title": "갑상선 결절",
+    "sha256": "2a81b4ec78c304f8e682a72a2cd650161a540f4b3f62ea4d17b57cae6da9344e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6684",
+    "title": "아나필락시스",
+    "sha256": "c1190e345767123c25ff51458d7283a3ef088526be2db9bd67695133e479d5de",
+    "matches": [
+      {
+        "section_id": "171",
+        "title": "예방",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "172",
+        "title": "자가 관리",
+        "topics": [
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6685",
+    "title": "무월경",
+    "sha256": "92a4b53da94bd62bf518ec58bcf98e913caddd8ef94630235cf327927fb95a51",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6686",
+    "title": "자연유산",
+    "sha256": "1714807354a466be0f34ff6766cd989dbb90f95a9c95a01d9011b2ba7550afa3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6687",
+    "title": "폐경기",
+    "sha256": "9ab122b7d29ff0fd65b9b0515c3b622280361076c8710cc8d1277e855a07bf3e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6688",
+    "title": "호르몬대체요법",
+    "sha256": "d343eaeec315d507499a96b192913d68d9f801c8363530c88844ff6af8445448",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6689",
+    "title": "백내장",
+    "sha256": "17e8470b97ba579b624d553d0d70bec6edc7cd08f723e719f3942f8a437cde75",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6690",
+    "title": "녹내장",
+    "sha256": "6ca60565ca38a730b68a94785eb6a7d8fd4c17e58bd8e33cb675ec970c8094bb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6691",
+    "title": "임신당뇨병",
+    "sha256": "d0752915332fb1ac5ccc1d98e22c4ff77b3bfd9b795c4e091df15a246fb78e61",
+    "matches": [
+      {
+        "section_id": "110",
+        "title": "치료",
+        "topics": [
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6692",
+    "title": "당뇨병성 족부병증",
+    "sha256": "9324cc622afc60d18305a057ba2165f0f19f320725cbf6524f6bfd558c22ce8c",
+    "matches": [
+      {
+        "section_id": "120",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6693",
+    "title": "식이영양",
+    "sha256": "e3bba00b3da7222d2ea60ff053bbf294eafae6e9dd26bed652ee0eae59a32b6e",
+    "matches": [
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6694",
+    "title": "비만",
+    "sha256": "042c408a7ed61dd076b7e13bdfac773f46bab509ef9f1d331cddc1f1a5fad5e4",
+    "matches": [
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6695",
+    "title": "노인 보행장애",
+    "sha256": "7256d888e13c0f37ca279eab4045fa45553801717dddcdd1aa0acd190d8e6905",
+    "matches": [
+      {
+        "section_id": "108",
+        "title": "증상",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "113",
+        "title": "자가 관리",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6696",
+    "title": "말더듬",
+    "sha256": "2787b99a082226e70bb79d7c90328be1b8128f5726b5390ee82b6427d96d2d33",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6697",
+    "title": "고혈압성 콩팥병",
+    "sha256": "848171b13840e2b5976ca3bd3a888382e777de59ba5292c7bdd412b727148c11",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6698",
+    "title": "노인 고혈압",
+    "sha256": "af045b16b060cd77b76407fcc50ae4744b3b0442f9ce34c0c1d6196f98e8dc64",
+    "matches": [
+      {
+        "section_id": "112",
+        "title": "비약물 치료",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6699",
+    "title": "백반증",
+    "sha256": "04af565725d1afa91d69d2310fb71ecf854244cf2ba1e18fb9fcd34b14e51832",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6700",
+    "title": "원형탈모",
+    "sha256": "19cafa70b49ec6a48716111b935846678bc9ededb4dafa021b3a7276494a4bb6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6701",
+    "title": "선천갑상샘저하증",
+    "sha256": "d28e763cc3d7fc3da6d107b0bc21bda4020185eac6f3198166dca138b6cdc6d8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6702",
+    "title": "발치",
+    "sha256": "7cd9fd6438f1be3b540fbb46b1b91c0428f580f0dda79cf13c3869e54833f5de",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6703",
+    "title": "홈메우기",
+    "sha256": "3b709c230c5a19bca91d0cbe5e6a46abfed09308019435bc6a364482a305b1e6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6704",
+    "title": "치아외상(치아손상)",
+    "sha256": "7ad5b87770d604a3384aa72cc730524f24cef037b4dc43cda42246a9d92aa98d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6705",
+    "title": "치석제거",
+    "sha256": "0f585c500095ed190749cca163a66279bebd30fb16da109737de2d6f3b44bf1c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6706",
+    "title": "중환자실 치료",
+    "sha256": "4327dba0fb85205f4978a892e01d13a391a5dbe96c28914d98fdd88e525c79bc",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6707",
+    "title": "복막투석",
+    "sha256": "316f9e9c8c0edd9872d1ea0aacbb0e8b946412ca7adadf54678639f152b2041a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6708",
+    "title": "위십이지장 궤양",
+    "sha256": "5e3303760adf7044619fd6d8a3683c8b86ec6ffd817bd6f2f3802928651bb0d9",
+    "matches": [
+      {
+        "section_id": "120",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6709",
+    "title": "지질 검사",
+    "sha256": "ba84c5b0c69b350b4830fc951328f9b060464985553908d6048d69d506abf27e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6710",
+    "title": "소변이상(농뇨)",
+    "sha256": "f922d4c77bae2c851ed867817623f54959b0dd5448de05efe21e5580b5c17d5e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6711",
+    "title": "소변이상(단백뇨)",
+    "sha256": "4c2bdd55481945cd5ea5c56606e3f5432b1f974a5cd167182a46d68fb5c9fca9",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6712",
+    "title": "소변이상(혈뇨)",
+    "sha256": "25ad63fd2f2190f41548c76423d82520e6d77d6a3dd79c5b97b0fe2497de9861",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6713",
+    "title": "심장박동조율기",
+    "sha256": "695f3ad205102f8a6814663c14f658e6193771e4cae448a9fa72360632d002b1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6714",
+    "title": "이상지질혈증 식사요법",
+    "sha256": "b6f9d504038db4af3e46f6858200edc95e4290cb98da24d4ca6fee21de76a502",
+    "matches": [
+      {
+        "section_id": "212",
+        "title": "정의",
+        "topics": [
+          "shopping",
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6715",
+    "title": "이상지질혈증",
+    "sha256": "a68fd6db59357f671b8f00070db91696192a4015e50a423f4ec97eb3fc54c37b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6716",
+    "title": "공기 오염",
+    "sha256": "205246200b67ccbdfa6c5c7a429c521757b0a0f0167f904a26017da97d5a7cf3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6717",
+    "title": "식품 오염",
+    "sha256": "1e7b91501875a662f2cb9748d9ce34ee13f113089c08e4d54833537b8c7ad1ee",
+    "matches": [
+      {
+        "section_id": "3673",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "224",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "225",
+        "title": "정의",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "229",
+        "title": "건강에 미치는 영향",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6718",
+    "title": "토양 및 수질 오염",
+    "sha256": "fb73b5791b54868bdb5771518a4151794a1b8916ff7de6490e6206d8571a29bc",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6719",
+    "title": "환경과 건강",
+    "sha256": "ef75106bc01e0fa4a3daeed374b33c667fa31b799d0f062164b68322e03917ed",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6720",
+    "title": "내분비계 장애물질(환경 호르몬)",
+    "sha256": "53e3a777481f52f775a7366dfdc6e43fda36ed29f325e7d7509bc1f425cedc4b",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6721",
+    "title": "소변이상(당뇨)",
+    "sha256": "39145972532288c6ff72962e17c4ad801b4f41bf269b0dbc85e23d6d2257f815",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6722",
+    "title": "근 손실",
+    "sha256": "342ebd78d3b97700227f524efd29b54218c9ff8ac89fc084b2fa1781b5103ac4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6723",
+    "title": "인지기능저하예방법",
+    "sha256": "8ebd86c042743de3a9ca40d7ca88d529dfabbc5c75a135e6b3bc5f897f90be21",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6725",
+    "title": "정상노화의 이해",
+    "sha256": "d0267e8a73d958a4487b404583ec5c346cc7222d231594073bdfbbed78912dd9",
+    "matches": [
+      {
+        "section_id": "160",
+        "title": "종류",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6726",
+    "title": "노인기능평가",
+    "sha256": "ffbf24af655965450728c4a30662bca539fe68ee00603f4bcd6062465827bc9c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6728",
+    "title": "사전연명의료결정",
+    "sha256": "23fdd3e06706437e0fe2aba373e431d64b9495396da3a61ee08525d0b22be500",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6732",
+    "title": "통풍",
+    "sha256": "7e5d456417631575283f8af0ef226d013ba2adeba7f94c19dc7a0811b429f79c",
+    "matches": [
+      {
+        "section_id": "3666",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "111",
+        "title": "약물 치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6735",
+    "title": "담석증",
+    "sha256": "8381b1199f8ce46edf6c4dd6a30ac5e11cee670d0138d0041b7ad9e966a8f0c1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6736",
+    "title": "세기관지염",
+    "sha256": "a395eb9ea43d46f12bb44eb443315d26256f4045e4f277344a4fae19d0b9e49e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6744",
+    "title": "무릎 관절 손상",
+    "sha256": "9beb38a24b1a2ca8f1630e0b399e9d6392c6a6613cab96b3d75a7fcdd7bb5869",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6745",
+    "title": "무릎 관절 주위의 골절",
+    "sha256": "97691acb0ea36f1d76846c19c8d1c1fb1892008322f13d3415b9f399a898a964",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6746",
+    "title": "무릎 연골 손상",
+    "sha256": "5bb0d46ce018eb967a3871bd86ccb556b7b421f306c8e9cd225efd45e0cf2c59",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6747",
+    "title": "무릎 인대 손상",
+    "sha256": "c10dd31f84f8e6fee959becc735d7ba2dff4a862943cb73cf204fd2f765247ec",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6748",
+    "title": "반월상 연골판 손상",
+    "sha256": "e45dbcc8dd8282bd671b6c6ccf0e5a64a76b9a1eb67e660a141583eea7ed55ce",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6749",
+    "title": "변실금",
+    "sha256": "babf1e92b7664dab326d4d6af1ea0757e5696dba53a408eb4efcd9f48a89faee",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6751",
+    "title": "장기요양등급결정과 이용",
+    "sha256": "9000148a9520a8363b2748a76776d41fa46a51eedd8ddab2a09cf814bd7cc126",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6752",
+    "title": "건강노화",
+    "sha256": "0b482b8453fd23e8ab8b0b3a64afcf06e266d106604f68da1580fea47f00e1df",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6753",
+    "title": "재택의료/방문진료",
+    "sha256": "dcfaa41b1691853383c0009088c99bdd481105c2cc6880e920631ff3c850e6d7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6754",
+    "title": "남성갱년기",
+    "sha256": "1f8e7c0a063b1c5c0fa63f80099c584a5c200e440c43e45a73aa2a069d6caae4",
+    "matches": [
+      {
+        "section_id": "170",
+        "title": "비약물 치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6755",
+    "title": "패혈증",
+    "sha256": "1625918575317d7df51c5e33f443ba3a435b5baa82941847632453345b6ea7d8",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6756",
+    "title": "급성 바이러스 위장관염",
+    "sha256": "084a4c9badc53cf3f91e537627d84b6d2cbb2ab94dfa2f200cf33d5a6c413c0a",
+    "matches": [
+      {
+        "section_id": "3668",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "145",
+        "title": "원인 및 감염경로",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "149",
+        "title": "예방 및 예방접종",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6759",
+    "title": "사람면역결핍바이러스",
+    "sha256": "13d9637e12a217f0fd717e5c2732343437e25af38d0a36dcd743b22d01bc0e44",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6760",
+    "title": "공수병(광견병)",
+    "sha256": "2c10fc26f0591bf0532b26e94d75344ce0b163d19908973ba33e0768aa80c677",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6761",
+    "title": "노인의 영양",
+    "sha256": "65a50bcf12ecc6907a383d8bd8f83141845399312067c76993fd488d02856f2b",
+    "matches": [
+      {
+        "section_id": "3672",
+        "title": "요약문",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6762",
+    "title": "영양제",
+    "sha256": "54713d0d7e592650488390c7eb8d832d6eeb12ecacc09c09e30ac1e764ed58df",
+    "matches": [
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6763",
+    "title": "영양표시 읽는 법! 알려드리겠습니다!",
+    "sha256": "b999f5717c6018e81796785135ea660057cdb42893cac89a5ffba0e2a57de678",
+    "matches": [
+      {
+        "section_id": "3672",
+        "title": "요약문",
+        "topics": [
+          "shopping"
+        ]
+      },
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "shopping",
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "shopping"
+        ]
+      },
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "shopping",
+          "cooking",
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "211",
+        "title": "개요",
+        "topics": [
+          "shopping"
+        ]
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌",
+        "topics": [
+          "shopping"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6764",
+    "title": "흡연",
+    "sha256": "bbadf536e3fd2f40132d1849b9f17b241afc69ebfbb98deb8e2d3fe010e73f1e",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6765",
+    "title": "고혈압",
+    "sha256": "db67a8df5540c4f2b519d1356799feafd50b7194563056bbfb545e12ed111d47",
+    "matches": [
+      {
+        "section_id": "117",
+        "title": "생활습관 관리",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6766",
+    "title": "노인 어지럼증",
+    "sha256": "565fe5740b3146c773fe9ca3b98f80f54a2ab9ddd87df73775a9810d4db864e1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6767",
+    "title": "성장 장애",
+    "sha256": "4229514a61c7b409838149c278899ca8aeae206aa766929c7fe270afa4681a1a",
+    "matches": [
+      {
+        "section_id": "104",
+        "title": "원인",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6768",
+    "title": "수족구병(손발입병)",
+    "sha256": "16f3b295be7ede8e53e2c739bba0f4c3bc3312bcbd83c7157de4216c8db82790",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6769",
+    "title": "시신경염",
+    "sha256": "36a84457f194d4327d35e6de407e740f5d480c81e9319ccea7df2ecaa5e767fd",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6770",
+    "title": "급성 심근경색증",
+    "sha256": "9a47714d0452eeac0147a6a6c89fe55f447d80782c60b5a37b9704a1d885efa2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6771",
+    "title": "심장 판막 질환",
+    "sha256": "1c5049e0933dc7ac174e4406031594063aacca42bb612134049a0152b2ac3a86",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6772",
+    "title": "사시",
+    "sha256": "3828eaf064c7d4a4a33007b366fdd3f66211e600ee00dcc633ef2788c972670c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6773",
+    "title": "포도막염",
+    "sha256": "f0c4962c5b841195c4a62fd70a74a11acb85dde7ac0e46b7f499a2360694d89f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6774",
+    "title": "죽상경화증",
+    "sha256": "73a3f5fda2ca68312c0dfff36f6abadfa3fc1738cf754012eefd87bc5abc740c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6775",
+    "title": "폐색성죽상동맥경화증",
+    "sha256": "f09a8a55400fcf43467da2f49deb6759f59c6a68d680af332a2add7b666697a3",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6776",
+    "title": "파상풍",
+    "sha256": "85fe74b65045c3f429cef244c942242ddd8aff23103745a4630ef9fccd198c23",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6788",
+    "title": "우울감",
+    "sha256": "f39e288173ed7510072df540e8ecd55a53eca133a17be9dd1fd25dff235301b6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6807",
+    "title": "전해질 이상(저칼륨혈증)",
+    "sha256": "c01fc515ba39965f2b42296cbe6aa9ee435e9f3e245a76ed5d558a7bb4e423fe",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6808",
+    "title": "전해질 이상(고칼륨혈증)",
+    "sha256": "40334bfe18bc4f8a45a543a042119f87f9b8357ecd98170497591d18bdc8fc5c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6809",
+    "title": "전해질 이상(고나트륨혈증)",
+    "sha256": "861c80e363b31e89f6f11a95ec503a077f58f9550699a7fcf459745420fa839c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6848",
+    "title": "항생제",
+    "sha256": "e569017740e2a4e7914847aee0a4c55b31d73f83c0b7ba2d376856672204ace1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6849",
+    "title": "갑상선 검사(갑상선 세포검사 및 조직검사)",
+    "sha256": "1f3b4b3287cd54a8c7969647806644a0e3f48f2ebe86f5a12ce7691d1de33850",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6850",
+    "title": "갑상선 검사(양전자방출단층촬영(PET))",
+    "sha256": "719de73ce8696d1bbcc2058eb7374bbdbab01136f913da93e343866eec9d3fbb",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6851",
+    "title": "갑상선 검사(컴퓨터단층촬영(CT)과 자기공명영상(MRI))",
+    "sha256": "dacbbc21362dadea608e78d1d021bb9c4ad61f9b430a2c3d4ff278c389a53cda",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6852",
+    "title": "갑상선 검사(초음파)",
+    "sha256": "f73802f0ddaec7420173b1a1945f9a6791cbbaea79fe044e84511a6cfc596b72",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6853",
+    "title": "갑상선 검사",
+    "sha256": "6ec15edfc2d35c166ba6a27c96bed380060e1a7b6d91c72ff96f24d8626da242",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6855",
+    "title": "고혈압 환자의 식이요법",
+    "sha256": "92f09e3d38eaef01c60a1a859ce3cce71c5a13ecfeae61d180db179d8703c8f7",
+    "matches": [
+      {
+        "section_id": "218",
+        "title": "실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6857",
+    "title": "갈색세포종",
+    "sha256": "d89357dd7d02b39c26cef574a4f92d649c6cb9a4070f53b248cdb4bb2fd07679",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6858",
+    "title": "치매환자의 가족을 위한 정보",
+    "sha256": "eb6285f90b390cf8378ec2221579ad765450096be84db2b1b6babdb241f39f84",
+    "matches": [
+      {
+        "section_id": "218",
+        "title": "실천 방법",
+        "topics": [
+          "eating_out"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6860",
+    "title": "투석환자의 식이요법",
+    "sha256": "a6f582f1db641e10950827df3655ee981e5f36200839672b40b33aa30c4be40d",
+    "matches": [
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking",
+          "eating_out"
+        ]
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6861",
+    "title": "신장결석",
+    "sha256": "dfb3ad707ffbc644d0015eaadb19e01b2cfcdd98471304ca6117481447c9ee9d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6871",
+    "title": "외이도염(악성 외이도염)",
+    "sha256": "8ad69e36699e02dd89498ae17566f55de941fed7662ce4eae7cd1ead55df9d13",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6872",
+    "title": "외이도염(알레르기 외이도염)",
+    "sha256": "d0f1d4f75dd558809953fc1a66740d4c01c534735ac36ee91a2d48f3c2a1b1c1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6873",
+    "title": "외이도염",
+    "sha256": "9e471ff5e83e121b3f02b428bc36df8ddc04ee75a1cecde07d2c1f8ef9e49f3f",
+    "matches": [
+      {
+        "section_id": "101",
+        "title": "개요",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6874",
+    "title": "언어장애(아동 언어장애의 진단과 치료)",
+    "sha256": "e5769cdc82e6b2764812046b6819f2ed99f99fec1dce323f526e62bad5aee189",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6875",
+    "title": "언어장애",
+    "sha256": "9db9357ea9d84437934961ed9c89d39a7b9370d87b657213d49f1b29b0fa8024",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6877",
+    "title": "내성발톱(감입발톱)",
+    "sha256": "3ca9287fb8e2dfaed64a74aeb11d4b4c0684166aef537fdc9af52a477227c7d6",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6879",
+    "title": "남성형 탈모",
+    "sha256": "1a0e1208c8c44a12dd8734bc5f9a9a011c51a174d1c0b8dbe1be3aa9970f5f80",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6880",
+    "title": "지루 피부염",
+    "sha256": "7ce98c90c780e3765ef80abbe2f709d6b50cd914ff67e1e366609c4fc4859f76",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6881",
+    "title": "뼈스캔",
+    "sha256": "a6ed445e9fdfeffe56189e1f62c880427a1288167b9f3a22fc996ca82032c293",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6882",
+    "title": "수혈",
+    "sha256": "3170351655e5edff0aef7be9b2b5fec581fb20fa0b30b53e5d287158917c698d",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6884",
+    "title": "구강병 예방 및 관리방법! 알려드리겠습니다!",
+    "sha256": "657a44d83343b58f216ce8a040b345157969df4956d070be31f81da2c96a539a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6886",
+    "title": "소아 비만",
+    "sha256": "bad4dd430d8282af1bbe441bcd3859548027f94097cfdf5a9ca3f74a38a728b1",
+    "matches": [
+      {
+        "section_id": "112",
+        "title": "비약물 치료",
+        "topics": [
+          "cooking"
+        ]
+      },
+      {
+        "section_id": "112",
+        "title": "비약물 치료",
+        "topics": [
+          "cooking"
+        ]
+      }
+    ],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6887",
+    "title": "소화불량",
+    "sha256": "37b425250470c4815845755488c939aa730ccd26b069119bfb03c55b2abf6956",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6888",
+    "title": "위용종",
+    "sha256": "4f3a35b9b763b687e2d1d1df53e6ce544afeabe5a057c6fcf0bec28ff4057449",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6890",
+    "title": "직장염",
+    "sha256": "f1c7d0a402c1f076d33bc148bd8a1ec963bbec13cd68c34b60753743f092f5e7",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6891",
+    "title": "충치",
+    "sha256": "08d04a8c19bf4ccd5a1a046d320fc4e92237814b4610e693bca066fd063b96b2",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6892",
+    "title": "간의 양성종양(담관낭선종)",
+    "sha256": "ec6b11ff54b4a0d5be819449795f22a36250aea6206da3de922c784125a0cdea",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6893",
+    "title": "간의 양성종양(국소결절증식증)",
+    "sha256": "82b8db20bcd2a0d653cc01ae4804baf63f19b31a3a620d98d95181b078f1c301",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6894",
+    "title": "간의 양성종양(간선종)",
+    "sha256": "445d328733f7e89b16852cce2cd3fe5dc29552dfcae866afc0bfa080754acd17",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6896",
+    "title": "간의 양성종양(간혈관종)",
+    "sha256": "1b14b46578650314f7b69d191a16e0881b662de2e9849cff8f59473b982fb258",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6897",
+    "title": "간의 양성종양",
+    "sha256": "fa25662f7180a23b50d896acf875739b96fb09d1d98016912d23bb9d15252011",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6899",
+    "title": "당뇨병 합병증(만성 합병증)",
+    "sha256": "a889c202dab9e3ea3c3b29363bdc2ef6e2a0f18071c66c7841487221c76d675a",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6900",
+    "title": "당뇨병 합병증(급성 합병증_저혈당)",
+    "sha256": "be95f063878a37d01cd58cdb1813aad39a72e1695c34df6ef4461ba04ac89b97",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6901",
+    "title": "당뇨병 합병증(급성 합병증_당뇨병케토산증, 고혈당고삼투질상태)",
+    "sha256": "3c540c1017864d46649b5a0f4cb7c7d8fb80447203a217954be423c69d5fcf1f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6902",
+    "title": "당뇨병 합병증(급성 합병증)",
+    "sha256": "90c5884b0883a996a5fbc10cb9e8150244920b9d3c0fee20284a36852889472f",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6951",
+    "title": "소아 발열 대처법",
+    "sha256": "20b3e4108d0b7098b44138168437e891269210cc5c3bb11e9ff6e78ab9f3c6fe",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6952",
+    "title": "시험관 아기 시술",
+    "sha256": "39b9390bfeb2b90ff60bb7ac88439f8e5acd1bccf4d534aefc22b7aec2268879",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6953",
+    "title": "임신 중 예방접종",
+    "sha256": "da1af321ad1477a6ce631ea596807fd5b0889d65489ce78bb8641804b2b1c74c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6954",
+    "title": "건강한 산후 관리",
+    "sha256": "6d8e53bafb00c27e8ee78c49cdb8b9efbef226bfe60ec1bfa13885d34276210c",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6959",
+    "title": "임신과 갑상선 질환",
+    "sha256": "7063f8cc6650476e7a4aedce81d0d75f79694e432e1c95fcbc30b1b0db976a87",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6961",
+    "title": "갑상선 검사(방사성 요오드 섭취율)",
+    "sha256": "1fcb35437337b91b9af8a3698f76dac55859bf6126df4ab98018b2f35d07d4dd",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6962",
+    "title": "갑상선 검사(혈액검사 및 요검사)",
+    "sha256": "449c765384dd96e53a3f18f5eba282994fe97d2d26d0e9a3d720283b30ef66a4",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6963",
+    "title": "언어장애(성인 언어 및 말장애의 진단과 치료)",
+    "sha256": "7f6ad70a53ee82e4a5b2ef04e0ffa648edecc00a21743db3dab4d393ffbe43b1",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  },
+  {
+    "content_id": "6964",
+    "title": "간의 양성종양(간낭종)",
+    "sha256": "1f64e947fb62bd4c60026f30a36854bf37a15c90aa8b50f06d74e2e1f4d95d56",
+    "matches": [],
+    "status": "candidate_not_reviewed"
+  }
+]

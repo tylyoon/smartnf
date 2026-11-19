@@ -1,0 +1,27 @@
+{
+  "sources": 15,
+  "health_content_sources": 13,
+  "evidence_records": 47,
+  "by_condition": {
+    "bp": 11,
+    "lipid": 8,
+    "diabetes": 12,
+    "weight": 5,
+    "weight_diabetes": 3,
+    "cardiovascular": 2,
+    "kidney": 6
+  },
+  "by_level": {
+    "named_food": 11,
+    "food_group": 12,
+    "nutrient": 4,
+    "conditional": 10,
+    "preparation": 4,
+    "context": 3,
+    "definition": 3
+  },
+  "existing_food_candidates": 215,
+  "existing_condition_links": 470,
+  "runtime_enabled": false,
+  "new_food_code_mapping": false
+}

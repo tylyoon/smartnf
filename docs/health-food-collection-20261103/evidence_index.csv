@@ -1,0 +1,48 @@
+﻿id,source_id,condition,evidence_level,direction,food_terms,nutrients_to_check,source_section,source_url,checked_at,runtime_enabled
+HE-001,kdca-bp-shopping,bp,named_food,consider,현미 | 보리 | 귀리 | 통밀빵,fiber,장볼 때 체크리스트,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-002,kdca-bp-shopping,bp,named_food,consider,시금치 | 브로콜리 | 당근 | 양파 | 마늘,potassium,장볼 때 체크리스트,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-003,kdca-bp-shopping,bp,named_food,consider,두부 | 콩 | 무가당 두유,sodium,장볼 때 체크리스트,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-004,kdca-bp-shopping,bp,named_food,consider,고등어 | 삼치 | 연어,sodium,장볼 때 체크리스트,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-005,kdca-bp-shopping,bp,named_food,consider,무염 견과류 | 저지방 우유 | 무가당 요거트,,장볼 때 체크리스트,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-006,kdca-bp-shopping,bp,food_group,limit,라면 | 가공육 | 젓갈 | 장아찌,sodium,장볼 때 체크리스트,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-007,kdca-bp-shopping,bp,nutrient,check,,sodium,소금을 적게 먹기,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-008,kdca-bp-shopping,bp,conditional,specialist_review,,potassium,칼륨 설명,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855,2026-11-03,False
+HE-009,amc-bp,bp,named_food,consider,현미 | 보리,carbohydrate,식사요법의 실제1,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29,2026-11-03,False
+HE-010,amc-bp,bp,preparation,check,채소 | 고기,sodium | fat,식사요법의 실제2~5,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29,2026-11-03,False
+HE-011,amc-bp,bp,food_group,limit,염장식품 | 가공식품 | 국물,sodium,주의 식품,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29,2026-11-03,False
+HE-012,kdca-lipid,lipid,nutrient,check,,saturated_fat | trans_fat,지방,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714,2026-11-03,False
+HE-013,kdca-lipid,lipid,food_group,consider,생선 | 식물성 식품,fat,일반적 실천 방법,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714,2026-11-03,False
+HE-014,kdca-lipid,lipid,food_group,consider,통곡물 | 채소 | 콩류,fiber,탄수화물과 식이섬유,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714,2026-11-03,False
+HE-015,kdca-lipid,lipid,food_group,limit,가당음료 | 디저트,sugars | carbohydrate,일반적 실천 방법,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714,2026-11-03,False
+HE-016,kdca-lipid,lipid,conditional,check,,cholesterol,콜레스테롤,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714,2026-11-03,False
+HE-017,amc-lipid,lipid,named_food,consider,현미 | 보리 | 두부,,식사요법의 실제,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27,2026-11-03,False
+HE-018,amc-lipid,lipid,preparation,check,살코기 | 생선,fat,식사요법의 실제,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27,2026-11-03,False
+HE-019,amc-lipid,lipid,food_group,limit,가공육 | 염장식품 | 튀김,,주의 식품,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27,2026-11-03,False
+HE-020,kdca-diabetes,diabetes,named_food,consider,잡곡밥 | 통밀빵,carbohydrate | fiber,혈당지수 설명,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388,2026-11-03,False
+HE-021,kdca-diabetes,diabetes,preparation,consider,생과일 | 생채소,fiber,혈당지수를 낮추는 식사 방법,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388,2026-11-03,False
+HE-022,kdca-diabetes,diabetes,conditional,check,단호박 | 당근 | 연근 | 우엉,carbohydrate,식품 교환단위 참고사항,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388,2026-11-03,False
+HE-023,kdca-diabetes,diabetes,named_food,limit,가당요구르트 | 연유 | 과일통조림 | 시럽,sugars,주의해야 할 식품,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388,2026-11-03,False
+HE-024,kdca-diabetes,diabetes,context,check,,carbohydrate,개요·외식 원칙,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388,2026-11-03,False
+HE-025,kdca-diabetes,diabetes,conditional,hold,토닉워터,sugars,비교적 자유롭게 먹을 수 있는 식품,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388,2026-11-03,False
+HE-026,kda-principles,diabetes,nutrient,check,,fiber,식사요법의 기본원칙,https://www.diabetes.or.kr/general/dietary/dietary_01.php,2026-11-03,False
+HE-027,kda-principles,diabetes,nutrient,check,,saturated_fat | trans_fat | sodium,식사요법의 기본원칙,https://www.diabetes.or.kr/general/dietary/dietary_01.php,2026-11-03,False
+HE-028,kda-principles,diabetes,context,check,,energy,식사요법을 위한 첫걸음,https://www.diabetes.or.kr/general/dietary/dietary_01.php,2026-11-03,False
+HE-029,kda-exchange-intro,diabetes,definition,reference,곡류군 | 어육류군 | 채소군 | 지방군 | 우유군 | 과일군,,식품교환표란,https://www.diabetes.or.kr/general/dietary/dietary_03.php,2026-11-03,False
+HE-030,kda-exchange-intro,diabetes,definition,reference,,energy | carbohydrate | protein | fat,식품군별 영양소 기준,https://www.diabetes.or.kr/general/dietary/dietary_03.php,2026-11-03,False
+HE-031,kda-meat-exchange,diabetes,definition,reference,고기류 | 생선류 | 알류 | 콩류,protein | fat,어육류군 설명,https://www.diabetes.or.kr/general/dietary/dietary_03.php?con=3&sub=2,2026-11-03,False
+HE-032,amc-weight,weight,named_food,consider,곤약 | 무가당 차음료 | 물,,권장 식품,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80,2026-11-03,False
+HE-033,amc-weight,weight,food_group,consider,채소류 | 해조류,,권장 식품,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80,2026-11-03,False
+HE-034,amc-weight,weight,preparation,limit,튀김 | 부침 | 기름진 육류,energy | fat,식사요법의 실제,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80,2026-11-03,False
+HE-035,amc-weight,weight,food_group,limit,가당음료 | 가당 유제품 | 통조림 과일,sugars | energy,주의 식품,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80,2026-11-03,False
+HE-036,amc-weight,weight,conditional,check,견과류,energy,주의 식품,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80,2026-11-03,False
+HE-037,kdca-carb,weight_diabetes,food_group,consider,잡곡 | 통곡물 | 콩류,carbohydrate | fiber,실천 방법,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1342,2026-11-03,False
+HE-038,kdca-carb,weight_diabetes,context,check,과일 | 감자 | 고구마,energy | carbohydrate,실천 방법-비만,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1342,2026-11-03,False
+HE-039,kdca-carb,weight_diabetes,food_group,limit,시럽 | 가당음료,sugars,실천 방법-당뇨병,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1342,2026-11-03,False
+HE-040,kdca-heart-menu,cardiovascular,food_group,consider,생선류 | 콩류 | 통곡류 | 저지방 유제품,,본문 식품 선택 설명,https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=55,2026-11-03,False
+HE-041,kdca-heart-menu,cardiovascular,food_group,limit,가공육 | 튀긴 음식 | 단 음식,,본문 식품 선택 설명,https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=55,2026-11-03,False
+HE-042,amc-ckd,kidney,conditional,specialist_review,,protein | energy,식사요법의 필요성,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=55,2026-11-03,False
+HE-043,amc-ckd,kidney,conditional,specialist_review,,potassium | phosphorus,식사요법의 필요성,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=55,2026-11-03,False
+HE-044,amc-ckd,kidney,named_food,specialist_review,바나나 | 시금치 | 우유 | 잡곡,,주의 식품,https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=55,2026-11-03,False
+HE-045,kdigo-ckd-2024,kidney,conditional,specialist_review,,sodium | phosphorus | potassium | protein,"Practice Point3.3.2, S156",https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf,2026-11-03,False
+HE-046,kdigo-ckd-2024,kidney,conditional,specialist_review,,potassium,"Practice Point3.11.5.1~2, S160/S226",https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf,2026-11-03,False
+HE-047,kdigo-ckd-2024,kidney,conditional,specialist_review,,protein,"Section3.3.1, S156",https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf,2026-11-03,False

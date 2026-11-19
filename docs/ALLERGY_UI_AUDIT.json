@@ -1,0 +1,19 @@
+{
+  "tested_sources": 22983,
+  "structured_allergen_inputs": 19,
+  "python_tests_passed": 5,
+  "existing_health_template_preserved": true,
+  "headless_chromium": "passed",
+  "button_vertical_difference_under_px": 2,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "overflow": "none",
+  "js_errors": 0,
+  "unknown_meal_composition": "excluded when allergy profile active",
+  "expired_or_ambiguous_profile": "review required; not silently disabled",
+  "cross_contact_verified": false,
+  "spring_boot_runtime": "user confirmation pending"
+}

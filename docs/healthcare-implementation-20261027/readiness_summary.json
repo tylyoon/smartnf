@@ -1,0 +1,21 @@
+{
+  "health_records": 658,
+  "health_source_holds": [
+    "5283",
+    "6759",
+    "6807",
+    "6808",
+    "6809"
+  ],
+  "recipe_records": 1156,
+  "recipe_display_holds": [
+    "2980",
+    "33",
+    "36",
+    "691",
+    "692",
+    "831"
+  ],
+  "clinical_approval": false,
+  "unreviewed_health_auto_published": 0
+}

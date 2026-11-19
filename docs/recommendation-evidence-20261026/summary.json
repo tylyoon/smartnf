@@ -1,0 +1,8 @@
+{
+  "new_specialist_structured_records": 7,
+  "existing_api_records_indexed": 7,
+  "local_missing_ids": [],
+  "restricted_or_unresolved": 3,
+  "runtime_enabled": false,
+  "note": "Web source statements and existing API references; no personal recommendation, no code matching, no new clinical thresholds."
+}

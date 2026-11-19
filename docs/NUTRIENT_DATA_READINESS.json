@@ -1,0 +1,64 @@
+{
+  "catalog_rows": 3366,
+  "by_source_status": {
+    "energy": {
+      "numeric": 3366
+    },
+    "protein": {
+      "numeric": 3353,
+      "quoted_or_calculated": 12,
+      "unmeasured": 1
+    },
+    "fat": {
+      "numeric": 3335,
+      "quoted_or_calculated": 13,
+      "unmeasured": 11,
+      "trace": 7
+    },
+    "carbohydrate": {
+      "numeric": 3333,
+      "quoted_or_calculated": 12,
+      "trace": 12,
+      "unmeasured": 9
+    },
+    "sugars": {
+      "numeric": 2160,
+      "unmeasured": 1169,
+      "quoted_or_calculated": 37
+    },
+    "fiber": {
+      "numeric": 2399,
+      "unmeasured": 855,
+      "trace": 2,
+      "quoted_or_calculated": 110
+    },
+    "sodium": {
+      "numeric": 2916,
+      "trace": 11,
+      "quoted_or_calculated": 5,
+      "unmeasured": 434
+    },
+    "potassium": {
+      "numeric": 2911,
+      "quoted_or_calculated": 9,
+      "trace": 8,
+      "unmeasured": 438
+    },
+    "saturated_fat": {
+      "numeric": 2336,
+      "unmeasured": 986,
+      "quoted_or_calculated": 44
+    },
+    "trans_fat": {
+      "numeric": 2100,
+      "unmeasured": 1266
+    },
+    "cholesterol": {
+      "numeric": 2341,
+      "unmeasured": 944,
+      "quoted_or_calculated": 76,
+      "trace": 5
+    }
+  },
+  "note": "Source numeric values are not proof of direct measurement. Missing/trace values must not be converted to zero."
+}

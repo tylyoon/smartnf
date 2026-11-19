@@ -1,0 +1,1172 @@
+{
+  "schema_version": 1,
+  "runtime_enabled": false,
+  "records": [
+    {
+      "id": "HE-001",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "현미",
+        "보리",
+        "귀리",
+        "통밀빵"
+      ],
+      "nutrients_to_check": [
+        "fiber"
+      ],
+      "fact_summary": "통곡물 장보기 예시가 제시된다.",
+      "source_section": "장볼 때 체크리스트",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "품종·가공·첨가물 및 개인 제한 확인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-002",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "시금치",
+        "브로콜리",
+        "당근",
+        "양파",
+        "마늘"
+      ],
+      "nutrients_to_check": [
+        "potassium"
+      ],
+      "fact_summary": "채소 이름이 구체적으로 제시된다.",
+      "source_section": "장볼 때 체크리스트",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "신장질환에 같은 방향 적용 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-003",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "두부",
+        "콩",
+        "무가당 두유"
+      ],
+      "nutrients_to_check": [
+        "sodium"
+      ],
+      "fact_summary": "콩 식품 예시에는 무가당 조건이 있다.",
+      "source_section": "장볼 때 체크리스트",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "제품별 가당·나트륨·알레르기 확인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-004",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "고등어",
+        "삼치",
+        "연어"
+      ],
+      "nutrients_to_check": [
+        "sodium"
+      ],
+      "fact_summary": "생선 장보기 예시가 있다.",
+      "source_section": "장볼 때 체크리스트",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "염장/훈제/소스 상태까지 일치해야 함",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-005",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "무염 견과류",
+        "저지방 우유",
+        "무가당 요거트"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "무염·저지방·무가당의 조건부 예시다.",
+      "source_section": "장볼 때 체크리스트",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "일반 제품 전체로 확장 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-006",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "food_group",
+      "direction": "limit",
+      "food_terms": [
+        "라면",
+        "가공육",
+        "젓갈",
+        "장아찌"
+      ],
+      "nutrients_to_check": [
+        "sodium"
+      ],
+      "fact_summary": "짠 가공·절임 식품을 줄이는 방향이다.",
+      "source_section": "장볼 때 체크리스트",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "절대 금지나 제품별 적합성 판정 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-007",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "nutrient",
+      "direction": "check",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "sodium"
+      ],
+      "fact_summary": "나트륨과 국물·양념을 함께 살핀다.",
+      "source_section": "소금을 적게 먹기",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "개인 목표량 자동 처방 안 함",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-008",
+      "source_id": "kdca-bp-shopping",
+      "condition": "bp",
+      "evidence_level": "conditional",
+      "direction": "specialist_review",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "potassium"
+      ],
+      "fact_summary": "콩팥 기능 저하 시 칼륨 안내에 예외가 있다.",
+      "source_section": "칼륨 설명",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "혈압 식품 후보를 신장질환에 자동 사용 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-009",
+      "source_id": "amc-bp",
+      "condition": "bp",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "현미",
+        "보리"
+      ],
+      "nutrients_to_check": [
+        "carbohydrate"
+      ],
+      "fact_summary": "곡물 혼식 선택을 설명한다.",
+      "source_section": "식사요법의 실제1",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "선호·분량·개인 제한 조건 유지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-010",
+      "source_id": "amc-bp",
+      "condition": "bp",
+      "evidence_level": "preparation",
+      "direction": "check",
+      "food_terms": [
+        "채소",
+        "고기"
+      ],
+      "nutrients_to_check": [
+        "sodium",
+        "fat"
+      ],
+      "fact_summary": "싱거운 조리와 지방 제거를 설명한다.",
+      "source_section": "식사요법의 실제2~5",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "재료명만으로 완성 요리를 판정하지 않음",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-011",
+      "source_id": "amc-bp",
+      "condition": "bp",
+      "evidence_level": "food_group",
+      "direction": "limit",
+      "food_terms": [
+        "염장식품",
+        "가공식품",
+        "국물"
+      ],
+      "nutrients_to_check": [
+        "sodium"
+      ],
+      "fact_summary": "염장·가공·국물 종류를 주의한다.",
+      "source_section": "주의 식품",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "소금 추가량과 하루 총량의 기준 차이 별도 검토",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-012",
+      "source_id": "kdca-lipid",
+      "condition": "lipid",
+      "evidence_level": "nutrient",
+      "direction": "check",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "saturated_fat",
+        "trans_fat"
+      ],
+      "fact_summary": "지방 종류를 구분하는 안내가 있다.",
+      "source_section": "지방",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "총지방이 낮다는 이유만으로 추천하지 않음",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-013",
+      "source_id": "kdca-lipid",
+      "condition": "lipid",
+      "evidence_level": "food_group",
+      "direction": "consider",
+      "food_terms": [
+        "생선",
+        "식물성 식품"
+      ],
+      "nutrients_to_check": [
+        "fat"
+      ],
+      "fact_summary": "지방 공급원의 대체 방향을 제시한다.",
+      "source_section": "일반적 실천 방법",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "지방 총량과 실제 조리 확인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-014",
+      "source_id": "kdca-lipid",
+      "condition": "lipid",
+      "evidence_level": "food_group",
+      "direction": "consider",
+      "food_terms": [
+        "통곡물",
+        "채소",
+        "콩류"
+      ],
+      "nutrients_to_check": [
+        "fiber"
+      ],
+      "fact_summary": "식이섬유 식품군을 제시한다.",
+      "source_section": "탄수화물과 식이섬유",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "섭취량·동반질환 확인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-015",
+      "source_id": "kdca-lipid",
+      "condition": "lipid",
+      "evidence_level": "food_group",
+      "direction": "limit",
+      "food_terms": [
+        "가당음료",
+        "디저트"
+      ],
+      "nutrients_to_check": [
+        "sugars",
+        "carbohydrate"
+      ],
+      "fact_summary": "당이 많은 간식을 주의한다.",
+      "source_section": "일반적 실천 방법",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "당류/탄수화물은 동일 지표가 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-016",
+      "source_id": "kdca-lipid",
+      "condition": "lipid",
+      "evidence_level": "conditional",
+      "direction": "check",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "cholesterol"
+      ],
+      "fact_summary": "콜레스테롤 제한은 조건별 안내다.",
+      "source_section": "콜레스테롤",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "모든 사용자 공통 제한으로 옮기지 않음",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-017",
+      "source_id": "amc-lipid",
+      "condition": "lipid",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "현미",
+        "보리",
+        "두부"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "식재료 선택 예시가 있다.",
+      "source_section": "식사요법의 실제",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "부위·조리·양념·분량을 별도로 확인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-018",
+      "source_id": "amc-lipid",
+      "condition": "lipid",
+      "evidence_level": "preparation",
+      "direction": "check",
+      "food_terms": [
+        "살코기",
+        "생선"
+      ],
+      "nutrients_to_check": [
+        "fat"
+      ],
+      "fact_summary": "육류 지방 제거와 조리법을 살핀다.",
+      "source_section": "식사요법의 실제",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "저지방군은 임의 코드 분류 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-019",
+      "source_id": "amc-lipid",
+      "condition": "lipid",
+      "evidence_level": "food_group",
+      "direction": "limit",
+      "food_terms": [
+        "가공육",
+        "염장식품",
+        "튀김"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "가공·염장·기름진 조리를 주의한다.",
+      "source_section": "주의 식품",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "다른 기관/지침과 대상·시점 검토",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-020",
+      "source_id": "kdca-diabetes",
+      "condition": "diabetes",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "잡곡밥",
+        "통밀빵"
+      ],
+      "nutrients_to_check": [
+        "carbohydrate",
+        "fiber"
+      ],
+      "fact_summary": "주식의 종류를 바꾸는 예시가 있다.",
+      "source_section": "혈당지수 설명",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "GI와 식품코드 일치/섭취량은 미검증",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-021",
+      "source_id": "kdca-diabetes",
+      "condition": "diabetes",
+      "evidence_level": "preparation",
+      "direction": "consider",
+      "food_terms": [
+        "생과일",
+        "생채소"
+      ],
+      "nutrients_to_check": [
+        "fiber"
+      ],
+      "fact_summary": "주스보다 원형 식품을 고르는 방향이다.",
+      "source_section": "혈당지수를 낮추는 식사 방법",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "과일 무제한 권유 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-022",
+      "source_id": "kdca-diabetes",
+      "condition": "diabetes",
+      "evidence_level": "conditional",
+      "direction": "check",
+      "food_terms": [
+        "단호박",
+        "당근",
+        "연근",
+        "우엉"
+      ],
+      "nutrients_to_check": [
+        "carbohydrate"
+      ],
+      "fact_summary": "일부 채소는 당질·양을 따로 본다.",
+      "source_section": "식품 교환단위 참고사항",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "100g값을 교환량으로 치환 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-023",
+      "source_id": "kdca-diabetes",
+      "condition": "diabetes",
+      "evidence_level": "named_food",
+      "direction": "limit",
+      "food_terms": [
+        "가당요구르트",
+        "연유",
+        "과일통조림",
+        "시럽"
+      ],
+      "nutrients_to_check": [
+        "sugars"
+      ],
+      "fact_summary": "가당·농축 식품의 주의 예시다.",
+      "source_section": "주의해야 할 식품",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "제품명만으로 함량/적합성 확정 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-024",
+      "source_id": "kdca-diabetes",
+      "condition": "diabetes",
+      "evidence_level": "context",
+      "direction": "check",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "carbohydrate"
+      ],
+      "fact_summary": "규칙적 식사와 전체 분량이 중요하다.",
+      "source_section": "개요·외식 원칙",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "복약/저혈당/동반질환은 별도",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-025",
+      "source_id": "kdca-diabetes",
+      "condition": "diabetes",
+      "evidence_level": "conditional",
+      "direction": "hold",
+      "food_terms": [
+        "토닉워터"
+      ],
+      "nutrients_to_check": [
+        "sugars"
+      ],
+      "fact_summary": "음료 예시는 제품 당류 재검토가 필요하다.",
+      "source_section": "비교적 자유롭게 먹을 수 있는 식품",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "원문 나열을 무가당 제품으로 일반화 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-026",
+      "source_id": "kda-principles",
+      "condition": "diabetes",
+      "evidence_level": "nutrient",
+      "direction": "check",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "fiber"
+      ],
+      "fact_summary": "식이섬유에 관한 안내가 있다.",
+      "source_section": "식사요법의 기본원칙",
+      "source_url": "https://www.diabetes.or.kr/general/dietary/dietary_01.php",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "공급원·개별 식사 제한 확인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-027",
+      "source_id": "kda-principles",
+      "condition": "diabetes",
+      "evidence_level": "nutrient",
+      "direction": "check",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "saturated_fat",
+        "trans_fat",
+        "sodium"
+      ],
+      "fact_summary": "지방 종류와 나트륨도 살핀다.",
+      "source_section": "식사요법의 기본원칙",
+      "source_url": "https://www.diabetes.or.kr/general/dietary/dietary_01.php",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "개별 처방·자동 점수 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-028",
+      "source_id": "kda-principles",
+      "condition": "diabetes",
+      "evidence_level": "context",
+      "direction": "check",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "energy"
+      ],
+      "fact_summary": "식사·운동·약물의 균형을 설명한다.",
+      "source_section": "식사요법을 위한 첫걸음",
+      "source_url": "https://www.diabetes.or.kr/general/dietary/dietary_01.php",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "약물 중단/조정 안내에 사용 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-029",
+      "source_id": "kda-exchange-intro",
+      "condition": "diabetes",
+      "evidence_level": "definition",
+      "direction": "reference",
+      "food_terms": [
+        "곡류군",
+        "어육류군",
+        "채소군",
+        "지방군",
+        "우유군",
+        "과일군"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "영양 구성이 비슷한 교환군 정의가 있다.",
+      "source_section": "식품교환표란",
+      "source_url": "https://www.diabetes.or.kr/general/dietary/dietary_03.php",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "표 전체 재배포/교환량 자동 계산 미승인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-030",
+      "source_id": "kda-exchange-intro",
+      "condition": "diabetes",
+      "evidence_level": "definition",
+      "direction": "reference",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "energy",
+        "carbohydrate",
+        "protein",
+        "fat"
+      ],
+      "fact_summary": "교환군별 기준은 별도 단위다.",
+      "source_section": "식품군별 영양소 기준",
+      "source_url": "https://www.diabetes.or.kr/general/dietary/dietary_03.php",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "100g/100mL 성분과 직접 혼합 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-031",
+      "source_id": "kda-meat-exchange",
+      "condition": "diabetes",
+      "evidence_level": "definition",
+      "direction": "reference",
+      "food_terms": [
+        "고기류",
+        "생선류",
+        "알류",
+        "콩류"
+      ],
+      "nutrients_to_check": [
+        "protein",
+        "fat"
+      ],
+      "fact_summary": "어육류군은 지방량에 따른 하위 구분이 있다.",
+      "source_section": "어육류군 설명",
+      "source_url": "https://www.diabetes.or.kr/general/dietary/dietary_03.php?con=3&sub=2",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "개별 품목의 지방군과 코드 대응 미검증",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-032",
+      "source_id": "amc-weight",
+      "condition": "weight",
+      "evidence_level": "named_food",
+      "direction": "consider",
+      "food_terms": [
+        "곤약",
+        "무가당 차음료",
+        "물"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "열량조절식의 식품 예시다.",
+      "source_section": "권장 식품",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "단독 식단이나 무제한 섭취 의미 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-033",
+      "source_id": "amc-weight",
+      "condition": "weight",
+      "evidence_level": "food_group",
+      "direction": "consider",
+      "food_terms": [
+        "채소류",
+        "해조류"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "식품군 선택을 설명한다.",
+      "source_section": "권장 식품",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "신장질환·개인 제한 별도",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-034",
+      "source_id": "amc-weight",
+      "condition": "weight",
+      "evidence_level": "preparation",
+      "direction": "limit",
+      "food_terms": [
+        "튀김",
+        "부침",
+        "기름진 육류"
+      ],
+      "nutrients_to_check": [
+        "energy",
+        "fat"
+      ],
+      "fact_summary": "기름진 조리를 줄이는 방향이다.",
+      "source_section": "식사요법의 실제",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "개인 목표열량 산정 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-035",
+      "source_id": "amc-weight",
+      "condition": "weight",
+      "evidence_level": "food_group",
+      "direction": "limit",
+      "food_terms": [
+        "가당음료",
+        "가당 유제품",
+        "통조림 과일"
+      ],
+      "nutrients_to_check": [
+        "sugars",
+        "energy"
+      ],
+      "fact_summary": "첨가당 식품을 주의한다.",
+      "source_section": "주의 식품",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "실제품 표시와 실제 양 확인",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-036",
+      "source_id": "amc-weight",
+      "condition": "weight",
+      "evidence_level": "conditional",
+      "direction": "check",
+      "food_terms": [
+        "견과류"
+      ],
+      "nutrients_to_check": [
+        "energy"
+      ],
+      "fact_summary": "견과류도 분량 주의 대상에 나온다.",
+      "source_section": "주의 식품",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "혈압/지질 자료와 무조건 충돌/금지로 처리하지 않음",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-037",
+      "source_id": "kdca-carb",
+      "condition": "weight_diabetes",
+      "evidence_level": "food_group",
+      "direction": "consider",
+      "food_terms": [
+        "잡곡",
+        "통곡물",
+        "콩류"
+      ],
+      "nutrients_to_check": [
+        "carbohydrate",
+        "fiber"
+      ],
+      "fact_summary": "탄수화물은 양과 공급원을 함께 본다.",
+      "source_section": "실천 방법",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1342",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "GI/권장 비율 자동 계산 보류",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-038",
+      "source_id": "kdca-carb",
+      "condition": "weight_diabetes",
+      "evidence_level": "context",
+      "direction": "check",
+      "food_terms": [
+        "과일",
+        "감자",
+        "고구마"
+      ],
+      "nutrients_to_check": [
+        "energy",
+        "carbohydrate"
+      ],
+      "fact_summary": "간식도 전체 식사량에 포함한다.",
+      "source_section": "실천 방법-비만",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1342",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "생활 단위/g 추정 기능을 재도입하지 않음",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-039",
+      "source_id": "kdca-carb",
+      "condition": "weight_diabetes",
+      "evidence_level": "food_group",
+      "direction": "limit",
+      "food_terms": [
+        "시럽",
+        "가당음료"
+      ],
+      "nutrients_to_check": [
+        "sugars"
+      ],
+      "fact_summary": "첨가당 식품을 주의한다.",
+      "source_section": "실천 방법-당뇨병",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1342",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "당류 결측을0으로 처리하지 않음",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-040",
+      "source_id": "kdca-heart-menu",
+      "condition": "cardiovascular",
+      "evidence_level": "food_group",
+      "direction": "consider",
+      "food_terms": [
+        "생선류",
+        "콩류",
+        "통곡류",
+        "저지방 유제품"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "심뇌혈관 예방용 식품군 방향이다.",
+      "source_section": "본문 식품 선택 설명",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=55",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "개별 음식명은 이번 텍스트로 재확인 안 됨",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-041",
+      "source_id": "kdca-heart-menu",
+      "condition": "cardiovascular",
+      "evidence_level": "food_group",
+      "direction": "limit",
+      "food_terms": [
+        "가공육",
+        "튀긴 음식",
+        "단 음식"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "조리·가공 식품 주의를 설명한다.",
+      "source_section": "본문 식품 선택 설명",
+      "source_url": "https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=55",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "기존 레시피 치료 적합성으로 확장 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-042",
+      "source_id": "amc-ckd",
+      "condition": "kidney",
+      "evidence_level": "conditional",
+      "direction": "specialist_review",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "protein",
+        "energy"
+      ],
+      "fact_summary": "단백질과 열량의 조절을 설명한다.",
+      "source_section": "식사요법의 필요성",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=55",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "단계·투석·영양 상태 확인 전 개인 적용 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-043",
+      "source_id": "amc-ckd",
+      "condition": "kidney",
+      "evidence_level": "conditional",
+      "direction": "specialist_review",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "potassium",
+        "phosphorus"
+      ],
+      "fact_summary": "칼륨·인 관리가 필요할 수 있다.",
+      "source_section": "식사요법의 필요성",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=55",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "무조건 제한하는 규칙 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-044",
+      "source_id": "amc-ckd",
+      "condition": "kidney",
+      "evidence_level": "named_food",
+      "direction": "specialist_review",
+      "food_terms": [
+        "바나나",
+        "시금치",
+        "우유",
+        "잡곡"
+      ],
+      "nutrients_to_check": [],
+      "fact_summary": "일부 식품이 주의 예시로 제시된다.",
+      "source_section": "주의 식품",
+      "source_url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=55",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "환자별 검사/상태에 따라 달라짐; 일반 금지 목록 아님",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-045",
+      "source_id": "kdigo-ckd-2024",
+      "condition": "kidney",
+      "evidence_level": "conditional",
+      "direction": "specialist_review",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "sodium",
+        "phosphorus",
+        "potassium",
+        "protein"
+      ],
+      "fact_summary": "신장 영양교육은 개인 상태에 맞춘다.",
+      "source_section": "Practice Point3.3.2, S156",
+      "source_url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "신장 전문 영양 검토 없이 적용하지 않음",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-046",
+      "source_id": "kdigo-ckd-2024",
+      "condition": "kidney",
+      "evidence_level": "conditional",
+      "direction": "specialist_review",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "potassium"
+      ],
+      "fact_summary": "고칼륨혈증 식이는 개별화한다.",
+      "source_section": "Practice Point3.11.5.1~2, S160/S226",
+      "source_url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "일반 혈압 칼륨 권장과 자동 병합 금지",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    },
+    {
+      "id": "HE-047",
+      "source_id": "kdigo-ckd-2024",
+      "condition": "kidney",
+      "evidence_level": "conditional",
+      "direction": "specialist_review",
+      "food_terms": [],
+      "nutrients_to_check": [
+        "protein"
+      ],
+      "fact_summary": "단백질 안내에는 적용 대상/예외가 있다.",
+      "source_section": "Section3.3.1, S156",
+      "source_url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+      "checked_at": "2026-11-03",
+      "applicability": "기관 원문의 적용 대상 확인 필요",
+      "exceptions": "소아/대사 불안정/영양 저하 등 구분 필요",
+      "food_code_mapping_status": "not_newly_mapped",
+      "review_status": "source_fact_recorded_clinical_and_rights_review_pending",
+      "clinical_approval": false,
+      "runtime_enabled": false,
+      "annotation_scope": "evidence_level, direction, nutrients_to_check, exceptions are project review annotations; not provider-issued food approval"
+    }
+  ]
+}

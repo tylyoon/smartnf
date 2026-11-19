@@ -1,0 +1,6794 @@
+[
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "source_term": "우뭇가사리",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=46",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:L0190000000a",
+    "food_name": "우뭇가사리, 생것",
+    "group": "해조류",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "L0190000000a",
+    "food_record_sha256": "32de4ff376f1396fe5dbbf9beaadbb92b67ea22d46cf9a4b4deeb0f7d10c28ce",
+    "nutrients": {
+      "energy": {
+        "value": 46,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 18.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "protein": {
+        "value": 4.2,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 0.2,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "sodium": {
+        "value": null,
+        "unit": "mg",
+        "status": "unmeasured"
+      },
+      "potassium": {
+        "value": null,
+        "unit": "mg",
+        "status": "unmeasured"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "잡곡",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:A0470002590a",
+    "food_name": "잡곡, 현미, 찹쌀, 현미찹쌀, 보리 등, 생것",
+    "group": "곡류 및 그 제품",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "A0470002590a",
+    "food_record_sha256": "b58e82298a71c5a615c0b8796acebebd3c1e9d6188b46bc28d71557bce55669e",
+    "nutrients": {
+      "energy": {
+        "value": 358,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 73.4,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.79,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 2.09,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 4,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 366,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150000009a",
+    "food_name": "두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150000009a",
+    "food_record_sha256": "fc7799eaff465b6d979e51ea1386107825c0f40166f23f7f596b7e0471f72e46",
+    "nutrients": {
+      "energy": {
+        "value": 97,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 3.75,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.62,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 4.63,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.7,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 1,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 132,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "대두 관련 원재료로 제외",
+        "status": "match"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150010008a",
+    "food_name": "두부, 동두부, 동결건조",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150010008a",
+    "food_record_sha256": "45e98273319561b7a295fc63bc20a6122fafa000665d34676db0166be4a85d9b",
+    "nutrients": {
+      "energy": {
+        "value": 496,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.2,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 50.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 34.1,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 5.22,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 440,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 34,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150020009a",
+    "food_name": "두부, 순두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150020009a",
+    "food_record_sha256": "a48597239c6b25fb7ed7f68b0ba30062f30560b7416d8c8a0172cd099f17a498",
+    "nutrients": {
+      "energy": {
+        "value": 44,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.69,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.6,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 6.85,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.35,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.19,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 4,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 176,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150030009a",
+    "food_name": "두부, 연두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150030009a",
+    "food_record_sha256": "c9b0e0b3d126c01cf7818aaa783961737c59e690893b7f9ea5292541970efe00",
+    "nutrients": {
+      "energy": {
+        "value": 50,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.74,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 4.66,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 2.51,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.36,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 55,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 160,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150040009j",
+    "food_name": "두부, 유부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150040009j",
+    "food_record_sha256": "97db9e7b2438acd2cbf451346b1043b8d00796e48638c695d409ad8d6258346f",
+    "nutrients": {
+      "energy": {
+        "value": 450,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 7.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.42,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 26.11,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 34.23,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 5.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 7,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 128,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D015004000Dj",
+    "food_name": "두부, 유부, 조미",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D015004000Dj",
+    "food_record_sha256": "86a1f48c3a422726bd0b172b2f916e7763d3ba54ae8d881177c1420e8d5e896b",
+    "nutrients": {
+      "energy": {
+        "value": 201,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.09,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 7.98,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.77,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 12.67,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 1.94,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 522,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 69,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090000009a",
+    "food_name": "우유",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090000009a",
+    "food_record_sha256": "b09030f145c5023f28eaa95a45b56ded0fc4105c1234b8432a470e38d799ecd6",
+    "nutrients": {
+      "energy": {
+        "value": 67,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.86,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 4.81,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 3.09,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 3.85,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.17,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 40,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 162,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011389a",
+    "food_name": "우유, 가공우유, 딸기맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011389a",
+    "food_record_sha256": "12e75304a93b87088e47ab77a2cc036a41cbcca3c06daacb50417684fc4e7f20",
+    "nutrients": {
+      "energy": {
+        "value": 68,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 8.13,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.29,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.12,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.75,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 30,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 107,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011459a",
+    "food_name": "우유, 가공우유, 바나나맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011459a",
+    "food_record_sha256": "6418d51689f06830a42531512e74027c50b3a652b9318f48e0066db61b8b505b",
+    "nutrients": {
+      "energy": {
+        "value": 90,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 13.13,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 9.18,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.63,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 3.02,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.03,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 34,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 125,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011429a",
+    "food_name": "우유, 가공우유, 초코맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011429a",
+    "food_record_sha256": "53b459e56b3baed513a273d41e36e2261f30b98676222b040322c1c066aca8e6",
+    "nutrients": {
+      "energy": {
+        "value": 71,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.14,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 8.16,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.61,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.41,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 32,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 153,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011439a",
+    "food_name": "우유, 가공우유, 커피맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011439a",
+    "food_record_sha256": "325d338204c34c52d1f980c428ffb5edada44615d849d01bb14d9aecaa48c900",
+    "nutrients": {
+      "energy": {
+        "value": 61,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 9.82,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 6.86,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.44,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.38,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.9,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 29,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 125,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090021469a",
+    "food_name": "우유, 강화우유, 고칼슘",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090021469a",
+    "food_record_sha256": "b96d72d75f0496fd7d08b62e19609fa1be75f517d12dcb58399f4f15ff332a74",
+    "nutrients": {
+      "energy": {
+        "value": 63,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 6.53,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 3.85,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.98,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 2.77,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 1.87,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 37,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 144,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090060009a",
+    "food_name": "우유, 유당분해우유",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090060009a",
+    "food_record_sha256": "d9e7e3e101b5679b12d636bb2bf6402be30202044b93e2bfc267dfbf3d5bd8ad",
+    "nutrients": {
+      "energy": {
+        "value": 66,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.73,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 3.99,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 3.05,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 3.86,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.14,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 39,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 164,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090040009a",
+    "food_name": "우유, 저지방우유",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090040009a",
+    "food_record_sha256": "7fe7c0ae977fdc6eeb3e64c6cd7e3ebb7ee2903d363f1bb5dd33d0c9ef8a8810",
+    "nutrients": {
+      "energy": {
+        "value": 46,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.96,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 4.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 3.25,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.44,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.59,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 40,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 165,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "잡곡",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:A0470002590a",
+    "food_name": "잡곡, 현미, 찹쌀, 현미찹쌀, 보리 등, 생것",
+    "group": "곡류 및 그 제품",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "A0470002590a",
+    "food_record_sha256": "b58e82298a71c5a615c0b8796acebebd3c1e9d6188b46bc28d71557bce55669e",
+    "nutrients": {
+      "energy": {
+        "value": 358,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 73.4,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.79,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 2.09,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 4,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 366,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150000009a",
+    "food_name": "두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150000009a",
+    "food_record_sha256": "fc7799eaff465b6d979e51ea1386107825c0f40166f23f7f596b7e0471f72e46",
+    "nutrients": {
+      "energy": {
+        "value": 97,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 3.75,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.62,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 4.63,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.7,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 1,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 132,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "대두 관련 원재료로 제외",
+        "status": "match"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150010008a",
+    "food_name": "두부, 동두부, 동결건조",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150010008a",
+    "food_record_sha256": "45e98273319561b7a295fc63bc20a6122fafa000665d34676db0166be4a85d9b",
+    "nutrients": {
+      "energy": {
+        "value": 496,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.2,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 50.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 34.1,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 5.22,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 440,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 34,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150020009a",
+    "food_name": "두부, 순두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150020009a",
+    "food_record_sha256": "a48597239c6b25fb7ed7f68b0ba30062f30560b7416d8c8a0172cd099f17a498",
+    "nutrients": {
+      "energy": {
+        "value": 44,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.69,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.6,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 6.85,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.35,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.19,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 4,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 176,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150030009a",
+    "food_name": "두부, 연두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150030009a",
+    "food_record_sha256": "c9b0e0b3d126c01cf7818aaa783961737c59e690893b7f9ea5292541970efe00",
+    "nutrients": {
+      "energy": {
+        "value": 50,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.74,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 4.66,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 2.51,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.36,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 55,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 160,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150040009j",
+    "food_name": "두부, 유부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150040009j",
+    "food_record_sha256": "97db9e7b2438acd2cbf451346b1043b8d00796e48638c695d409ad8d6258346f",
+    "nutrients": {
+      "energy": {
+        "value": 450,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 7.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.42,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 26.11,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 34.23,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 5.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 7,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 128,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D015004000Dj",
+    "food_name": "두부, 유부, 조미",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D015004000Dj",
+    "food_record_sha256": "86a1f48c3a422726bd0b172b2f916e7763d3ba54ae8d881177c1420e8d5e896b",
+    "nutrients": {
+      "energy": {
+        "value": 201,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.09,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 7.98,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.77,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 12.67,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 1.94,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 522,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 69,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090000009a",
+    "food_name": "우유",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090000009a",
+    "food_record_sha256": "b09030f145c5023f28eaa95a45b56ded0fc4105c1234b8432a470e38d799ecd6",
+    "nutrients": {
+      "energy": {
+        "value": 67,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.86,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 4.81,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 3.09,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 3.85,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.17,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 40,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 162,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011389a",
+    "food_name": "우유, 가공우유, 딸기맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011389a",
+    "food_record_sha256": "12e75304a93b87088e47ab77a2cc036a41cbcca3c06daacb50417684fc4e7f20",
+    "nutrients": {
+      "energy": {
+        "value": 68,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 8.13,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.29,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.12,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.75,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 30,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 107,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011459a",
+    "food_name": "우유, 가공우유, 바나나맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011459a",
+    "food_record_sha256": "6418d51689f06830a42531512e74027c50b3a652b9318f48e0066db61b8b505b",
+    "nutrients": {
+      "energy": {
+        "value": 90,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 13.13,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 9.18,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.63,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 3.02,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.03,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 34,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 125,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011429a",
+    "food_name": "우유, 가공우유, 초코맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011429a",
+    "food_record_sha256": "53b459e56b3baed513a273d41e36e2261f30b98676222b040322c1c066aca8e6",
+    "nutrients": {
+      "energy": {
+        "value": 71,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.14,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 8.16,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.61,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.41,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 32,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 153,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090011439a",
+    "food_name": "우유, 가공우유, 커피맛",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090011439a",
+    "food_record_sha256": "325d338204c34c52d1f980c428ffb5edada44615d849d01bb14d9aecaa48c900",
+    "nutrients": {
+      "energy": {
+        "value": 61,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 9.82,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 6.86,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.44,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.38,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.9,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 29,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 125,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090021469a",
+    "food_name": "우유, 강화우유, 고칼슘",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090021469a",
+    "food_record_sha256": "b96d72d75f0496fd7d08b62e19609fa1be75f517d12dcb58399f4f15ff332a74",
+    "nutrients": {
+      "energy": {
+        "value": 63,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 6.53,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 3.85,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 2.98,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 2.77,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 1.87,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 37,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 144,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090060009a",
+    "food_name": "우유, 유당분해우유",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090060009a",
+    "food_record_sha256": "d9e7e3e101b5679b12d636bb2bf6402be30202044b93e2bfc267dfbf3d5bd8ad",
+    "nutrients": {
+      "energy": {
+        "value": 66,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.73,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 3.99,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 3.05,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 3.86,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.14,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 39,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 164,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0090040009a",
+    "food_name": "우유, 저지방우유",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0090040009a",
+    "food_record_sha256": "7fe7c0ae977fdc6eeb3e64c6cd7e3ebb7ee2903d363f1bb5dd33d0c9ef8a8810",
+    "nutrients": {
+      "energy": {
+        "value": 46,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.96,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 4.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 3.25,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.44,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.59,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 40,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 165,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "우유 관련 원재료로 제외",
+        "status": "match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030000000a",
+    "food_name": "달걀, 생것",
+    "group": "난류",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030000000a",
+    "food_record_sha256": "480f60b61998fd49ddebabaa6938f8d6c1c3365ee36563df21154e004a1b0e8a",
+    "nutrients": {
+      "energy": {
+        "value": 140,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.07,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.22,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 12.86,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 8.51,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.8,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 137,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 125,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "milk": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "mackerel": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "shellfish": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030000009b",
+    "food_name": "달걀, 삶은것",
+    "group": "난류",
+    "display_state": "dish",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030000009b",
+    "food_record_sha256": "168dfa5039c4369609dc067622b6cd33df35e2f065c32eee5e93ff69d08dbb7d",
+    "nutrients": {
+      "energy": {
+        "value": 145,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.37,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.13,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 13.49,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 8.69,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.78,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 128,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 115,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030001080a",
+    "food_name": "달걀, 난백, 생것",
+    "group": "난류",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030001080a",
+    "food_record_sha256": "7cb3f0372c85af125aed08588f63215e71c9dce6aab92d516d644f5be39ddf08",
+    "nutrients": {
+      "energy": {
+        "value": 50,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.14,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.12,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 11.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 0.05,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.01,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 174,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 140,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "milk": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "mackerel": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "shellfish": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030001089b",
+    "food_name": "달걀, 난백, 삶은것",
+    "group": "난류",
+    "display_state": "dish",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030001089b",
+    "food_record_sha256": "39d4eeb768c378fc04aabc008e0354e336afb54f49c7a2b89b791f392400ef2d",
+    "nutrients": {
+      "energy": {
+        "value": 51,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.22,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.12,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 11.63,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 0.01,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.01,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 145,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 106,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030001090a",
+    "food_name": "달걀, 난황, 생것",
+    "group": "난류",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030001090a",
+    "food_record_sha256": "0747c355273c190c2579d527755c33e7ae5084cd6f461b9d2e0274924c3e5dd9",
+    "nutrients": {
+      "energy": {
+        "value": 326,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 5.77,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.04,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 15.66,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 25.18,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 8.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 57,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 112,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "milk": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "mackerel": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "shellfish": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030001099b",
+    "food_name": "달걀, 난황, 삶은것",
+    "group": "난류",
+    "display_state": "dish",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030001099b",
+    "food_record_sha256": "2a14dd9bf36ff182438342320606eb5c610078b5a51c8210611f40c2a304d6bc",
+    "nutrients": {
+      "energy": {
+        "value": 379,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.37,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.04,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 16.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 32.16,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 9.68,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 47,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 95,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030000005a",
+    "food_name": "달걀, 가루",
+    "group": "난류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030000005a",
+    "food_record_sha256": "e73875b5fb543c7b09c337cae670e031ad07c37b8d5f77b2c7c52bd8428bafcf",
+    "nutrients": {
+      "energy": {
+        "value": 592,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.13,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.56,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 48.05,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 43.9,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 15.069,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 476,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 540,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030001085a",
+    "food_name": "달걀, 난백, 가루",
+    "group": "난류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030001085a",
+    "food_record_sha256": "4d5b49f0e583f4b0af0bba89ebf1047e81a656d143196d6cd3b19aa3d2f40358",
+    "nutrients": {
+      "energy": {
+        "value": 382,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 7.8,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 5.4,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 81.1,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 1280,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 1125,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030001095a",
+    "food_name": "달걀, 난황, 가루",
+    "group": "난류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030001095a",
+    "food_record_sha256": "5e04238205d39fdaf88a0709d69cf5895bda7156720cad7c540f6935aad0c8c4",
+    "nutrients": {
+      "energy": {
+        "value": 647,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 10.82,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 32.69,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 49.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 18.04,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 139,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 238,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030001097a",
+    "food_name": "달걀, 난황액, 설탕첨가",
+    "group": "난류",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030001097a",
+    "food_record_sha256": "4af44751295ef97afc4fc473ff5882c2ad397b0f69b252b272bfaba6c2e9282e",
+    "nutrients": {
+      "energy": {
+        "value": 305,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.47,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 9.44,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 14.17,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 21.03,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 7.78,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 60,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 97,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0040000009m",
+    "food_name": "달걀, 부침(달걀프라이)",
+    "group": "난류",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0040000009m",
+    "food_record_sha256": "b04714dcc90c05bc8e12eccdc5fe02be20b65f952b9a7ca6b088afef5b07ad56",
+    "nutrients": {
+      "energy": {
+        "value": 206,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 3.79,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.2,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 15.12,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 13.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 3.77,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 162,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 152,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0050000009s",
+    "food_name": "달걀, 수란, 중탕",
+    "group": "난류",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0050000009s",
+    "food_record_sha256": "e81c0ac5bc330c75c42bbdf4ace191615833b40aeaeccc63c110e7b4db12ae47",
+    "nutrients": {
+      "energy": {
+        "value": 145,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.2,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "protein": {
+        "value": 12.3,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 11.7,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 3.21,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 110,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 100,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0060000009n",
+    "food_name": "달걀, 스크램블드에그",
+    "group": "난류",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0060000009n",
+    "food_record_sha256": "5fc4e1974f48af4d7647e50c85cfcb07f34b78ba73511051ec29f47d4473aaed",
+    "nutrients": {
+      "energy": {
+        "value": 149,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.61,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 1.39,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.99,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 10.98,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 3.331,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 145,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 132,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030010000a",
+    "food_name": "달걀, 유정란, 생것",
+    "group": "난류",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030010000a",
+    "food_record_sha256": "25a8774b737278073f21b3c70c6a9a39a1ffed07aed9a3c210b78c1b87f56268",
+    "nutrients": {
+      "energy": {
+        "value": 156,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 8.1,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "protein": {
+        "value": 10.9,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 8.4,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "sodium": {
+        "value": 163,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 133,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "milk": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "mackerel": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "shellfish": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030011080a",
+    "food_name": "달걀, 유정란, 난백, 생것",
+    "group": "난류",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030011080a",
+    "food_record_sha256": "e914a0450be0a628b549f41f422d635f65a8903b49dc26a6df91b35d2ed5addb",
+    "nutrients": {
+      "energy": {
+        "value": 50,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 3.6,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "protein": {
+        "value": 8.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "sodium": {
+        "value": 153,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 210,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "milk": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "mackerel": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "shellfish": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:J0030011090a",
+    "food_name": "달걀, 유정란, 난황, 생것",
+    "group": "난류",
+    "display_state": "raw",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "J0030011090a",
+    "food_record_sha256": "140cc1ebfef9354d8ae9c4cb78089bf2b530c3180723756ebb672ac0faac6e4f",
+    "nutrients": {
+      "energy": {
+        "value": 333,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 21.7,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "protein": {
+        "value": 14.4,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 20.3,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "sodium": {
+        "value": 138,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 65,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "milk": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "알류(가금류) 관련 원재료로 제외",
+        "status": "match"
+      },
+      "wheat": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "mackerel": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      },
+      "shellfish": {
+        "allowed": true,
+        "reason": "선택 항목과 단일 원재료 식별상 일치 없음 · 교차접촉/제품 표시 별도 확인",
+        "status": "no_listed_match"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150000009a",
+    "food_name": "두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150000009a",
+    "food_record_sha256": "fc7799eaff465b6d979e51ea1386107825c0f40166f23f7f596b7e0471f72e46",
+    "nutrients": {
+      "energy": {
+        "value": 97,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 3.75,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.62,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 4.63,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.7,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 1,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 132,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "대두 관련 원재료로 제외",
+        "status": "match"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150010008a",
+    "food_name": "두부, 동두부, 동결건조",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150010008a",
+    "food_record_sha256": "45e98273319561b7a295fc63bc20a6122fafa000665d34676db0166be4a85d9b",
+    "nutrients": {
+      "energy": {
+        "value": 496,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 4.2,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 50.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 34.1,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 5.22,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 440,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 34,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150020009a",
+    "food_name": "두부, 순두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150020009a",
+    "food_record_sha256": "a48597239c6b25fb7ed7f68b0ba30062f30560b7416d8c8a0172cd099f17a498",
+    "nutrients": {
+      "energy": {
+        "value": 44,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.69,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.6,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 6.85,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 1.35,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.19,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 4,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 176,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150030009a",
+    "food_name": "두부, 연두부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150030009a",
+    "food_record_sha256": "c9b0e0b3d126c01cf7818aaa783961737c59e690893b7f9ea5292541970efe00",
+    "nutrients": {
+      "energy": {
+        "value": 50,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.74,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 4.66,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 2.51,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 0.36,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 55,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 160,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D0150040009j",
+    "food_name": "두부, 유부",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D0150040009j",
+    "food_record_sha256": "97db9e7b2438acd2cbf451346b1043b8d00796e48638c695d409ad8d6258346f",
+    "nutrients": {
+      "energy": {
+        "value": 450,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 7.93,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.42,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 26.11,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 34.23,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 5.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 7,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 128,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "두부",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:D015004000Dj",
+    "food_name": "두부, 유부, 조미",
+    "group": "두류",
+    "display_state": "processed_ingredient",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "D015004000Dj",
+    "food_record_sha256": "86a1f48c3a422726bd0b172b2f916e7763d3ba54ae8d881177c1420e8d5e896b",
+    "nutrients": {
+      "energy": {
+        "value": 201,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 12.09,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 7.98,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 9.77,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 12.67,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 1.94,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 522,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 69,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100110009a",
+    "food_name": "치즈, 고다",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100110009a",
+    "food_record_sha256": "0d1d318153e73fd07fbcea1802edadb54f5aa08153c3584061c260c4005bbf8c",
+    "nutrients": {
+      "energy": {
+        "value": 356,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 2.22,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 2.22,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 24.94,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 27.44,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 17.614,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 819,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 121,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100100009a",
+    "food_name": "치즈, 카망베르",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100100009a",
+    "food_record_sha256": "06d7d764feb8f43e1e7339d054ff9a6629b630118e9d4848b75f50234975dfe8",
+    "nutrients": {
+      "energy": {
+        "value": 300,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 19.8,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 24.26,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 15.259,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 842,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 187,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100130009a",
+    "food_name": "치즈, 리코타",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100130009a",
+    "food_record_sha256": "ba1b8e8b5c0604c24993c65ef2bacc3f53486ca96dcf385751e0a31a96ec62d8",
+    "nutrients": {
+      "energy": {
+        "value": 159,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 6.7,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "protein": {
+        "value": 7.1,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 11.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": null,
+        "unit": "g",
+        "status": "unmeasured"
+      },
+      "sodium": {
+        "value": 160,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 210,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100020009a",
+    "food_name": "치즈, 모차렐라",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100020009a",
+    "food_record_sha256": "c9a13d09537de83edf1d6db3648cf0480d9b01d3108bb7c13ef95ef382905e0b",
+    "nutrients": {
+      "energy": {
+        "value": 236,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 3.15,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 1.06,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 17.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 16.49,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 11.11,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 243,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 50,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100022659a",
+    "food_name": "치즈, 모차렐라, 슈레드타입",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100022659a",
+    "food_record_sha256": "9d36fd3fe2197668867601dfba7cc040110585039083ee40b871f0d4efd6bc67",
+    "nutrients": {
+      "energy": {
+        "value": 293,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 5.66,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.64,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 26.6,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 17.37,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 11.72,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 402,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 89,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100090009a",
+    "food_name": "치즈, 브리",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100090009a",
+    "food_record_sha256": "5597a25a087b59b10d65fd23fa90e2a7e20aa11ccadeee5c11b19909ac0c65b0",
+    "nutrients": {
+      "energy": {
+        "value": 334,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 0.45,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.45,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 20.75,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 27.68,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 17.41,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 629,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 152,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100120009a",
+    "food_name": "치즈, 브릭",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100120009a",
+    "food_record_sha256": "0348e1b114467f92a5318886da30644f7ce07f233f8fda9d3e1a4b2a55b8056b",
+    "nutrients": {
+      "energy": {
+        "value": 371,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 2.79,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.51,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 23.24,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 29.68,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 18.764,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 560,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 136,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100080009a",
+    "food_name": "치즈, 블루",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100080009a",
+    "food_record_sha256": "99a86b0a92c3228d0386cc85057ff87d0821714896f46d5c989b74f0ae5db0e7",
+    "nutrients": {
+      "energy": {
+        "value": 353,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 2.34,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 21.4,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 28.74,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 18.669,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 1146,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 256,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100040009a",
+    "food_name": "치즈, 체다",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100040009a",
+    "food_record_sha256": "b6dfe7287e591805e16e3c0ba0a7011a66b4df4b66d46d47a6ad7b975f267e08",
+    "nutrients": {
+      "energy": {
+        "value": 298,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 6.17,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.24,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 18.76,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 21.3,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 14.46,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 928,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 62,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100050009a",
+    "food_name": "치즈, 카테지",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100050009a",
+    "food_record_sha256": "6737d653d15cce02a47e77821192f3934e5df5a95648f7403986e1432032811b",
+    "nutrients": {
+      "energy": {
+        "value": 99,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 1.9,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 13.3,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 4.5,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 2.73,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 400,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 50,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100060009a",
+    "food_name": "치즈, 크림",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100060009a",
+    "food_record_sha256": "9ddd7ff7733a381d31ed53795ac4b2ce29494ac08166ec889dbe40f236dbbba2",
+    "nutrients": {
+      "energy": {
+        "value": 350,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 5.52,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 3.76,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 6.15,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 34.44,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 20.213,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 314,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 132,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "source_url": "https://www.amc.seoul.kr/asan/mobile/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=96",
+    "source_section": "권장 식품",
+    "source_checked_at": "2026-10-26",
+    "food_id": "rda_10_4:M0100070009a",
+    "food_name": "치즈, 파르메산(파마산)",
+    "group": "우유 및 그 제품",
+    "display_state": "review",
+    "basis": "100g edible portion",
+    "portion_raw": null,
+    "source_code": "M0100070009a",
+    "food_record_sha256": "734abd748393b02316fe61180e8d5cebdc8785db069d8d0dfa4a16228a028c2c",
+    "nutrients": {
+      "energy": {
+        "value": 420,
+        "unit": "kcal",
+        "status": "numeric"
+      },
+      "carbohydrate": {
+        "value": 13.91,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sugars": {
+        "value": 0.07,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "protein": {
+        "value": 28.42,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "fat": {
+        "value": 27.84,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "saturated_fat": {
+        "value": 15.371,
+        "unit": "g",
+        "status": "numeric"
+      },
+      "sodium": {
+        "value": 1804,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "potassium": {
+        "value": 180,
+        "unit": "mg",
+        "status": "numeric"
+      },
+      "phosphorus": {
+        "value": null,
+        "unit": null,
+        "status": "field_not_exported"
+      }
+    },
+    "allergy_screening": {
+      "soy": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "milk": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "egg": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "wheat": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "mackerel": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      },
+      "shellfish": {
+        "allowed": false,
+        "reason": "단일 원재료 구성을 확인하지 못하여 제외",
+        "status": "unknown"
+      }
+    },
+    "blocking_reasons": [
+      "식품 상태 분류 검토 필요",
+      "개인 적용 분량 미검증",
+      "원문 적용 대상·주의 식품과 코드별 대조 필요",
+      "복합질환/개인 제한 미검토",
+      "기관 재사용 범위 및 필요한 전문 검토 미완료"
+    ],
+    "technical_status": "record_and_basis_linked_not_approved",
+    "clinical_status": "not_validated",
+    "runtime_enabled": false
+  }
+]

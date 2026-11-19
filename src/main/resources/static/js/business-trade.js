@@ -280,6 +280,9 @@ function button(title,callback,secondary=true) {
 function hasClaim(id) {
     return (data['변경요청']||[]).some(c=>c.ord===id&&c.state==='OPEN');
 }
+function hasPgAttempt(row) {
+    return Boolean(row.pg_state&&!['RELEASED','FAILED'].includes(row.pg_state));
+}
 function taskActions(row) {
     const buyer=own(row,'buyer'),seller=own(row,'seller');
     if(hasClaim(row.id))return [];
@@ -288,7 +291,7 @@ function taskActions(row) {
     if(seller&&row.state==='PAID')candidates.push('ship');
     if(buyer&&row.state==='REQUESTED')candidates.push('editOrder','cancel');
     if(buyer&&row.state==='APPROVED')candidates.push('pay','requestChange','cancel');
-    if(buyer&&row.state==='PAID')candidates.push('requestChange',...(row.pg_state?[]:['cancel']));
+    if(buyer&&row.state==='PAID')candidates.push('requestChange',...(hasPgAttempt(row)?[]:['cancel']));
     if(buyer&&['SHIPPED','PARTIAL'].includes(row.state)&&!row.receipt_closed)candidates.push('receive');
     if(buyer&&['PARTIAL','RECEIVED'].includes(row.state)){
         candidates.push('requestChange','invoice');
@@ -307,20 +310,28 @@ function renderTasks() {
     for(const row of data['거래']||[]){
         if(perspective==='BUY'&&!own(row,'buyer')||perspective==='SELL'&&!own(row,'seller'))continue;
         const steps=taskActions(row);
-        if(!steps.length&&!hasClaim(row.id)&&!(own(row,'buyer')&&row.state==='PAYMENT_PENDING'))continue;
+        const canStartPg=own(row,'buyer')&&allowed('pay')&&row.state==='APPROVED'&&!hasClaim(row.id);
+        const canManagePg=own(row,'buyer')&&allowed('pay')&&hasPgAttempt(row)&&['PAYMENT_PENDING','PAID','SHIPPED','PARTIAL','RECEIVED'].includes(row.state);
+        if(!steps.length&&!hasClaim(row.id)&&!canStartPg&&!canManagePg)continue;
         count++;
         const card=element('article',null,'business-task');
-        card.append(element('strong',row.name+' · '+(row.pg_state?'PG 테스트 · ':'')+(states[row.state]||row.state)));
+        card.append(element('strong',row.name+' · '+(hasPgAttempt(row)?'PG 테스트 · ':'')+(states[row.state]||row.state)));
         card.append(element('p',(own(row,'buyer')?'공급자 '+row.sellerName:'구매자 '+row.buyerName)+' · '+packaging(row)+' · '+money(row.qty*row.price/row.pack+row.shipping)));
         card.append(element('p',row.id,'business-note'));
         card.append(element('strong','총 '+money(row.qty*row.price/row.pack+row.shipping)+' · 포장당 '+money(row.price),'business-task-price'));
         const controls=element('div',null,'business-actions');
         if(hasClaim(row.id))card.append(element('p','변경·검수 문제 합의가 필요합니다. 처리가 보류됐습니다.','business-note'));
         for(const op of steps)controls.append(button(actions[op][0]+' · 내용 확인',()=>startAction(op,row.id),op!=='approve'));
-        if(own(row,'buyer')&&['APPROVED','PAYMENT_PENDING','PAID','PARTIAL','RECEIVED'].includes(row.state)){
-            const link=element('a',row.pg_state?'PG 결제·환불 관리':'PG 테스트 결제','business-button');
+        if(canStartPg||canManagePg){
+            const link=element('a',canStartPg?'PG 테스트 결제':'PG 결제·환불 관리','business-button');
             link.href='/preview/business/payment?org='+encodeURIComponent($('org').value)+'&order='+encodeURIComponent(row.id);
             controls.append(link);
+        }
+        if(!hasPgAttempt(row)&&['PAID','SHIPPED','PARTIAL','RECEIVED','SETTLED'].includes(row.state)){
+            card.append(element('p','결제 방식 · 모의 결제','business-note'));
+        }
+        if(own(row,'buyer')&&row.state==='REQUESTED'){
+            card.append(element('p','판매자가 발주를 승인하면 결제할 수 있습니다.','business-note'));
         }
         card.append(controls);$('tasks').append(card);
     }

@@ -1,0 +1,72 @@
+{
+  "status": "COMPLETED",
+  "schema_version": "0.1",
+  "recipes": 1156,
+  "catalog_rows": 3366,
+  "candidate_counts": {
+    "ingredient_candidate": 13059,
+    "quantity_mentions_mass": 11696,
+    "quantity_mentions_count_or_household": 1273,
+    "segments_with_code_candidates": 8025,
+    "heading": 64,
+    "quantity_mentions_volume": 115,
+    "recipes_missing_ingredients": 3
+  },
+  "review_groups": 2590,
+  "review_group_counts": {
+    "multiple_candidates": 560,
+    "no_candidate": 1888,
+    "single_candidate_unconfirmed": 142
+  },
+  "reviewed_reference_name_occurrences": 426,
+  "reviewed_by_name": {
+    "참기름": 164,
+    "고춧가루": 78,
+    "올리브오일": 80,
+    "올리브유": 58,
+    "들기름": 19,
+    "굴소스": 11,
+    "토마토케첩": 8,
+    "고추기름": 8
+  },
+  "review_reason_counts": {
+    "CODE_AND_INGREDIENT_IDENTITY_REVIEW": 13059,
+    "SEGMENT_COMPLETENESS_REVIEW": 13059,
+    "NO_EXPLICIT_QUANTITY": 501,
+    "NO_HOUSEHOLD_TO_GRAM_CONVERSION": 1264,
+    "MULTIPLE_QUANTITIES_REVIEW": 478,
+    "HEADING_REVIEW": 64,
+    "MIXED_FRACTION_REVIEW": 27,
+    "AMBIGUOUS_OR_SHARED_QUANTITY": 240,
+    "UNBALANCED_PARENTHESES": 5,
+    "COMPOSITE_OR_UNPARSED_COLON": 36,
+    "UNPARSED_MARKUP": 1
+  },
+  "source_span_errors": 0,
+  "unaccounted_source_text": 0,
+  "confirmed_recipe_codes": 0,
+  "approved_for_calculation": false,
+  "network_calls": 0,
+  "database_writes": 0,
+  "input_sha256": {
+    "recipes": "3fb64e9a90163c78195fb48baf17843b1061cfe2ac2e6e602f4e3502fef846ca",
+    "summary": "ff49fb8f72d5b82d3e00fb57ac38b1da74f938d81cbfdcb52f821bb64d54d198",
+    "catalog": "d340220e51b60785efcf99c886a4759a39dae2c92f9f2e4d34d63c677a089833"
+  },
+  "output_sha256": {
+    "nutrient_data_readiness.json": "7d07f5b749e7e674e4484f13740b76fad7917b1cc7cb2ce1a2e166576d0fc227",
+    "reference_review_20261023T025221_132644Z/reference_code_review.jsonl": "0c609135eb7d72270af8167e7951a570bd22bd130c8b84e7bdc052d633518eab",
+    "reference_review_20261023T025221_132644Z/summary.json": "12ab69baae9801f0fc5150ec950293f637dfeee2a17782103f9ac1f5026ca45f",
+    "ingredient_review_20261023T025220_745767Z/review_table.csv": "292fc0229f3d37282b7ed7c481ccffe3792a0de919cd9b3b17b5c7b5cb9e2baf",
+    "ingredient_review_20261023T025220_745767Z/summary.json": "98e6ccb1f0f5618057226d6086cc8116c56e9dc8921855b15b4e09ce066dedc3",
+    "ingredient_review_20261023T025220_745767Z/review_queue.jsonl": "d26d2d31f1ae7f8a48bcadb17a5c9c72656964fbe1f68fc1c693a6bfda3557d1",
+    "recipe_candidates_20261023T025219_190243Z/ingredient_candidates.jsonl": "979684cfbbeaec99b11af839888bc6a79d3851af2729d9550ebee01dc63e61c1",
+    "recipe_candidates_20261023T025219_190243Z/summary.json": "fe2e50e9b6f66e80931413cff3326c6c74cd3d8a0c635e5191b16fdaa8a433ce",
+    "REPORT.md": "6da1843d683c7c5a0aaf12caa49f5382d085146bdc887232832be76e8ad0ead2"
+  },
+  "folders": {
+    "candidates": "recipe_candidates_20261023T025219_190243Z",
+    "review": "ingredient_review_20261023T025220_745767Z",
+    "reference_review": "reference_review_20261023T025221_132644Z"
+  }
+}

@@ -1,0 +1,471 @@
+﻿food_id,name,kind,condition,source_ids,link_mode,previous_checked_at,review_status
+rda_10_4:A001001A010a,"귀리, 겉귀리, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A001003A010a,"귀리, 쌀귀리, 대양, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A001002A010a,"귀리, 쌀귀리, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A001004A010a,"귀리, 쌀귀리, 조양, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008002A060a,"멥쌀, 현미, 고아미2호, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008002A060a,"멥쌀, 현미, 고아미2호, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008036A060a,"멥쌀, 현미, 골든퀸3호, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008036A060a,"멥쌀, 현미, 골든퀸3호, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008038A060a,"멥쌀, 현미, 금강1호, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008038A060a,"멥쌀, 현미, 금강1호, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008039A060a,"멥쌀, 현미, 남찬, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008039A060a,"멥쌀, 현미, 남찬, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008040A060a,"멥쌀, 현미, 도담쌀, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008040A060a,"멥쌀, 현미, 도담쌀, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008041A060a,"멥쌀, 현미, 미품, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008041A060a,"멥쌀, 현미, 미품, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008063A060a,"멥쌀, 현미, 바로미2, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008063A060a,"멥쌀, 현미, 바로미2, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008065A060a,"멥쌀, 현미, 바로미3, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008065A060a,"멥쌀, 현미, 바로미3, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008009A060a,"멥쌀, 현미, 발아현미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008009A060a,"멥쌀, 현미, 발아현미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008042A060a,"멥쌀, 현미, 보람찬, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008042A060a,"멥쌀, 현미, 보람찬, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008043A060a,"멥쌀, 현미, 삼광, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008043A060a,"멥쌀, 현미, 삼광, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008044A060a,"멥쌀, 현미, 새일미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008044A060a,"멥쌀, 현미, 새일미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008000A060a,"멥쌀, 현미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008000A060a,"멥쌀, 현미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008045A060a,"멥쌀, 현미, 설갱, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008045A060a,"멥쌀, 현미, 설갱, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008046A060a,"멥쌀, 현미, 신동진, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008046A060a,"멥쌀, 현미, 신동진, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008047A060a,"멥쌀, 현미, 알찬미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008047A060a,"멥쌀, 현미, 알찬미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008048A060a,"멥쌀, 현미, 영호진미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008048A060a,"멥쌀, 현미, 영호진미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008049A060a,"멥쌀, 현미, 예찬, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008049A060a,"멥쌀, 현미, 예찬, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008050A060a,"멥쌀, 현미, 오대, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008050A060a,"멥쌀, 현미, 오대, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008051A060a,"멥쌀, 현미, 운광, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008051A060a,"멥쌀, 현미, 운광, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008052A060a,"멥쌀, 현미, 일품, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008052A060a,"멥쌀, 현미, 일품, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A0080612670a,"멥쌀, 현미, 적진주, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A0080612670a,"멥쌀, 현미, 적진주, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008024A060a,"멥쌀, 현미, 추청벼, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008053A060a,"멥쌀, 현미, 친들, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008053A060a,"멥쌀, 현미, 친들, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008054A060a,"멥쌀, 현미, 팔방미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008054A060a,"멥쌀, 현미, 팔방미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008030A060a,"멥쌀, 현미, 하이아미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008030A060a,"멥쌀, 현미, 하이아미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008056A060a,"멥쌀, 현미, 한아름4호, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008056A060a,"멥쌀, 현미, 한아름4호, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008057A060a,"멥쌀, 현미, 해담쌀, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008057A060a,"멥쌀, 현미, 해담쌀, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008058A060a,"멥쌀, 현미, 해들, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008058A060a,"멥쌀, 현미, 해들, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008059A060a,"멥쌀, 현미, 해품, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008059A060a,"멥쌀, 현미, 해품, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008037A060a,"멥쌀, 현미, 호품, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008037A060a,"멥쌀, 현미, 호품, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A0080000020a,"멥쌀, 현미, 흑미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A0080000020a,"멥쌀, 현미, 흑미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A0080600020a,"멥쌀, 현미, 흑진미, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A0080600020a,"멥쌀, 현미, 흑진미, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A008034A060a,"멥쌀, 현미, 흑진주벼, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025008A010a,"보리, 겉보리, 늘보리, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025008A010a,"보리, 겉보리, 늘보리, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025001A010a,"보리, 겉보리, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025001A010a,"보리, 겉보리, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025001A070a,"보리, 겉보리, 조곡, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025001A070a,"보리, 겉보리, 조곡, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025011A010a,"보리, 겉보리, 큰알보리1호, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025011A010a,"보리, 겉보리, 큰알보리1호, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025011A070a,"보리, 겉보리, 큰알보리1호, 조곡, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025011A070a,"보리, 겉보리, 큰알보리1호, 조곡, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025012A010a,"보리, 겉보리, 흑수정찰, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025012A010a,"보리, 겉보리, 흑수정찰, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025012A070a,"보리, 겉보리, 흑수정찰, 조곡, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025012A070a,"보리, 겉보리, 흑수정찰, 조곡, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025002A010a,"보리, 맥주보리, 두산8호, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025009A010a,"보리, 쌀보리, 누리찰, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025009A010a,"보리, 쌀보리, 누리찰, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025005A010a,"보리, 쌀보리, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025005A010a,"보리, 쌀보리, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025007A010a,"보리, 쌀보리, 찰보리, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025007A010a,"보리, 쌀보리, 찰보리, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025004A010a,"보리, 쌀보리, 찰보리, 서둔찰, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025010A010a,"보리, 쌀보리, 호강, 도정, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:A025010A010a,"보리, 쌀보리, 호강, 도정, 생것",ingredient,lipid,amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:H0370000000a,"바나나, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:H0500080000a,"사과, 감홍, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:H0500020000a,"사과, 부사, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:H0500000000a,"사과, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:H050003B020a,"사과, 아오리, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:H0500090000a,"사과, 양광, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:H0500070000a,"사과, 홍옥, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:235,고구마두부스테이크,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:235,고구마두부스테이크,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:314,김말이두부스테이크,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:314,김말이두부스테이크,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3464,깻잎 쌈두부 라자냐,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3464,깻잎 쌈두부 라자냐,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:812,단호박 두부찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:812,단호박 두부찜,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2963,닭가슴살 두부선,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2963,닭가슴살 두부선,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:914,돼지고기 토마토 두부볶음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:914,돼지고기 토마토 두부볶음,reference_recipe,lipid,amc-lipid | kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:914,돼지고기 토마토 두부볶음,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:834,두부 달걀전,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:834,두부 달걀전,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:960,두부 샌드위치,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:960,두부 샌드위치,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:882,두부 해산물 꼬치구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:882,두부 해산물 꼬치구이,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:258,두부곤약조림,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:258,두부곤약조림,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2987,"두부구이, 버섯소스",reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2987,"두부구이, 버섯소스",reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:367,두부까나페,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:367,두부까나페,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:527,두부된장무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:527,두부된장무침,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:243,두부말이찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:243,두부말이찜,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:835,두부선과 저나트륨 겨자 간장소스,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:835,두부선과 저나트륨 겨자 간장소스,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:412,두부채소샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:412,두부채소샐러드,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2970,두부해물완자,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2970,두부해물완자,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:883,마 두부 오징어전,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:883,마 두부 오징어전,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:885,미역 물오징어 연두부 초회,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:885,미역 물오징어 연두부 초회,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:407,미역줄기두부무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:407,미역줄기두부무침,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:91,버섯구이와 두부타르타르 소스,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:91,버섯구이와 두부타르타르 소스,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:62,불고기 소스를 곁들인 두부구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:62,불고기 소스를 곁들인 두부구이,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:421,뿌리채소두부선,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:421,뿌리채소두부선,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:991,산호두부,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:991,산호두부,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:628,삼색샐러드와두부구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:628,삼색샐러드와두부구이,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:28,새우 두부 계란찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:28,새우 두부 계란찜,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:706,새우두부만두,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:706,새우두부만두,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:32,순두부 사과 소스 오이무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:32,순두부 사과 소스 오이무침,reference_recipe,lipid,amc-lipid | kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:32,순두부 사과 소스 오이무침,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:32,순두부 사과 소스 오이무침,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:895,아보카도 두부 샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:895,아보카도 두부 샐러드,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:820,아시아식 채소 두부 볶음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:820,아시아식 채소 두부 볶음,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3003,"알록달록화전, 멸치두부전",reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3003,"알록달록화전, 멸치두부전",reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:577,참깨흑임 자연두부샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:577,참깨흑임 자연두부샐러드,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2997,참치 두부 함박스테이크,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2997,참치 두부 함박스테이크,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2998,치즈두부샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2998,치즈두부샐러드,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:840,카레소스를 얹은 두부 스테이크,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:840,카레소스를 얹은 두부 스테이크,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2975,톳나물 두부무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2975,톳나물 두부무침,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3096,포두부채소잡채,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3096,포두부채소잡채,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:249,해산물두부샌드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:249,해산물두부샌드,reference_recipe,lipid,amc-lipid | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:643,간장소스를 곁들인 새우전복찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:554,겨자소스를 곁들인 새우롤과 전복샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D310-459000000-0001,느타리버섯볶음,dish,bp,kdca-heart-menu,menu_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D310-459000000-0001,느타리버섯볶음,dish,lipid,kdca-heart-menu,menu_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:959,단호박 새우찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:961,라이스페이퍼 새우롤,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:526,새우완자찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:1081,새우채소꼬치구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3280,수제새우소시지,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:800,양송이버섯 달걀 크레페,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D301-005000000-0001,귀리밥,dish,bp,kdca-bp-shopping,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D301-005000000-0001,귀리밥,dish,weight,kdca-carb,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-016000000-0001,보리밥,dish,bp,amc-bp,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-016000000-0001,보리밥,dish,lipid,amc-lipid,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-016000000-0001,보리밥,dish,weight,kdca-carb,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-032000000-0001,잡곡밥,dish,bp,kdca-bp-shopping,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-032000000-0001,잡곡밥,dish,lipid,amc-lipid,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-032000000-0001,잡곡밥,dish,diabetes,kdca-carb,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-032000000-0001,잡곡밥,dish,weight,kdca-carb,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-050000000-0001,현미밥,dish,bp,kdca-bp-shopping | kdca-heart-menu,menu_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-050000000-0001,현미밥,dish,lipid,amc-lipid,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-050000000-0001,현미밥,dish,diabetes,kdca-carb,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_dishes:D101-050000000-0001,현미밥,dish,weight,kdca-carb,cooking_form_example,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:G0180010000a,"양송이버섯, 갈색양송이, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:G0180000000a,"양송이버섯, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K0150002550a,"고등어, 남해, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K0150000000a,"고등어, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K0150002560a,"고등어, 서해, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K1070000000a,"삼치, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K6130060000a,"새우, 닭새우, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K6130070000a,"새우, 대하, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K6130110000a,"새우, 보리새우, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K6130120000a,"새우, 부채새우, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K6130140000a,"새우, 젓새우, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K6130130000a,"새우, 중하, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K6130180000a,"새우, 흰다리새우, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K1370000000a,"연어, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:K1370020000a,"연어, 홍연어, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:233,가지연어구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:873,고등어구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:713,고등어된장구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:590,리코타소스 연어샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:393,맛간장삼치구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:655,묵은지고등어와 새우말이꼬치,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:425,새콤한연어샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:604,아보카도 연어샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:888,연어냉채,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:315,연어롤샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:634,연어샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:515,연어허브스테이크,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:509,유자삼치구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:430,저염된장 삼치구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F041000B090a,"당근, 뿌리, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F041000B090a,"당근, 뿌리, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F041000B090a,"당근, 뿌리, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053002B060a,"마늘, 깐마늘, 수입산, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053002B060a,"마늘, 깐마늘, 수입산, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053002B060a,"마늘, 깐마늘, 수입산, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053001B060a,"마늘, 난지형, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053001B060a,"마늘, 난지형, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053001B060a,"마늘, 난지형, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053000B060a,"마늘, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053000B060a,"마늘, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053000B060a,"마늘, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053003B060a,"마늘, 한지형, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053003B060a,"마늘, 한지형, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F053003B060a,"마늘, 한지형, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F0920000000a,"브로콜리, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F0920000000a,"브로콜리, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F0920000000a,"브로콜리, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F092000B120a,"브로콜리, 싹, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F092000B120a,"브로콜리, 싹, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F092000B120a,"브로콜리, 싹, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F092000B140a,"브로콜리, 잎, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150010000a,"시금치, 노지, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150010000a,"시금치, 노지, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150010000a,"시금치, 노지, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150010000a,"시금치, 노지, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150000000a,"시금치, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150000000a,"시금치, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150000000a,"시금치, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150000000a,"시금치, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150040000a,"시금치, 섬초, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150040000a,"시금치, 섬초, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150040000a,"시금치, 섬초, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150040000a,"시금치, 섬초, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150020000a,"시금치, 포항초, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150020000a,"시금치, 포항초, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150020000a,"시금치, 포항초, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150020000a,"시금치, 포항초, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150030000a,"시금치, 하우스, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150030000a,"시금치, 하우스, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150030000a,"시금치, 하우스, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1150030000a,"시금치, 하우스, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1290000000a,"양배추, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1290000000a,"양배추, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1290000000a,"양배추, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1290010000a,"양배추, 적색, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1290010000a,"양배추, 적색, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1290010000a,"양배추, 적색, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F129001B120a,"양배추, 적색, 싹, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F129001B120a,"양배추, 적색, 싹, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F129001B120a,"양배추, 적색, 싹, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320030000a,"양파, 레드프라임, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320030000a,"양파, 레드프라임, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320030000a,"양파, 레드프라임, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320000000a,"양파, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320000000a,"양파, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320000000a,"양파, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320050000a,"양파, 샬롯, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320040000a,"양파, 썬파워, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320040000a,"양파, 썬파워, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320040000a,"양파, 썬파워, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320020000a,"양파, 적색, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320020000a,"양파, 적색, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1320020000a,"양파, 적색, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480020000a,"오이, 겨울살이청장, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480030000a,"오이, 늙은오이, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480030000a,"오이, 늙은오이, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480030000a,"오이, 늙은오이, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480030000a,"오이, 늙은오이, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480010000a,"오이, 다다기, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480010000a,"오이, 다다기, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480010000a,"오이, 다다기, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480010000a,"오이, 다다기, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480050000a,"오이, 취청, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480050000a,"오이, 취청, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480050000a,"오이, 취청, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1480050000a,"오이, 취청, 생것",ingredient,diabetes,kdca-diabetes,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860040000a,"토마토, 대저, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860040000a,"토마토, 대저, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860040000a,"토마토, 대저, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860050000a,"토마토, 대추 방울토마토, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860050000a,"토마토, 대추 방울토마토, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860050000a,"토마토, 대추 방울토마토, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860010000a,"토마토, 방울토마토, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860010000a,"토마토, 방울토마토, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860010000a,"토마토, 방울토마토, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860000000a,"토마토, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860000000a,"토마토, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860000000a,"토마토, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860020000a,"토마토, 유기재배, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860030000a,"토마토, 흑토마토, 생것",ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860030000a,"토마토, 흑토마토, 생것",ingredient,lipid,kdca-lipid | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:F1860030000a,"토마토, 흑토마토, 생것",ingredient,weight,amc-weight | kdca-bp-shopping,food_group_application,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:480,가지토마토구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:480,가지토마토구이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:480,가지토마토구이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3092,계란만두&토마토소스,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3092,계란만두&토마토소스,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3092,계란만두&토마토소스,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:715,낙지브로콜리볶음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:715,낙지브로콜리볶음,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:715,낙지브로콜리볶음,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:786,라비올리 토마토소스,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:786,라비올리 토마토소스,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:786,라비올리 토마토소스,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:77,마늘드레싱을 곁들인 키위샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:77,마늘드레싱을 곁들인 키위샐러드,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:77,마늘드레싱을 곁들인 키위샐러드,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2999,마늘칩 감자샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2999,마늘칩 감자샐러드,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2999,마늘칩 감자샐러드,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3298,매운요거트 토마토샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3298,매운요거트 토마토샐러드,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3298,매운요거트 토마토샐러드,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:31,방울토마토 소박이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:31,방울토마토 소박이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:31,방울토마토 소박이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:1039,브로콜리 쇠고기 볶음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:1039,브로콜리 쇠고기 볶음,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:1039,브로콜리 쇠고기 볶음,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:94,브로콜리 컬리플라워 샐러드와 두유 요거트 소스,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:94,브로콜리 컬리플라워 샐러드와 두유 요거트 소스,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:94,브로콜리 컬리플라워 샐러드와 두유 요거트 소스,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2965,브로콜리견과류복음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2965,브로콜리견과류복음,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2965,브로콜리견과류복음,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:967,사과와 양파를 곁들인 돼지등심 요리,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:967,사과와 양파를 곁들인 돼지등심 요리,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:967,사과와 양파를 곁들인 돼지등심 요리,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2968,"삼색나물, 토마토양념장",reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2968,"삼색나물, 토마토양념장",reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2968,"삼색나물, 토마토양념장",reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:993,시금치 돼지고기 볶음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:993,시금치 돼지고기 볶음,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:993,시금치 돼지고기 볶음,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:993,시금치 돼지고기 볶음,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:89,시금치 우유 소스와 그린매쉬드포테이토,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:89,시금치 우유 소스와 그린매쉬드포테이토,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:89,시금치 우유 소스와 그린매쉬드포테이토,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:89,시금치 우유 소스와 그린매쉬드포테이토,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3181,시금치들깨무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3181,시금치들깨무침,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3181,시금치들깨무침,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3181,시금치들깨무침,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:756,시금치비트무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:756,시금치비트무침,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:756,시금치비트무침,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:756,시금치비트무침,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3182,시금치토마토무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3182,시금치토마토무침,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3182,시금치토마토무침,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3182,시금치토마토무침,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:975,알록달록 시금치 당근 수제비,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:975,알록달록 시금치 당근 수제비,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:975,알록달록 시금치 당근 수제비,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:975,알록달록 시금치 당근 수제비,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:632,양배추 고기말이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:632,양배추 고기말이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:632,양배추 고기말이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:633,양배추 쌈말이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:633,양배추 쌈말이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:633,양배추 쌈말이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:181,양배추감자전,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:181,양배추감자전,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:181,양배추감자전,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:298,양배추롤,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:298,양배추롤,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:298,양배추롤,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:536,양배추롤,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:536,양배추롤,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:536,양배추롤,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:521,양배추버섯말이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:521,양배추버섯말이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:521,양배추버섯말이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3174,오이파프리카새콤무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3174,오이파프리카새콤무침,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3174,오이파프리카새콤무침,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3174,오이파프리카새콤무침,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:546,오징어토마토초무침,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:546,오징어토마토초무침,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:546,오징어토마토초무침,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:95,치커리샐러드와 올리브 마늘 소스,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:95,치커리샐러드와 올리브 마늘 소스,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:95,치커리샐러드와 올리브 마늘 소스,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:1031,토마토 야채 오븐구이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:1031,토마토 야채 오븐구이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:1031,토마토 야채 오븐구이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3466,토마토 채소 가지롤,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3466,토마토 채소 가지롤,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3466,토마토 채소 가지롤,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2973,토마토 채소 계란찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2973,토마토 채소 계란찜,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2973,토마토 채소 계란찜,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:254,토마토두루치기,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:254,토마토두루치기,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:254,토마토두루치기,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:457,토마토떡볶이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:457,토마토떡볶이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:457,토마토떡볶이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:391,토마토소고기장조림,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:391,토마토소고기장조림,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:391,토마토소고기장조림,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:392,토마토소고기찜,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:392,토마토소고기찜,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:392,토마토소고기찜,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:769,토마토소박이,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:769,토마토소박이,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:769,토마토소박이,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:982,토마토소스 달걀볶음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:982,토마토소스 달걀볶음,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:982,토마토소스 달걀볶음,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:552,토마토소스닭갈비,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:552,토마토소스닭갈비,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:552,토마토소스닭갈비,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3571,토마토시금치 닭볶음탕,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3571,토마토시금치 닭볶음탕,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3571,토마토시금치 닭볶음탕,reference_recipe,diabetes,kdca-diabetes,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3571,토마토시금치 닭볶음탕,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:253,토마토오리볶음,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:253,토마토오리볶음,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:253,토마토오리볶음,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:346,토마토제철나물 샐러드,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:346,토마토제철나물 샐러드,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:346,토마토제철나물 샐러드,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:611,토마토주스를곁들인컵토마토,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:611,토마토주스를곁들인컵토마토,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:611,토마토주스를곁들인컵토마토,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:262,토마토콩조림,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:262,토마토콩조림,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:262,토마토콩조림,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2955,함박스테이크&토마토카레소스,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2955,함박스테이크&토마토카레소스,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:2955,함박스테이크&토마토카레소스,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3099,흑마늘견과류조림,reference_recipe,bp,kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3099,흑마늘견과류조림,reference_recipe,lipid,kdca-bp-shopping | kdca-lipid,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+mfds_recipes:3099,흑마늘견과류조림,reference_recipe,weight,amc-weight | kdca-bp-shopping,ingredient_recipe_link,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:D0150000009a,두부,ingredient,bp,kdca-bp-shopping,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated
+rda_10_4:D0150000009a,두부,ingredient,lipid,kdca-lipid | amc-lipid,named_food_reference,2026-10-27,existing_link_not_newly_clinically_validated

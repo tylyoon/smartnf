@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-26",
+  "source_count": 7,
+  "terms": 32,
+  "terms_with_exact_matches": 10,
+  "unresolved_terms": 22,
+  "source_food_links": 65,
+  "unique_food_codes": 44,
+  "unique_foods_missing_phosphorus": 0,
+  "conflict_cases": 6,
+  "approved_for_runtime": 0,
+  "clinical_approval": false
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "kdca-bp-shopping",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+    "section": "장볼 때 체크리스트 · 자주 사야 할 것",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  },
+  {
+    "id": "kdca-lipid",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714",
+    "section": "요약문 · 개요 · 지방",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  },
+  {
+    "id": "kdca-diabetes",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+    "section": "식품교환표 · 자유롭게 먹을 수 있는 식품과 주의 식품",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  },
+  {
+    "id": "amc-bp",
+    "url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=29",
+    "section": "식사요법의 실제",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  },
+  {
+    "id": "amc-lipid",
+    "url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=27",
+    "section": "식사요법의 실제 · 권장 식품",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  },
+  {
+    "id": "amc-weight",
+    "url": "https://www.amc.seoul.kr/asan/healthinfo/mealtherapy/mealTherapyDetail.do?mtId=80",
+    "section": "권장 식품 · 그 외 주의사항",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  },
+  {
+    "id": "kda-meat-exchange",
+    "url": "https://www.diabetes.or.kr/general/dietary/dietary_03.php?con=3&sub=2",
+    "section": "어육류군 설명 · 1교환단위 기준 영양소",
+    "checked_at": "2026-10-26",
+    "verification": "previous_definition_reference_not_used_for_selection",
+    "runtime_use": "unused_definition",
+    "clinical_approval": false
+  },
+  {
+    "id": "kdca-carb",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1342",
+    "section": "요약문 · 탄수화물과 당뇨병 · 실천 방법-비만·당뇨병",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  },
+  {
+    "id": "kdca-heart-menu",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=55",
+    "section": "심뇌혈관질환 예방에 좋은 한 끼 식단의 예시",
+    "checked_at": "2026-10-27",
+    "verification": "web_content_rechecked",
+    "runtime_use": "short_fact_and_link_only",
+    "clinical_approval": false
+  }
+]

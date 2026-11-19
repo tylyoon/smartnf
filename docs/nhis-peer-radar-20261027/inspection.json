@@ -1,0 +1,104 @@
+{
+  "files": 10,
+  "total_rows": 13408,
+  "runtime_rows": 540,
+  "runtime_metrics": [
+    "bmi",
+    "dia",
+    "glucose",
+    "hdl",
+    "ldl",
+    "sys",
+    "tg",
+    "totalChol"
+  ],
+  "inventory": [
+    {
+      "file": "한국인_HDL콜레스테롤_참조표준.xlsx",
+      "metric": "hdl",
+      "rows": 594,
+      "national_rows": 54,
+      "region_count": 11,
+      "sha256": "491b0d947c646565c4d4a89296ea3e54e5f8e7f42c513111dac7abd599054ecf"
+    },
+    {
+      "file": "한국인_LDL콜레스테롤_참조표준.xlsx",
+      "metric": "ldl",
+      "rows": 594,
+      "national_rows": 54,
+      "region_count": 11,
+      "sha256": "9346616a10c7344be9539c848882bb197f245feb8f3a51099f50711709fff92b"
+    },
+    {
+      "file": "한국인_비만지수(체질량지수)_참조표준.xlsx",
+      "metric": "bmi",
+      "rows": 918,
+      "national_rows": 54,
+      "region_count": 17,
+      "sha256": "209f5fad62813de6d1bded3edac3aac3d5fc317d34ab4442da548ba87e394701"
+    },
+    {
+      "file": "한국인_비만지수(허리둘레)_참조표준.xlsx",
+      "metric": "waist",
+      "rows": 864,
+      "national_rows": 0,
+      "region_count": 16,
+      "sha256": "6644a126d111bc4486762e3518391acc121b365476f97720fdcf42e5138dc721"
+    },
+    {
+      "file": "한국인_중성지방_참조표준.xlsx",
+      "metric": "tg",
+      "rows": 918,
+      "national_rows": 54,
+      "region_count": 17,
+      "sha256": "1053ac164418022fb272b8e426ef9f0bfe69b7c1b0c29c8fc3bbf16e2de7374a"
+    },
+    {
+      "file": "한국인_총콜레스테롤_참조표준.xlsx",
+      "metric": "totalChol",
+      "rows": 918,
+      "national_rows": 54,
+      "region_count": 17,
+      "sha256": "dbaca1468ac03fe486af9f2facb837bb43cfe3a4fb2bad9e470276760f0ba579"
+    },
+    {
+      "file": "한국인_혈당_참조표준.xlsx",
+      "metric": "glucose",
+      "rows": 918,
+      "national_rows": 54,
+      "region_count": 17,
+      "sha256": "a8f63961cf6d90e542da7c23a9f66a0d39afac303ae7e4a66b6668a02c67ba84"
+    },
+    {
+      "file": "한국인_혈색소_참조표준.xlsx",
+      "metric": "hemoglobin",
+      "rows": 2176,
+      "national_rows": 128,
+      "region_count": 17,
+      "sha256": "c39fd1bb418bc667762a4ef5f642a54bce34797a165ae926998a84798c7456cc"
+    },
+    {
+      "file": "한국인_혈압_참조표준.xlsx",
+      "metric": "bp",
+      "rows": 3672,
+      "national_rows": 216,
+      "region_count": 17,
+      "sha256": "f4485bfeb9832ba6e8e0f3f741d9e39666b8ca6a63ddc07963610ea10f33e94b"
+    },
+    {
+      "file": "한국인_혈청크레아티닌_참조표준.xlsx",
+      "metric": "creatinine",
+      "rows": 1836,
+      "national_rows": 108,
+      "region_count": 17,
+      "sha256": "6fb46490fee8454e07c7401eef8ce80b2fd70e97cba2c1492111017a6f00a242"
+    }
+  ],
+  "deferred": {
+    "waist": "원본에 전국 행 없음 · 임의 합산하지 않음",
+    "hemoglobin": "집단 선택 포함/제외 보존, 이번 차트 범위 밖",
+    "creatinine": "집단 선택 포함/제외 보존, 이번 차트 범위 밖",
+    "hba1c": "자료 없음",
+    "postGlucose": "자료 없음"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "source_schema_version": "0.2",
+  "source_rows": 13008,
+  "ingredient_occurrences": 12994,
+  "review_groups": 2657,
+  "group_counts": {
+    "multiple_candidates": 576,
+    "no_candidate": 1928,
+    "single_candidate_unconfirmed": 153
+  },
+  "confirmed_codes": 0,
+  "approved_for_calculation": false,
+  "source_sha256": "a4c82ee6735800905e34c5f5e670a0e08427c8c72f8db4889c281a494b062f28",
+  "limits": [
+    "Grouping includes source descriptors, preparation and uncertainty.",
+    "One candidate does not mean verified identity or cooking state.",
+    "CSV is a viewing aid; edits are not imported or executed.",
+    "Code decisions require per-occurrence review; no global name-only approval."
+  ]
+}

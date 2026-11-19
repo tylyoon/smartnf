@@ -1,0 +1,25 @@
+[
+  {
+    "source_id": "kda-exchange-4",
+    "title": "당뇨병 식사 계획을 위한 식품교환표 활용 지침(제4판)",
+    "url": "https://www.diabetes.or.kr/pro/publication/view.php?number=81&sale_status=Y",
+    "status": "paid_publication_metadata_only",
+    "body_acquired": false,
+    "next_action": "구매와 별개로 표의 프로그램 재사용 범위 확인. 공개 대체 자료의 교환단위·적용범위 검토",
+    "api_status": "not_verified",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-menu-images",
+    "status": "image_only_meal_examples_not_collected",
+    "next_action": "이미지 원문 재사용 조건과 접근 방법 확인. 허가된 경우 OCR후 원문 대조. 이미지속 음식명을 현재 확보한 것으로 처리하지 않음",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "ksn-guidance",
+    "url": "https://ksn.or.kr/",
+    "status": "target_specific_diet_document_not_resolved",
+    "next_action": "환자교육 식사자료의 구체 문서/공개 다운로드/갱신일 확인; 게시판 홈을 식이지침으로 인용하지 않음",
+    "runtime_enabled": false
+  }
+]

@@ -1,0 +1,15 @@
+﻿priority,dataset,id,name,issue,action,automatic_recommendation_approved
+P0,health,5283,"홍역, 볼거리, 풍진",IDENTICAL_SECTIONS_DIFFERENT_TITLES,새 실행에 공식 API 원본을 보존하고 ID·제목·본문 대조,False
+P0,health,6759,사람면역결핍바이러스,IDENTICAL_SECTIONS_DIFFERENT_TITLES,새 실행에 공식 API 원본을 보존하고 ID·제목·본문 대조,False
+P0,health,6807,전해질 이상(저칼륨혈증),IDENTICAL_SECTIONS_DIFFERENT_TITLES,새 실행에 공식 API 원본을 보존하고 ID·제목·본문 대조,False
+P0,health,6808,전해질 이상(고칼륨혈증),IDENTICAL_SECTIONS_DIFFERENT_TITLES,새 실행에 공식 API 원본을 보존하고 ID·제목·본문 대조,False
+P0,health,6809,전해질 이상(고나트륨혈증),IDENTICAL_SECTIONS_DIFFERENT_TITLES,새 실행에 공식 API 원본을 보존하고 ID·제목·본문 대조,False
+P0,health,5283,"홍역, 볼거리, 풍진",NOT_OBSERVED_IN_PARTIAL_APPROVAL,전체 승인목록과 대조; 거절로 해석하지 않음,False
+P0,health,6808,전해질 이상(고칼륨혈증),NOT_OBSERVED_IN_PARTIAL_APPROVAL,전체 승인목록과 대조; 거절로 해석하지 않음,False
+P0,health,6809,전해질 이상(고나트륨혈증),NOT_OBSERVED_IN_PARTIAL_APPROVAL,전체 승인목록과 대조; 거절로 해석하지 않음,False
+P1,recipe,33,사과 새우 북엇국,portion_missing;step_number_gap;unmatched_ingredient_segments;multiple_code_candidates,원본 API·표시 페이지와 재료 및 조리순서 대조,False
+P1,recipe,36,저염 된장으로 맛을 낸 황태해장국,portion_missing;step_number_gap;unmatched_ingredient_segments;multiple_code_candidates,원본 API·표시 페이지와 재료 및 조리순서 대조,False
+P1,recipe,691,호박잎다슬기된장국,ingredients_missing;portion_missing,원본 API·표시 페이지와 재료 및 조리순서 대조,False
+P1,recipe,692,양배추두부찜과 양파케첩소스,ingredients_missing;portion_missing,원본 API·표시 페이지와 재료 및 조리순서 대조,False
+P1,recipe,2980,비타 오이 물김치,steps_missing;same_name_other_recipe_id;multiple_code_candidates,원본 API·표시 페이지와 재료 및 조리순서 대조,False
+P1,recipe,831,곤약 콩조림,ingredients_missing;portion_missing,원본 API·표시 페이지와 재료 및 조리순서 대조,False

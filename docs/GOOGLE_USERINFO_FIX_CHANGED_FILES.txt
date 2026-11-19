@@ -1,0 +1,4 @@
+src/main/java/com/onrender/smartnf/member/google/GoogleUserService.java
+src/test/java/com/onrender/smartnf/member/google/GoogleUserServiceTests.java
+docs/SmartNF_IMPROVEMENTS.md
+docs/GOOGLE_USERINFO_FIX_CHANGED_FILES.txt

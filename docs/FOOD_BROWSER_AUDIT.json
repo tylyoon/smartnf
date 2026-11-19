@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "rda_10_4": {
+      "label": "식재료",
+      "publisher": "농촌진흥청 국가표준식품성분표 10.4",
+      "count": 3366,
+      "index": "rda_10_4-index.json"
+    },
+    "mfds_dishes": {
+      "label": "음식",
+      "publisher": "식품의약품안전처 음식 영양성분 DB",
+      "count": 19617,
+      "index": "mfds_dishes-index.json"
+    }
+  },
+  "records_verified": 22983,
+  "export_tests_passed": 3,
+  "javascript_syntax": "passed",
+  "dom_function_tests": "passed",
+  "headless_chromium_tests": "passed",
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "spring_boot_runtime": "user_confirmation_pending",
+  "common_layout": "unchanged; offline visual check used substitute frame"
+}

@@ -1,0 +1,646 @@
+[
+  {
+    "source_id": "kdca-3388",
+    "condition": "당뇨병",
+    "title": "당뇨환자의 식이요법",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3388",
+    "source_sha256": "a1ea87622f6259fc106010eb693e4a54e353b0360bd496cee6275365eaf1917e",
+    "sections": [
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향"
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "221",
+        "title": "도움 및 지지"
+      },
+      {
+        "section_id": "221",
+        "title": "도움 및 지지"
+      },
+      {
+        "section_id": "221",
+        "title": "도움 및 지지"
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문"
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌"
+      }
+    ],
+    "origin": "previously_collected_api_record",
+    "runtime_enabled": false,
+    "clinical_status": "not_validated"
+  },
+  {
+    "source_id": "kdca-6855",
+    "condition": "고혈압",
+    "title": "고혈압 환자의 식이요법",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6855",
+    "source_sha256": "92f09e3d38eaef01c60a1a859ce3cce71c5a13ecfeae61d180db179d8703c8f7",
+    "sections": [
+      {
+        "section_id": "3672",
+        "title": "요약문"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향"
+      },
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향"
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법"
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법"
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법"
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문"
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌"
+      },
+      {
+        "section_id": "223",
+        "title": "연관 주제어"
+      }
+    ],
+    "origin": "previously_collected_api_record",
+    "runtime_enabled": false,
+    "clinical_status": "not_validated"
+  },
+  {
+    "source_id": "kdca-6714",
+    "condition": "이상지질혈증",
+    "title": "이상지질혈증 식사요법",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6714",
+    "source_sha256": "b6f9d504038db4af3e46f6858200edc95e4290cb98da24d4ca6fee21de76a502",
+    "sections": [
+      {
+        "section_id": "3672",
+        "title": "요약문"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문"
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌"
+      }
+    ],
+    "origin": "previously_collected_api_record",
+    "runtime_enabled": false,
+    "clinical_status": "not_validated"
+  },
+  {
+    "source_id": "kdca-6860",
+    "condition": "신장질환:투석",
+    "title": "투석환자의 식이요법",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6860",
+    "source_sha256": "a6f582f1db641e10950827df3655ee981e5f36200839672b40b33aa30c4be40d",
+    "sections": [
+      {
+        "section_id": "3672",
+        "title": "요약문"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문"
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌"
+      }
+    ],
+    "origin": "previously_collected_api_record",
+    "runtime_enabled": false,
+    "clinical_status": "not_validated"
+  },
+  {
+    "source_id": "kdca-6547",
+    "condition": "다이어트",
+    "title": "건강한 체중조절을 위한 식사",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6547",
+    "source_sha256": "f3a5c061ff6b78b2b27ee5548a8eb5b5fa38cf02aa8332bce1e77f5b5e7abe2f",
+    "sections": [
+      {
+        "section_id": "3672",
+        "title": "요약문"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "212",
+        "title": "정의"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "217",
+        "title": "평가 및 검사"
+      },
+      {
+        "section_id": "218",
+        "title": "실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문"
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌"
+      }
+    ],
+    "origin": "previously_collected_api_record",
+    "runtime_enabled": false,
+    "clinical_status": "not_validated"
+  },
+  {
+    "source_id": "kdca-6732",
+    "condition": "기타 만성질환:통풍",
+    "title": "통풍",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6732",
+    "source_sha256": "7e5d456417631575283f8af0ef226d013ba2adeba7f94c19dc7a0811b429f79c",
+    "sections": [
+      {
+        "section_id": "3666",
+        "title": "요약문"
+      },
+      {
+        "section_id": "101",
+        "title": "개요"
+      },
+      {
+        "section_id": "104",
+        "title": "원인"
+      },
+      {
+        "section_id": "104",
+        "title": "원인"
+      },
+      {
+        "section_id": "105",
+        "title": "경과 및 예후"
+      },
+      {
+        "section_id": "105",
+        "title": "경과 및 예후"
+      },
+      {
+        "section_id": "105",
+        "title": "경과 및 예후"
+      },
+      {
+        "section_id": "105",
+        "title": "경과 및 예후"
+      },
+      {
+        "section_id": "105",
+        "title": "경과 및 예후"
+      },
+      {
+        "section_id": "107",
+        "title": "역학 및 통계"
+      },
+      {
+        "section_id": "109",
+        "title": "진단 및 검사"
+      },
+      {
+        "section_id": "109",
+        "title": "진단 및 검사"
+      },
+      {
+        "section_id": "109",
+        "title": "진단 및 검사"
+      },
+      {
+        "section_id": "110",
+        "title": "치료"
+      },
+      {
+        "section_id": "111",
+        "title": "약물 치료"
+      },
+      {
+        "section_id": "116",
+        "title": "위험요인 및 예방"
+      },
+      {
+        "section_id": "317",
+        "title": "참고문헌"
+      }
+    ],
+    "origin": "previously_collected_api_record",
+    "runtime_enabled": false,
+    "clinical_status": "not_validated"
+  },
+  {
+    "source_id": "kdca-6693",
+    "condition": "영양관리:일반",
+    "title": "식이영양",
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6693",
+    "source_sha256": "e3bba00b3da7222d2ea60ff053bbf294eafae6e9dd26bed652ee0eae59a32b6e",
+    "sections": [
+      {
+        "section_id": "3672",
+        "title": "요약문"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "211",
+        "title": "개요"
+      },
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향"
+      },
+      {
+        "section_id": "214",
+        "title": "건강에 미치는 영향"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "219",
+        "title": "일반적 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "220",
+        "title": "맞춤형 실천 방법"
+      },
+      {
+        "section_id": "221",
+        "title": "도움 및 지지"
+      },
+      {
+        "section_id": "222",
+        "title": "자주하는 질문"
+      },
+      {
+        "section_id": "325",
+        "title": "참고문헌"
+      }
+    ],
+    "origin": "previously_collected_api_record",
+    "runtime_enabled": false,
+    "clinical_status": "not_validated"
+  }
+]

@@ -1,3 +1,42 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
 # 환경변수·비밀키
 .env
 .env.*
@@ -5,23 +44,24 @@
 *.pem
 *.key
 
-# Java·Gradle·Maven 빌드 결과
-.gradle/
-build/
-target/
-out/
-
-# React 패키지·빌드 결과
-node_modules/
-dist/
-
 # Python 가상환경·캐시
 .venv/
 venv/
 __pycache__/
 *.pyc
 
-# IDE·로그
-.idea/
-*.iml
+# React 패키지·빌드 결과
+node_modules/
+dist/
+
+# 로그
 *.log
+# Food nutrition local datasets
+/python/food_nutrition/data/raw/
+/python/food_nutrition/data/inspected/
+
+# Generated food browser data
+/src/main/resources/static/js/data/food-nutrition/
+
+# Private source recheck results
+/python/data_audit/data/source_rechecks/

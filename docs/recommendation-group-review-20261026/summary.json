@@ -1,0 +1,16 @@
+{
+  "source_count": 7,
+  "term_occurrences": 32,
+  "previous_unresolved": 22,
+  "previous_unresolved_status": {
+    "catalog_group": 10,
+    "reviewed_name_subset": 3,
+    "additional_definition_required": 8,
+    "broader_group_requires_subtype": 1
+  },
+  "additional_semantic_hold": 2,
+  "approved_for_runtime": 0,
+  "catalog_version": "v-328ad7f97b969bc141f1",
+  "source_group_evidence": "농촌진흥청 국가표준식품성분 Database 10.4 원본 식품군 열 및 원본 식품명",
+  "group_definition_sha256": "175d37d98a9ba594f88bb9a72fbfb7c695370164814c87250c06d4e10b184106"
+}

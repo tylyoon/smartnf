@@ -1,0 +1,23 @@
+{
+  "rda_10_4": {
+    "count": 3366,
+    "existing_fields_unchanged": true,
+    "phosphorus_statuses": {
+      "numeric": 3321,
+      "quoted_or_calculated": 9,
+      "trace": 8,
+      "unmeasured": 28
+    }
+  },
+  "mfds_dishes": {
+    "count": 19617,
+    "existing_fields_unchanged": true,
+    "phosphorus_statuses": {
+      "numeric": 4352,
+      "blank": 15265
+    }
+  },
+  "version": "v-328ad7f97b969bc141f1",
+  "prior_version": "v-35087c10a3d8e4127e9e",
+  "runtime_enabled": false
+}

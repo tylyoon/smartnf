@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-27T01:36:14.102453+00:00",
+  "summary_sha256": "e684abd2dd8dcfb24d58687e9bec983de794dc1893487e7821f1b5e726659253",
+  "health_ids": [
+    "5283",
+    "6759",
+    "6807",
+    "6808",
+    "6809"
+  ],
+  "recipe_ids": [
+    "33",
+    "36",
+    "691",
+    "692",
+    "2980",
+    "831"
+  ],
+  "health_duplicate_groups": [
+    [
+      "5283",
+      "6759"
+    ],
+    [
+      "6807",
+      "6808",
+      "6809"
+    ]
+  ],
+  "all_records_unchanged": true,
+  "decision": "keep_existing_holds",
+  "clinical_approval": false
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "bp-ckd",
+    "conditions": [
+      "고혈압",
+      "신장질환"
+    ],
+    "source_ids": [
+      "amc-bp",
+      "amc-ckd"
+    ],
+    "result": "hold",
+    "reason": "일반 권장 식품군과 신장 식사의 칼륨/인 제한이 충돌할 수 있음",
+    "required": [
+      "병기",
+      "투석 여부",
+      "칼륨/인 검사",
+      "의료진 식사 제한"
+    ],
+    "review_status": "source_comparison_candidate_not_clinically_validated",
+    "runtime_enabled": false
+  },
+  {
+    "id": "diabetes-ckd",
+    "conditions": [
+      "당뇨병",
+      "신장질환"
+    ],
+    "source_ids": [
+      "amc-diabetes",
+      "amc-ckd"
+    ],
+    "result": "hold",
+    "reason": "열량 보완 설명과 당질 관리 조건을 단순 병합하지 않음",
+    "required": [
+      "인분/교환량",
+      "복약/저혈당 조건",
+      "신장별 영양 제한"
+    ],
+    "review_status": "source_comparison_candidate_not_clinically_validated",
+    "runtime_enabled": false
+  },
+  {
+    "id": "diet-ckd",
+    "conditions": [
+      "다이어트",
+      "신장질환"
+    ],
+    "source_ids": [
+      "amc-weight",
+      "amc-ckd"
+    ],
+    "result": "hold",
+    "reason": "감량 목표와 영양 부족 방지·단백질 처방을 함께 검토해야 함",
+    "required": [
+      "영양상태",
+      "개별 열량/단백질 처방"
+    ],
+    "review_status": "source_comparison_candidate_not_clinically_validated",
+    "runtime_enabled": false
+  },
+  {
+    "id": "diet-lipid",
+    "conditions": [
+      "다이어트",
+      "이상지질혈증"
+    ],
+    "source_ids": [
+      "amc-weight",
+      "amc-lipid"
+    ],
+    "result": "portion_review",
+    "reason": "식품군과 열량·지방 종류를 함께 고려하며 무제한 권장이나 일괄 금지로 바꾸지 않음",
+    "required": [
+      "실제 분량",
+      "식사 전체 영양량"
+    ],
+    "review_status": "source_comparison_candidate_not_clinically_validated",
+    "runtime_enabled": false
+  },
+  {
+    "id": "allergy",
+    "conditions": [
+      "알레르기"
+    ],
+    "source_ids": [
+      "amc-diabetes",
+      "amc-bp",
+      "amc-lipid",
+      "amc-ckd",
+      "amc-weight",
+      "amc-fatty-liver",
+      "amc-gout"
+    ],
+    "result": "exclude_or_hold",
+    "reason": "원재료 확인 불가 또는 알레르기 일치 식품을 질환의 권장 문구보다 먼저 제외",
+    "required": [
+      "제품/레시피 원재료",
+      "알레르기 표시",
+      "필요시 교차접촉 확인"
+    ],
+    "review_status": "source_comparison_candidate_not_clinically_validated",
+    "runtime_enabled": false
+  },
+  {
+    "id": "unspecified",
+    "conditions": [
+      "기타 만성질환"
+    ],
+    "source_ids": [
+      "amc-fatty-liver",
+      "amc-gout"
+    ],
+    "result": "hold",
+    "reason": "기타 만성질환이라는 포괄 체크값만으로 지방간/통풍을 추정하지 않음",
+    "required": [
+      "구체 질환명",
+      "상태",
+      "개별 제한"
+    ],
+    "review_status": "source_comparison_candidate_not_clinically_validated",
+    "runtime_enabled": false
+  }
+]

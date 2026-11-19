@@ -1,0 +1,425 @@
+{
+  "audit_date": "2026-10-27",
+  "analysis_type": "full_record_offline_structural_and_keyword_audit_not_clinical_review",
+  "source_workbooks": [
+    {
+      "file": "식품성분표(10개정판).xlsx",
+      "sheets": [
+        {
+          "name": "DB 설명",
+          "rows": 1,
+          "columns": 1
+        },
+        {
+          "name": "국가표준식품성분 Database 10.0",
+          "rows": 3273,
+          "columns": 137
+        },
+        {
+          "name": "국가표준식품성분 Database 10.1",
+          "rows": 3262,
+          "columns": 137
+        },
+        {
+          "name": "국가표준식품성분 Database 10.2",
+          "rows": 3313,
+          "columns": 137
+        },
+        {
+          "name": "국가표준식품성분 Database 10.3",
+          "rows": 3333,
+          "columns": 137
+        },
+        {
+          "name": "국가표준식품성분 Database 10.4",
+          "rows": 3369,
+          "columns": 137
+        },
+        {
+          "name": "DB 10.4 신규,교체,삭제 식품목록",
+          "rows": 189,
+          "columns": 3
+        },
+        {
+          "name": "부록1)식품코드 연계표",
+          "rows": 3370,
+          "columns": 15
+        },
+        {
+          "name": "부록2)식품코드,국문명,영문명,학명 정보 ",
+          "rows": 3367,
+          "columns": 5
+        },
+        {
+          "name": "부록3)영양성분표기및단위",
+          "rows": 136,
+          "columns": 5
+        }
+      ],
+      "profiled_sheet": "국가표준식품성분 Database 10.4",
+      "profiled_records": 3366,
+      "profiled_columns": 137,
+      "historical_sheets": "10.0~10.3 are version references, not added to current 10.4 corpus"
+    },
+    {
+      "file": "20260828_음식DB_19617건.xlsx",
+      "sheets": [
+        {
+          "name": "음식(19,617건)",
+          "rows": 19618,
+          "columns": 160
+        }
+      ],
+      "profiled_sheet": "음식(19,617건)",
+      "profiled_records": 19617,
+      "profiled_columns": 160,
+      "historical_sheets": "10.0~10.3 are version references, not added to current 10.4 corpus"
+    }
+  ],
+  "nutrition_version": "v-328ad7f97b969bc141f1",
+  "nutrition": {
+    "rda_10_4": {
+      "count": 3366,
+      "groups": {
+        "곡류 및 그 제품": 446,
+        "감자류 및 전분류": 77,
+        "당류": 55,
+        "두류": 88,
+        "견과류 및 종실류": 78,
+        "채소류": 613,
+        "버섯류": 95,
+        "과일류": 265,
+        "육류 및 그 제품": 436,
+        "난류": 34,
+        "어패류 및 그 제품": 683,
+        "해조류": 53,
+        "우유 및 그 제품": 58,
+        "유지류": 32,
+        "차류": 68,
+        "음료류": 37,
+        "주류": 25,
+        "조미료류": 135,
+        "조리가공식품류": 54,
+        "기타": 34
+      },
+      "bases": {
+        "100g edible portion": 3366
+      },
+      "duplicate_name_groups": 0,
+      "records_with_duplicate_name": 0,
+      "nutrient_status": {
+        "carbohydrate": {
+          "numeric": 3333,
+          "quoted_or_calculated": 12,
+          "trace": 12,
+          "unmeasured": 9
+        },
+        "cholesterol": {
+          "numeric": 2341,
+          "unmeasured": 944,
+          "quoted_or_calculated": 76,
+          "trace": 5
+        },
+        "energy": {
+          "numeric": 3366
+        },
+        "fat": {
+          "numeric": 3335,
+          "quoted_or_calculated": 13,
+          "unmeasured": 11,
+          "trace": 7
+        },
+        "fiber": {
+          "numeric": 2399,
+          "unmeasured": 855,
+          "trace": 2,
+          "quoted_or_calculated": 110
+        },
+        "phosphorus": {
+          "numeric": 3321,
+          "quoted_or_calculated": 9,
+          "trace": 8,
+          "unmeasured": 28
+        },
+        "potassium": {
+          "numeric": 2911,
+          "quoted_or_calculated": 9,
+          "trace": 8,
+          "unmeasured": 438
+        },
+        "protein": {
+          "numeric": 3353,
+          "quoted_or_calculated": 12,
+          "unmeasured": 1
+        },
+        "saturated_fat": {
+          "numeric": 2336,
+          "unmeasured": 986,
+          "quoted_or_calculated": 44
+        },
+        "sodium": {
+          "numeric": 2916,
+          "trace": 11,
+          "quoted_or_calculated": 5,
+          "unmeasured": 434
+        },
+        "sugars": {
+          "numeric": 2160,
+          "unmeasured": 1169,
+          "quoted_or_calculated": 37
+        },
+        "trans_fat": {
+          "numeric": 2100,
+          "unmeasured": 1266
+        }
+      },
+      "portion_present": 0,
+      "composition_present": 0
+    },
+    "mfds_dishes": {
+      "count": 19617,
+      "groups": {
+        "죽 및 스프류": 105,
+        "밥류": 424,
+        "찌개 및 전골류": 340,
+        "구이류": 289,
+        "빵 및 과자류": 8643,
+        "생채·무침류": 501,
+        "면 및 만두류": 344,
+        "국 및 탕류": 513,
+        "찜류": 177,
+        "전·적 및 부침류": 198,
+        "음료 및 차류": 5776,
+        "나물·숙채류": 248,
+        "볶음류": 506,
+        "유제품류 및 빙과류": 663,
+        "곡류, 서류 제품": 6,
+        "김치류": 52,
+        "채소, 해조류": 1,
+        "튀김류": 526,
+        "조림류": 229,
+        "장류, 양념류": 25,
+        "젓갈류": 17,
+        "수·조·어·육류": 8,
+        "장아찌·절임류": 24,
+        "과일류": 1,
+        "두류, 견과 및 종실류": 1
+      },
+      "bases": {
+        "100ml": 5740,
+        "100g": 13877
+      },
+      "duplicate_name_groups": 1737,
+      "records_with_duplicate_name": 5707,
+      "nutrient_status": {
+        "carbohydrate": {
+          "numeric": 6840,
+          "blank": 12777
+        },
+        "cholesterol": {
+          "numeric": 6131,
+          "blank": 13486
+        },
+        "energy": {
+          "numeric": 19617
+        },
+        "fat": {
+          "numeric": 6298,
+          "blank": 13319
+        },
+        "fiber": {
+          "numeric": 4339,
+          "blank": 15278
+        },
+        "phosphorus": {
+          "numeric": 4352,
+          "blank": 15265
+        },
+        "potassium": {
+          "numeric": 4352,
+          "blank": 15265
+        },
+        "protein": {
+          "numeric": 19617
+        },
+        "saturated_fat": {
+          "numeric": 19025,
+          "blank": 592
+        },
+        "sodium": {
+          "numeric": 19556,
+          "blank": 61
+        },
+        "sugars": {
+          "numeric": 19468,
+          "blank": 149
+        },
+        "trans_fat": {
+          "blank": 16793,
+          "numeric": 2824
+        }
+      },
+      "portion_present": 19565,
+      "composition_present": 0
+    }
+  },
+  "health": {
+    "count": 658,
+    "verified_xml": 658,
+    "title_topics": {
+      "빈혈·영양결핍": 1,
+      "생활습관": 7,
+      "식품·식생활": 16,
+      "근육·뼈": 17,
+      "소화·통풍": 10,
+      "소아·청소년 주의": 31,
+      "고령층 주의": 15,
+      "임신·수유 주의": 11,
+      "심뇌혈관": 10,
+      "혈압": 12,
+      "혈당·당뇨": 14,
+      "운동": 5,
+      "콩팥": 8,
+      "간 건강": 9,
+      "체중·비만": 5,
+      "혈중지질": 2
+    },
+    "body_topics": {
+      "식품·식생활": 503,
+      "소화·통풍": 357,
+      "혈압": 267,
+      "혈당·당뇨": 255,
+      "임신·수유 주의": 230,
+      "콩팥": 189,
+      "소아·청소년 주의": 252,
+      "간 건강": 139,
+      "근육·뼈": 228,
+      "혈중지질": 107,
+      "빈혈·영양결핍": 171,
+      "체중·비만": 298,
+      "심뇌혈관": 336,
+      "생활습관": 352,
+      "고령층 주의": 228,
+      "운동": 359
+    },
+    "body_only_topics": {
+      "식품·식생활": 487,
+      "소화·통풍": 347,
+      "혈압": 256,
+      "혈당·당뇨": 241,
+      "임신·수유 주의": 219,
+      "콩팥": 181,
+      "소아·청소년 주의": 223,
+      "간 건강": 130,
+      "근육·뼈": 211,
+      "심뇌혈관": 326,
+      "혈중지질": 105,
+      "생활습관": 345,
+      "빈혈·영양결핍": 170,
+      "체중·비만": 293,
+      "고령층 주의": 213,
+      "운동": 354
+    },
+    "section_topic_rows": 12658,
+    "empty_cleaned_sections": 2836,
+    "not_observed_in_partial_approval": [
+      "5283",
+      "6808",
+      "6809"
+    ],
+    "identical_section_groups": [
+      [
+        "5283",
+        "6759"
+      ],
+      [
+        "6807",
+        "6808",
+        "6809"
+      ]
+    ]
+  },
+  "recipes": {
+    "count": 1156,
+    "categories": {
+      "반찬": 574,
+      "국&찌개": 103,
+      "후식": 142,
+      "일품": 181,
+      "밥": 119,
+      "기타": 37
+    },
+    "methods": {
+      "찌기": 82,
+      "기타": 310,
+      "끓이기": 326,
+      "굽기": 259,
+      "볶기": 108,
+      "튀기기": 71
+    },
+    "issue_counts": {
+      "portion_missing": 871,
+      "unmatched_ingredient_segments": 1129,
+      "multiple_code_candidates": 1122,
+      "step_number_gap": 2,
+      "same_name_other_recipe_id": 14,
+      "ingredients_missing": 3,
+      "steps_missing": 1
+    },
+    "nutrient_field_status": {
+      "INFO_CAR": {
+        "numeric": 1156
+      },
+      "INFO_ENG": {
+        "numeric": 1156
+      },
+      "INFO_FAT": {
+        "numeric": 1156
+      },
+      "INFO_NA": {
+        "numeric": 1156
+      },
+      "INFO_PRO": {
+        "numeric": 1156
+      }
+    },
+    "candidate_span_errors": 0,
+    "candidate_segments": 13059,
+    "segments_no_code": 5034,
+    "segments_single_code_unconfirmed": 1255,
+    "segments_multiple_codes": 6770,
+    "confirmed_segments": 0,
+    "exact_name_dish_candidate_recipes": 26,
+    "recipe_ids_not_in_pipeline": []
+  },
+  "current_runtime_guide": {
+    "total": 215,
+    "by_prefix": {
+      "rda_10_4": 105,
+      "mfds_recipes": 105,
+      "mfds_dishes": 5
+    },
+    "recipe_categories": {
+      "두부요리": 38,
+      "반찬": 8,
+      "생선요리": 14,
+      "채소요리": 45
+    }
+  },
+  "scope_gaps": [
+    "가공식품 전용 DB와 건강기능식품 원본은 현재 분석 가능한 파일에서 확인되지 않음. 사용자 PC 보유 여부와 구분.",
+    "신청 688건과 부분 승인 목록 668건 및 확보 본문 658건의 차이는 별도 대조 필요.",
+    "분류는 검색·검토 후보이며 의학적 적합성 판정 및 처방 아님.",
+    "전체 본문의 문장별 의학적 검토·이용조건 확인은 미완료."
+  ],
+  "original_workbook_reinspection": {
+    "rda_10_4": {
+      "reinspected_jsonl_sha256": "84ab700cc0047e47718274ba0de0acbcbbac67d3720c83ee65adde5bae35621a",
+      "matches_manifest_input": true
+    },
+    "mfds_dishes": {
+      "reinspected_jsonl_sha256": "bd5446bf3465f6c5186b60134cbae3dd4b5a348ed9c67e1cc805427c93fed63f",
+      "matches_manifest_input": true
+    }
+  }
+}

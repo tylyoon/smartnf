@@ -1,0 +1,146 @@
+{
+  "rule_version": "selection-guide-20261027.2",
+  "nutrition_version": "v-d82f6ce4b51512872246",
+  "foods": 215,
+  "counts_by_condition": {
+    "bp": 212,
+    "lipid": 158,
+    "diabetes": 22,
+    "weight": 78
+  },
+  "kinds": {
+    "ingredient": 105,
+    "dish": 110
+  },
+  "source_count": 9,
+  "excluded_missing_nutrients": [
+    {
+      "id": "rda_10_4:A008024A060a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:A008034A060a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:A025002A010a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:A025004A010a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F092000B140a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F092000B140a",
+      "condition": "weight",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F1320050000a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F1320050000a",
+      "condition": "weight",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F1480020000a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F1480020000a",
+      "condition": "weight",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F1480020000a",
+      "condition": "diabetes",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F1860020000a",
+      "condition": "lipid",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:F1860020000a",
+      "condition": "weight",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K1070020000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K1070030000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K1370010000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130010000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130030000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130040000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130050000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130090000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130150000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130160000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K6130170000a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    },
+    {
+      "id": "rda_10_4:K615000B050a",
+      "condition": "bp",
+      "reason": "필수 영양 수치 미확인"
+    }
+  ],
+  "clinical_approval": false,
+  "scope": "일반 식품 선택 안내",
+  "runtime_file_sha256": "82e06f5dc274482c8fb7029f1ee8b4526efa9f2473cd21f68dc48d7383cce873"
+}

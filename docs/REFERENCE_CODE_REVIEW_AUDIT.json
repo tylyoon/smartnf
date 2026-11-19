@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "rule_version": "2026-10-23.reference.1",
+  "ingredient_occurrences": 12994,
+  "reviewed_reference_name_occurrences": 423,
+  "reviewed_by_name": {
+    "참기름": 162,
+    "고춧가루": 78,
+    "올리브오일": 80,
+    "올리브유": 58,
+    "들기름": 18,
+    "굴소스": 11,
+    "토마토케첩": 8,
+    "고추기름": 8
+  },
+  "reason_counts": {
+    "OUTSIDE_FIRST_REVIEW_SCOPE": 12482,
+    "GENERIC_REFERENCE_NAME_REVIEWED": 423,
+    "RAW_QUANTITY_OR_COMPOSITE_REVIEW": 59,
+    "DESCRIPTOR_OR_PREPARATION_REVIEW": 30
+  },
+  "confirmed_recipe_codes": 0,
+  "approved_for_calculation": false,
+  "review_input_sha256": "1a68e1fcecb7169878a6b76be842db5087518cfa7b367dde39249f4d204a696f",
+  "catalog_sha256": "d340220e51b60785efcf99c886a4759a39dae2c92f9f2e4d34d63c677a089833",
+  "limits": [
+    "Generic food-name and reference-code correspondence only.",
+    "Brand, actual product composition, serving basis and cooking changes remain unverified.",
+    "No automatic modification of recipe mappings, database, pages or nutrition calculation."
+  ]
+}

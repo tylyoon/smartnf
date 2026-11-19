@@ -1,0 +1,43 @@
+{
+  "health_records": 658,
+  "invalid_files": [],
+  "topic_candidate_counts": {
+    "eating_out": 19,
+    "cooking": 89,
+    "shopping": 16
+  },
+  "recipes": 1156,
+  "missing_ingredients": 3,
+  "missing_portion_weight": 871,
+  "recipe_fields": [
+    "category",
+    "cooking_method",
+    "ingredient_code_matching",
+    "ingredients_raw",
+    "name",
+    "nutrition_basis_status",
+    "nutrition_raw",
+    "portion_weight_raw",
+    "recipe_id",
+    "steps"
+  ],
+  "cooking_methods": {
+    "찌기": 82,
+    "기타": 310,
+    "끓이기": 326,
+    "굽기": 259,
+    "볶기": 108,
+    "튀기기": 71
+  },
+  "menu_categories": {
+    "반찬": 574,
+    "국&찌개": 103,
+    "후식": 142,
+    "일품": 181,
+    "밥": 119,
+    "기타": 37
+  },
+  "culture_explicit_title_candidates": 6,
+  "culture_confirmed": 0,
+  "note": "Keyword hits are discovery candidates, not usable guidance or clinical approval. Culture remains unclassified until reviewed."
+}

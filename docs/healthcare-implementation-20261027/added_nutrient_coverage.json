@@ -1,0 +1,56 @@
+{
+  "rda_10_4": {
+    "calcium": {
+      "numeric": 3326,
+      "unmeasured": 24,
+      "trace": 6,
+      "quoted_or_calculated": 10
+    },
+    "iron": {
+      "numeric": 3312,
+      "unmeasured": 40,
+      "trace": 5,
+      "quoted_or_calculated": 9
+    },
+    "vitamin_c": {
+      "numeric": 3077,
+      "unmeasured": 192,
+      "quoted_or_calculated": 42,
+      "trace": 55
+    },
+    "vitamin_d": {
+      "unmeasured": 1045,
+      "numeric": 2207,
+      "quoted_or_calculated": 111,
+      "trace": 3
+    },
+    "vitamin_b12": {
+      "unmeasured": 951,
+      "numeric": 2336,
+      "quoted_or_calculated": 71,
+      "trace": 8
+    }
+  },
+  "mfds_dishes": {
+    "calcium": {
+      "blank": 15265,
+      "numeric": 4352
+    },
+    "iron": {
+      "blank": 15267,
+      "numeric": 4350
+    },
+    "vitamin_c": {
+      "blank": 15266,
+      "numeric": 4351
+    },
+    "vitamin_d": {
+      "blank": 15547,
+      "numeric": 4070
+    },
+    "vitamin_b12": {
+      "blank": 18820,
+      "numeric": 797
+    }
+  }
+}

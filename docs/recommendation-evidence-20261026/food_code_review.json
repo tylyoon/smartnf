@@ -1,0 +1,690 @@
+[
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "source_term": "채소",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "source_term": "곤약",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "source_term": "해조류",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "source_term": "버섯",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "source_term": "우뭇가사리",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:L0190000000a",
+        "name": "우뭇가사리, 생것",
+        "basis": "100g edible portion",
+        "group": "해조류"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "채소",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "잡곡",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:A0470002590a",
+        "name": "잡곡, 현미, 찹쌀, 현미찹쌀, 보리 등, 생것",
+        "basis": "100g edible portion",
+        "group": "곡류 및 그 제품"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "생선",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "두부",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:D0150000009a",
+        "name": "두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150010008a",
+        "name": "두부, 동두부, 동결건조",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150020009a",
+        "name": "두부, 순두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150030009a",
+        "name": "두부, 연두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150040009j",
+        "name": "두부, 유부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D015004000Dj",
+        "name": "두부, 유부, 조미",
+        "basis": "100g edible portion",
+        "group": "두류"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "견과류",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "과일",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "source_term": "우유",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:M0090000009a",
+        "name": "우유",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011389a",
+        "name": "우유, 가공우유, 딸기맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011459a",
+        "name": "우유, 가공우유, 바나나맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011429a",
+        "name": "우유, 가공우유, 초코맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011439a",
+        "name": "우유, 가공우유, 커피맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090021469a",
+        "name": "우유, 강화우유, 고칼슘",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090060009a",
+        "name": "우유, 유당분해우유",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090040009a",
+        "name": "우유, 저지방우유",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "채소",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "잡곡",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:A0470002590a",
+        "name": "잡곡, 현미, 찹쌀, 현미찹쌀, 보리 등, 생것",
+        "basis": "100g edible portion",
+        "group": "곡류 및 그 제품"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "저지방 어육류",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "생선",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "두부",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:D0150000009a",
+        "name": "두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150010008a",
+        "name": "두부, 동두부, 동결건조",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150020009a",
+        "name": "두부, 순두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150030009a",
+        "name": "두부, 연두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150040009j",
+        "name": "두부, 유부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D015004000Dj",
+        "name": "두부, 유부, 조미",
+        "basis": "100g edible portion",
+        "group": "두류"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "과일",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "source_term": "우유",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:M0090000009a",
+        "name": "우유",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011389a",
+        "name": "우유, 가공우유, 딸기맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011459a",
+        "name": "우유, 가공우유, 바나나맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011429a",
+        "name": "우유, 가공우유, 초코맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090011439a",
+        "name": "우유, 가공우유, 커피맛",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090021469a",
+        "name": "우유, 강화우유, 고칼슘",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090060009a",
+        "name": "우유, 유당분해우유",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0090040009a",
+        "name": "우유, 저지방우유",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-ckd",
+    "condition": "신장질환",
+    "source_term": "개인 처방에 맞춘 열량·단백질 식사",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "source_term": "채소",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "source_term": "해조류",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "source_term": "곤약",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "source_term": "무가당 차",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "source_term": "물",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-fatty-liver",
+    "condition": "기타 만성질환:지방간",
+    "source_term": "채소",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-fatty-liver",
+    "condition": "기타 만성질환:지방간",
+    "source_term": "균형 식사",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "달걀",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:J0030000000a",
+        "name": "달걀, 생것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030000009b",
+        "name": "달걀, 삶은것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030001080a",
+        "name": "달걀, 난백, 생것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030001089b",
+        "name": "달걀, 난백, 삶은것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030001090a",
+        "name": "달걀, 난황, 생것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030001099b",
+        "name": "달걀, 난황, 삶은것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030000005a",
+        "name": "달걀, 가루",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030001085a",
+        "name": "달걀, 난백, 가루",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030001095a",
+        "name": "달걀, 난황, 가루",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030001097a",
+        "name": "달걀, 난황액, 설탕첨가",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0040000009m",
+        "name": "달걀, 부침(달걀프라이)",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0050000009s",
+        "name": "달걀, 수란, 중탕",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0060000009n",
+        "name": "달걀, 스크램블드에그",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030010000a",
+        "name": "달걀, 유정란, 생것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030011080a",
+        "name": "달걀, 유정란, 난백, 생것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      },
+      {
+        "id": "rda_10_4:J0030011090a",
+        "name": "달걀, 유정란, 난황, 생것",
+        "basis": "100g edible portion",
+        "group": "난류"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "두부",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:D0150000009a",
+        "name": "두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150010008a",
+        "name": "두부, 동두부, 동결건조",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150020009a",
+        "name": "두부, 순두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150030009a",
+        "name": "두부, 연두부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D0150040009j",
+        "name": "두부, 유부",
+        "basis": "100g edible portion",
+        "group": "두류"
+      },
+      {
+        "id": "rda_10_4:D015004000Dj",
+        "name": "두부, 유부, 조미",
+        "basis": "100g edible portion",
+        "group": "두류"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "치즈",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [
+      {
+        "id": "rda_10_4:M0100110009a",
+        "name": "치즈, 고다",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100100009a",
+        "name": "치즈, 카망베르",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100130009a",
+        "name": "치즈, 리코타",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100020009a",
+        "name": "치즈, 모차렐라",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100022659a",
+        "name": "치즈, 모차렐라, 슈레드타입",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100090009a",
+        "name": "치즈, 브리",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100120009a",
+        "name": "치즈, 브릭",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100080009a",
+        "name": "치즈, 블루",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100040009a",
+        "name": "치즈, 체다",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100050009a",
+        "name": "치즈, 카테지",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100060009a",
+        "name": "치즈, 크림",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      },
+      {
+        "id": "rda_10_4:M0100070009a",
+        "name": "치즈, 파르메산(파마산)",
+        "basis": "100g edible portion",
+        "group": "우유 및 그 제품"
+      }
+    ],
+    "status": "code_state_and_personal_conditions_review_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "흰살생선",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "source_term": "살코기",
+    "matching_method": "exact_primary_name_only",
+    "candidates": [],
+    "status": "group_or_term_mapping_required",
+    "runtime_enabled": false
+  }
+]

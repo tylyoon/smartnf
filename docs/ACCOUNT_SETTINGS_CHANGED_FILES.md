@@ -1,0 +1,41 @@
+# 일자별 관리 예시·회원 설정 — 변경 파일 목록
+
+- 일반 계정 변경·탈퇴/메일 검증 코드, DB 인증 버전, V7, 예시 5종.
+- SMTP 실설정·SNS 전용 탈퇴·실제 일일 기록은 완료되지 않았습니다.
+- 적용 안내: ACCOUNT_SETTINGS_SETUP.md
+
+- `build.gradle`
+- `docs/ACCOUNT_SETTINGS_SETUP.md`
+- `docs/SmartNF_IMPROVEMENTS.md`
+- `frontend/src/mypage-examples.jsx`
+- `frontend/src/mypage.jsx`
+- `run_local.sh`
+- `src/main/java/com/onrender/smartnf/config/SecurityConfig.java`
+- `src/main/java/com/onrender/smartnf/health/HealthPageController.java`
+- `src/main/java/com/onrender/smartnf/health/HealthService.java`
+- `src/main/java/com/onrender/smartnf/member/AccountHousekeeping.java`
+- `src/main/java/com/onrender/smartnf/member/AccountIdentity.java`
+- `src/main/java/com/onrender/smartnf/member/AccountMail.java`
+- `src/main/java/com/onrender/smartnf/member/AccountSecurityRules.java`
+- `src/main/java/com/onrender/smartnf/member/AccountSessionFilter.java`
+- `src/main/java/com/onrender/smartnf/member/AccountSettingsController.java`
+- `src/main/java/com/onrender/smartnf/member/AccountSettingsErrors.java`
+- `src/main/java/com/onrender/smartnf/member/AccountSettingsService.java`
+- `src/main/java/com/onrender/smartnf/member/MemberPrincipal.java`
+- `src/main/java/com/onrender/smartnf/member/MemberRepository.java`
+- `src/main/java/com/onrender/smartnf/member/google/GoogleMemberService.java`
+- `src/main/java/com/onrender/smartnf/member/google/GooglePrincipal.java`
+- `src/main/java/com/onrender/smartnf/member/kakao/KakaoMemberService.java`
+- `src/main/java/com/onrender/smartnf/member/kakao/KakaoPrincipal.java`
+- `src/main/java/com/onrender/smartnf/member/naver/NaverMemberService.java`
+- `src/main/java/com/onrender/smartnf/member/naver/NaverPrincipal.java`
+- `src/main/resources/application.properties`
+- `src/main/resources/db/migration/V7__add_account_settings.sql`
+- `src/main/resources/static/css/account-settings.css`
+- `src/main/resources/static/css/personal-mypage.css`
+- `src/main/resources/static/js/personal-mypage.js`
+- `src/main/resources/templates/account/settings.html`
+- `src/main/resources/templates/health/mypage.html`
+- `src/main/resources/templates/login.html`
+- `src/test/java/com/onrender/smartnf/health/HealthStorageTests.java`
+- `src/test/resources/auth-test-schema.sql`

@@ -1,0 +1,105 @@
+{
+  "rda_records": 3366,
+  "dish_records": 19617,
+  "per_selected_allergen": {
+    "egg": {
+      "allowed": 606,
+      "match": 30,
+      "unknown": 2730
+    },
+    "milk": {
+      "allowed": 619,
+      "match": 8,
+      "unknown": 2739
+    },
+    "buckwheat": {
+      "allowed": 617,
+      "match": 3,
+      "unknown": 2746
+    },
+    "peanut": {
+      "allowed": 619,
+      "match": 9,
+      "unknown": 2738
+    },
+    "soy": {
+      "allowed": 619,
+      "match": 17,
+      "unknown": 2730
+    },
+    "wheat": {
+      "allowed": 613,
+      "match": 15,
+      "unknown": 2738
+    },
+    "mackerel": {
+      "allowed": 616,
+      "match": 9,
+      "unknown": 2741
+    },
+    "crab": {
+      "allowed": 610,
+      "match": 16,
+      "unknown": 2740
+    },
+    "shrimp": {
+      "allowed": 603,
+      "match": 38,
+      "unknown": 2725
+    },
+    "pork": {
+      "allowed": 589,
+      "match": 45,
+      "unknown": 2732
+    },
+    "peach": {
+      "allowed": 615,
+      "match": 12,
+      "unknown": 2739
+    },
+    "tomato": {
+      "allowed": 613,
+      "match": 14,
+      "unknown": 2739
+    },
+    "sulfite": {
+      "allowed": 0,
+      "match": 0,
+      "unknown": 3366
+    },
+    "walnut": {
+      "allowed": 619,
+      "match": 2,
+      "unknown": 2745
+    },
+    "chicken": {
+      "allowed": 610,
+      "match": 32,
+      "unknown": 2724
+    },
+    "beef": {
+      "allowed": 424,
+      "match": 205,
+      "unknown": 2737
+    },
+    "squid": {
+      "allowed": 614,
+      "match": 16,
+      "unknown": 2736
+    },
+    "shellfish": {
+      "allowed": 604,
+      "match": 37,
+      "unknown": 2725
+    },
+    "pinenut": {
+      "allowed": 618,
+      "match": 2,
+      "unknown": 2746
+    }
+  },
+  "all_dishes_unknown_and_hidden_when_active": true,
+  "cross_contact_verified": false,
+  "rule_version": "2026-10-23.allergy.1",
+  "scope": "raw single-ingredient identity whitelist; not an allergen-free certification"
+}

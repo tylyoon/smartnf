@@ -7399,3 +7399,29 @@ PG 환경변수는 SMARTNF_TOSS_CLIENT_KEY, SMARTNF_TOSS_SECRET_KEY, 선택적 �
 검증은 수정 차이 검토, 기존 JsonMapper·ObjectNode 사용 방식 대조, 제공된 Java 전체의 구형 com.fasterxml.jackson.databind 잔여 참조 0건 확인, Java 21→Python 처리기 검사 통과다. 이 검사는 전체 Spring Boot 컴파일을 대체하지 않는다. 전체 Gradle 빌드는 실행하지 않았으며 사용자 PC에서 기존 시작 명령 또는 ./gradlew compileJava로 확인해야 한다.
 
 274 적용 프로젝트에 SmartNF_B2B_JACKSON_FIX_275.zip을 루트 기준으로 덮어쓴다. ZIP에는 변경 Java 파일, 최신 개선 MD, 적용 안내를 포함한다. 기존 SmartNF_B2B_PAYMENT_UI_274.zip의 Java 파일과 개선 기록도 동일하게 정정하여 이후 다운로드에 반영한다. 이미 274를 적용한 사용자는 275 수정 ZIP만 적용하면 된다.
+
+# 276. 로컬 실행기의 PG 환경변수 허용·전달 보완 (2026-11-19)
+
+사용자 확인 기록: 275 적용 후 Spring Boot 빌드 성공. 274 화면에서 양송이 1kg 3포장, 단가 9,000원·배송비 0원·총 27,000원 가격 카드 표시를 확인했다. GitHub main의 a8ce0e3까지 선택한 src·tools·tests 및 docs/SmartNF_IMPROVEMENTS.md 푸시 성공을 확인했다. 루트 실행 스크립트 등 전체 파일의 업로드 여부는 아직 확인하지 않았다. 사용자는 어제 확인한 거래 흐름을 반복하지 않고 다음 작업을 진행하기로 했다.
+
+PG 키 확인 화면은 개발 연동 체험 상점의 문서용 공개 테스트 키였다. 사용자는 이를 .env.local에 설정한 뒤 set -a/source/set +a와 bash run_local.sh를 실행했으나 '지원하지 않는 설정 줄'로 서버 시작이 중단됐다. 보관된 실행 스크립트의 허용 목록에 신규 PG 변수가 없음을 확인했다. 실행기 연동을 빠뜨린 상태에서 .env.local 추가를 안내한 것이 이번 보완 사유다.
+
+tools/business/setup_payment_env.py를 추가했다. 실제 PC의 run_local.sh에서 알려진 task_line 허용 목록·DB_URL 분기·미지원 설정 거부를 확인한 후 PG 변수 3종의 허용·export 블록만 삽입한다. 현재 PC의 실행기를 직접 보관본으로 교체하지 않으므로 이후 추가한 모델·사진 검색·가격 수집 시작 코드를 유지한다. 원본 .before-pg-276 백업, Bash 구문 검사 후 교체, 중복 실행 방지와 알 수 없는 형식의 변경 거부를 적용한다. 변경 시 BOM을 제거하고 줄바꿈을 LF로 정규화한다.
+
+허용 변수는 SMARTNF_TOSS_CLIENT_KEY, SMARTNF_TOSS_SECRET_KEY, SMARTNF_TOSS_WEBHOOK_TOKEN으로 한정한다. 값 바깥의 짝이 맞는 작은따옴표·큰따옴표를 제거해 PG 처리기에 정확히 전달한다. eval/source로 값을 실행하지 않으며 그 외 미지원 설정 거부를 유지한다. 도구 자체는 .env.local을 읽거나 수정하지 않고 키 원문을 출력하지 않는다. 도구 반영 후에는 별도 source 없이 기존 bash run_local.sh가 PG 설정을 전달한다.
+
+검증: tests/test_payment_env_setup.py 6건 통과. 일반·작은따옴표·큰따옴표·CRLF 설정값 전달, 셸 구문 문자열 비실행, 원본 백업과 재실행, 미지원 설정 거부, 알 수 없는 실행기와 기존 백업 보존을 확인했다. 보관된 기존 실행기 2종을 임시 폴더에 복사해 패치하고 전체 Bash 구문 검사, 설정 로딩 부분에서 실제 trade_payments.py config 호출의 configured=true와 TEST, 시크릿 미반환을 확인했다. 실제 PC의 전체 실행기 기동과 외부 PG 승인 통신은 아직 미확인이다.
+
+배포: SmartNF_PG_ENV_FIX_276.zip을 프로젝트 루트에 풀고 python tools/business/setup_payment_env.py && bash run_local.sh를 실행한다. 이후에는 bash run_local.sh만 사용한다. 변경 파일은 tools/business/setup_payment_env.py, tests/test_payment_env_setup.py, docs/SMARTNF_PG_ENV_276.md, docs/SmartNF_IMPROVEMENTS.md이다. 이번부터 사용자 프로젝트의 실제 위치에 맞게 개선 MD를 ZIP 내 docs/에 배치한다. 로컬에서 변경되는 run_local.sh도 이후 Git 커밋에 포함해야 한다. .env.local과 백업은 포함하지 않는다.
+
+# 277. 모의 결제 주문의 잘못된 PG 버튼 노출 수정 (2026-11-19)
+
+사용자는 276 적용 후 정상 부트를 확인했다. 따라서 276의 실제 PC 실행기 기동 미확인 항목은 사용자 확인으로 해소됐다. PG 테스트 연결 확인 중 기존 후추 100g 병 2포장 6,000원 입고 검수 완료 주문과 양송이 1kg 1포장 9,000원 결제 완료 주문에 PG 테스트 결제 버튼이 보였으며, 클릭 시 승인 완료 발주를 선택하라는 안내가 나왔다. 이미 모의 결제를 진행한 주문에도 신규 PG 결제를 노출한 프런트 표시 조건 오류다.
+
+src/main/resources/static/js/business-trade.js에서 신규 PG 결제 버튼은 구매 업체의 구매·정산·관리 담당자에게 승인 완료·미결제 주문이고 열린 변경 요청이 없을 때만 표시한다. PG 시도 기록이 있는 결제 준비·결제 완료·배송·부분 입고·입고 완료 주문은 PG 결제·환불 관리로 표시한다. 정산 직무처럼 다른 다음 업무가 없는 경우에도 해당 관리 카드가 남도록 한다. 모의 결제 주문에는 결제 방식 · 모의 결제를 명시하고 신규 PG 결제 버튼을 제거했다. 승인 전에는 판매자 승인 후 결제 가능 안내를 표시한다.
+
+PG RELEASED·FAILED 기록은 활성 결제 방식으로 보지 않는다. 준비 해제·실패 후 승인 완료 주문은 신규 PG 재시도가 가능하며, 이후 모의 결제를 선택한 주문은 모의 결제 표시와 기존 취소 동작을 유지한다. 기존 결제 데이터·재고·정산 원장은 변경하지 않는다. 과거 모의 결제를 소급해서 PG 결제로 바꾸지 않는다.
+
+검증: node --test tests/business-dom.test.mjs 14건 및 JS 구문 검사 통과. 신규 회귀 검증 3건에 모의 PAID/PARTIAL/RECEIVED의 PG 버튼 제거, APPROVED의 신규 결제, 실제 PG 준비·결제·출고의 관리 링크, FINANCE 카드 유지와 STORE 결제 링크 제한, 준비 해제·실패 후 재시도 및 모의 취소, 열린 변경 요청의 신규 PG 결제 차단을 포함했다. 실제 브라우저 화면과 외부 PG 승인 통신은 미확인이다.
+
+SmartNF_PG_BUTTON_FIX_277.zip에 수정 JS, tests/business-dom.test.mjs, docs/SMARTNF_PG_BUTTON_277.md, docs/SmartNF_IMPROVEMENTS.md를 포함한다. 프로젝트 루트에 덮어쓴 뒤 기존 방식으로 서버를 재시작하고 각 계정 창에서 Ctrl+Shift+R로 JS를 갱신한다. PG 테스트에는 새 미결제 발주를 판매자가 승인한 상태가 필요하며, 결제창이 열리기 전 기존 전체 거래 흐름을 다시 반복 검증할 필요는 없다.

@@ -1,0 +1,258 @@
+[
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "term": "채소",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "term": "곤약",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "term": "해조류",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "term": "버섯",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-diabetes",
+    "condition": "당뇨병",
+    "term": "우뭇가사리",
+    "match_count": 1,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "term": "채소",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "term": "잡곡",
+    "match_count": 1,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "term": "생선",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "term": "두부",
+    "match_count": 6,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "term": "견과류",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "term": "과일",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-bp",
+    "condition": "고혈압",
+    "term": "우유",
+    "match_count": 8,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "term": "채소",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "term": "잡곡",
+    "match_count": 1,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "term": "저지방 어육류",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "term": "생선",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "term": "두부",
+    "match_count": 6,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "term": "과일",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-lipid",
+    "condition": "이상지질혈증",
+    "term": "우유",
+    "match_count": 8,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-ckd",
+    "condition": "신장질환",
+    "term": "개인 처방에 맞춘 열량·단백질 식사",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "term": "채소",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "term": "해조류",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "term": "곤약",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "term": "무가당 차",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-weight",
+    "condition": "다이어트",
+    "term": "물",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-fatty-liver",
+    "condition": "기타 만성질환:지방간",
+    "term": "채소",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-fatty-liver",
+    "condition": "기타 만성질환:지방간",
+    "term": "균형 식사",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "term": "달걀",
+    "match_count": 16,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "term": "두부",
+    "match_count": 6,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "term": "치즈",
+    "match_count": 12,
+    "status": "exact_name_link_requires_scope_review",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "term": "흰살생선",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  },
+  {
+    "source_id": "amc-gout",
+    "condition": "기타 만성질환:통풍",
+    "term": "살코기",
+    "match_count": 0,
+    "status": "group_or_term_unresolved",
+    "runtime_enabled": false
+  }
+]

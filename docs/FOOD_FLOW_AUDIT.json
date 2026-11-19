@@ -1,0 +1,30 @@
+{
+  "care_contract": "smartnf.food-guide-context.v1",
+  "selection_contract": "smartnf.food-selection.v1",
+  "persistence": "sessionStorage same tab, max 24h",
+  "database_writes": 0,
+  "clinical_suitability_approved": false,
+  "browser_tests": [
+    "care import",
+    "recommendation and reasons",
+    "direct search",
+    "origin/related-scope merge",
+    "food detail/deep link",
+    "diet handoff",
+    "removal",
+    "conditions gate",
+    "direct-only no health context",
+    "expired/tampered context",
+    "blocked storage",
+    "non-food-only context",
+    "no JS errors"
+  ],
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "overflow": "none",
+  "common_layout_files": "unchanged",
+  "spring_boot_runtime": "user confirmation pending"
+}

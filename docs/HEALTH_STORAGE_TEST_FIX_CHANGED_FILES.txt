@@ -1,0 +1,5 @@
+src/main/java/com/onrender/smartnf/config/SecurityConfig.java
+src/test/java/com/onrender/smartnf/WebSecurityTests.java
+src/test/java/com/onrender/smartnf/health/HealthStorageTests.java
+docs/SmartNF_IMPROVEMENTS.md
+docs/HEALTH_STORAGE_TEST_FIX_CHANGED_FILES.txt

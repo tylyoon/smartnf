@@ -1,0 +1,1086 @@
+{
+  "catalog_recipes": 1153,
+  "ingredient_missing": 0,
+  "portion_missing": 868,
+  "exact_name_overlaps": [
+    {
+      "recipe_id": "397",
+      "name": "호박죽",
+      "food_ids": [
+        "mfds_dishes:D404-197000000-0001",
+        "mfds_dishes:D604-197000000-0001",
+        "mfds_dishes:D104-197000000-0001",
+        "mfds_dishes:D504-197000000-0001",
+        "mfds_dishes:D704-197000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "513",
+      "name": "오징어순대",
+      "food_ids": [
+        "mfds_dishes:D307-340000000-0001",
+        "mfds_dishes:D407-340000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "481",
+      "name": "함박스테이크",
+      "food_ids": [
+        "mfds_dishes:D108-404000000-0001",
+        "mfds_dishes:D608-404000000-0001",
+        "mfds_dishes:D508-404000000-0001",
+        "mfds_dishes:D408-404000000-0001",
+        "mfds_dishes:D308-404000000-0002",
+        "mfds_dishes:D708-404000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "489",
+      "name": "닭강정",
+      "food_ids": [
+        "mfds_dishes:D712-587000000-0001",
+        "mfds_dishes:D412-587000000-0001",
+        "mfds_dishes:D612-587000000-0001",
+        "mfds_dishes:D512-587000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "516",
+      "name": "해물칼국수",
+      "food_ids": [
+        "mfds_dishes:D403-178000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "529",
+      "name": "탕평채",
+      "food_ids": [
+        "mfds_dishes:D714-652000000-0001",
+        "mfds_dishes:D614-652000000-0001",
+        "mfds_dishes:D414-652000000-0001",
+        "mfds_dishes:D514-652000000-0001",
+        "mfds_dishes:D314-652000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "557",
+      "name": "들깨죽",
+      "food_ids": [
+        "mfds_dishes:D504-202000000-0001",
+        "mfds_dishes:D704-202000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "545",
+      "name": "전복죽",
+      "food_ids": [
+        "mfds_dishes:D504-191000000-0001",
+        "mfds_dishes:D404-191000000-0001",
+        "mfds_dishes:D704-191000000-0001",
+        "mfds_dishes:D104-191000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "458",
+      "name": "소고기채소볶음",
+      "food_ids": [
+        "mfds_dishes:D510-521000000-0001",
+        "mfds_dishes:D410-521000000-0001",
+        "mfds_dishes:D610-521000000-0001",
+        "mfds_dishes:D710-521000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "2967",
+      "name": "소고기 무국",
+      "food_ids": [
+        "mfds_dishes:D605-300000000-0001",
+        "mfds_dishes:D505-300000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "3579",
+      "name": "배추겉절이",
+      "food_ids": [
+        "mfds_dishes:D614-634000000-0001",
+        "mfds_dishes:D314-634000000-0001",
+        "mfds_dishes:D414-634000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "3364",
+      "name": "느타리버섯볶음",
+      "food_ids": [
+        "mfds_dishes:D310-459000000-0001",
+        "mfds_dishes:D610-459000000-0001",
+        "mfds_dishes:D510-459000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "873",
+      "name": "고등어구이",
+      "food_ids": [
+        "mfds_dishes:D608-357000000-0001",
+        "mfds_dishes:D708-357000000-0001",
+        "mfds_dishes:D508-357000000-0001",
+        "mfds_dishes:D408-357000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "874",
+      "name": "골뱅이무침",
+      "food_ids": [
+        "mfds_dishes:D614-607000000-0001",
+        "mfds_dishes:D514-607000000-0001",
+        "mfds_dishes:D314-607000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "2991",
+      "name": "닭곰탕",
+      "food_ids": [
+        "mfds_dishes:D705-213000000-0001",
+        "mfds_dishes:D105-213000000-0001",
+        "mfds_dishes:D605-213000000-0001",
+        "mfds_dishes:D505-213000000-0001",
+        "mfds_dishes:D405-213000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "767",
+      "name": "민들레무침",
+      "food_ids": [
+        "mfds_dishes:D413-610000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "793",
+      "name": "팥죽",
+      "food_ids": [
+        "mfds_dishes:D404-195000000-0001",
+        "mfds_dishes:D104-195000000-0001",
+        "mfds_dishes:D704-195000000-0001",
+        "mfds_dishes:D504-195000000-0001",
+        "mfds_dishes:D604-195000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "809",
+      "name": "고추잡채",
+      "food_ids": [
+        "mfds_dishes:D410-453000000-0001",
+        "mfds_dishes:D610-453000000-0001",
+        "mfds_dishes:D710-453000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "810",
+      "name": "나박김치",
+      "food_ids": [
+        "mfds_dishes:D115-667000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "818",
+      "name": "상추 겉절이",
+      "food_ids": [
+        "mfds_dishes:D414-639000000-0001",
+        "mfds_dishes:D514-639000000-0002",
+        "mfds_dishes:D714-639000000-0002",
+        "mfds_dishes:D614-639000000-0002"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "825",
+      "name": "잡채",
+      "food_ids": [
+        "mfds_dishes:D110-492000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    },
+    {
+      "recipe_id": "2952",
+      "name": "바지락 미역국",
+      "food_ids": [
+        "mfds_dishes:D605-289000000-0001",
+        "mfds_dishes:D405-289000000-0001",
+        "mfds_dishes:D705-289000000-0001"
+      ],
+      "status": "name_only_not_same_formula"
+    }
+  ],
+  "recipe_source_sha256": "189f928007b1f41538c30a83320b476b91174c8e0e9f57656cad71968e0caf9c",
+  "automatic_formula_joins": 0,
+  "nutrition_transfers": 0,
+  "ingredient_linked_candidates": [
+    {
+      "recipe_id": "28",
+      "name": "새우 두부 계란찜",
+      "category": "두부요리",
+      "terms": [
+        "두부",
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "31",
+      "name": "방울토마토 소박이",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "32",
+      "name": "순두부 사과 소스 오이무침",
+      "category": "두부요리",
+      "terms": [
+        "두부",
+        "오이"
+      ]
+    },
+    {
+      "recipe_id": "95",
+      "name": "치커리샐러드와 올리브 마늘 소스",
+      "category": "채소요리",
+      "terms": [
+        "마늘"
+      ]
+    },
+    {
+      "recipe_id": "89",
+      "name": "시금치 우유 소스와 그린매쉬드포테이토",
+      "category": "채소요리",
+      "terms": [
+        "시금치"
+      ]
+    },
+    {
+      "recipe_id": "91",
+      "name": "버섯구이와 두부타르타르 소스",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "94",
+      "name": "브로콜리 컬리플라워 샐러드와 두유 요거트 소스",
+      "category": "채소요리",
+      "terms": [
+        "브로콜리"
+      ]
+    },
+    {
+      "recipe_id": "181",
+      "name": "양배추감자전",
+      "category": "채소요리",
+      "terms": [
+        "양배추"
+      ]
+    },
+    {
+      "recipe_id": "643",
+      "name": "간장소스를 곁들인 새우전복찜",
+      "category": "반찬",
+      "terms": [
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "391",
+      "name": "토마토소고기장조림",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "392",
+      "name": "토마토소고기찜",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "393",
+      "name": "맛간장삼치구이",
+      "category": "생선요리",
+      "terms": [
+        "삼치"
+      ]
+    },
+    {
+      "recipe_id": "509",
+      "name": "유자삼치구이",
+      "category": "생선요리",
+      "terms": [
+        "삼치"
+      ]
+    },
+    {
+      "recipe_id": "298",
+      "name": "양배추롤",
+      "category": "채소요리",
+      "terms": [
+        "양배추"
+      ]
+    },
+    {
+      "recipe_id": "421",
+      "name": "뿌리채소두부선",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "425",
+      "name": "새콤한연어샐러드",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "536",
+      "name": "양배추롤",
+      "category": "채소요리",
+      "terms": [
+        "양배추"
+      ]
+    },
+    {
+      "recipe_id": "577",
+      "name": "참깨흑임 자연두부샐러드",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "249",
+      "name": "해산물두부샌드",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "253",
+      "name": "토마토오리볶음",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "254",
+      "name": "토마토두루치기",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "367",
+      "name": "두부까나페",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "480",
+      "name": "가지토마토구이",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "604",
+      "name": "아보카도 연어샐러드",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "611",
+      "name": "토마토주스를곁들인컵토마토",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "77",
+      "name": "마늘드레싱을 곁들인 키위샐러드",
+      "category": "채소요리",
+      "terms": [
+        "마늘"
+      ]
+    },
+    {
+      "recipe_id": "258",
+      "name": "두부곤약조림",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "262",
+      "name": "토마토콩조림",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "314",
+      "name": "김말이두부스테이크",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "315",
+      "name": "연어롤샐러드",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "62",
+      "name": "불고기 소스를 곁들인 두부구이",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "233",
+      "name": "가지연어구이",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "235",
+      "name": "고구마두부스테이크",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "243",
+      "name": "두부말이찜",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "346",
+      "name": "토마토제철나물 샐러드",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "655",
+      "name": "묵은지고등어와 새우말이꼬치",
+      "category": "생선요리",
+      "terms": [
+        "고등어",
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "407",
+      "name": "미역줄기두부무침",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "412",
+      "name": "두부채소샐러드",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "515",
+      "name": "연어허브스테이크",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "521",
+      "name": "양배추버섯말이",
+      "category": "채소요리",
+      "terms": [
+        "양배추"
+      ]
+    },
+    {
+      "recipe_id": "526",
+      "name": "새우완자찜",
+      "category": "반찬",
+      "terms": [
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "527",
+      "name": "두부된장무침",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "554",
+      "name": "겨자소스를 곁들인 새우롤과 전복샐러드",
+      "category": "반찬",
+      "terms": [
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "430",
+      "name": "저염된장 삼치구이",
+      "category": "생선요리",
+      "terms": [
+        "삼치"
+      ]
+    },
+    {
+      "recipe_id": "546",
+      "name": "오징어토마토초무침",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "552",
+      "name": "토마토소스닭갈비",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "590",
+      "name": "리코타소스 연어샐러드",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "706",
+      "name": "새우두부만두",
+      "category": "두부요리",
+      "terms": [
+        "두부",
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "457",
+      "name": "토마토떡볶이",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "628",
+      "name": "삼색샐러드와두부구이",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "632",
+      "name": "양배추 고기말이",
+      "category": "채소요리",
+      "terms": [
+        "양배추"
+      ]
+    },
+    {
+      "recipe_id": "633",
+      "name": "양배추 쌈말이",
+      "category": "채소요리",
+      "terms": [
+        "양배추"
+      ]
+    },
+    {
+      "recipe_id": "634",
+      "name": "연어샐러드",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "713",
+      "name": "고등어된장구이",
+      "category": "생선요리",
+      "terms": [
+        "고등어"
+      ]
+    },
+    {
+      "recipe_id": "715",
+      "name": "낙지브로콜리볶음",
+      "category": "채소요리",
+      "terms": [
+        "브로콜리"
+      ]
+    },
+    {
+      "recipe_id": "2963",
+      "name": "닭가슴살 두부선",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "3099",
+      "name": "흑마늘견과류조림",
+      "category": "채소요리",
+      "terms": [
+        "마늘"
+      ]
+    },
+    {
+      "recipe_id": "2965",
+      "name": "브로콜리견과류복음",
+      "category": "채소요리",
+      "terms": [
+        "브로콜리"
+      ]
+    },
+    {
+      "recipe_id": "2968",
+      "name": "삼색나물, 토마토양념장",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "3464",
+      "name": "깻잎 쌈두부 라자냐",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "2973",
+      "name": "토마토 채소 계란찜",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "3466",
+      "name": "토마토 채소 가지롤",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "3571",
+      "name": "토마토시금치 닭볶음탕",
+      "category": "채소요리",
+      "terms": [
+        "시금치",
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "873",
+      "name": "고등어구이",
+      "category": "생선요리",
+      "terms": [
+        "고등어"
+      ]
+    },
+    {
+      "recipe_id": "3280",
+      "name": "수제새우소시지",
+      "category": "반찬",
+      "terms": [
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "882",
+      "name": "두부 해산물 꼬치구이",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "883",
+      "name": "마 두부 오징어전",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "885",
+      "name": "미역 물오징어 연두부 초회",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "888",
+      "name": "연어냉채",
+      "category": "생선요리",
+      "terms": [
+        "연어"
+      ]
+    },
+    {
+      "recipe_id": "895",
+      "name": "아보카도 두부 샐러드",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "914",
+      "name": "돼지고기 토마토 두부볶음",
+      "category": "두부요리",
+      "terms": [
+        "두부",
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "2987",
+      "name": "두부구이, 버섯소스",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "2998",
+      "name": "치즈두부샐러드",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "959",
+      "name": "단호박 새우찜",
+      "category": "반찬",
+      "terms": [
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "960",
+      "name": "두부 샌드위치",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "961",
+      "name": "라이스페이퍼 새우롤",
+      "category": "반찬",
+      "terms": [
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "3174",
+      "name": "오이파프리카새콤무침",
+      "category": "채소요리",
+      "terms": [
+        "오이"
+      ]
+    },
+    {
+      "recipe_id": "3181",
+      "name": "시금치들깨무침",
+      "category": "채소요리",
+      "terms": [
+        "시금치"
+      ]
+    },
+    {
+      "recipe_id": "967",
+      "name": "사과와 양파를 곁들인 돼지등심 요리",
+      "category": "채소요리",
+      "terms": [
+        "양파"
+      ]
+    },
+    {
+      "recipe_id": "975",
+      "name": "알록달록 시금치 당근 수제비",
+      "category": "채소요리",
+      "terms": [
+        "당근",
+        "시금치"
+      ]
+    },
+    {
+      "recipe_id": "2999",
+      "name": "마늘칩 감자샐러드",
+      "category": "채소요리",
+      "terms": [
+        "마늘"
+      ]
+    },
+    {
+      "recipe_id": "982",
+      "name": "토마토소스 달걀볶음",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "991",
+      "name": "산호두부",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "993",
+      "name": "시금치 돼지고기 볶음",
+      "category": "채소요리",
+      "terms": [
+        "시금치"
+      ]
+    },
+    {
+      "recipe_id": "1031",
+      "name": "토마토 야채 오븐구이",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "756",
+      "name": "시금치비트무침",
+      "category": "채소요리",
+      "terms": [
+        "시금치"
+      ]
+    },
+    {
+      "recipe_id": "769",
+      "name": "토마토소박이",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "1039",
+      "name": "브로콜리 쇠고기 볶음",
+      "category": "채소요리",
+      "terms": [
+        "브로콜리"
+      ]
+    },
+    {
+      "recipe_id": "786",
+      "name": "라비올리 토마토소스",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "800",
+      "name": "양송이버섯 달걀 크레페",
+      "category": "반찬",
+      "terms": [
+        "양송이버섯"
+      ]
+    },
+    {
+      "recipe_id": "1081",
+      "name": "새우채소꼬치구이",
+      "category": "반찬",
+      "terms": [
+        "새우"
+      ]
+    },
+    {
+      "recipe_id": "812",
+      "name": "단호박 두부찜",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "820",
+      "name": "아시아식 채소 두부 볶음",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "834",
+      "name": "두부 달걀전",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "835",
+      "name": "두부선과 저나트륨 겨자 간장소스",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "840",
+      "name": "카레소스를 얹은 두부 스테이크",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "2955",
+      "name": "함박스테이크&토마토카레소스",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "2970",
+      "name": "두부해물완자",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "2975",
+      "name": "톳나물 두부무침",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "2997",
+      "name": "참치 두부 함박스테이크",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "3003",
+      "name": "알록달록화전, 멸치두부전",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "3092",
+      "name": "계란만두&토마토소스",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "3182",
+      "name": "시금치토마토무침",
+      "category": "채소요리",
+      "terms": [
+        "시금치",
+        "토마토"
+      ]
+    },
+    {
+      "recipe_id": "3096",
+      "name": "포두부채소잡채",
+      "category": "두부요리",
+      "terms": [
+        "두부"
+      ]
+    },
+    {
+      "recipe_id": "3298",
+      "name": "매운요거트 토마토샐러드",
+      "category": "채소요리",
+      "terms": [
+        "토마토"
+      ]
+    }
+  ],
+  "candidate_scope": "제목과 재료 원문에서 확인한 추천재료 활용 후보; 음식 전체의 질환 적합성 미판정"
+}

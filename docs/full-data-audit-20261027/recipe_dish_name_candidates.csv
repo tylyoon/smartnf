@@ -1,0 +1,1157 @@
+﻿recipe_id,name,exact_normalized_name_dish_candidates,candidate_count,same_recipe_confirmed,basis
+28,새우 두부 계란찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+29,부추 콩가루 찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+31,방울토마토 소박이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+32,순두부 사과 소스 오이무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+33,사과 새우 북엇국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+36,저염 된장으로 맛을 낸 황태해장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+37,된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+38,표고버섯 청경채국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+95,치커리샐러드와 올리브 마늘 소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+87,스트로베리 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+89,시금치 우유 소스와 그린매쉬드포테이토,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+91,버섯구이와 두부타르타르 소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+93,구운채소와 간장레몬 소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+94,브로콜리 컬리플라워 샐러드와 두유 요거트 소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+108,오렌지와 당근 만남주스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+111,칠곡석류국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+113,블랙빈 곤약국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+114,닭가슴살 브로콜리 만두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+131,함초 냉이 국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+137,된장 두부찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+138,부대된장찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+181,양배추감자전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+74,돌나물 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+159,석류 보쌈김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+161,유자 대구조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+162,파프리카 물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+193,고추장 라따뚜이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+201,민들레 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+202,토마토 가지 카프레제,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+636,우렁된장소스 배추롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+637,인삼떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+638,초계탕과 사색곤약,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+639,호박잎 삼계탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+640,황태미역 곤약스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+641,훈제오리가슴살 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+642,훈제오리가슴살크러스트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+643,간장소스를 곁들인 새우전복찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+644,검은콩국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+645,겨자소스로 구운 산마샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+271,닭고기김치찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+272,완자김치찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+273,백김치콩비지찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+274,오징어김치찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+275,해물김치찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+276,맑은부대찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+277,나가사키부대찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+278,삼계부대찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+279,쑥갓부대찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+280,들깨순두부찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+281,백태순두부찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+282,버섯순두부찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+283,토란순두부찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+385,토마토스프파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+386,다이어트국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+387,오징어구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+388,배숙구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+389,웰빙스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+390,오징어콩순대,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+391,토마토소고기장조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+392,토마토소고기찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+393,맛간장삼치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+394,삼겹살꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+395,새우아욱죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+396,까르보나라뇨끼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+397,호박죽,"[""mfds_dishes:D404-197000000-0001"", ""mfds_dishes:D604-197000000-0001"", ""mfds_dishes:D104-197000000-0001"", ""mfds_dishes:D504-197000000-0001"", ""mfds_dishes:D704-197000000-0001""]",5,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+398,라이스버거떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+399,고추김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+500,누룽닭,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+501,광어스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+502,치즈감자크로켓,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+503,코코넛밀크카레,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+504,소고기리조또롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+505,둥지튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+506,새우와스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+507,함초삼겹,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+508,햄버거스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+509,유자삼치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+510,냉토마토파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+511,닭고기또띠아,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+512,닭고기스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+513,오징어순대,"[""mfds_dishes:D307-340000000-0001"", ""mfds_dishes:D407-340000000-0001""]",2,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+514,연어차우더스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+663,시금치브로컬리 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+664,야채찜을 곁들인 광어스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+665,연근부각,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+666,오이냉국을 곁들인 오색쌈밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+667,카레탄두리치킨과 닭가슴살냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+668,컬리플라워소스 광어스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+669,콜라비오미자 물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+670,크림소스치킨롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+671,표고버섯 감자찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+672,해물애호박 전병말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+673,찬밥이용닭죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+674,감자느타리버섯국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+677,민어매운탕,"[""mfds_dishes:D406-327000000-0001""]",1,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+297,아몬드치킨볼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+298,양배추롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+299,생선베이컨말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+300,콩고기샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+301,퀴노아닭가슴살샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+302,바나나크림파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+303,산채쌀파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+304,황태포당면국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+305,닭갈비볶음면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+306,오색볶음면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+307,로제소스라면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+308,라면월남쌈튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+309,삼겹살라면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+310,유자샐러드라면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+414,주꾸미머리순대,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+415,매실동치미,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+416,조기까스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+417,돼지머리수육맑은전골,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+418,파인애플볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+419,연근초무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+420,코다리맑은찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+421,뿌리채소두부선,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+422,사과장아찌,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+423,해물들깨탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+424,참외깍두기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+425,새콤한연어샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+426,논우렁순무섞박지,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+427,코다리맑은탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+530,세가지샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+531,애호박들깨볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+532,고구마바나나샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+533,누룽지새우튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+534,백김치주꾸미샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+535,닭고기월남쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+536,양배추롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+537,단호박소고기롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+538,생선카레튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+539,삼겹가지볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+540,주꾸미샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+541,닭가슴살현미스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+542,삼겹선,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+543,미니버섯탕수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+571,연어오븐구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+572,옥음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+573,와사비 연어초밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+574,원소병,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+575,음메꼬꼬돌돌,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+576,전복리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+577,참깨흑임 자연두부샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+578,초계탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+579,콩나물부추볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+580,콩비지포카치아 샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+581,파프리카더덕소고기깻잎롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+582,해물아란치니,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+583,호박잎삼계,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+584,노른자크림 육회샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+585,닭고기 완자삼계죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+586,대하마늘볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+587,두부 카프리제,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+217,미역볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+218,청국장볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+219,해물볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+220,토마토카레 채소볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+221,구운주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+222,깐풍주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+223,닭봉주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+224,봄주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+225,깻잎장아찌롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+226,참치비빔밥롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+227,새싹참치김밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+228,연어주먹밥튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+229,오징어불고기김밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+230,닭가슴살청포묵비빔밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+325,족발수육,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+326,함초떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+327,삼색소면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+328,돼지수육맑은전골,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+329,채소비빔밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+330,열무김치파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+331,해초갈비찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+332,버섯곤드레밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+333,바다향이 풍부한 전복죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+334,주꾸미연포탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+335,함초소고기말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+336,묵계밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+337,근채류주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+338,단호박약식,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+339,달콤스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+441,삼색샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+442,황태탕수육,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+443,밥핫도그,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+444,스테이크카나페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+445,꽃밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+446,버섯만두찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+447,떡갈비주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+448,홍합죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+449,샐러드돈가스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+450,조개크림파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+451,닭날개튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+452,해산물리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+453,떡완자조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+454,닭고기채소스파게티,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+245,계만두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+246,삼계선,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+247,쇠고기표고찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+248,떡갈비찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+249,해산물두부샌드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+250,단호박제육볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+251,버섯콩불고기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+252,차돌박이볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+253,토마토오리볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+254,토마토두루치기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+255,검은콩피시볼조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+256,대하조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+257,묵은지가지말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+355,함초타락죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+356,황태두부무국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+357,삼합잡채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+358,고등어카레탕수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+359,효도강정,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+360,비트양파김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+361,관자브로콜리스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+362,곤약잡채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+363,미역 닭가슴살전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+364,두가지묵샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+365,블루베리양갱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+366,장어찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+367,두부까나페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+368,두부청국장죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+369,망고샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+470,토마토젤리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+471,샌드스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+472,맥적구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+473,채소어묵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+474,주꾸미보리죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+475,오렌지삼겹찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+476,소고기볼게살타르,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+477,수삼떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+478,삼색딤섬,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+479,밥크로켓,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+480,가지토마토구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+481,함박스테이크,"[""mfds_dishes:D108-404000000-0001"", ""mfds_dishes:D608-404000000-0001"", ""mfds_dishes:D508-404000000-0001"", ""mfds_dishes:D408-404000000-0001"", ""mfds_dishes:D308-404000000-0002"", ""mfds_dishes:D708-404000000-0001""]",6,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+482,냉파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+483,과일겉절이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+484,버섯탕수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+604,아보카도 연어샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+605,오렌지마리네이드 돼지고기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+606,인삼갈비탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+607,체리젤리를 곁들인 고구마무스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+608,카레닭 룰라이드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+609,세 가지곡물콩라미수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+610,크림치즈 망고무스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+611,토마토주스를곁들인컵토마토,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+612,해산물 훈제연어롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+613,인절미 무스와 수정과 아이스크림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+614,감닭떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+615,겨자아욱쌈밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+616,다마고도후,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+617,단호박생채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+618,닭가슴살 스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+77,마늘드레싱을 곁들인 키위샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+78,깻잎향을 입힌 관자 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+82,건강그린 샐러드와 고소한 두유드레싱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+85,케일 오미자 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+163,꼬막 달래 된장 무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+165,베이컨 가지 말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+172,청국장소스 연어 스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+258,두부곤약조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+259,아귀나가사키조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+260,카레가자미조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+261,타콤소스닭조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+262,토마토콩조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+263,관자해장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+264,견과류들깨해장탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+265,뿌리채소들깨수제비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+266,대구지리탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+267,양지해장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+268,토마토돼지고기해장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+269,효종갱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+270,해물토마토김치찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+18,버섯 두유 소스 볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+19,백일송이버섯 볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+21,땅콩소스 버섯가지나물,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+96,유자향의 곤약 냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+284,새우단배추된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+285,검은콩보리된장찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+286,단호박배추된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+287,된장냉국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+288,들깨된장육개장,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+289,삼색묵냉국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+290,샤브된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+291,완자된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+292,산나물된장찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+293,토마토요구르트된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+294,굴림만두된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+295,해물순두부된장찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+296,곤약함박스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+39,청국장 두부 검은깨 냉스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+40,호박 고구마 스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+121,시금치 리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+124,북어비빔밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+125,무 현미밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+127,컵밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+210,두릅 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+212,구운 바나나,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+214,과일무스 테린,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+215,가지볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+216,닭고기볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+311,토마토라면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+312,토마토샐러드라면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+313,검은깨라면크로켓,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+314,김말이두부스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+315,연어롤샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+316,비타민이유식,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+317,한입꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+318,간장곤약볶음국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+319,닭가슴살리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+320,녹차귀리라떼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+321,계란숙샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+322,한식풍닭가슴살스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+323,강황고구마밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+324,된장시금치옹심이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+62,불고기 소스를 곁들인 두부구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+140,매생이순두부탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+144,겨자 오이고추소박이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+145,실치오이 초절임,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+146,비트무절임,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+150,감귤 김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+231,두부달걀덮밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+232,봄나물밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+233,가지연어구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+234,갈릭칩동태구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+235,고구마두부스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+236,닭가슴살카나페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+237,삼색꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+238,꽁치채소말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+239,차돌박이구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+240,간장아귀찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+241,견과류통삼겹살찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+242,닭가슴살말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+243,두부말이찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+244,미나리명태찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+340,불고기덮밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+341,바비큐리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+342,간편콩국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+343,모듬해물찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+344,크렌베리귀리밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+345,블루베리냉스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+346,토마토제철나물 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+347,브로콜리스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+348,초계샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+349,토마토맑은장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+350,매생이찰범벅,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+351,통삼겹맥적구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+352,닭가슴살샌드스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+353,치즈리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+354,가지말이샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+485,유자등갈비구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+486,실곤약팟타야,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+487,닭고기라이스롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+488,깐풍파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+489,닭강정,"[""mfds_dishes:D712-587000000-0001"", ""mfds_dishes:D412-587000000-0001"", ""mfds_dishes:D612-587000000-0001"", ""mfds_dishes:D512-587000000-0001""]",4,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+490,소고기꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+491,황태볶음면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+492,토마토덮밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+493,표고크림파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+494,떡갈비통치미국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+495,백김치닭살샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+496,단호박크림파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+497,견과편수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+498,바지락실곤약파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+499,황태리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+646,깻잎애호박찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+647,녹차와 대추밀전병,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+648,단호박 된장매쉬와 해물굴림만두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+649,닭순대,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+650,도라지 유자청생채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+651,돼지고기 숙주덮밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+652,두부스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+653,들깨곤약수제비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+654,먹물소스를 곁들인 토마토피클,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+655,묵은지고등어와 새우말이꼬치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+656,버섯배추말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+657,봄날의 연못,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+658,산나물 유부초밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+659,삼삼한 롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+660,삼색채소 냉파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+661,새우보리죽 고등어스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+662,소금없는 초밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+725,잣소스새송이볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+727,더덕얼갈이겉절이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+728,과일겨자채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+729,콜라비물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+730,고구마라떼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+731,홍시곶감화채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+732,오징어채소말이와 치킨양념소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+733,옥수수감자샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+737,홍합 쌀옹심이국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+738,찬밥김치달걀찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+739,꼬막떡꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+740,물파래콩전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+400,카스텔라케이크와 해독주스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+401,토마토김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+402,닭가슴살스튜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+403,가지겉절이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+404,저염 동치미,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+405,장어수육구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+406,울금해초밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+407,미역줄기두부무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+408,맑은육개장,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+409,주꾸미보양샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+410,전복내장밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+411,카레감자전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+412,두부채소샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+413,더덕비트물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+515,연어허브스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+516,해물칼국수,"[""mfds_dishes:D403-178000000-0001""]",1,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+517,버섯리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+518,삼색소고기만두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+519,콩가루비빔밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+520,인삼닭살찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+521,양배추버섯말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+522,단호박떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+523,배추만두탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+524,해산물누들볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+525,허브닭스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+526,새우완자찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+527,두부된장무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+528,귀리죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+529,탕평채,"[""mfds_dishes:D714-652000000-0001"", ""mfds_dishes:D614-652000000-0001"", ""mfds_dishes:D414-652000000-0001"", ""mfds_dishes:D514-652000000-0001"", ""mfds_dishes:D314-652000000-0001""]",5,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+554,겨자소스를 곁들인 새우롤과 전복샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+555,속채운대저토마토백김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+556,둥지튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+557,들깨죽,"[""mfds_dishes:D504-202000000-0001"", ""mfds_dishes:D704-202000000-0001""]",2,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+558,레몬크림콩다식,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+559,룰룰랄라,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+560,매실소스를 곁들인 돼지고기만두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+561,머스터드튤립치킨,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+562,머위향 통밀푸실리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+563,미니함박스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+564,바다완자탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+565,봄옷을 입은 닭,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+566,삼계치킨,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+567,삼계치킨롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+568,새우완자탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+569,아삭,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+570,연어비트 절임샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+678,가지나물냉국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+679,수삼매운닭찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+680,수박즙돼지목심구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+681,별미병어조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+682,비름나물겉절이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+683,깻잎단호박튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+684,냉머위들깨나물,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+685,수박껍질풋고추볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+686,우무오미자냉화채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+688,포도호두스무디,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+689,전복영양밥과 부추양념장,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+690,근대쌈밥과 멸치견과류쌈장,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+428,장어조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+429,통삼겹스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+430,저염된장 삼치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+431,미역전복죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+432,불고기미니볼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+433,치자연근물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+434,훈제연어롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+435,크림닭,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+436,등심채소롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+437,유부완자탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+438,미니밥버거,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+439,파프리카볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+440,리코타치즈돈가스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+544,삼겹살부추찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+545,전복죽,"[""mfds_dishes:D504-191000000-0001"", ""mfds_dishes:D404-191000000-0001"", ""mfds_dishes:D704-191000000-0001"", ""mfds_dishes:D104-191000000-0001""]",4,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+546,오징어토마토초무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+547,들깨칼국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+548,소고기채소불고기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+549,숙주라면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+550,곤약냉면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+551,과일갈비찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+552,토마토소스닭갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+553,골뱅이과일무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+588,두유 마 떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+589,떡갈비와 미니잡곡밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+590,리코타소스 연어샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+591,망고무스케이크와 마카롱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+592,망고자몽드레싱 해산물전체,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+593,머쉬룸 닭스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+594,미역소스와 타르타르,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+595,발사믹소스를 곁들인 오리스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+596,방울토마토를 곁들인 너비아니구이와 쌈밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+597,배차와 주악,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+598,배추관자카나페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+599,버섯과 두부 비프웰링턴,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+600,복분자소스를 곁들인 닭테린,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+601,관자버터구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+602,세 가지 미니 에피타이저,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+603,식혜양갱과 수박증편,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+691,호박잎다슬기된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+692,양배추두부찜과 양파케첩소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+693,수박비빔국수와 수박고추장소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+694,미숫가루 부추전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+695,애호박장떡말이밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+696,봄나물주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+698,달래두부김치무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+699,딸기소스닭가슴살채소무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+700,쑥호두달걀말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+701,시래기리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+703,생과일과가자미까나페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+704,꽃게살국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+705,우엉들깨무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+706,새우두부만두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+455,마마무스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+456,단호박리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+457,토마토떡볶이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+458,소고기채소볶음,"[""mfds_dishes:D510-521000000-0001"", ""mfds_dishes:D410-521000000-0001"", ""mfds_dishes:D610-521000000-0001"", ""mfds_dishes:D710-521000000-0001""]",4,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+459,양송이크림볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+460,해물우동볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+461,단호박닭꼬치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+462,떡갈비콩나물밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+463,크림치즈떡볶이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+464,목살스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+465,치킨완자스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+466,돼지고기말이튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+467,단호박피자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+468,L..A갈비구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+469,닭고기파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+619,동글동글도넛,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+620,된장크림소스 잡곡 오므라이스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+621,두릅부추 소고기말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+622,두부 비빔호박쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+623,두부곤약파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+624,두유 라이크 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+625,라따뚜이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+626,라이스페이퍼 야채롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+627,브로컬리 단호박스프와 완두콩퓨레,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+628,삼색샐러드와두부구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+629,새송이등갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+630,설렁탕쑥떡볶이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+631,소안심 야채 호박잎쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+632,양배추 고기말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+633,양배추 쌈말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+634,연어샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+635,오렌지 드레싱 타다키 부추샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+708,마감자전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+709,배추토란국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+711,갈치고추장구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+712,단호박푸딩,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+713,고등어된장구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+715,낙지브로콜리볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+717,주꾸미돌나물무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+718,사과소스폭찹,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+719,건도토리묵버섯들깨국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+720,무대하무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+721,간편조기찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+722,표고버섯쇠고기찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+723,참나물돼지고기샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+724,연근배추홍시샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+370,열무곤약국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+371,장어구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+372,안심스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+373,로제파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+374,가지라따뚜이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+375,쪽갈비구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+376,베이컨밀푀유,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+377,실곤약냉파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+378,명란프리타타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+379,양송이구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+380,함초김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+381,연어스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+382,웰빙꼬치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+383,매운닭날개구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+384,웰빙카레죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2963,닭가슴살 두부선,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2964,단호박 마전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3010,완두콩과 당근을 넣은 감자요거트 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3098,무오색쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3099,흑마늘견과류조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3198,고구마 찰 빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2965,브로콜리견과류복음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3014,유린기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3189,단호박 호밀빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3193,미숫가루 스콘,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3199,고구마 공갈빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3200,검은콩 크림빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3229,오이 소르베,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3237,리코타치즈 카프레제,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3238,연두부 카프레제,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3239,연두부 토마토,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3261,들깨삼겹살과 참외쌈장,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3264,돼지고기 포두부 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3296,단호박 양파잼 샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3201,시금치크림치즈 빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2966,무말랭이김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3015,코울슬로샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3062,마들깨미역국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3064,바지락맑은국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3158,통배추 겉절이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3240,포니언 스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3246,가지 탕수육,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3293,토마토소스 애호박냉파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3299,새우채소 김치롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3459,떡순이 두부쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3467,두부샐러드 메밀김밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3243,토마토채소스프와 연어소바찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3241,참나물무말이 물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2967,소고기 무국,"[""mfds_dishes:D605-300000000-0001"", ""mfds_dishes:D505-300000000-0001""]",2,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3016,매운락교무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3017,채소초밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3058,꽃게바지락찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3066,새뱅이찌개,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3071,황태미역국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3081,매실입은가지닭볶음탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3184,홍시잼 식빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3203,콩가루 소보로,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3215,곤약 가스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3260,두부크림 관자뇨키,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3462,토마토 해물누룽지탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2968,"삼색나물, 토마토양념장",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3204,삼색 브레드 스틱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3242,양배추말이 김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3262,단호박 양고기볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3463,채소 프리타타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3468,고등어 라따뚜이 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3574,과카몰리 갈치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3691,초코치즈크림케이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3763,애호박전 멘보샤와 콩국뇨끼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3579,배추겉절이,"[""mfds_dishes:D614-634000000-0001"", ""mfds_dishes:D314-634000000-0001"", ""mfds_dishes:D414-634000000-0001"", ""mfds_dishes:D414-634000000-0002"", ""mfds_dishes:D514-634000000-0001"", ""mfds_dishes:D714-634000000-0001"", ""mfds_dishes:D614-634000000-0002""]",7,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2971,홍시에이드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3060,낙지묵은지콩나물국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3202,자색고구마 버터크림 빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3205,치아바타 피자빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3209,코코넛워터 토마토카레,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3244,치즈 단호박,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3263,강황 투움바 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3464,깻잎 쌈두부 라자냐,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3568,참깨가지말이밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3764,쿠스쿠스 삼계롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3765,청국장 또옥국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3768,떠먹는 송편,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3769,고등어 묵말랭이 냉소바,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2972,코다리 뿌리채소 들깨탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3206,찹쌀 흰살 생선찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3210,깻잎퓌레를 곁들인 삼치새우,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3245,참나물페스토 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3265,카레삼겹살 파니니,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3282,어린잎채소 건두부말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3465,해산물 완자볼을 곁들인 양장피 콩국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3569,토마토를 곁들인 마늘밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3770,고추장 가스파초 물쫄면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3570,낙전새 카레볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2973,토마토 채소 계란찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3011,배 깍두기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3063,바지락가자미완탕국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3163,저염보쌈김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3207,새우게살 파프리카롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3247,콩국물소스를 곁들인 게살 냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3266,방아잎 닭고기말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3278,새우 카레 빠에야,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3367,오징어 가라아게&칠리소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3466,토마토 채소 가지롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3771,곤드레야 순두부 아란치니,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3571,토마토시금치 닭볶음탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2976,콜라비 깍두기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2981,비타 오이 물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3065,감자미역국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3164,청경채 김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3208,두부 새우볼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3248,소고기육전과 전복내장소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3267,라이스페이퍼 수제소시지,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3277,치즈토마토 가지구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3288,묵은지 밀푀유나베,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3363,생선까스&타르타르소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3469,미옹 카레,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3772,녹담밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2978,곤약 감자조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3067,배추된장국,"[""mfds_dishes:D705-291000000-0001"", ""mfds_dishes:D505-291000000-0001"", ""mfds_dishes:D405-291000000-0001"", ""mfds_dishes:D605-291000000-0001""]",4,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3070,한우굴라쉬,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3165,요거트강화순무김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3211,크림카레소스를 곁들인 함초두부스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3268,레몬등갈비구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3470,밀푀유 채소 웰링턴,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3572,참나물 매콤함박스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3773,고추장카르네와 K-쌈밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3781,오소부코,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2979,과일 먹은 닭탕수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3068,콜리플라워미역국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3080,구기자모듬장조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3166,오미자저염나박김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3212,메밀면 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3214,치즈 두부 튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3269,단호박 라타투이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3364,느타리버섯볶음,"[""mfds_dishes:D310-459000000-0001"", ""mfds_dishes:D610-459000000-0001"", ""mfds_dishes:D510-459000000-0001""]",3,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3573,오리들깨 겨자소스 초무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+849,닭고기 바비큐,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+851,닭고기 편육,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+852,돼지고기 찹쌀부침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+853,등심 배구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+855,버섯소스를 곁들인 돼지 등심 스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+857,쇠고기 감자찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+859,양송이버섯과 포도주스를 가미한 등심구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2980,비타 오이 물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3069,새우살토마토스튜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3072,견과류문어떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3167,배물김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3168,성주참외동치미,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3213,애호박 순대,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3270,버터치킨카레,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3273,소고기찜과 검은콩수제비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3575,소고기 김말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3683,땅콩 밀푀유 샌드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+861,케이준 스타일 닭고기 요리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+863,헝가리안 폭찹,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+865,구운 닭고기 샐러드와 저나트륨 과일 드레싱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+867,돼지고기 수육 부추부침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+868,쇠고기 채소볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+869,낙지볶음면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+871,지중해 소스를 곁들인 도미스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+872,해산물 샤브샤브,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+873,고등어구이,"[""mfds_dishes:D608-357000000-0001"", ""mfds_dishes:D708-357000000-0001"", ""mfds_dishes:D508-357000000-0001"", ""mfds_dishes:D408-357000000-0001""]",4,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+874,골뱅이무침,"[""mfds_dishes:D614-607000000-0001"", ""mfds_dishes:D514-607000000-0001"", ""mfds_dishes:D314-607000000-0001""]",3,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+875,굴 두부 국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3073,과일퓨레수제함박스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3169,달콤과일깍두기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3216,비트 단호박 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3271,해조비빔국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3276,닭봉 로제스튜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3280,수제새우소시지,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3576,감태샐러드말이와 버섯말이깐풍,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+876,금태찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+877,김자반,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+878,꽁치 양념구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+879,꽃게강정,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+880,낙지강회,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+881,낙지 잣소스 냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+882,두부 해산물 꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+883,마 두부 오징어전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+884,멸치 찹쌀양념 튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+885,미역 물오징어 연두부 초회,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+886,부추조개살 콩비지조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+888,연어냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+889,오징어말이 케첩조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+890,오징어보쌈과 저나트륨 된장소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+891,칠리새우,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2984,"연근샐러드, 흑임자소스",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3074,단호박함박스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3170,배깍두기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3217,닭고기 찰깨빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3272,레몬연어 파피요트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3365,떡꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3577,부추 배무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+895,아보카도 두부 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+897,과일 젤리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+900,복숭아샤벳,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+903,과일 주스 조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+907,감자를 곁들인 야채스튜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+909,김치 고구마밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2986,돈불고기 파인애플볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2994,비름나물 된장무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3001,소고기 들깨 알토란탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3078,과일삼겹살조림&파채무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3171,곤약백김치말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3274,꽈리고추 닭강정,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3291,참치두부 주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3578,열무톳김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3679,콩가루 쑥 다쿠아즈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+912,대구 크림스튜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+913,대추죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+914,돼지고기 토마토 두부볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+915,멜론스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+916,미니버거,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+917,바질 고구마 옥수수빵(플렌타),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+918,밥스틱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+919,버섯 리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+920,버섯 참치 무른밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+922,송이 미역국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+923,시금치 배 미음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+925,어린이 스시,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+926,에멘탈 치즈 퐁듀,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2987,"두부구이, 버섯소스",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2990,고구마 김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3076,담양식떡갈비&야채쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3172,단감피클,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3219,들깨 삼계면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3275,골뱅이무침과 삼겹살수육,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3680,살레마이슈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+927,완두콩 스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+928,유부 만두찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+929,펜네 파스타 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+930,해산물 옥수수 오븐구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+931,향향 볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+932,흑임자 두부국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+934,과일 요구르트 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+935,단호박 스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+937,새우 완자탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+938,생강향의 고구마 크로켓,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+939,알파벳 스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+940,야채 과일 돌구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+941,야채볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+942,야채빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+943,영양 달걀찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+944,유부 달걀찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+945,찰 어묵찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2989,유부 우엉 잡채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2998,치즈두부샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3077,된장숙성저수분수육,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3173,스마일오이피클,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3220,참나물 소보로덮밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3279,버섯초계탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3287,사과채소타코,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3681,코코넛 수플레 치즈케이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3690,세 가지 맛 공기과자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+946,케첩 완자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+947,홍시 생밤 무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+948,고구마 경단,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+949,두부 깻잎 과자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+950,두부양갱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+951,멸치 누룽지과자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+952,복숭아 화채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+953,사과 포도주스 조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+954,홍시 쉐이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+956,김치떡,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+958,누룽지 피자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+959,단호박 새우찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+960,두부 샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+961,라이스페이퍼 새우롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+962,"레몬, 파슬리 빵가루를 입힌 도미",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+964,롤피자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2991,닭곰탕,"[""mfds_dishes:D705-213000000-0001"", ""mfds_dishes:D105-213000000-0001"", ""mfds_dishes:D605-213000000-0001"", ""mfds_dishes:D505-213000000-0001"", ""mfds_dishes:D405-213000000-0001""]",5,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3079,미나리버섯고기말이&산채소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3174,오이파프리카새콤무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3177,양상추샐러드 & 과일드레싱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3181,시금치들깨무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3281,채소롤초밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3682,초코바나나 두부크림빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+965,미니 떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+966,배추 달걀볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+967,사과와 양파를 곁들인 돼지등심 요리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+969,새우 속을 채운 리치와 감자튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+970,생선살 완자 찹쌀 찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+972,서양식 씨리얼(뮤즐리),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+973,수퍼 브리또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+974,아보카도 달걀 샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+975,알록달록 시금치 당근 수제비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+977,인도식만두구이(사모사),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+979,중국식 바비큐 폭립,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2953,"제주도 빙떡, 귤간장소스",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2992,퓨전떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2999,마늘칩 감자샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3082,시래기닭조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3084,두부튀김&무소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3086,오징어튀김&딸기쨈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3175,감귤콩샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3190,바질향이 향긋한 고구마 찰 바케트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3222,두유 크림 현미리소토,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3283,당근새우 카나페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3290,아보카도 수란샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+980,참깨 오렌지 쇠고기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+981,치킨 버거 스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+982,토마토소스 달걀볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+985,낫토 시래기 라이스전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+986,나스와 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+987,다시마전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+988,모듬옥수수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+989,버섯 들깨탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+990,산마드래싱과 실곤약 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+991,산호두부,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+992,섭산삼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+993,시금치 돼지고기 볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+994,발사믹과 로즈마리로 향을 낸 오븐구이 야채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+995,종이에 싸서 구운 도미(파필로테),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2993,무염 겉절이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3083,닭가슴살호두크로켓,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3176,누룽지상추샐러드&유자드레싱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3194,견과류 미숫가루 빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3223,돼지 함초 덮밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3284,닭가슴살 채소쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3687,콩감태유자 스콘,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+997,호두 사과 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+998,고구마란,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+999,과일 파이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1000,수삼당근정과,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1001,식혜 팥빙수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1002,야채칩,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1003,잡곡강정,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1004,잣 호두 강정,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1005,현미 크레이프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1006,감자 주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1007,고기완두조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1010,니고랭,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1012,돼지갈비 볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1013,미니 그라탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1014,밀라노 스타일 포크 커틀렛,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1015,바지락 볶음면,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2995,삼색 꽃 화전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3085,알록달록연근튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3087,잎채소튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3179,포항초사과샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3224,생선 파피요트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3285,시금치 후무스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3688,클로－바,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+743,매생이조랭이떡국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+744,문어핫바,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+745,매실장아찌와 과매기구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+747,자색고구마호떡,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+748,김치밥그라탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+749,누룽지굴죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+750,콩비지완자탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+751,돼지갈비구이와 백김치와인조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+752,오징어오곡밥순대,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+753,코다리 양념구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+754,대구버섯구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+755,잔멸치땅콩볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1016,밥 샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1017,버섯을 넣은 가지 라자냐,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1019,생선찜 채소말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1020,쇠고기말이 쌈밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1021,스테이크 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1023,씨앗죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1024,오븐에 구운 또띠아 칩과 아보카도 딥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1026,참치 쇠고기 양상추 쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1027,치킨 쇠고기 땅콩소스 꼬치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1028,커리향이 들어간 치킨샐러드 샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1030,클럽 샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1031,토마토 야채 오븐구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+756,시금치비트무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+757,해초탕수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+759,호두떡볶이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+760,죽순콩나물밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+761,멍게비빔밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+762,키조개샤브샤브,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+763,가자미쑥국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+764,달래바싹불고기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+765,오리고기곰피쌈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+766,바지락수제비볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+767,민들레무침,"[""mfds_dishes:D413-610000000-0001""]",1,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+768,취나물들깨무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+769,토마토소박이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+770,풋마늘오징어김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+771,절편꽃말이떡,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1034,가지볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1036,고등어 강정,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1037,꽃게볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1038,다시마칩,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1039,브로콜리 쇠고기 볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1040,새우살을 채운 두부 스프(미네스트로네),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1042,시저 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1043,연두부 무순 냉국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1045,차가운 당근 수프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1046,태국식 불고기 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1047,팽이버섯 야채볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+772,딸기연두부쉐이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+774,봄주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+775,구운 주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+776,깻잎장아찌롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+777,롤 삼계탕,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+779,효종갱(曉鍾羹),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+781,갯벌의 여왕 모시조개의 달콤한 유혹,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+782,고구마 타락죽,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+784,두부 채소 볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1049,건강 마늘 꿀환,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1051,과일 샐러드 또띠아,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1054,수박 화채,"[""mfds_dishes:D420-758000000-0001"", ""mfds_dishes:D520-758000000-0001"", ""mfds_dishes:D720-758000000-0001"", ""mfds_dishes:D620-758000000-0001""]",4,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1055,우유 생강차,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1056,레몬 들깨 소스를 품은 떡꼬치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1057,누룽지 요거트 파르페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1058,자색고구마 호떡,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1059,청국장지짐 케일쌈밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1060,마늘 불고기 덮밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1061,잡곡강정밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1062,함박스테이크 볼 밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1063,곤드레 밥버거,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1064,대추닭살리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1065,먹골배 카레주먹밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1066,신호등 통통이(어린이 곤약삼색주먹밥),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1067,양배추롤&참치두부쌈장,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+785,라비올리 크림소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+786,라비올리 토마토소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+787,미역 조랭이 떡국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+788,버섯 리조또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+789,서리태 잣국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+791,쌈밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+792,영양밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+793,팥죽,"[""mfds_dishes:D404-195000000-0001"", ""mfds_dishes:D104-195000000-0001"", ""mfds_dishes:D704-195000000-0001"", ""mfds_dishes:D504-195000000-0001"", ""mfds_dishes:D604-195000000-0001""]",5,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+794,호박만두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+795,감자 팬케익,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+796,단호박 두부 포타주,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+798,쇠고기와 검은콩 요리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+799,채소 커리를 곁들인 팬케익,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+800,양송이버섯 달걀 크레페,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1068,파인애플떡갈비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1069,건강가지말이+참깨마요소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1070,순창 고추장 두부강정,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1071,곤약 백김치 말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1072,묵은지비프롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1073,바나나를 감싼 일본식 달걀말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1074,그린커리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1075,현미 고구마 아란치니,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1076,유자 치킨 꿔바로우,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1077,펌킨크로켓,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1078,이태리튀밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1079,현미 입은 미트볼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1080,시금치 볶음 쌀국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1081,새우채소꼬치구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1082,영유아를 위한 고소한 닭꼬치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1083,얌얌 맛있게타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1084,오! 푸룻한 뿌리채소,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+801,채소 팬케익,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+802,누룽지과자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+803,단호박 경단,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+804,모듬탕수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+805,새싹 비빔밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+807,가지볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+808,감자냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+809,고추잡채,"[""mfds_dishes:D410-453000000-0001"", ""mfds_dishes:D610-453000000-0001"", ""mfds_dishes:D710-453000000-0001""]",3,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+810,나박김치,"[""mfds_dishes:D115-667000000-0001""]",1,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+811,냉잡채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+812,단호박 두부찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+813,단호박전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+814,도라지 검은깨 튀김,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+815,발사믹으로 양념한 채소요리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+816,버섯 굴소스 볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+817,비트와 호두 요리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+818,상추 겉절이,"[""mfds_dishes:D714-639000000-0001"", ""mfds_dishes:D614-639000000-0001"", ""mfds_dishes:D514-639000000-0001"", ""mfds_dishes:D314-639000000-0001"", ""mfds_dishes:D414-639000000-0001"", ""mfds_dishes:D514-639000000-0002"", ""mfds_dishes:D714-639000000-0002"", ""mfds_dishes:D614-639000000-0002""]",8,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1085,연근고구마샌드위치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1086,파프리카깍두기(어린이용),[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1087,과일 김치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1088,오이 짱아지 무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1089,비트 배추피클,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1090,오징어와사비마요무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1091,삼색 버터롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1092,고구마빵&과일잼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1093,감말랭이 찰빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1094,바나나 속 달걀빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1095,두부빼빼로,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1096,땅콩호박 타르트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1097,고구마 바나나 무스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1098,단호박치즈스틱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1099,크랜베리 샤브레 쿠키,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1100,생과일 타르트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1101,당 떨어진 마들렌,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1102,삼색 머핀,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+819,수삼 냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+820,아시아식 채소 두부 볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+821,양배추 깻잎 피클,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+822,얼갈이 무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+824,오이초절임,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+825,잡채,"[""mfds_dishes:D110-492000000-0001""]",1,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+826,참기름 드레싱의 즉석 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+827,고추 장떡,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+828,호박 프리타타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+829,고구마 빠스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+830,검은콩 스프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+831,곤약 콩조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+832,도토리묵 콩국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+834,두부 달걀전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+835,두부선과 저나트륨 겨자 간장소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+836,두부 튀김 조림,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1103,바나나 스틱,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1104,달코미 고구마 타르트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1105,콩가루 고구마 타르트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1106,코마레티,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1107,수(Sugaer)다(Down) 고구마 케이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1108,단구마 무스 샌드 케이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1109,당근&그릭요거트 케이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1110,완두콩 롤,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1111,단호박두부팬케이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1112,약밥 닮은 호떡,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1113,두부티라미수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1114,두부있슈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1115,바나나 생강 크림이 들어간 미숫가루 쿠키슈,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1116,단호박몽블랑,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1117,렌틸콩 크레이프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1118,콩 판나코타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1119,고구마치즈크로켓,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1120,빵 대신 어묵 사라다,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+839,청국장 시래기전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+840,카레소스를 얹은 두부 스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+843,녹차 파나코타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1121,자색고구마찹쌀푸딩,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1122,꽃설기,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1123,크랜베리 소보로 떡,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1124,오미자 샹그리아,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1125,톡톡! 오미자 펀치,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1126,사과비트에이드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1127,밤 라떼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1128,자두 라떼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1129,와인배숙,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1130,유자애(愛) 빠지다,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1131,쌀콩죽 요거트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1132,상큼하자두,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1133,비트두유,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1134,렌틸콩 두유,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1135,군고구마 라떼,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2952,바지락 미역국,"[""mfds_dishes:D605-289000000-0001"", ""mfds_dishes:D405-289000000-0001"", ""mfds_dishes:D705-289000000-0001""]",3,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2954,단호박견과류샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2955,함박스테이크&토마토카레소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2956,모둠채소 수제피클,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2957,바지락 맑은국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2958,일본식 계란말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2959,"소고기 가라아게, 칠리소스",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2969,"삼치튀김, 타르타르소스",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2970,두부해물완자,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2975,톳나물 두부무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2996,퀴노아 팥수프,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2997,참치 두부 함박스테이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3000,김치양배추볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3002,"돈수육, 해물냉채",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3003,"알록달록화전, 멸치두부전",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3095,단호박떡볶이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1136,배·라임 모히또,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1137,포도청 보리 수단,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+1138,감자주스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2960,만가닥버섯볶음,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2974,양파홍초절임,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3005,고구마순나물,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3006,저염 겉절이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3009,아욱 된장무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3088,검은콩부추전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3089,고사리파전&단감전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3090,바지락매생이전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3091,알콩달콩전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3092,계란만두&토마토소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3093,통도라지양념구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3094,삼색계란찜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3180,고구마순들깨나물,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3182,시금치토마토무침,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3183,바나나미숫가루쉐이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3185,배쨈 식빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3186,사과 견과류 식빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3187,카카오 깜빠뉴,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3191,곶감 베이글,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3192,단호박크림을 곁들인 브로콜리 베이글,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3225,어묵 잡채,"[""mfds_dishes:D410-527000000-0001"", ""mfds_dishes:D710-527000000-0001"", ""mfds_dishes:D610-527000000-0001"", ""mfds_dishes:D510-527000000-0001""]",4,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3227,토마토 비빔국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3228,멸치 전복 저염국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2961,유부초절임,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3007,토마토 미소 된장국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3013,미역 미소국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3096,포두부채소잡채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3196,속이 든든든한 밥 빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3230,참외지 리코타버무리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3231,과일 피클 젤리,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3232,바나나 쑥두부푸딩,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3233,채소말이와 고구마가지구이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3234,들깨 곤약 냉채,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3236,요거트 단호박 샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3286,타이거새우 현미볶음밥,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3289,카레크림 두부면 파스타,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2962,홍합 배춧국,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+2977,얼큰 콩나물 수제비,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3008,"단호박 생선탕수, 키위소스",[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3097,낙지모듬초말이,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3197,삼각김밥 빵,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3235,병아리콩 컵케이크,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3292,양파토마토스튜,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3294,황금팽이 비빔국수,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3295,맛살 미역줄기전,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3297,해산물샐러드와 미나리소스,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3298,매운요거트 토마토샐러드,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified
+3689,초코타르트,[],0,False,NFKC + whitespace removed only; ingredient/portion equivalence not verified

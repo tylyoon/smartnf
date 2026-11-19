@@ -1,0 +1,10 @@
+{
+  "source": "국토교통부_전국 법정동_20260630",
+  "source_url": "https://www.data.go.kr/data/15063424/fileData.do",
+  "retrieved_at": "2026-10-27",
+  "raw_sha256": "e5657d4b53a16f72e42e9c0d91e84ff2d647e70dc56b9408da6fd057d0da45c3",
+  "raw_rows": 20561,
+  "province_count": 16,
+  "city_names": 269,
+  "usage": "검색 입력 후보. 행정구역 유효성 강제 검증 아님. 읍면동은 법정동이며 최신 변경 지역은 직접 입력 가능."
+}
